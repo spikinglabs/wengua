@@ -1,0 +1,113 @@
+name: Docs
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: docs-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.13"
+          cache: pip
+          cache-dependency-path: requirements-docs.txt
+      - run: pip install -r requirements-docs.txt
+      - run: zensical build --clean
+      - run: python scripts/llms_txt.py
+      - uses: actions/upload-pages-artifact@v5
+        if: github.event_name != 'pull_request'
+        with:
+          path: site
+
+  # Production: GitHub Pages, indexed, the only canonical copy.
+  deploy:
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/configure-pages@v6
+      - uses: actions/deploy-pages@v5
+        id: deployment
+
+  # PR previews: Cloudflare Pages on a separate *.pages.dev domain, marked
+  # noindex (meta tag, X-Robots-Tag header, Disallow-all robots.txt, no
+  # sitemap). Canonical links keep pointing at production, so previews never
+  # compete with the real site in search or AI answers.
+  preview:
+    if: github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write
+    env:
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+      PROJECT: wengua-docs-preview
+    steps:
+      - name: Check for Cloudflare credentials
+        id: creds
+        run: |
+          if [ -n "$CLOUDFLARE_API_TOKEN" ] && [ -n "$CLOUDFLARE_ACCOUNT_ID" ]; then
+            echo "ok=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "::notice::Skipping preview: add CLOUDFLARE_API_TOKEN and CLOUDFLARE_ACCOUNT_ID repository secrets to enable PR previews."
+          fi
+      - uses: actions/checkout@v7
+        if: steps.creds.outputs.ok
+      - uses: actions/setup-python@v6
+        if: steps.creds.outputs.ok
+        with:
+          python-version: "3.13"
+          cache: pip
+          cache-dependency-path: requirements-docs.txt
+      - name: Build and mark as preview
+        if: steps.creds.outputs.ok
+        run: |
+          pip install -r requirements-docs.txt
+          zensical build --clean
+          python scripts/llms_txt.py
+          python scripts/mark_preview.py "${{ github.event.pull_request.number }}"
+      - name: Deploy to Cloudflare Pages
+        id: deploy
+        if: steps.creds.outputs.ok
+        run: |
+          npx --yes wrangler@4 pages project create "$PROJECT" --production-branch=main 2>/dev/null || true
+          npx --yes wrangler@4 pages deploy site --project-name="$PROJECT" \
+            --branch="pr-${{ github.event.pull_request.number }}" --commit-dirty=true | tee deploy.log
+          echo "url=https://pr-${{ github.event.pull_request.number }}.$PROJECT.pages.dev" >> "$GITHUB_OUTPUT"
+      - name: Comment preview link
+        if: steps.creds.outputs.ok
+        uses: actions/github-script@v7
+        env:
+          PREVIEW_URL: ${{ steps.deploy.outputs.url }}
+        with:
+          script: |
+            const marker = '<!-- wengua-docs-preview -->';
+            const body = `${marker}\n📖 Docs preview: ${process.env.PREVIEW_URL}\n\n_Not indexed by search engines. Updates on every push. Commit ${context.sha.slice(0, 7)}._`;
+            const { owner, repo } = context.repo;
+            const issue_number = context.issue.number;
+            const comments = await github.paginate(github.rest.issues.listComments, { owner, repo, issue_number });
+            const existing = comments.find(c => c.body?.includes(marker));
+            if (existing) {
+              await github.rest.issues.updateComment({ owner, repo, comment_id: existing.id, body });
+            } else {
+              await github.rest.issues.createComment({ owner, repo, issue_number, body });
+            }
