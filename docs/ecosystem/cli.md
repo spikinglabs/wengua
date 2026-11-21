@@ -1,3 +1,7 @@
+---
+description: "The wengua command line for casting and looking up I Ching hexagrams, with JSON output for coding agents."
+---
+
 # CLI
 
 Comes with both packages.

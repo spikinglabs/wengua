@@ -1,3 +1,7 @@
+---
+description: "An interactive bilingual I Ching reading card rendered inside Claude and ChatGPT as an MCP App."
+---
+
 # Reading card (MCP App)
 
 An interactive card rendered inline in Claude and ChatGPT, which both support MCP Apps.

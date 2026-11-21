@@ -1,3 +1,7 @@
+---
+description: "Wengua 问卦 lets Claude, ChatGPT, Codex, Cursor and any MCP client consult the I Ching (易经) with authentic Chinese texts, Legge's English and fair, verifiable casting."
+---
+
 # Wengua 问卦
 
 **The accurate, open I Ching (易经) for every AI.**

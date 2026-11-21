@@ -1,3 +1,7 @@
+---
+description: "Wengua's core library in TypeScript and Python: three-coin and yarrow-stalk casting, changing lines, relating and nuclear hexagrams, and lookup."
+---
+
 # Core library
 
 The same logic in TypeScript and Python, kept in sync by one shared file of test vectors.

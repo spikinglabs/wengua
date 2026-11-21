@@ -1,3 +1,7 @@
+---
+description: "How the Wengua dataset, core library, Agent Skill, MCP server, reading card and CLI fit together, and which one to use."
+---
+
 # Ecosystem overview
 
 Every Wengua surface is a thin layer over the same dataset and core, so a reading is identical whether it comes from a skill, the CLI or the hosted server.
