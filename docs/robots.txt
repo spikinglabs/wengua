@@ -1,0 +1,5 @@
+# Wengua docs. Search engines and AI assistants are welcome.
+User-agent: *
+Allow: /
+
+Sitemap: https://spikinglabs.github.io/wengua/sitemap.xml

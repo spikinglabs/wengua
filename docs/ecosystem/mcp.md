@@ -1,3 +1,7 @@
+---
+description: "The Wengua MCP server, local via npx or uvx and hosted for free, with tools to cast, read and look up I Ching hexagrams."
+---
+
 # MCP server
 
 Available two ways, with the same tools:

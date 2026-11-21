@@ -1,3 +1,7 @@
+---
+description: "Wengua milestones from the bilingual dataset to the hosted MCP server and directory listings."
+---
+
 # Roadmap
 
 | Milestone | Scope | Status |

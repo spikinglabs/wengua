@@ -1,3 +1,7 @@
+---
+description: "The open, sourced bilingual dataset of all 64 I Ching hexagrams: 卦辞, 爻辞, the Ten Wings and James Legge's English."
+---
+
 # Dataset
 
 `wengua-data` is the foundation: one JSON record per hexagram plus the eight trigrams, published on npm and PyPI.

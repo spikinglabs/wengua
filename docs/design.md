@@ -1,3 +1,7 @@
+---
+description: "Comparison of existing I Ching tools for AI and the design of Wengua 问卦: dataset, core, integrations and build order."
+---
+
 # Wengua 问卦: competitive review and design
 
 Status: draft for review · 2026-11-22

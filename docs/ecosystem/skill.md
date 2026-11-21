@@ -1,3 +1,7 @@
+---
+description: "The Wengua Agent Skill for Claude, ChatGPT, Codex, Cursor and Copilot, and how it guides an I Ching reading."
+---
+
 # Agent Skill
 
 A `SKILL.md` folder that follows the open [Agent Skills](https://agentskills.io) standard, so it works in Claude, ChatGPT, Codex, Cursor, GitHub Copilot and other platforms. It bundles the core script and dataset and needs no server.
