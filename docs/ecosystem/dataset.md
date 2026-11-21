@@ -22,7 +22,7 @@ description: "The open, sourced bilingual dataset of all 64 I Ching hexagrams: å
 | English | James Legge, *The Yi King* (1882) | Public domain |
 | Plain notes | Written by Wengua contributors | CC BY 4.0 |
 
-We do **not** use Wilhelm-Baynes or any modern copyrighted translation or commentary.
+We do **not** use any modern translation or commentary that is still under copyright.
 
 ## Validation
 
