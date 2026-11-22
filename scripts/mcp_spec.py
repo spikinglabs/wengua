@@ -98,6 +98,8 @@ CARD_HTML = (ROOT / "spec" / "reading-card.html").read_text(encoding="utf-8")
 # fetch the new card whenever it changes.
 CARD_URI = "ui://wengua/reading/" + hashlib.sha256(CARD_HTML.encode()).hexdigest()[:8]
 for t in TOOLS:
+    # Directories read the display name from annotations.title as well as title.
+    t["annotations"] = {"title": t["title"], **t["annotations"]}
     if t["name"] in ("cast", "read_cast"):
         t["_meta"] = {"ui": {"resourceUri": CARD_URI}}
 UI_RESOURCES = [{
