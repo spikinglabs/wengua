@@ -15,13 +15,13 @@ zensical serve        # live preview at http://localhost:8000
 zensical build --clean
 ```
 
-Every pull request builds the site, and every push to `main` deploys it to GitHub Pages.
+Every pull request builds the site. Every push to `main` deploys it to <https://wengua.allo.land>, the only canonical copy. One Cloudflare Worker (`worker/`) serves the site as static assets and the hosted MCP server at `/mcp`. The old address, `spikinglabs.github.io/wengua`, now redirects every page there.
 
 ### Pull request previews
 
 Each pull request from this repository gets a preview at `https://pr-<number>.wengua-docs-preview.pages.dev`, linked in a bot comment. Previews live on a separate Cloudflare Pages domain and are never indexed: every page carries `noindex`, the server sends `X-Robots-Tag: noindex`, `robots.txt` disallows everything, there is no sitemap, and canonical links point at the production site.
 
-Previews need two repository secrets: `CLOUDFLARE_API_TOKEN` (with the *Cloudflare Pages: Edit* permission) and `CLOUDFLARE_ACCOUNT_ID`. Without them, the preview job is skipped.
+Previews and production use two repository secrets: `CLOUDFLARE_API_TOKEN` (with *Cloudflare Pages: Edit*, *Workers Scripts: Edit*, and *Workers Routes: Edit* and *DNS: Edit* on allo.land) and `CLOUDFLARE_ACCOUNT_ID`. Without them, the preview job is skipped.
 
 ### Search and AI visibility (SEO and GEO)
 

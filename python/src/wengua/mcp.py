@@ -82,11 +82,15 @@ def _resources() -> list[dict]:
     out += [{"uri": f"wengua://trigram/{t['key']}", "name": f"trigram-{t['key']}",
              "title": f"{t['symbol']} {t['name']['zh_hant']} {t['name']['pinyin']} · {t['name']['en']}",
              "mimeType": "application/json"} for t in trigrams()]
+    out += [{k: r[k] for k in ("uri", "name", "title", "description", "mimeType")} for r in spec().get("ui_resources", [])]
     return out
 
 
 def _read_resource(uri: str) -> dict:
     prefix_h, prefix_t = "wengua://hexagram/", "wengua://trigram/"
+    ui = next((r for r in spec().get("ui_resources", []) if r["uri"] == uri), None)
+    if ui:
+        return {"contents": [{"uri": uri, "mimeType": ui["mimeType"], "text": ui["text"]}]}
     if uri.startswith(prefix_h):
         body = hexagram(int(uri[len(prefix_h):]))
     elif uri.startswith(prefix_t):

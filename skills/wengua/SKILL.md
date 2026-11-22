@@ -45,4 +45,4 @@ A reading is a prompt for reflection, not a prediction. Don't give medical, lega
 
 ## Sources
 
-The Chinese text is the received text (通行本), taken from the Kanseki Repository and collated character by character with a Song edition (四部叢刊本 王弼《周易注》). See https://spikinglabs.github.io/wengua/ecosystem/dataset/.
+The Chinese text is the received text (通行本), taken from the Kanseki Repository and collated character by character with a Song edition (四部叢刊本 王弼《周易注》). See https://wengua.allo.land/ecosystem/dataset/.

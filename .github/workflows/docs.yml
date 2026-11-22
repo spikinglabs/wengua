@@ -25,13 +25,53 @@ jobs:
       - run: pip install -r requirements-docs.txt
       - run: zensical build --clean
       - run: python scripts/llms_txt.py
+      - uses: actions/upload-artifact@v4
+        if: github.event_name != 'pull_request'
+        with:
+          name: site
+          path: site
+      - name: Redirects for the old GitHub Pages address
+        if: github.event_name != 'pull_request'
+        run: python scripts/redirect_site.py site site-redirect
       - uses: actions/upload-pages-artifact@v5
         if: github.event_name != 'pull_request'
         with:
-          path: site
+          path: site-redirect
 
-  # Production: GitHub Pages, indexed, the only canonical copy.
+  # Production: https://wengua.allo.land, the only canonical copy. One Cloudflare
+  # Worker serves the docs as static assets and the hosted MCP server at /mcp.
   deploy:
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: production
+      url: https://wengua.allo.land
+    env:
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/download-artifact@v4
+        with:
+          name: site
+          path: site
+      - uses: actions/setup-node@v5
+        with:
+          node-version: "22"
+      - name: Deploy the Worker (docs + MCP)
+        working-directory: worker
+        run: npm ci && npx wrangler deploy
+      - name: Smoke test
+        run: |
+          sleep 10
+          curl -fsS https://wengua.allo.land/ -o /dev/null
+          curl -fsS -X POST https://wengua.allo.land/mcp -H 'content-type: application/json' \
+            -H 'accept: application/json, text/event-stream' \
+            -d '{"jsonrpc":"2.0","id":1,"method":"tools/call","params":{"name":"lookup","arguments":{"query":"1"}}}' | grep -q '乾'
+
+  # The old address (spikinglabs.github.io/wengua) redirects every page to wengua.allo.land.
+  pages-redirect:
     if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
     needs: build
     runs-on: ubuntu-latest

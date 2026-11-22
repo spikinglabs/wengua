@@ -1,5 +1,5 @@
 [project]
-site_url = "https://spikinglabs.github.io/wengua/"
+site_url = "https://wengua.allo.land/"
 site_name = "Wengua 问卦"
 site_description = "The accurate, open I Ching (易经) for every AI"
 repo_url = "https://github.com/spikinglabs/wengua"

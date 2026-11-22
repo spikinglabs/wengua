@@ -24,4 +24,5 @@ As an MCP server (Claude Desktop, Claude Code, Cursor, VS Code…):
 | `python/` | `pip install wengua`: library, CLI, MCP server. MIT |
 | `js/` | `npm install wengua`: library, CLI, MCP server. MIT |
 | `spec/` | Shared test vectors and MCP tool definitions |
-| `docs/` | The documentation site: <https://spikinglabs.github.io/wengua/> |
+| `docs/` | The documentation site: <https://wengua.allo.land/> |
+| `worker/` | The Cloudflare Worker serving the site and the hosted MCP server at <https://wengua.allo.land/mcp> |

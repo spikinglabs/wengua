@@ -40,7 +40,7 @@ def test_errors_are_tool_results():
 def test_relations_and_resources_and_prompt():
     r = rpc("tools/call", {"name": "relations", "arguments": {"hexagram": "屯", "changing_lines": [1]}})["result"]
     assert r["structuredContent"]["relating"]["number"] == 8  # 比
-    assert len(rpc("resources/list")["result"]["resources"]) == 72
+    assert len(rpc("resources/list")["result"]["resources"]) == 73
     body = json.loads(rpc("resources/read", {"uri": "wengua://hexagram/1"})["result"]["contents"][0]["text"])
     assert body["name"]["zh_hant"] == "乾"
     msg = rpc("prompts/get", {"name": "reading", "arguments": {"question": "my job"}})["result"]["messages"][0]
@@ -54,3 +54,11 @@ def test_stdio_loop_skips_notifications():
     lines = [json.loads(x) for x in out.getvalue().splitlines()]
     assert lines[0] == {"jsonrpc": "2.0", "id": 9, "result": {}}
     assert lines[1]["error"]["code"] == -32700
+
+
+def test_reading_card():
+    tools = {t["name"]: t for t in rpc("tools/list")["result"]["tools"]}
+    uri = tools["cast"]["_meta"]["ui"]["resourceUri"]
+    c = rpc("resources/read", {"uri": uri})["result"]["contents"][0]
+    assert c["mimeType"] == "text/html;profile=mcp-app"
+    assert "ui/notifications/tool-result" in c["text"]

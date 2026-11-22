@@ -21,7 +21,7 @@ classifiers = [
 dependencies = []
 
 [project.urls]
-Homepage = "https://spikinglabs.github.io/wengua/"
+Homepage = "https://wengua.allo.land/"
 Source = "https://github.com/spikinglabs/wengua"
 
 [project.scripts]
