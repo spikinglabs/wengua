@@ -142,8 +142,13 @@ def handle(msg: dict) -> dict | None:
             result = call_tool(params.get("name"), params.get("arguments") or {})
         except (ToolError, ValueError, TypeError, KeyError) as e:
             return ok({"content": [{"type": "text", "text": str(e)}], "isError": True})
-        return ok({"content": [{"type": "text", "text": json.dumps(result, ensure_ascii=False)}],
-                   "structuredContent": result})
+        out = {"content": [{"type": "text", "text": json.dumps(result, ensure_ascii=False)}],
+               "structuredContent": result}
+        tool = next((t for t in s["tools"] if t["name"] == params.get("name")), {})
+        if tool.get("_meta"):
+            # Some hosts look for the card on the result as well as on tools/list.
+            out["_meta"] = tool["_meta"]
+        return ok(out)
     if method == "resources/list":
         return ok({"resources": _resources()})
     if method == "resources/templates/list":

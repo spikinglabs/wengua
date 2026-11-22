@@ -22,7 +22,7 @@
   .bar i { flex: 1; background: var(--fg); border-radius: 2px; }
   .bar.changing i { background: var(--accent); }
   .bar.changing::after { content: attr(data-mark); position: absolute; right: -22px; top: -6px; color: var(--accent); font-size: 13px; }
-  .pair { display: flex; gap: 18px; align-items: center; }
+  .pair { display: flex; gap: 32px; align-items: center; }
   .arrow { color: var(--muted); font-size: 22px; }
   .name { font-size: 20px; font-weight: 600; }
   .sub { color: var(--muted); font-size: 13px; }
@@ -93,23 +93,54 @@
   }
   $("script").addEventListener("click", () => { script = script === "zh_hant" ? "zh_hans" : "zh_hant"; render(); });
 
+  // MCP Apps (2026-01-26): initialize, then initialized; the host sends
+  // tool-input and tool-result only after it has seen initialized.
+  let initialized = false;
+  function markInitialized() {
+    if (initialized) return;
+    initialized = true;
+    send({ method: "ui/notifications/initialized", params: {} });
+  }
+  function applyHostContext(ctx) {
+    const v = (ctx && ctx.styles && ctx.styles.variables) || {};
+    for (const [k, val] of Object.entries(v)) if (val) document.documentElement.style.setProperty(k, val);
+  }
+  function readingFrom(result) {
+    if (!result) return null;
+    if (result.structuredContent && result.structuredContent.primary) return result.structuredContent;
+    for (const c of result.content || []) {
+      if (c && c.type === "text") { try { const r = JSON.parse(c.text); if (r && r.primary) return r; } catch (_) {} }
+    }
+    return null;
+  }
+
   window.addEventListener("message", (event) => {
     const m = event.data;
     if (!m || m.jsonrpc !== "2.0") return;
     if (m.method === "ui/notifications/tool-result") {
-      const sc = m.params && m.params.structuredContent;
-      if (sc) { reading = sc; if (/hans/i.test(sc.locale || "")) script = "zh_hans"; render(); }
-    } else if (m.id === 1 && m.result) {
-      const v = m.result.hostContext?.styles?.variables || {};
-      for (const [k, val] of Object.entries(v)) document.documentElement.style.setProperty(k, val);
-      send({ method: "ui/notifications/initialized", params: {} });
+      const r = readingFrom(m.params);
+      if (r) { reading = r; if (/hans/i.test(r.locale || "")) script = "zh_hans"; render(); }
+    } else if (m.method === "ui/notifications/host-context-changed") {
+      applyHostContext(m.params);
+    } else if (m.method && m.id !== undefined) {
+      // Requests from the host (ui/resource-teardown, ping): acknowledge.
+      window.parent.postMessage({ jsonrpc: "2.0", id: m.id, result: {} }, "*");
+    } else if (m.id === 1) {
+      // Our ui/initialize. Go on even if the host returned an error.
+      if (m.result) applyHostContext(m.result.hostContext);
+      markInitialized();
     }
   });
   send({ id: nextId++, method: "ui/initialize", params: {
     protocolVersion: "2026-01-26",
-    clientInfo: { name: "wengua-reading-card", version: "0.1.0" },
+    appInfo: { name: "wengua-reading-card", version: "0.1.1" },
+    clientInfo: { name: "wengua-reading-card", version: "0.1.1" },
     appCapabilities: { availableDisplayModes: ["inline"] },
   } });
+  // Some hosts never answer ui/initialize; don't wait forever.
+  setTimeout(markInitialized, 1500);
+  // If no result arrives, say where the reading is instead of spinning.
+  setTimeout(() => { if (!reading) $("empty").textContent = "卦象見下文。The reading is in the reply below."; }, 12000);
   new ResizeObserver(reportSize).observe(document.body);
 })();
 </script>

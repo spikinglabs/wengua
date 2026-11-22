@@ -14,7 +14,7 @@ export const PROTOCOL_VERSIONS = ["2025-11-25", "2025-06-18", "2025-03-26", "202
 
 interface Prompt { name: string; title: string; description: string; arguments: unknown[]; template: string }
 interface UiResource { uri: string; name: string; title: string; description: string; mimeType: string; text: string }
-interface Spec { name: string; title: string; instructions: string; tools: { name: string }[]; prompts: Prompt[]; ui_resources?: UiResource[] }
+interface Spec { name: string; title: string; instructions: string; tools: { name: string; _meta?: Json }[]; prompts: Prompt[]; ui_resources?: UiResource[] }
 export const spec = specJson as unknown as Spec;
 
 type Json = Record<string, unknown>;
@@ -117,7 +117,9 @@ export function handle(msg: Message): Json | null {
     case "tools/call": {
       try {
         const result = callTool(params.name as string, (params.arguments as Json) ?? {});
-        return ok({ content: [{ type: "text", text: JSON.stringify(result) }], structuredContent: result });
+        const meta = spec.tools.find((t) => t.name === params.name)?._meta;
+        // Some hosts look for the card on the result as well as on tools/list.
+        return ok({ content: [{ type: "text", text: JSON.stringify(result) }], structuredContent: result, ...(meta ? { _meta: meta } : {}) });
       } catch (e) {
         return ok({ content: [{ type: "text", text: (e as Error).message }], isError: true });
       }
