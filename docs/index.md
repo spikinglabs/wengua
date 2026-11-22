@@ -12,10 +12,9 @@ Wengua lets people consult the *Book of Changes* from Claude, ChatGPT, Codex, Cu
 
 ## Try it
 
-- **In Claude.ai or ChatGPT:** add a custom connector with the URL `https://wengua.allo.land/mcp`.
-- **In Claude Code:** `claude mcp add --transport http wengua https://wengua.allo.land/mcp`
-- **In any MCP client:** `npx -y wengua` or `uvx wengua` ([setup](ecosystem/mcp.md)).
-- **As an Agent Skill:** drop [`skills/wengua`](ecosystem/skill.md) into your agent.
+- **MCP server:** add `https://wengua.allo.land/mcp` as a connector or MCP server. Free, no account.
+- **Agent Skill:** [download wengua-skill.zip](https://wengua.allo.land/wengua-skill.zip) and add it to your AI.
+- **Step-by-step guides** for [Claude](setup/claude.md), [ChatGPT](setup/chatgpt.md), [Codex](setup/codex.md), [Gemini](setup/gemini.md), [GitHub Copilot](setup/copilot.md), [Cursor](setup/cursor.md) and [your own app](setup/api.md) are in [Get started](setup/index.md).
 
 ## Why Wengua
 
@@ -32,8 +31,8 @@ Wengua lets people consult the *Book of Changes* from Claude, ChatGPT, Codex, Cu
 | [Dataset](ecosystem/dataset.md) | All 64 hexagrams, every classical text in 繁 and 简, with sources | ✅ Chinese done; English planned |
 | [Core library](ecosystem/core.md) | Casting, derivations, text selection and lookup in TypeScript and Python | ✅ Done |
 | [Agent Skill](ecosystem/skill.md) | Drop-in skill for Claude and other agents | ✅ Done |
-| [MCP server](ecosystem/mcp.md) | Local (`npx`/`uvx`) and hosted at `wengua.allo.land/mcp` | ✅ Done |
+| [MCP server](ecosystem/mcp.md) | Local (`uvx`/`npx`) and hosted at `wengua.allo.land/mcp` | ✅ Done |
 | [Reading card](ecosystem/card.md) | Inline hexagram card in Claude and ChatGPT | ✅ Done |
 | [CLI](ecosystem/cli.md) | `wengua cast --json` for terminals and coding agents | ✅ Done |
 
-Packages on npm and PyPI are coming soon. See the [Roadmap](roadmap.md).
+The Python package is on [PyPI](https://pypi.org/project/wengua/) (`pip install wengua`). See the [Roadmap](roadmap.md).

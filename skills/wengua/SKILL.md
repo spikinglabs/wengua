@@ -1,6 +1,6 @@
 ---
 name: wengua
-description: Consult the I Ching (易经 / 周易) with fair casting and the authentic Chinese text. Use when someone asks for an I Ching or Yijing reading, wants to cast a hexagram (coins or yarrow stalks), has cast one themselves, or asks about a hexagram, line or trigram (卦, 爻, 問卦, 起卦, 解卦).
+description: I Ching (易经) readings with fair casting and the authentic Chinese text. Use to cast a hexagram, read a physical cast, or explain a hexagram, line or trigram (卦, 爻, 起卦, 解卦).
 ---
 
 # Wengua 问卦: I Ching readings

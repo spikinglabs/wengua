@@ -17,6 +17,17 @@ copyright = "Code MIT · Classical texts public domain · Wengua notes CC BY 4.0
 
 nav = [
   { "Home" = "index.md" },
+  { "Get started" = [
+    "setup/index.md",
+    { "Claude" = "setup/claude.md" },
+    { "ChatGPT" = "setup/chatgpt.md" },
+    { "Codex" = "setup/codex.md" },
+    { "Gemini" = "setup/gemini.md" },
+    { "GitHub Copilot" = "setup/copilot.md" },
+    { "Cursor" = "setup/cursor.md" },
+    { "Other clients" = "setup/other.md" },
+    { "APIs and libraries" = "setup/api.md" },
+  ] },
   { "Ecosystem" = [
     "ecosystem/index.md",
     { "Dataset" = "ecosystem/dataset.md" },
@@ -28,7 +39,10 @@ nav = [
   ] },
   { "Design" = "design.md" },
   { "Roadmap" = "roadmap.md" },
-  { "中文" = "zh/index.md" },
+  { "中文" = [
+    "zh/index.md",
+    { "快速上手" = "zh/setup.md" },
+  ] },
   { "Contributing" = "contributing.md" },
 ]
 

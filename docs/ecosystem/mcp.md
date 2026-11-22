@@ -1,23 +1,23 @@
 ---
-description: "The Wengua MCP server, run locally with npx or uvx, with tools to cast, read and look up I Ching hexagrams in traditional and simplified Chinese."
+description: "The Wengua MCP server, run locally with uvx or npx, or hosted at wengua.allo.land/mcp, with tools to cast, read and look up I Ching hexagrams in traditional and simplified Chinese."
 ---
 
 # MCP server
 
 The MCP server ships inside both packages and needs no other dependencies.
 
-- **Local (stdio):** `npx -y wengua` or `uvx wengua`, for Claude Desktop, Claude Code, Cursor, VS Code, Goose and any MCP client.
+- **Local (stdio):** `uvx wengua` or `npx -y wengua`, for Claude Desktop, Claude Code, Cursor, VS Code, Goose and any MCP client.
 - **Hosted:** `https://wengua.allo.land/mcp`, free, with no account and no API key, for Claude.ai, ChatGPT and other clients that can't run local servers. It is stateless (Streamable HTTP, JSON responses), allows 60 requests a minute per IP, and never stores or logs questions.
 
 ```json
 {
   "mcpServers": {
-    "wengua": { "command": "npx", "args": ["-y", "wengua"] }
+    "wengua": { "command": "uvx", "args": ["wengua"] }
   }
 }
 ```
 
-With Python: `"command": "uvx", "args": ["wengua"]`. In Claude Code: `claude mcp add wengua -- npx -y wengua`, or for the hosted server, `claude mcp add --transport http wengua https://wengua.allo.land/mcp`. In Claude.ai and ChatGPT, add a custom connector with the URL `https://wengua.allo.land/mcp`.
+With Node.js: `"command": "npx", "args": ["-y", "wengua"]`. Exact steps for Claude, ChatGPT, Codex, Gemini, GitHub Copilot, Cursor and the Claude and OpenAI APIs are in [Get started](../setup/index.md).
 
 ## Reading card
 

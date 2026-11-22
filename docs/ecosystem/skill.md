@@ -10,9 +10,13 @@ The skill lives in [`skills/wengua/`](https://github.com/spikinglabs/wengua/tree
 
 ## Install
 
-- **Claude Code:** copy the folder to `~/.claude/skills/wengua` (for you) or `.claude/skills/wengua` (for a project).
-- **Claude.ai and the Claude apps:** upload `wengua-skill.zip` under Settings → Capabilities → Skills. Every CI run builds the zip as an artifact.
-- **Codex, Cursor, Copilot and others:** put the folder wherever the tool loads Agent Skills from.
+[Download wengua-skill.zip](https://wengua.allo.land/wengua-skill.zip){ .md-button .md-button--primary }
+
+The zip is rebuilt from `main` on every deploy. Step-by-step instructions for each AI are in [Get started](../setup/index.md):
+
+- **Claude.ai and the Claude apps:** Customize → Skills → + → Create skill → Upload a skill ([guide](../setup/claude.md#agent-skill)).
+- **Claude Code:** unzip into `~/.claude/skills` ([guide](../setup/claude.md#claude-code)).
+- **Codex:** `~/.agents/skills` · **Gemini CLI:** `~/.gemini/skills` · **GitHub Copilot:** `~/.copilot/skills` · **Cursor:** `~/.cursor/skills`.
 
 The script inside is the same `wengua` CLI:
 

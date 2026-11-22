@@ -12,10 +12,9 @@ description: "问卦 Wengua：为所有 AI 打造的准确、开放的《易经�
 
 ## 马上试用
 
-- **Claude.ai 或 ChatGPT**：添加自定义连接器，网址填 `https://wengua.allo.land/mcp`。
-- **Claude Code**：`claude mcp add --transport http wengua https://wengua.allo.land/mcp`
-- **任何 MCP 客户端**：`npx -y wengua` 或 `uvx wengua`。
-- **Agent Skill**：把 `skills/wengua` 放进你的智能体。
+- **MCP 服务**：把 `https://wengua.allo.land/mcp` 加为连接器或 MCP 服务器，免费，无需账号。
+- **Agent Skill**：[下载 wengua-skill.zip](https://wengua.allo.land/wengua-skill.zip)，添加到你的 AI。
+- 各家 AI（Claude、ChatGPT、Codex、Gemini、Copilot、Cursor）的详细步骤见 [快速上手](setup.md)。
 
 ## 特点
 
@@ -32,8 +31,8 @@ description: "问卦 Wengua：为所有 AI 打造的准确、开放的《易经�
 | 数据集 | 六十四卦全部经传原文，繁简两体，附出处 | ✅ 中文完成，英文计划中 |
 | 核心库 | TypeScript 与 Python 的起卦、变卦、取辞、查卦 | ✅ 完成 |
 | Agent Skill | 可直接放入 Claude 等智能体的技能包 | ✅ 完成 |
-| MCP 服务 | 本地（npx / uvx）与托管（wengua.allo.land/mcp） | ✅ 完成 |
+| MCP 服务 | 本地（uvx / npx）与托管（wengua.allo.land/mcp） | ✅ 完成 |
 | 卦象卡片 | 在 Claude 和 ChatGPT 中显示，可切换繁简 | ✅ 完成 |
 | 命令行 | `wengua cast --json` | ✅ 完成 |
 
-npm 与 PyPI 包即将发布。详细设计见 [Design](../design.md)（英文）。
+Python 包已发布到 [PyPI](https://pypi.org/project/wengua/)（`pip install wengua`）。详细设计见 [Design](../design.md)（英文）。

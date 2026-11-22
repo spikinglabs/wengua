@@ -25,6 +25,8 @@ jobs:
       - run: pip install -r requirements-docs.txt
       - run: zensical build --clean
       - run: python scripts/llms_txt.py
+      - name: Skill download (wengua.allo.land/wengua-skill.zip)
+        run: python scripts/package_skill.py site/wengua-skill.zip
       - uses: actions/upload-artifact@v4
         if: github.event_name != 'pull_request'
         with:
@@ -66,6 +68,7 @@ jobs:
         run: |
           sleep 10
           curl -fsS https://wengua.allo.land/ -o /dev/null
+          curl -fsS https://wengua.allo.land/wengua-skill.zip -o skill.zip && unzip -l skill.zip | grep -q wengua/SKILL.md
           curl -fsS -X POST https://wengua.allo.land/mcp -H 'content-type: application/json' \
             -H 'accept: application/json, text/event-stream' \
             -d '{"jsonrpc":"2.0","id":1,"method":"tools/call","params":{"name":"lookup","arguments":{"query":"1"}}}' | grep -q '乾'
@@ -124,6 +127,7 @@ jobs:
           pip install -r requirements-docs.txt
           zensical build --clean
           python scripts/llms_txt.py
+          python scripts/package_skill.py site/wengua-skill.zip
           python scripts/mark_preview.py "${{ github.event.pull_request.number }}"
       - name: Deploy to Cloudflare Pages
         id: deploy

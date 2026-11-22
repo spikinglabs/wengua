@@ -4,7 +4,7 @@ description: "The wengua command line for casting and looking up I Ching hexagra
 
 # CLI
 
-Comes with both packages (`npx wengua …` or `uvx wengua …`, or `wengua …` once installed).
+Comes with both packages (`uvx wengua …` or `npx wengua …`, or `wengua …` once installed).
 
 ```bash
 wengua cast -q "What should I understand about this move?" -m yarrow
