@@ -145,11 +145,16 @@
       ]
     }
   ],
+  "emendations": [],
   "source": {
     "text": {
       "work": "周易",
       "edition": "Kanseki Repository KR1a0001 (base edition: TLS)",
       "url": "https://github.com/kanripo/KR1a0001/blob/master/KR1a0001_061.txt"
+    },
+    "collated_with": {
+      "edition": "四部叢刊本 王弼《周易注》 (Song edition), Kanseki Repository KR1a0006, branch SBCK",
+      "url": "https://github.com/kanripo/KR1a0006/tree/SBCK"
     },
     "cross_check": {
       "edition": "Chinese Wikisource, 周易/中孚",

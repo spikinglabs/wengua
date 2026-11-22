@@ -47,8 +47,8 @@
         "zh_hans": "六二"
       },
       "text": {
-        "zh_hant": "苞承，小人吉，大人否。亨。",
-        "zh_hans": "苞承，小人吉，大人否。亨。"
+        "zh_hant": "包承，小人吉，大人否。亨。",
+        "zh_hans": "包承，小人吉，大人否。亨。"
       },
       "xiao_xiang": {
         "zh_hant": "大人否亨、不亂群也。",
@@ -62,12 +62,12 @@
         "zh_hans": "六三"
       },
       "text": {
-        "zh_hant": "苞羞。",
-        "zh_hans": "苞羞。"
+        "zh_hant": "包羞。",
+        "zh_hans": "包羞。"
       },
       "xiao_xiang": {
-        "zh_hant": "苞羞、位不當也。",
-        "zh_hans": "苞羞、位不当也。"
+        "zh_hant": "包羞、位不當也。",
+        "zh_hans": "包羞、位不当也。"
       }
     },
     {
@@ -118,38 +118,11 @@
   ],
   "variants": [
     {
-      "field": "lines.2.text",
-      "differences": [
-        {
-          "primary": "苞",
-          "wikisource": "包"
-        }
-      ]
-    },
-    {
       "field": "lines.2.xiao_xiang",
       "differences": [
         {
           "primary": "群",
           "wikisource": "羣"
-        }
-      ]
-    },
-    {
-      "field": "lines.3.text",
-      "differences": [
-        {
-          "primary": "苞",
-          "wikisource": "包"
-        }
-      ]
-    },
-    {
-      "field": "lines.3.xiao_xiang",
-      "differences": [
-        {
-          "primary": "苞",
-          "wikisource": "包"
         }
       ]
     },
@@ -163,11 +136,35 @@
       ]
     }
   ],
+  "emendations": [
+    {
+      "field": "lines.2.text",
+      "base": "苞承",
+      "adopted": "包承",
+      "note": "SBCK and Wikisource 包"
+    },
+    {
+      "field": "lines.3.text",
+      "base": "苞羞",
+      "adopted": "包羞",
+      "note": "SBCK and Wikisource 包"
+    },
+    {
+      "field": "lines.3.xiao_xiang",
+      "base": "苞羞",
+      "adopted": "包羞",
+      "note": "SBCK and Wikisource 包"
+    }
+  ],
   "source": {
     "text": {
       "work": "周易",
       "edition": "Kanseki Repository KR1a0001 (base edition: TLS)",
       "url": "https://github.com/kanripo/KR1a0001/blob/master/KR1a0001_012.txt"
+    },
+    "collated_with": {
+      "edition": "四部叢刊本 王弼《周易注》 (Song edition), Kanseki Repository KR1a0006, branch SBCK",
+      "url": "https://github.com/kanripo/KR1a0006/tree/SBCK"
     },
     "cross_check": {
       "edition": "Chinese Wikisource, 周易/否",

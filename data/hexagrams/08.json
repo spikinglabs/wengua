@@ -17,8 +17,8 @@
     "zh_hans": "吉。原筮元，永贞无咎。不宁方来，后夫凶。"
   },
   "tuan": {
-    "zh_hant": "（比、吉也），比、輔也，下順從也，比、吉、原筮元、永貞无咎，以剛中也。不寧方來、上下應也，後夫凶、其道窮也。",
-    "zh_hans": "（比、吉也），比、辅也，下顺从也，比、吉、原筮元、永贞无咎，以刚中也。不宁方来、上下应也，后夫凶、其道穷也。"
+    "zh_hant": "比、吉也，比、輔也，下順從也。原筮元、永貞无咎，以剛中也。不寧方來、上下應也，後夫凶、其道窮也。",
+    "zh_hans": "比、吉也，比、辅也，下顺从也。原筮元、永贞无咎，以刚中也。不宁方来、上下应也，后夫凶、其道穷也。"
   },
   "image": {
     "zh_hant": "地上有水，比。先王以建萬國，親諸侯。",
@@ -118,15 +118,6 @@
   ],
   "variants": [
     {
-      "field": "tuan",
-      "differences": [
-        {
-          "primary": "比吉",
-          "wikisource": ""
-        }
-      ]
-    },
-    {
       "field": "lines.5.text",
       "differences": [
         {
@@ -136,11 +127,23 @@
       ]
     }
   ],
+  "emendations": [
+    {
+      "field": "tuan",
+      "base": "（比、吉也），比、輔也，下順從也，比、吉、原筮元、永貞无咎",
+      "adopted": "比、吉也，比、輔也，下順從也。原筮元、永貞无咎",
+      "note": "SBCK and Wikisource: no brackets, no second 比吉"
+    }
+  ],
   "source": {
     "text": {
       "work": "周易",
       "edition": "Kanseki Repository KR1a0001 (base edition: TLS)",
       "url": "https://github.com/kanripo/KR1a0001/blob/master/KR1a0001_008.txt"
+    },
+    "collated_with": {
+      "edition": "四部叢刊本 王弼《周易注》 (Song edition), Kanseki Repository KR1a0006, branch SBCK",
+      "url": "https://github.com/kanripo/KR1a0006/tree/SBCK"
     },
     "cross_check": {
       "edition": "Chinese Wikisource, 周易/比",

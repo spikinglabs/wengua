@@ -19,11 +19,11 @@ description: "The open, sourced bilingual dataset of all 64 I Ching hexagrams: �
 
 | Layer | Source | Status |
 |---|---|---|
-| Chinese (繁/简) | Kanseki Repository KR1a0001 《周易》 (received text), cross-checked character by character against Chinese Wikisource | ✅ Done |
+| Chinese (繁/简) | Kanseki Repository KR1a0001 《周易》, collated character by character with the Song edition (四部叢刊本 王弼《周易注》) and cross-checked with Chinese Wikisource | ✅ Done |
 | English | James Legge, *The Yî King* (1882), public domain | Planned |
 | Plain notes | Written by Wengua contributors | Planned |
 
-Every difference between the two Chinese editions is recorded in the hexagram's `variants` field and in `data/cross-check.json`. The editions, snapshots and editorial choices are documented in [`data/SOURCES.md`](https://github.com/spikinglabs/wengua/blob/main/data/SOURCES.md).
+Where the Song edition and Wikisource agree against the base text, the received reading is restored and the change is recorded in the hexagram's `emendations` field (23 places). The remaining differences are listed in `data/collation-sbck.json` and `data/cross-check.json`. The editions, snapshots and editorial choices are documented in [`data/SOURCES.md`](https://github.com/spikinglabs/wengua/blob/main/data/SOURCES.md).
 
 The dataset is licensed **CC BY-SA 4.0**. The classical text is in the public domain; the license covers the digital transcriptions it builds on and our structure and glosses.
 

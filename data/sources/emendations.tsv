@@ -1,0 +1,28 @@
+# Emendations to the base text (Kanripo KR1a0001, TLS edition).
+# Rule: the base text is changed only where BOTH independent witnesses, the Song edition
+# (四部叢刊本 王弼《周易注》) and Chinese Wikisource, agree against it. Most of these are
+# places where the TLS edition adopted a later scholarly emendation; we restore the received text.
+# Columns: hexagram, field, base reading, adopted reading, note. The base reading must occur exactly once.
+3	lines.3.text	即鹿無虞	即鹿无虞	SBCK and Wikisource 无
+4	judgment	童蒙來求我	童蒙求我	SBCK and Wikisource lack 來
+4	tuan	童蒙來求我	童蒙求我	SBCK and Wikisource lack 來
+4	lines.2.text	苞蒙	包蒙	SBCK and Wikisource 包
+5	lines.2.xiao_xiang	行在中也	衍在中也	SBCK and Wikisource 衍
+5	lines.6.xiao_xiang	敬之終吉也	敬之終吉	SBCK and Wikisource lack 也
+8	tuan	（比、吉也），比、輔也，下順從也，比、吉、原筮元、永貞无咎	比、吉也，比、輔也，下順從也。原筮元、永貞无咎	SBCK and Wikisource: no brackets, no second 比吉
+11	lines.2.text	苞荒	包荒	SBCK and Wikisource 包
+11	lines.2.xiao_xiang	苞荒	包荒	SBCK and Wikisource 包
+12	lines.2.text	苞承	包承	SBCK and Wikisource 包
+12	lines.3.text	苞羞	包羞	SBCK and Wikisource 包
+12	lines.3.xiao_xiang	苞羞	包羞	SBCK and Wikisource 包
+17	tuan	而天下隨之，隨之時義大矣哉	而天下隨時，隨時之義大矣哉	SBCK and Wikisource 隨時，隨時之義
+24	lines.1.text	无祗悔	无祇悔	SBCK and Wikisource 祇
+26	lines.1.text	利己	利已	SBCK and Wikisource 已
+26	lines.1.xiao_xiang	利己	利已	SBCK and Wikisource 已
+48	tuan	往來井，井汔至	汔至	SBCK and Wikisource lack 往來井井
+48	lines.5.text	井洌	井冽	SBCK and Wikisource 冽
+49	image	治厤明時	治歷明時	SBCK and Wikisource 歷
+51	tuan	不喪匕鬯、出可以守宗廟	出可以守宗廟	SBCK and Wikisource lack 不喪匕鬯
+51	lines.5.text	意无喪	億无喪	SBCK and Wikisource 億
+62	tuan	小過亨、小者過而亨也	小過、小者過而亨也	SBCK and Wikisource lack the first 亨
+64	lines.2.xiao_xiang	中以行直也	中以行正也	SBCK and Wikisource 正

@@ -47,12 +47,12 @@
         "zh_hans": "九二"
       },
       "text": {
-        "zh_hant": "苞荒，用馮河，不遐遺。朋亡，得尚于中行。",
-        "zh_hans": "苞荒，用冯河，不遐遗。朋亡，得尚于中行。"
+        "zh_hant": "包荒，用馮河，不遐遺。朋亡，得尚于中行。",
+        "zh_hans": "包荒，用冯河，不遐遗。朋亡，得尚于中行。"
       },
       "xiao_xiang": {
-        "zh_hant": "苞荒、得尚于中行，以光大也。",
-        "zh_hans": "苞荒、得尚于中行，以光大也。"
+        "zh_hant": "包荒、得尚于中行，以光大也。",
+        "zh_hans": "包荒、得尚于中行，以光大也。"
       }
     },
     {
@@ -116,24 +116,19 @@
       }
     }
   ],
-  "variants": [
+  "variants": [],
+  "emendations": [
     {
       "field": "lines.2.text",
-      "differences": [
-        {
-          "primary": "苞",
-          "wikisource": "包"
-        }
-      ]
+      "base": "苞荒",
+      "adopted": "包荒",
+      "note": "SBCK and Wikisource 包"
     },
     {
       "field": "lines.2.xiao_xiang",
-      "differences": [
-        {
-          "primary": "苞",
-          "wikisource": "包"
-        }
-      ]
+      "base": "苞荒",
+      "adopted": "包荒",
+      "note": "SBCK and Wikisource 包"
     }
   ],
   "source": {
@@ -141,6 +136,10 @@
       "work": "周易",
       "edition": "Kanseki Repository KR1a0001 (base edition: TLS)",
       "url": "https://github.com/kanripo/KR1a0001/blob/master/KR1a0001_011.txt"
+    },
+    "collated_with": {
+      "edition": "四部叢刊本 王弼《周易注》 (Song edition), Kanseki Repository KR1a0006, branch SBCK",
+      "url": "https://github.com/kanripo/KR1a0006/tree/SBCK"
     },
     "cross_check": {
       "edition": "Chinese Wikisource, 周易/泰",

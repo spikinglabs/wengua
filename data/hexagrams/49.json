@@ -21,7 +21,7 @@
     "zh_hans": "革、水火相息，二女同居，其志不相得曰革。巳日乃孚，革而信之。文明以说，大亨以正。革而当，其悔乃亡。天地革而四时成，汤武革命，顺乎天而应乎人。革之时大矣哉！"
   },
   "image": {
-    "zh_hant": "澤中有火，革。君子以治厤明時。",
+    "zh_hant": "澤中有火，革。君子以治歷明時。",
     "zh_hans": "泽中有火，革。君子以治历明时。"
   },
   "lines": [
@@ -144,15 +144,6 @@
       ]
     },
     {
-      "field": "image",
-      "differences": [
-        {
-          "primary": "厤",
-          "wikisource": "歷"
-        }
-      ]
-    },
-    {
       "field": "lines.2.text",
       "differences": [
         {
@@ -171,11 +162,23 @@
       ]
     }
   ],
+  "emendations": [
+    {
+      "field": "image",
+      "base": "治厤明時",
+      "adopted": "治歷明時",
+      "note": "SBCK and Wikisource 歷"
+    }
+  ],
   "source": {
     "text": {
       "work": "周易",
       "edition": "Kanseki Repository KR1a0001 (base edition: TLS)",
       "url": "https://github.com/kanripo/KR1a0001/blob/master/KR1a0001_049.txt"
+    },
+    "collated_with": {
+      "edition": "四部叢刊本 王弼《周易注》 (Song edition), Kanseki Repository KR1a0006, branch SBCK",
+      "url": "https://github.com/kanripo/KR1a0006/tree/SBCK"
     },
     "cross_check": {
       "edition": "Chinese Wikisource, 周易/革",

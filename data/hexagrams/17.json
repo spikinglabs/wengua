@@ -17,8 +17,8 @@
     "zh_hans": "元亨，利贞，无咎。"
   },
   "tuan": {
-    "zh_hant": "隨，剛來而下柔，動而說，隨。大亨、貞、无咎而天下隨之，隨之時義大矣哉！",
-    "zh_hans": "随，刚来而下柔，动而说，随。大亨、贞、无咎而天下随之，随之时义大矣哉！"
+    "zh_hant": "隨，剛來而下柔，動而說，隨。大亨、貞、无咎而天下隨時，隨時之義大矣哉！",
+    "zh_hans": "随，刚来而下柔，动而说，随。大亨、贞、无咎而天下随时，随时之义大矣哉！"
   },
   "image": {
     "zh_hant": "澤中有雷，隨。君子以嚮晦入宴息。",
@@ -118,19 +118,6 @@
   ],
   "variants": [
     {
-      "field": "tuan",
-      "differences": [
-        {
-          "primary": "",
-          "wikisource": "時隨時"
-        },
-        {
-          "primary": "隨之時",
-          "wikisource": ""
-        }
-      ]
-    },
-    {
       "field": "lines.2.xiao_xiang",
       "differences": [
         {
@@ -158,11 +145,23 @@
       ]
     }
   ],
+  "emendations": [
+    {
+      "field": "tuan",
+      "base": "而天下隨之，隨之時義大矣哉",
+      "adopted": "而天下隨時，隨時之義大矣哉",
+      "note": "SBCK and Wikisource 隨時，隨時之義"
+    }
+  ],
   "source": {
     "text": {
       "work": "周易",
       "edition": "Kanseki Repository KR1a0001 (base edition: TLS)",
       "url": "https://github.com/kanripo/KR1a0001/blob/master/KR1a0001_017.txt"
+    },
+    "collated_with": {
+      "edition": "四部叢刊本 王弼《周易注》 (Song edition), Kanseki Repository KR1a0006, branch SBCK",
+      "url": "https://github.com/kanripo/KR1a0006/tree/SBCK"
     },
     "cross_check": {
       "edition": "Chinese Wikisource, 周易/隨",

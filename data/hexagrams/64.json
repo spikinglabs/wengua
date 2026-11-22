@@ -51,8 +51,8 @@
         "zh_hans": "曳其轮，贞吉。"
       },
       "xiao_xiang": {
-        "zh_hant": "九二貞吉、中以行直也。",
-        "zh_hans": "九二贞吉、中以行直也。"
+        "zh_hant": "九二貞吉、中以行正也。",
+        "zh_hans": "九二贞吉、中以行正也。"
       }
     },
     {
@@ -116,15 +116,13 @@
       }
     }
   ],
-  "variants": [
+  "variants": [],
+  "emendations": [
     {
       "field": "lines.2.xiao_xiang",
-      "differences": [
-        {
-          "primary": "直",
-          "wikisource": "正"
-        }
-      ]
+      "base": "中以行直也",
+      "adopted": "中以行正也",
+      "note": "SBCK and Wikisource 正"
     }
   ],
   "source": {
@@ -132,6 +130,10 @@
       "work": "周易",
       "edition": "Kanseki Repository KR1a0001 (base edition: TLS)",
       "url": "https://github.com/kanripo/KR1a0001/blob/master/KR1a0001_064.txt"
+    },
+    "collated_with": {
+      "edition": "四部叢刊本 王弼《周易注》 (Song edition), Kanseki Repository KR1a0006, branch SBCK",
+      "url": "https://github.com/kanripo/KR1a0006/tree/SBCK"
     },
     "cross_check": {
       "edition": "Chinese Wikisource, 周易/未濟",
