@@ -47,8 +47,8 @@ nav = [
   { "Privacy" = "privacy.md" },
 ]
 
-# extra_css = ["stylesheets/extra.css"]
-# extra_javascript = ["javascripts/extra.js"]
+extra_css = ["assets/cast.css"]
+extra_javascript = ["assets/cast.js"]
 
 [project.theme]
 # variant = "classic"

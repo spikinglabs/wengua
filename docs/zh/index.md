@@ -10,7 +10,13 @@ description: "问卦 Wengua：为所有 AI 打造的准确、开放的《易经�
 
 > 排卦归程序，解卦归模型。
 
-## 马上试用
+## 现在起一卦
+
+在这里直接起卦，查看卦象和对应的原文。想要解读，请在你的 AI 里使用问卦（见下文）。
+
+<div class="wengua-cast" data-lang="zh"></div>
+
+## 在 AI 里使用
 
 - **MCP 服务**：把 `https://wengua.allo.land/mcp` 加为连接器或 MCP 服务器，免费，无需账号。
 - **Agent Skill**：[下载 wengua-skill.zip](https://wengua.allo.land/wengua-skill.zip)，添加到你的 AI。
@@ -28,7 +34,7 @@ description: "问卦 Wengua：为所有 AI 打造的准确、开放的《易经�
 
 | 部分 | 说明 | 状态 |
 |---|---|---|
-| 数据集 | 六十四卦全部经传原文，繁简两体，附出处 | ✅ 中文完成，英文计划中 |
+| 数据集 | 六十四卦全部经传原文，繁简两体，附出处 | ✅ 中文与理雅各英译 |
 | 核心库 | TypeScript 与 Python 的起卦、变卦、取辞、查卦 | ✅ 完成 |
 | Agent Skill | 可直接放入 Claude 等智能体的技能包 | ✅ 完成 |
 | MCP 服务 | 本地（uvx / npx）与托管（wengua.allo.land/mcp） | ✅ 完成 |

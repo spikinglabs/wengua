@@ -1,0 +1,50 @@
+/* The cast box on the home pages (see cast.js). */
+.wengua-cast {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 0.4rem;
+  padding: 1rem 1.2rem;
+  margin: 1.2rem 0 1.6rem;
+}
+.wengua-cast .wg-qlabel { display: block; font-weight: 600; }
+.wengua-cast .wg-question {
+  display: block; width: 100%; box-sizing: border-box; margin-top: 0.4rem;
+  padding: 0.5rem 0.6rem; font: inherit; color: inherit;
+  background: var(--md-default-bg-color);
+  border: 1px solid var(--md-default-fg-color--lighter); border-radius: 0.2rem;
+}
+.wengua-cast .wg-privacy, .wengua-cast .wg-note, .wengua-cast .wg-credit {
+  color: var(--md-default-fg-color--light); font-size: 0.85em;
+}
+.wengua-cast .wg-privacy { margin: 0.3rem 0 0.6rem; }
+.wengua-cast .wg-row { display: flex; flex-wrap: wrap; gap: 0.8rem; align-items: center; justify-content: space-between; }
+.wengua-cast .wg-methods { display: flex; gap: 1.2rem; flex-wrap: wrap; }
+.wengua-cast .wg-methods label { cursor: pointer; }
+.wengua-cast .wg-go { margin: 0; }
+.wengua-cast .wg-go[disabled] { opacity: 0.6; }
+.wengua-cast .wg-status:empty { display: none; }
+.wengua-cast .wg-result:empty { display: none; }
+.wengua-cast .wg-result { margin-top: 1rem; border-top: 1px solid var(--md-default-fg-color--lightest); padding-top: 1rem; }
+.wengua-cast .wg-pair { display: flex; flex-wrap: wrap; align-items: center; gap: 1rem 1.4rem; }
+.wengua-cast .wg-figure { display: flex; flex-direction: column; gap: 0.32rem; width: 6.4rem; }
+.wengua-cast .wg-line { display: flex; align-items: center; gap: 0.7rem; height: 0.62rem; position: relative; padding-right: 1.3rem; }
+.wengua-cast .wg-bar { flex: 1; height: 100%; background: var(--md-default-fg-color); border-radius: 1px; }
+.wengua-cast .wg-changing .wg-bar { background: #c8321e; }
+.wengua-cast .wg-mark { position: absolute; right: 0; width: 1rem; text-align: center; font-size: 0.8rem; line-height: 0.62rem; color: #c8321e; }
+.wengua-cast .wg-hex { text-align: center; max-width: 11rem; }
+.wengua-cast .wg-symbol { font-size: 3rem; line-height: 1.1; }
+.wengua-cast .wg-hexlabel { font-size: 0.85em; }
+.wengua-cast .wg-to { display: flex; align-items: center; gap: 1.4rem; }
+.wengua-cast .wg-text { color: var(--md-default-fg-color); }
+.wengua-cast .wg-arrow { font-size: 1.4rem; color: var(--md-default-fg-color--light); }
+.wengua-cast .wg-asked { font-style: italic; }
+.wengua-cast .wg-text-label { font-weight: 600; font-size: 0.85em; color: var(--md-default-fg-color--light); }
+.wengua-cast .wg-zh { font-size: 1.15em; margin: 0.3rem 0; }
+.wengua-cast .wg-en { margin: 0.3rem 0; }
+.wengua-cast .wg-more {
+  margin: 1.4rem 0 0.6rem; padding: 0.9rem 1.1rem; border-radius: 0.4rem;
+  background: var(--md-accent-fg-color--transparent, rgba(200, 50, 30, 0.07));
+  border-left: 0.25rem solid #c8321e;
+}
+.wengua-cast .wg-more h3 { margin-top: 0; }
+.wengua-cast .wg-buttons { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+.wengua-cast .wg-buttons .md-button { margin: 0; font-size: 0.75rem; }
