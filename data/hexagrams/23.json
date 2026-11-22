@@ -1,0 +1,208 @@
+{
+  "number": 23,
+  "unicode": "䷖",
+  "binary": "000001",
+  "trigrams": {
+    "lower": "kun",
+    "upper": "gen"
+  },
+  "name": {
+    "zh_hant": "剝",
+    "zh_hans": "剥",
+    "pinyin": "bō",
+    "en": "Stripping Away"
+  },
+  "judgment": {
+    "zh_hant": "不利有攸往。",
+    "zh_hans": "不利有攸往。"
+  },
+  "tuan": {
+    "zh_hant": "剝、剝也。柔變剛也。不利有攸往、小人長也。順而止之，觀象也。君子尚消息盈虛，天行也。",
+    "zh_hans": "剥、剥也。柔变刚也。不利有攸往、小人长也。顺而止之，观象也。君子尚消息盈虚，天行也。"
+  },
+  "image": {
+    "zh_hant": "山附於地，剝。上以厚下安宅。",
+    "zh_hans": "山附于地，剥。上以厚下安宅。"
+  },
+  "lines": [
+    {
+      "position": 1,
+      "label": {
+        "zh_hant": "初六",
+        "zh_hans": "初六"
+      },
+      "text": {
+        "zh_hant": "剝床以足，蔑貞凶。",
+        "zh_hans": "剥床以足，蔑贞凶。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "剝床以足、以滅下也。",
+        "zh_hans": "剥床以足、以灭下也。"
+      }
+    },
+    {
+      "position": 2,
+      "label": {
+        "zh_hant": "六二",
+        "zh_hans": "六二"
+      },
+      "text": {
+        "zh_hant": "剝床以辨，蔑貞凶。",
+        "zh_hans": "剥床以辨，蔑贞凶。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "剝床以辨、未有與也。",
+        "zh_hans": "剥床以辨、未有与也。"
+      }
+    },
+    {
+      "position": 3,
+      "label": {
+        "zh_hant": "六三",
+        "zh_hans": "六三"
+      },
+      "text": {
+        "zh_hant": "剝之无咎。",
+        "zh_hans": "剥之无咎。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "剝之无咎、失上下也。",
+        "zh_hans": "剥之无咎、失上下也。"
+      }
+    },
+    {
+      "position": 4,
+      "label": {
+        "zh_hant": "六四",
+        "zh_hans": "六四"
+      },
+      "text": {
+        "zh_hant": "剝床以膚，凶。",
+        "zh_hans": "剥床以肤，凶。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "剝床以膚、切近災也。",
+        "zh_hans": "剥床以肤、切近灾也。"
+      }
+    },
+    {
+      "position": 5,
+      "label": {
+        "zh_hant": "六五",
+        "zh_hans": "六五"
+      },
+      "text": {
+        "zh_hant": "貫魚以宮人寵，无不利。",
+        "zh_hans": "贯鱼以宫人宠，无不利。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "以宮人寵、終无尤也。",
+        "zh_hans": "以宫人宠、终无尤也。"
+      }
+    },
+    {
+      "position": 6,
+      "label": {
+        "zh_hant": "上九",
+        "zh_hans": "上九"
+      },
+      "text": {
+        "zh_hant": "碩果不食，君子得輿，小人剝廬。",
+        "zh_hans": "硕果不食，君子得舆，小人剥庐。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "君子得輿、民所載也，小人剝廬、終不可用也。",
+        "zh_hans": "君子得舆、民所载也，小人剥庐、终不可用也。"
+      }
+    }
+  ],
+  "variants": [
+    {
+      "field": "image",
+      "differences": [
+        {
+          "primary": "於",
+          "wikisource": ""
+        },
+        {
+          "primary": "",
+          "wikisource": "上"
+        }
+      ]
+    },
+    {
+      "field": "lines.1.text",
+      "differences": [
+        {
+          "primary": "床",
+          "wikisource": "牀"
+        }
+      ]
+    },
+    {
+      "field": "lines.1.xiao_xiang",
+      "differences": [
+        {
+          "primary": "床",
+          "wikisource": "牀"
+        }
+      ]
+    },
+    {
+      "field": "lines.2.text",
+      "differences": [
+        {
+          "primary": "床",
+          "wikisource": "牀"
+        }
+      ]
+    },
+    {
+      "field": "lines.2.xiao_xiang",
+      "differences": [
+        {
+          "primary": "床",
+          "wikisource": "牀"
+        }
+      ]
+    },
+    {
+      "field": "lines.4.text",
+      "differences": [
+        {
+          "primary": "床",
+          "wikisource": "牀"
+        }
+      ]
+    },
+    {
+      "field": "lines.4.xiao_xiang",
+      "differences": [
+        {
+          "primary": "床",
+          "wikisource": "牀"
+        }
+      ]
+    },
+    {
+      "field": "lines.6.text",
+      "differences": [
+        {
+          "primary": "得輿",
+          "wikisource": "德車"
+        }
+      ]
+    }
+  ],
+  "source": {
+    "text": {
+      "work": "周易",
+      "edition": "Kanseki Repository KR1a0001 (base edition: TLS)",
+      "url": "https://github.com/kanripo/KR1a0001/blob/master/KR1a0001_023.txt"
+    },
+    "cross_check": {
+      "edition": "Chinese Wikisource, 周易/剝",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=10645800"
+    }
+  }
+}

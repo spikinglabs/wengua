@@ -1,0 +1,177 @@
+{
+  "number": 12,
+  "unicode": "䷋",
+  "binary": "000111",
+  "trigrams": {
+    "lower": "kun",
+    "upper": "qian"
+  },
+  "name": {
+    "zh_hant": "否",
+    "zh_hans": "否",
+    "pinyin": "pǐ",
+    "en": "Standstill"
+  },
+  "judgment": {
+    "zh_hant": "否之匪人。不利君子貞。大往小來。",
+    "zh_hans": "否之匪人。不利君子贞。大往小来。"
+  },
+  "tuan": {
+    "zh_hant": "否之匪人、不利君子貞、大往小來。則是天地不交而萬物不通也，上下不交而天下无邦也；內陰而外陽，內柔而外剛，內小人而外君子，小人道長，君子道消也。",
+    "zh_hans": "否之匪人、不利君子贞、大往小来。则是天地不交而万物不通也，上下不交而天下无邦也；内阴而外阳，内柔而外刚，内小人而外君子，小人道长，君子道消也。"
+  },
+  "image": {
+    "zh_hant": "天地不交，否。君子以儉德辟難，不可榮以祿。",
+    "zh_hans": "天地不交，否。君子以俭德辟难，不可荣以禄。"
+  },
+  "lines": [
+    {
+      "position": 1,
+      "label": {
+        "zh_hant": "初六",
+        "zh_hans": "初六"
+      },
+      "text": {
+        "zh_hant": "拔茅茹，以其彙。貞吉亨。",
+        "zh_hans": "拔茅茹，以其汇。贞吉亨。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "拔茅貞吉、志在君也。",
+        "zh_hans": "拔茅贞吉、志在君也。"
+      }
+    },
+    {
+      "position": 2,
+      "label": {
+        "zh_hant": "六二",
+        "zh_hans": "六二"
+      },
+      "text": {
+        "zh_hant": "苞承，小人吉，大人否。亨。",
+        "zh_hans": "苞承，小人吉，大人否。亨。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "大人否亨、不亂群也。",
+        "zh_hans": "大人否亨、不乱群也。"
+      }
+    },
+    {
+      "position": 3,
+      "label": {
+        "zh_hant": "六三",
+        "zh_hans": "六三"
+      },
+      "text": {
+        "zh_hant": "苞羞。",
+        "zh_hans": "苞羞。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "苞羞、位不當也。",
+        "zh_hans": "苞羞、位不当也。"
+      }
+    },
+    {
+      "position": 4,
+      "label": {
+        "zh_hant": "九四",
+        "zh_hans": "九四"
+      },
+      "text": {
+        "zh_hant": "有命，无咎，疇離祉。",
+        "zh_hans": "有命，无咎，畴离祉。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "有命无咎、志行也。",
+        "zh_hans": "有命无咎、志行也。"
+      }
+    },
+    {
+      "position": 5,
+      "label": {
+        "zh_hant": "九五",
+        "zh_hans": "九五"
+      },
+      "text": {
+        "zh_hant": "休否，大人吉。其亡其亡，繫于苞桑。",
+        "zh_hans": "休否，大人吉。其亡其亡，系于苞桑。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "大人之吉、位正當也。",
+        "zh_hans": "大人之吉、位正当也。"
+      }
+    },
+    {
+      "position": 6,
+      "label": {
+        "zh_hant": "上九",
+        "zh_hans": "上九"
+      },
+      "text": {
+        "zh_hant": "傾否，先否後喜。",
+        "zh_hans": "倾否，先否后喜。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "否終則傾、何可長也。",
+        "zh_hans": "否终则倾、何可长也。"
+      }
+    }
+  ],
+  "variants": [
+    {
+      "field": "lines.2.text",
+      "differences": [
+        {
+          "primary": "苞",
+          "wikisource": "包"
+        }
+      ]
+    },
+    {
+      "field": "lines.2.xiao_xiang",
+      "differences": [
+        {
+          "primary": "群",
+          "wikisource": "羣"
+        }
+      ]
+    },
+    {
+      "field": "lines.3.text",
+      "differences": [
+        {
+          "primary": "苞",
+          "wikisource": "包"
+        }
+      ]
+    },
+    {
+      "field": "lines.3.xiao_xiang",
+      "differences": [
+        {
+          "primary": "苞",
+          "wikisource": "包"
+        }
+      ]
+    },
+    {
+      "field": "lines.5.text",
+      "differences": [
+        {
+          "primary": "苞",
+          "wikisource": "包"
+        }
+      ]
+    }
+  ],
+  "source": {
+    "text": {
+      "work": "周易",
+      "edition": "Kanseki Repository KR1a0001 (base edition: TLS)",
+      "url": "https://github.com/kanripo/KR1a0001/blob/master/KR1a0001_012.txt"
+    },
+    "cross_check": {
+      "edition": "Chinese Wikisource, 周易/否",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=10645603"
+    }
+  }
+}

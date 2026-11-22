@@ -16,7 +16,7 @@ Wengua lets people consult the *Book of Changes* from Claude, ChatGPT, Codex, Cu
 ## Why Wengua
 
 - **Authentic texts.** The original Chinese (卦辞, 爻辞 and the Ten Wings 彖/象/文言), in traditional and simplified characters, with James Legge's public-domain English. Every line cites its source.
-- **Plain-language notes.** Our own modern notes in 白话 and English, free to reuse under CC BY 4.0.
+- **Plain-language notes.** Our own modern notes in 白话 and English, free to reuse under CC BY-SA 4.0.
 - **Fair casting you can verify.** Three coins or yarrow stalks with the traditional probabilities, a secure random generator, and statistical tests in CI.
 - **Works everywhere.** One core behind an Agent Skill, a local MCP server, a free hosted MCP server and a bilingual reading card.
 - **Reflection, not prediction.** Readings are framed as prompts for thought, never as verdicts.

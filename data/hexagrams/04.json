@@ -1,0 +1,168 @@
+{
+  "number": 4,
+  "unicode": "䷃",
+  "binary": "010001",
+  "trigrams": {
+    "lower": "kan",
+    "upper": "gen"
+  },
+  "name": {
+    "zh_hant": "蒙",
+    "zh_hans": "蒙",
+    "pinyin": "méng",
+    "en": "Youthful Ignorance"
+  },
+  "judgment": {
+    "zh_hant": "亨。匪我求童蒙，童蒙來求我。初筮告，再三瀆，瀆則不告。利貞。",
+    "zh_hans": "亨。匪我求童蒙，童蒙来求我。初筮告，再三渎，渎则不告。利贞。"
+  },
+  "tuan": {
+    "zh_hant": "蒙，山下有險，險而止，蒙。蒙亨，以亨行，時中也。匪我求童蒙、童蒙來求我，志應也。初筮告、以剛中也。再三瀆、瀆則不告，瀆蒙也。蒙以養正，聖功也。",
+    "zh_hans": "蒙，山下有险，险而止，蒙。蒙亨，以亨行，时中也。匪我求童蒙、童蒙来求我，志应也。初筮告、以刚中也。再三渎、渎则不告，渎蒙也。蒙以养正，圣功也。"
+  },
+  "image": {
+    "zh_hant": "山下出泉，蒙。君子以果行育德。",
+    "zh_hans": "山下出泉，蒙。君子以果行育德。"
+  },
+  "lines": [
+    {
+      "position": 1,
+      "label": {
+        "zh_hant": "初六",
+        "zh_hans": "初六"
+      },
+      "text": {
+        "zh_hant": "發蒙，利用刑人，用說桎梏，以往吝。",
+        "zh_hans": "发蒙，利用刑人，用说桎梏，以往吝。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "利用刑人、以正法也。",
+        "zh_hans": "利用刑人、以正法也。"
+      }
+    },
+    {
+      "position": 2,
+      "label": {
+        "zh_hant": "九二",
+        "zh_hans": "九二"
+      },
+      "text": {
+        "zh_hant": "苞蒙，吉。納婦吉。子克家。",
+        "zh_hans": "苞蒙，吉。纳妇吉。子克家。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "子克家、剛柔接也。",
+        "zh_hans": "子克家、刚柔接也。"
+      }
+    },
+    {
+      "position": 3,
+      "label": {
+        "zh_hant": "六三",
+        "zh_hans": "六三"
+      },
+      "text": {
+        "zh_hant": "勿用取女，見金夫，不有躬。无攸利。",
+        "zh_hans": "勿用取女，见金夫，不有躬。无攸利。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "勿用取女、行不順也。",
+        "zh_hans": "勿用取女、行不顺也。"
+      }
+    },
+    {
+      "position": 4,
+      "label": {
+        "zh_hant": "六四",
+        "zh_hans": "六四"
+      },
+      "text": {
+        "zh_hant": "困蒙，吝。",
+        "zh_hans": "困蒙，吝。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "困蒙之吝、獨遠實也。",
+        "zh_hans": "困蒙之吝、独远实也。"
+      }
+    },
+    {
+      "position": 5,
+      "label": {
+        "zh_hant": "六五",
+        "zh_hans": "六五"
+      },
+      "text": {
+        "zh_hant": "童蒙，吉。",
+        "zh_hans": "童蒙，吉。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "童蒙之吉、順以巽也。",
+        "zh_hans": "童蒙之吉、顺以巽也。"
+      }
+    },
+    {
+      "position": 6,
+      "label": {
+        "zh_hant": "上九",
+        "zh_hans": "上九"
+      },
+      "text": {
+        "zh_hant": "擊蒙，不利為寇，利禦寇。",
+        "zh_hans": "击蒙，不利为寇，利御寇。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "利用禦寇，上下順也。",
+        "zh_hans": "利用御寇，上下顺也。"
+      }
+    }
+  ],
+  "variants": [
+    {
+      "field": "judgment",
+      "differences": [
+        {
+          "primary": "來",
+          "wikisource": ""
+        }
+      ]
+    },
+    {
+      "field": "tuan",
+      "differences": [
+        {
+          "primary": "來",
+          "wikisource": ""
+        }
+      ]
+    },
+    {
+      "field": "lines.2.text",
+      "differences": [
+        {
+          "primary": "苞",
+          "wikisource": "包"
+        }
+      ]
+    },
+    {
+      "field": "lines.6.xiao_xiang",
+      "differences": [
+        {
+          "primary": "用",
+          "wikisource": ""
+        }
+      ]
+    }
+  ],
+  "source": {
+    "text": {
+      "work": "周易",
+      "edition": "Kanseki Repository KR1a0001 (base edition: TLS)",
+      "url": "https://github.com/kanripo/KR1a0001/blob/master/KR1a0001_004.txt"
+    },
+    "cross_check": {
+      "edition": "Chinese Wikisource, 周易/蒙",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=10645379"
+    }
+  }
+}

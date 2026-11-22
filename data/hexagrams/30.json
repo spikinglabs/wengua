@@ -1,0 +1,141 @@
+{
+  "number": 30,
+  "unicode": "䷝",
+  "binary": "101101",
+  "trigrams": {
+    "lower": "li",
+    "upper": "li"
+  },
+  "name": {
+    "zh_hant": "離",
+    "zh_hans": "离",
+    "pinyin": "lí",
+    "en": "Radiance"
+  },
+  "judgment": {
+    "zh_hant": "利貞。亨。畜牝牛吉。",
+    "zh_hans": "利贞。亨。畜牝牛吉。"
+  },
+  "tuan": {
+    "zh_hant": "離、麗也。日月麗乎天，百穀草木麗乎土。重明以麗乎正，乃化成天下。柔麗乎中正，故亨，是以畜牝牛吉也。",
+    "zh_hans": "离、丽也。日月丽乎天，百谷草木丽乎土。重明以丽乎正，乃化成天下。柔丽乎中正，故亨，是以畜牝牛吉也。"
+  },
+  "image": {
+    "zh_hant": "明兩、作離。大人以繼明照于四方。",
+    "zh_hans": "明两、作离。大人以继明照于四方。"
+  },
+  "lines": [
+    {
+      "position": 1,
+      "label": {
+        "zh_hant": "初九",
+        "zh_hans": "初九"
+      },
+      "text": {
+        "zh_hant": "履錯然敬之，无咎。",
+        "zh_hans": "履错然敬之，无咎。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "履錯之敬、以辟咎也。",
+        "zh_hans": "履错之敬、以辟咎也。"
+      }
+    },
+    {
+      "position": 2,
+      "label": {
+        "zh_hant": "六二",
+        "zh_hans": "六二"
+      },
+      "text": {
+        "zh_hant": "黃離，元吉。",
+        "zh_hans": "黄离，元吉。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "黃離元吉、得中道也。",
+        "zh_hans": "黄离元吉、得中道也。"
+      }
+    },
+    {
+      "position": 3,
+      "label": {
+        "zh_hant": "九三",
+        "zh_hans": "九三"
+      },
+      "text": {
+        "zh_hant": "日昃之離，不鼓缶而歌，則大耋之嗟，凶。",
+        "zh_hans": "日昃之离，不鼓缶而歌，则大耋之嗟，凶。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "日昃之離、何可久也？",
+        "zh_hans": "日昃之离、何可久也？"
+      }
+    },
+    {
+      "position": 4,
+      "label": {
+        "zh_hant": "九四",
+        "zh_hans": "九四"
+      },
+      "text": {
+        "zh_hant": "突如、其來如，焚如，死如，棄如。",
+        "zh_hans": "突如、其来如，焚如，死如，弃如。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "突如其來如、无所容也。",
+        "zh_hans": "突如其来如、无所容也。"
+      }
+    },
+    {
+      "position": 5,
+      "label": {
+        "zh_hant": "六五",
+        "zh_hans": "六五"
+      },
+      "text": {
+        "zh_hant": "出涕沱若，戚嗟若，吉。",
+        "zh_hans": "出涕沱若，戚嗟若，吉。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "六五之吉、離王公也。",
+        "zh_hans": "六五之吉、离王公也。"
+      }
+    },
+    {
+      "position": 6,
+      "label": {
+        "zh_hant": "上九",
+        "zh_hans": "上九"
+      },
+      "text": {
+        "zh_hant": "王用出征，有嘉折首，獲匪其醜，无咎。",
+        "zh_hans": "王用出征，有嘉折首，获匪其丑，无咎。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "王用出征、以正邦也。",
+        "zh_hans": "王用出征、以正邦也。"
+      }
+    }
+  ],
+  "variants": [
+    {
+      "field": "lines.3.text",
+      "differences": [
+        {
+          "primary": "嗟",
+          "wikisource": "差"
+        }
+      ]
+    }
+  ],
+  "source": {
+    "text": {
+      "work": "周易",
+      "edition": "Kanseki Repository KR1a0001 (base edition: TLS)",
+      "url": "https://github.com/kanripo/KR1a0001/blob/master/KR1a0001_030.txt"
+    },
+    "cross_check": {
+      "edition": "Chinese Wikisource, 周易/離",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=10646424"
+    }
+  }
+}

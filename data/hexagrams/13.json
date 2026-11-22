@@ -1,0 +1,177 @@
+{
+  "number": 13,
+  "unicode": "䷌",
+  "binary": "101111",
+  "trigrams": {
+    "lower": "li",
+    "upper": "qian"
+  },
+  "name": {
+    "zh_hant": "同人",
+    "zh_hans": "同人",
+    "pinyin": "tóng rén",
+    "en": "Fellowship"
+  },
+  "judgment": {
+    "zh_hant": "同人于野，亨。利涉大川。利君子貞。",
+    "zh_hans": "同人于野，亨。利涉大川。利君子贞。"
+  },
+  "tuan": {
+    "zh_hant": "同人，柔得位得中而應乎乾曰同人。同人曰、同人于野、亨、利涉大川，乾行也。文明以健，中正而應，君子正也。唯君子為能通天下之志。",
+    "zh_hans": "同人，柔得位得中而应乎乾曰同人。同人曰、同人于野、亨、利涉大川，乾行也。文明以健，中正而应，君子正也。唯君子为能通天下之志。"
+  },
+  "image": {
+    "zh_hant": "天與火、同人。君子以類族辨物。",
+    "zh_hans": "天与火、同人。君子以类族辨物。"
+  },
+  "lines": [
+    {
+      "position": 1,
+      "label": {
+        "zh_hant": "初九",
+        "zh_hans": "初九"
+      },
+      "text": {
+        "zh_hant": "同人于門，无咎。",
+        "zh_hans": "同人于门，无咎。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "出門同人，又誰咎也。",
+        "zh_hans": "出门同人，又谁咎也。"
+      }
+    },
+    {
+      "position": 2,
+      "label": {
+        "zh_hant": "六二",
+        "zh_hans": "六二"
+      },
+      "text": {
+        "zh_hant": "同人于宗，吝。",
+        "zh_hans": "同人于宗，吝。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "同人于宗、吝道也。",
+        "zh_hans": "同人于宗、吝道也。"
+      }
+    },
+    {
+      "position": 3,
+      "label": {
+        "zh_hant": "九三",
+        "zh_hans": "九三"
+      },
+      "text": {
+        "zh_hant": "伏戎于莽，升其高陵，三歲不興。",
+        "zh_hans": "伏戎于莽，升其高陵，三岁不兴。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "伏戎于莽、敵剛也，三歲不興、安行也。",
+        "zh_hans": "伏戎于莽、敌刚也，三岁不兴、安行也。"
+      }
+    },
+    {
+      "position": 4,
+      "label": {
+        "zh_hant": "九四",
+        "zh_hans": "九四"
+      },
+      "text": {
+        "zh_hant": "乘其墉，弗克攻，吉。",
+        "zh_hans": "乘其墉，弗克攻，吉。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "乘其墉、義弗克也。其吉、則困而反則也。",
+        "zh_hans": "乘其墉、义弗克也。其吉、则困而反则也。"
+      }
+    },
+    {
+      "position": 5,
+      "label": {
+        "zh_hant": "九五",
+        "zh_hans": "九五"
+      },
+      "text": {
+        "zh_hant": "同人先號咷而後笑，大師克，相遇。",
+        "zh_hans": "同人先号咷而后笑，大师克，相遇。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "同人之先以中直也。大師相遇、言相克也。",
+        "zh_hans": "同人之先以中直也。大师相遇、言相克也。"
+      }
+    },
+    {
+      "position": 6,
+      "label": {
+        "zh_hant": "上九",
+        "zh_hans": "上九"
+      },
+      "text": {
+        "zh_hant": "同人于郊，无悔。",
+        "zh_hans": "同人于郊，无悔。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "同人于郊、志未得也。",
+        "zh_hans": "同人于郊、志未得也。"
+      }
+    }
+  ],
+  "variants": [
+    {
+      "field": "lines.1.text",
+      "differences": [
+        {
+          "primary": "无",
+          "wikisource": "無"
+        }
+      ]
+    },
+    {
+      "field": "lines.4.text",
+      "differences": [
+        {
+          "primary": "墉",
+          "wikisource": "庸"
+        }
+      ]
+    },
+    {
+      "field": "lines.4.xiao_xiang",
+      "differences": [
+        {
+          "primary": "墉",
+          "wikisource": "庸"
+        }
+      ]
+    },
+    {
+      "field": "lines.5.text",
+      "differences": [
+        {
+          "primary": "咷",
+          "wikisource": "啕"
+        }
+      ]
+    },
+    {
+      "field": "lines.6.text",
+      "differences": [
+        {
+          "primary": "无",
+          "wikisource": "無"
+        }
+      ]
+    }
+  ],
+  "source": {
+    "text": {
+      "work": "周易",
+      "edition": "Kanseki Repository KR1a0001 (base edition: TLS)",
+      "url": "https://github.com/kanripo/KR1a0001/blob/master/KR1a0001_013.txt"
+    },
+    "cross_check": {
+      "edition": "Chinese Wikisource, 周易/同人",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=10645635"
+    }
+  }
+}

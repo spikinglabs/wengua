@@ -1,0 +1,141 @@
+{
+  "number": 3,
+  "unicode": "䷂",
+  "binary": "100010",
+  "trigrams": {
+    "lower": "zhen",
+    "upper": "kan"
+  },
+  "name": {
+    "zh_hant": "屯",
+    "zh_hans": "屯",
+    "pinyin": "zhūn",
+    "en": "Sprouting"
+  },
+  "judgment": {
+    "zh_hant": "元亨，利貞。勿用有攸往。利建侯。",
+    "zh_hans": "元亨，利贞。勿用有攸往。利建侯。"
+  },
+  "tuan": {
+    "zh_hant": "屯，剛柔始交而難生。動乎險中，大亨貞。雷雨之動滿盈，天造草昧。宜建侯而不寧。",
+    "zh_hans": "屯，刚柔始交而难生。动乎险中，大亨贞。雷雨之动满盈，天造草昧。宜建侯而不宁。"
+  },
+  "image": {
+    "zh_hant": "雲雷、屯。君子以經綸。",
+    "zh_hans": "云雷、屯。君子以经纶。"
+  },
+  "lines": [
+    {
+      "position": 1,
+      "label": {
+        "zh_hant": "初九",
+        "zh_hans": "初九"
+      },
+      "text": {
+        "zh_hant": "磐桓。利居貞。利建侯。",
+        "zh_hans": "磐桓。利居贞。利建侯。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "雖磐桓，志行正也。以貴下賤，大得民也。",
+        "zh_hans": "虽磐桓，志行正也。以贵下贱，大得民也。"
+      }
+    },
+    {
+      "position": 2,
+      "label": {
+        "zh_hant": "六二",
+        "zh_hans": "六二"
+      },
+      "text": {
+        "zh_hant": "屯如邅如，乘馬班如。匪寇，婚媾。女子貞不字，十年乃字。",
+        "zh_hans": "屯如邅如，乘马班如。匪寇，婚媾。女子贞不字，十年乃字。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "六二之難、乘剛也，十年乃字、反常也。",
+        "zh_hans": "六二之难、乘刚也，十年乃字、反常也。"
+      }
+    },
+    {
+      "position": 3,
+      "label": {
+        "zh_hant": "六三",
+        "zh_hans": "六三"
+      },
+      "text": {
+        "zh_hant": "即鹿無虞，惟入于林中，君子幾不如舍，往吝。",
+        "zh_hans": "即鹿无虞，惟入于林中，君子几不如舍，往吝。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "即鹿无虞以從禽也。君子舍之，往吝窮也。",
+        "zh_hans": "即鹿无虞以从禽也。君子舍之，往吝穷也。"
+      }
+    },
+    {
+      "position": 4,
+      "label": {
+        "zh_hant": "六四",
+        "zh_hans": "六四"
+      },
+      "text": {
+        "zh_hant": "乘馬班如，求婚媾。往吉，无不利。",
+        "zh_hans": "乘马班如，求婚媾。往吉，无不利。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "求而往、明也。",
+        "zh_hans": "求而往、明也。"
+      }
+    },
+    {
+      "position": 5,
+      "label": {
+        "zh_hant": "九五",
+        "zh_hans": "九五"
+      },
+      "text": {
+        "zh_hant": "屯其膏，小貞吉，大貞凶。",
+        "zh_hans": "屯其膏，小贞吉，大贞凶。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "屯其膏、施未光也。",
+        "zh_hans": "屯其膏、施未光也。"
+      }
+    },
+    {
+      "position": 6,
+      "label": {
+        "zh_hant": "上六",
+        "zh_hans": "上六"
+      },
+      "text": {
+        "zh_hant": "乘馬班如，泣血漣如。",
+        "zh_hans": "乘马班如，泣血涟如。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "泣血漣如，何可長也？",
+        "zh_hans": "泣血涟如，何可长也？"
+      }
+    }
+  ],
+  "variants": [
+    {
+      "field": "lines.3.text",
+      "differences": [
+        {
+          "primary": "無",
+          "wikisource": "无"
+        }
+      ]
+    }
+  ],
+  "source": {
+    "text": {
+      "work": "周易",
+      "edition": "Kanseki Repository KR1a0001 (base edition: TLS)",
+      "url": "https://github.com/kanripo/KR1a0001/blob/master/KR1a0001_003.txt"
+    },
+    "cross_check": {
+      "edition": "Chinese Wikisource, 周易/屯",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=10643482"
+    }
+  }
+}

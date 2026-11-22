@@ -1,0 +1,131 @@
+{
+  "number": 19,
+  "unicode": "䷒",
+  "binary": "110000",
+  "trigrams": {
+    "lower": "dui",
+    "upper": "kun"
+  },
+  "name": {
+    "zh_hant": "臨",
+    "zh_hans": "临",
+    "pinyin": "lín",
+    "en": "Approach"
+  },
+  "judgment": {
+    "zh_hant": "元亨，利貞。至于八月有凶。",
+    "zh_hans": "元亨，利贞。至于八月有凶。"
+  },
+  "tuan": {
+    "zh_hant": "臨，剛浸而長，說而順，剛中而應。大亨以正、天之道也。至于八月有凶、消不久也。",
+    "zh_hans": "临，刚浸而长，说而顺，刚中而应。大亨以正、天之道也。至于八月有凶、消不久也。"
+  },
+  "image": {
+    "zh_hant": "澤上有地，臨。君子以教思无窮，容保民无疆。",
+    "zh_hans": "泽上有地，临。君子以教思无穷，容保民无疆。"
+  },
+  "lines": [
+    {
+      "position": 1,
+      "label": {
+        "zh_hant": "初九",
+        "zh_hans": "初九"
+      },
+      "text": {
+        "zh_hant": "咸臨，貞吉。",
+        "zh_hans": "咸临，贞吉。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "咸臨貞吉、志行正也。",
+        "zh_hans": "咸临贞吉、志行正也。"
+      }
+    },
+    {
+      "position": 2,
+      "label": {
+        "zh_hant": "九二",
+        "zh_hans": "九二"
+      },
+      "text": {
+        "zh_hant": "咸臨吉，无不利。",
+        "zh_hans": "咸临吉，无不利。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "咸臨吉无不利、未順命也。",
+        "zh_hans": "咸临吉无不利、未顺命也。"
+      }
+    },
+    {
+      "position": 3,
+      "label": {
+        "zh_hant": "六三",
+        "zh_hans": "六三"
+      },
+      "text": {
+        "zh_hant": "甘臨，无攸利；既憂之，无咎。",
+        "zh_hans": "甘临，无攸利；既忧之，无咎。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "甘臨、位不當也，既憂之、咎不長也。",
+        "zh_hans": "甘临、位不当也，既忧之、咎不长也。"
+      }
+    },
+    {
+      "position": 4,
+      "label": {
+        "zh_hant": "六四",
+        "zh_hans": "六四"
+      },
+      "text": {
+        "zh_hant": "至臨，无咎。",
+        "zh_hans": "至临，无咎。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "至臨无咎、位當也。",
+        "zh_hans": "至临无咎、位当也。"
+      }
+    },
+    {
+      "position": 5,
+      "label": {
+        "zh_hant": "六五",
+        "zh_hans": "六五"
+      },
+      "text": {
+        "zh_hant": "知臨，大君之宜，吉。",
+        "zh_hans": "知临，大君之宜，吉。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "大君之宜、行中之謂也。",
+        "zh_hans": "大君之宜、行中之谓也。"
+      }
+    },
+    {
+      "position": 6,
+      "label": {
+        "zh_hant": "上六",
+        "zh_hans": "上六"
+      },
+      "text": {
+        "zh_hant": "敦臨吉，无咎。",
+        "zh_hans": "敦临吉，无咎。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "敦臨之吉、志在內也。",
+        "zh_hans": "敦临之吉、志在内也。"
+      }
+    }
+  ],
+  "variants": [],
+  "source": {
+    "text": {
+      "work": "周易",
+      "edition": "Kanseki Repository KR1a0001 (base edition: TLS)",
+      "url": "https://github.com/kanripo/KR1a0001/blob/master/KR1a0001_019.txt"
+    },
+    "cross_check": {
+      "edition": "Chinese Wikisource, 周易/臨",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2106146"
+    }
+  }
+}

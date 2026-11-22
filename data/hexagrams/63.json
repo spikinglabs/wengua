@@ -1,0 +1,131 @@
+{
+  "number": 63,
+  "unicode": "䷾",
+  "binary": "101010",
+  "trigrams": {
+    "lower": "li",
+    "upper": "kan"
+  },
+  "name": {
+    "zh_hant": "既濟",
+    "zh_hans": "既济",
+    "pinyin": "jì jì",
+    "en": "After Completion"
+  },
+  "judgment": {
+    "zh_hant": "亨。小利貞。初吉終亂。",
+    "zh_hans": "亨。小利贞。初吉终乱。"
+  },
+  "tuan": {
+    "zh_hant": "既濟亨，小者亨也。利貞。剛柔正而位當也。初吉、柔得中也。終止則亂，其道窮也。",
+    "zh_hans": "既济亨，小者亨也。利贞。刚柔正而位当也。初吉、柔得中也。终止则乱，其道穷也。"
+  },
+  "image": {
+    "zh_hant": "水在火上，既濟。君子以思患而豫防之。",
+    "zh_hans": "水在火上，既济。君子以思患而豫防之。"
+  },
+  "lines": [
+    {
+      "position": 1,
+      "label": {
+        "zh_hant": "初九",
+        "zh_hans": "初九"
+      },
+      "text": {
+        "zh_hant": "曳其輪，濡其尾，无咎。",
+        "zh_hans": "曳其轮，濡其尾，无咎。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "曳其輪、義无咎也。",
+        "zh_hans": "曳其轮、义无咎也。"
+      }
+    },
+    {
+      "position": 2,
+      "label": {
+        "zh_hant": "六二",
+        "zh_hans": "六二"
+      },
+      "text": {
+        "zh_hant": "婦喪其茀，勿逐，七日得。",
+        "zh_hans": "妇丧其茀，勿逐，七日得。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "七日得、以中道也。",
+        "zh_hans": "七日得、以中道也。"
+      }
+    },
+    {
+      "position": 3,
+      "label": {
+        "zh_hant": "九三",
+        "zh_hans": "九三"
+      },
+      "text": {
+        "zh_hant": "高宗伐鬼方，三年克之，小人勿用。",
+        "zh_hans": "高宗伐鬼方，三年克之，小人勿用。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "三年克之、憊也。",
+        "zh_hans": "三年克之、惫也。"
+      }
+    },
+    {
+      "position": 4,
+      "label": {
+        "zh_hant": "六四",
+        "zh_hans": "六四"
+      },
+      "text": {
+        "zh_hant": "繻有衣袽，終日戒。",
+        "zh_hans": "𦈡有衣袽，终日戒。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "終日戒、有所疑也。",
+        "zh_hans": "终日戒、有所疑也。"
+      }
+    },
+    {
+      "position": 5,
+      "label": {
+        "zh_hant": "九五",
+        "zh_hans": "九五"
+      },
+      "text": {
+        "zh_hant": "東鄰殺牛，不如西鄰之禴祭實受其福。",
+        "zh_hans": "东邻杀牛，不如西邻之禴祭实受其福。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "東鄰殺牛、不如西鄰之時也。實受其福、吉大來也。",
+        "zh_hans": "东邻杀牛、不如西邻之时也。实受其福、吉大来也。"
+      }
+    },
+    {
+      "position": 6,
+      "label": {
+        "zh_hant": "上六",
+        "zh_hans": "上六"
+      },
+      "text": {
+        "zh_hant": "濡其首，厲。",
+        "zh_hans": "濡其首，厉。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "濡其首、厲、何可久也？",
+        "zh_hans": "濡其首、厉、何可久也？"
+      }
+    }
+  ],
+  "variants": [],
+  "source": {
+    "text": {
+      "work": "周易",
+      "edition": "Kanseki Repository KR1a0001 (base edition: TLS)",
+      "url": "https://github.com/kanripo/KR1a0001/blob/master/KR1a0001_063.txt"
+    },
+    "cross_check": {
+      "edition": "Chinese Wikisource, 周易/既濟",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2572417"
+    }
+  }
+}

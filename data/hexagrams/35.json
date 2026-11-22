@@ -1,0 +1,141 @@
+{
+  "number": 35,
+  "unicode": "䷢",
+  "binary": "000101",
+  "trigrams": {
+    "lower": "kun",
+    "upper": "li"
+  },
+  "name": {
+    "zh_hant": "晉",
+    "zh_hans": "晋",
+    "pinyin": "jìn",
+    "en": "Advance"
+  },
+  "judgment": {
+    "zh_hant": "康侯用錫馬蕃庶，晝日三接。",
+    "zh_hans": "康侯用锡马蕃庶，昼日三接。"
+  },
+  "tuan": {
+    "zh_hant": "晉、進也。明出地上。順而麗乎大明，柔進而上行，是以康侯用錫馬蕃庶晝日三接也。",
+    "zh_hans": "晋、进也。明出地上。顺而丽乎大明，柔进而上行，是以康侯用锡马蕃庶昼日三接也。"
+  },
+  "image": {
+    "zh_hant": "明出地上，晉。君子以自昭明德。",
+    "zh_hans": "明出地上，晋。君子以自昭明德。"
+  },
+  "lines": [
+    {
+      "position": 1,
+      "label": {
+        "zh_hant": "初六",
+        "zh_hans": "初六"
+      },
+      "text": {
+        "zh_hant": "晉如摧如，貞吉。罔孚，裕无咎。",
+        "zh_hans": "晋如摧如，贞吉。罔孚，裕无咎。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "晉如摧如、獨行正也，裕无咎、未受命也。",
+        "zh_hans": "晋如摧如、独行正也，裕无咎、未受命也。"
+      }
+    },
+    {
+      "position": 2,
+      "label": {
+        "zh_hant": "六二",
+        "zh_hans": "六二"
+      },
+      "text": {
+        "zh_hant": "晉如，愁如，貞吉。受茲介福于其王母。",
+        "zh_hans": "晋如，愁如，贞吉。受兹介福于其王母。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "受茲介福、以中正也。",
+        "zh_hans": "受兹介福、以中正也。"
+      }
+    },
+    {
+      "position": 3,
+      "label": {
+        "zh_hant": "六三",
+        "zh_hans": "六三"
+      },
+      "text": {
+        "zh_hant": "眾允，悔亡。",
+        "zh_hans": "众允，悔亡。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "眾允之、志上行也。",
+        "zh_hans": "众允之、志上行也。"
+      }
+    },
+    {
+      "position": 4,
+      "label": {
+        "zh_hant": "九四",
+        "zh_hans": "九四"
+      },
+      "text": {
+        "zh_hant": "晉如鼫鼠，貞厲。",
+        "zh_hans": "晋如鼫鼠，贞厉。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "鼫鼠貞厲、位不當也。",
+        "zh_hans": "鼫鼠贞厉、位不当也。"
+      }
+    },
+    {
+      "position": 5,
+      "label": {
+        "zh_hant": "六五",
+        "zh_hans": "六五"
+      },
+      "text": {
+        "zh_hant": "悔亡，失得勿恤。往吉，无不利。",
+        "zh_hans": "悔亡，失得勿恤。往吉，无不利。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "失得勿恤、往有慶也。",
+        "zh_hans": "失得勿恤、往有庆也。"
+      }
+    },
+    {
+      "position": 6,
+      "label": {
+        "zh_hant": "上九",
+        "zh_hans": "上九"
+      },
+      "text": {
+        "zh_hant": "晉其角，維用伐邑，厲吉，无咎，貞吝。",
+        "zh_hans": "晋其角，维用伐邑，厉吉，无咎，贞吝。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "維用伐邑、道未光也。",
+        "zh_hans": "维用伐邑、道未光也。"
+      }
+    }
+  ],
+  "variants": [
+    {
+      "field": "lines.5.text",
+      "differences": [
+        {
+          "primary": "失",
+          "wikisource": "矢"
+        }
+      ]
+    }
+  ],
+  "source": {
+    "text": {
+      "work": "周易",
+      "edition": "Kanseki Repository KR1a0001 (base edition: TLS)",
+      "url": "https://github.com/kanripo/KR1a0001/blob/master/KR1a0001_035.txt"
+    },
+    "cross_check": {
+      "edition": "Chinese Wikisource, 周易/晉",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=10646579"
+    }
+  }
+}

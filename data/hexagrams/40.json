@@ -1,0 +1,159 @@
+{
+  "number": 40,
+  "unicode": "䷧",
+  "binary": "010100",
+  "trigrams": {
+    "lower": "kan",
+    "upper": "zhen"
+  },
+  "name": {
+    "zh_hant": "解",
+    "zh_hans": "解",
+    "pinyin": "xiè",
+    "en": "Release"
+  },
+  "judgment": {
+    "zh_hant": "利西南。无所往，其來復吉。有攸往，夙吉。",
+    "zh_hans": "利西南。无所往，其来复吉。有攸往，夙吉。"
+  },
+  "tuan": {
+    "zh_hant": "解、險以動，動而免乎險，解。解利西南、往得眾也，其來復吉、乃得中也。有攸往夙吉、往有功也。天地解而雷雨作，雷雨作而百果草木皆甲坼。解之時大矣哉！",
+    "zh_hans": "解、险以动，动而免乎险，解。解利西南、往得众也，其来复吉、乃得中也。有攸往夙吉、往有功也。天地解而雷雨作，雷雨作而百果草木皆甲坼。解之时大矣哉！"
+  },
+  "image": {
+    "zh_hant": "雷雨作，解。君子以赦過宥罪。",
+    "zh_hans": "雷雨作，解。君子以赦过宥罪。"
+  },
+  "lines": [
+    {
+      "position": 1,
+      "label": {
+        "zh_hant": "初六",
+        "zh_hans": "初六"
+      },
+      "text": {
+        "zh_hant": "无咎。",
+        "zh_hans": "无咎。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "剛柔之際，義无咎也。",
+        "zh_hans": "刚柔之际，义无咎也。"
+      }
+    },
+    {
+      "position": 2,
+      "label": {
+        "zh_hant": "九二",
+        "zh_hans": "九二"
+      },
+      "text": {
+        "zh_hant": "田獲三狐，得黃矢，貞吉。",
+        "zh_hans": "田获三狐，得黄矢，贞吉。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "九二貞吉、得中道也。",
+        "zh_hans": "九二贞吉、得中道也。"
+      }
+    },
+    {
+      "position": 3,
+      "label": {
+        "zh_hant": "六三",
+        "zh_hans": "六三"
+      },
+      "text": {
+        "zh_hant": "負且乘，致寇至，貞吝。",
+        "zh_hans": "负且乘，致寇至，贞吝。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "負且乘、亦可醜也。自我致戎，又誰咎也？",
+        "zh_hans": "负且乘、亦可丑也。自我致戎，又谁咎也？"
+      }
+    },
+    {
+      "position": 4,
+      "label": {
+        "zh_hant": "九四",
+        "zh_hans": "九四"
+      },
+      "text": {
+        "zh_hant": "解而拇，朋至斯孚。",
+        "zh_hans": "解而拇，朋至斯孚。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "解而拇、未當位也。",
+        "zh_hans": "解而拇、未当位也。"
+      }
+    },
+    {
+      "position": 5,
+      "label": {
+        "zh_hant": "六五",
+        "zh_hans": "六五"
+      },
+      "text": {
+        "zh_hant": "君子維有解，吉，有孚于小人。",
+        "zh_hans": "君子维有解，吉，有孚于小人。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "君子有解、小人退也。",
+        "zh_hans": "君子有解、小人退也。"
+      }
+    },
+    {
+      "position": 6,
+      "label": {
+        "zh_hant": "上六",
+        "zh_hans": "上六"
+      },
+      "text": {
+        "zh_hant": "公用射隼于高墉之上，獲之，无不利。",
+        "zh_hans": "公用射隼于高墉之上，获之，无不利。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "公用射隼、以解悖也。",
+        "zh_hans": "公用射隼、以解悖也。"
+      }
+    }
+  ],
+  "variants": [
+    {
+      "field": "tuan",
+      "differences": [
+        {
+          "primary": "",
+          "wikisource": "義"
+        }
+      ]
+    },
+    {
+      "field": "lines.3.xiao_xiang",
+      "differences": [
+        {
+          "primary": "醜",
+          "wikisource": "丑"
+        }
+      ]
+    },
+    {
+      "field": "lines.5.text",
+      "differences": [
+        {
+          "primary": "維",
+          "wikisource": "惟"
+        }
+      ]
+    }
+  ],
+  "source": {
+    "text": {
+      "work": "周易",
+      "edition": "Kanseki Repository KR1a0001 (base edition: TLS)",
+      "url": "https://github.com/kanripo/KR1a0001/blob/master/KR1a0001_040.txt"
+    },
+    "cross_check": {
+      "edition": "Chinese Wikisource, 周易/解",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=10646666"
+    }
+  }
+}

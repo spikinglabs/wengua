@@ -1,0 +1,131 @@
+{
+  "number": 27,
+  "unicode": "䷚",
+  "binary": "100001",
+  "trigrams": {
+    "lower": "zhen",
+    "upper": "gen"
+  },
+  "name": {
+    "zh_hant": "頤",
+    "zh_hans": "颐",
+    "pinyin": "yí",
+    "en": "Nourishment"
+  },
+  "judgment": {
+    "zh_hant": "貞吉。觀頤，自求口實。",
+    "zh_hans": "贞吉。观颐，自求口实。"
+  },
+  "tuan": {
+    "zh_hant": "頤貞吉，養正則吉也。觀頤、觀其所養也，自求口實、觀其自養也。天地養萬物，聖人養賢以及萬民，頤之時大矣哉！",
+    "zh_hans": "颐贞吉，养正则吉也。观颐、观其所养也，自求口实、观其自养也。天地养万物，圣人养贤以及万民，颐之时大矣哉！"
+  },
+  "image": {
+    "zh_hant": "山下有雷，頤。君子以慎言語、節飲食。",
+    "zh_hans": "山下有雷，颐。君子以慎言语、节饮食。"
+  },
+  "lines": [
+    {
+      "position": 1,
+      "label": {
+        "zh_hant": "初九",
+        "zh_hans": "初九"
+      },
+      "text": {
+        "zh_hant": "舍爾靈龜，觀我朵頤，凶。",
+        "zh_hans": "舍尔灵龟，观我朵颐，凶。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "觀我朵頤、亦不足貴也。",
+        "zh_hans": "观我朵颐、亦不足贵也。"
+      }
+    },
+    {
+      "position": 2,
+      "label": {
+        "zh_hant": "六二",
+        "zh_hans": "六二"
+      },
+      "text": {
+        "zh_hant": "顛頤，拂經于丘，頤、征凶。",
+        "zh_hans": "颠颐，拂经于丘，颐、征凶。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "六二征凶、行失類也。",
+        "zh_hans": "六二征凶、行失类也。"
+      }
+    },
+    {
+      "position": 3,
+      "label": {
+        "zh_hant": "六三",
+        "zh_hans": "六三"
+      },
+      "text": {
+        "zh_hant": "拂頤貞、凶，十年勿用，无攸利。",
+        "zh_hans": "拂颐贞、凶，十年勿用，无攸利。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "十年勿用、道大悖也。",
+        "zh_hans": "十年勿用、道大悖也。"
+      }
+    },
+    {
+      "position": 4,
+      "label": {
+        "zh_hant": "六四",
+        "zh_hans": "六四"
+      },
+      "text": {
+        "zh_hant": "顛頤，吉。虎視眈眈，其欲逐逐，无咎。",
+        "zh_hans": "颠颐，吉。虎视眈眈，其欲逐逐，无咎。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "顛頤之吉、上施光也。",
+        "zh_hans": "颠颐之吉、上施光也。"
+      }
+    },
+    {
+      "position": 5,
+      "label": {
+        "zh_hant": "六五",
+        "zh_hans": "六五"
+      },
+      "text": {
+        "zh_hant": "拂經，居貞、吉，不可涉大川。",
+        "zh_hans": "拂经，居贞、吉，不可涉大川。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "居貞之吉、順以從上也。",
+        "zh_hans": "居贞之吉、顺以从上也。"
+      }
+    },
+    {
+      "position": 6,
+      "label": {
+        "zh_hant": "上九",
+        "zh_hans": "上九"
+      },
+      "text": {
+        "zh_hant": "由頤，厲、吉。利涉大川。",
+        "zh_hans": "由颐，厉、吉。利涉大川。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "由頤厲吉、大有慶也。",
+        "zh_hans": "由颐厉吉、大有庆也。"
+      }
+    }
+  ],
+  "variants": [],
+  "source": {
+    "text": {
+      "work": "周易",
+      "edition": "Kanseki Repository KR1a0001 (base edition: TLS)",
+      "url": "https://github.com/kanripo/KR1a0001/blob/master/KR1a0001_027.txt"
+    },
+    "cross_check": {
+      "edition": "Chinese Wikisource, 周易/頤",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=10643091"
+    }
+  }
+}

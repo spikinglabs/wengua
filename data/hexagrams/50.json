@@ -1,0 +1,141 @@
+{
+  "number": 50,
+  "unicode": "䷱",
+  "binary": "011101",
+  "trigrams": {
+    "lower": "xun",
+    "upper": "li"
+  },
+  "name": {
+    "zh_hant": "鼎",
+    "zh_hans": "鼎",
+    "pinyin": "dǐng",
+    "en": "The Cauldron"
+  },
+  "judgment": {
+    "zh_hant": "元吉，亨。",
+    "zh_hans": "元吉，亨。"
+  },
+  "tuan": {
+    "zh_hant": "鼎象也、以木巽火，亨飪也。聖人亨以享上帝，而大亨以養聖賢。巽而耳目聰明，柔進而上行，得中而應乎剛，是以元亨。",
+    "zh_hans": "鼎象也、以木巽火，亨饪也。圣人亨以享上帝，而大亨以养圣贤。巽而耳目聪明，柔进而上行，得中而应乎刚，是以元亨。"
+  },
+  "image": {
+    "zh_hant": "木上有火，鼎。君子以正位凝命。",
+    "zh_hans": "木上有火，鼎。君子以正位凝命。"
+  },
+  "lines": [
+    {
+      "position": 1,
+      "label": {
+        "zh_hant": "初六",
+        "zh_hans": "初六"
+      },
+      "text": {
+        "zh_hant": "鼎顛趾，利出否。得妾以其子，无咎。",
+        "zh_hans": "鼎颠趾，利出否。得妾以其子，无咎。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "鼎顛趾、未悖也，利出否、以從貴也。",
+        "zh_hans": "鼎颠趾、未悖也，利出否、以从贵也。"
+      }
+    },
+    {
+      "position": 2,
+      "label": {
+        "zh_hant": "九二",
+        "zh_hans": "九二"
+      },
+      "text": {
+        "zh_hant": "鼎有實，我仇有疾，不我能即，吉。",
+        "zh_hans": "鼎有实，我仇有疾，不我能即，吉。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "鼎有實、慎所之也，我仇有疾、終无尤也。",
+        "zh_hans": "鼎有实、慎所之也，我仇有疾、终无尤也。"
+      }
+    },
+    {
+      "position": 3,
+      "label": {
+        "zh_hant": "九三",
+        "zh_hans": "九三"
+      },
+      "text": {
+        "zh_hant": "鼎耳革，其行塞，雉膏不食，方雨，虧悔，終吉。",
+        "zh_hans": "鼎耳革，其行塞，雉膏不食，方雨，亏悔，终吉。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "鼎耳革、失其義也。",
+        "zh_hans": "鼎耳革、失其义也。"
+      }
+    },
+    {
+      "position": 4,
+      "label": {
+        "zh_hant": "九四",
+        "zh_hans": "九四"
+      },
+      "text": {
+        "zh_hant": "鼎折足，覆公餗，其形渥，凶。",
+        "zh_hans": "鼎折足，覆公𫗧，其形渥，凶。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "覆公餗、信如何也。",
+        "zh_hans": "覆公𫗧、信如何也。"
+      }
+    },
+    {
+      "position": 5,
+      "label": {
+        "zh_hant": "六五",
+        "zh_hans": "六五"
+      },
+      "text": {
+        "zh_hant": "鼎黃耳金鉉，利貞。",
+        "zh_hans": "鼎黄耳金铉，利贞。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "鼎黃耳、中以為實也。",
+        "zh_hans": "鼎黄耳、中以为实也。"
+      }
+    },
+    {
+      "position": 6,
+      "label": {
+        "zh_hant": "上九",
+        "zh_hans": "上九"
+      },
+      "text": {
+        "zh_hant": "鼎玉鉉，大吉，无不利。",
+        "zh_hans": "鼎玉铉，大吉，无不利。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "玉鉉在上、剛柔節也。",
+        "zh_hans": "玉铉在上、刚柔节也。"
+      }
+    }
+  ],
+  "variants": [
+    {
+      "field": "lines.4.text",
+      "differences": [
+        {
+          "primary": "形",
+          "wikisource": "刑"
+        }
+      ]
+    }
+  ],
+  "source": {
+    "text": {
+      "work": "周易",
+      "edition": "Kanseki Repository KR1a0001 (base edition: TLS)",
+      "url": "https://github.com/kanripo/KR1a0001/blob/master/KR1a0001_050.txt"
+    },
+    "cross_check": {
+      "edition": "Chinese Wikisource, 周易/鼎",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=10647086"
+    }
+  }
+}

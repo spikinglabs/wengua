@@ -1,0 +1,159 @@
+{
+  "number": 10,
+  "unicode": "䷉",
+  "binary": "110111",
+  "trigrams": {
+    "lower": "dui",
+    "upper": "qian"
+  },
+  "name": {
+    "zh_hant": "履",
+    "zh_hans": "履",
+    "pinyin": "lǚ",
+    "en": "Treading"
+  },
+  "judgment": {
+    "zh_hant": "履虎尾，不咥人。亨。",
+    "zh_hans": "履虎尾，不咥人。亨。"
+  },
+  "tuan": {
+    "zh_hant": "履、柔履剛也。說而應乎乾，是以履虎尾、不咥人、亨，剛中正、履帝位而不疚，光明也。",
+    "zh_hans": "履、柔履刚也。说而应乎乾，是以履虎尾、不咥人、亨，刚中正、履帝位而不疚，光明也。"
+  },
+  "image": {
+    "zh_hant": "上天下澤，履。君子以辯上下，定民志。",
+    "zh_hans": "上天下泽，履。君子以辩上下，定民志。"
+  },
+  "lines": [
+    {
+      "position": 1,
+      "label": {
+        "zh_hant": "初九",
+        "zh_hans": "初九"
+      },
+      "text": {
+        "zh_hant": "素履往，无咎。",
+        "zh_hans": "素履往，无咎。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "素履之往、獨行願也。",
+        "zh_hans": "素履之往、独行愿也。"
+      }
+    },
+    {
+      "position": 2,
+      "label": {
+        "zh_hant": "九二",
+        "zh_hans": "九二"
+      },
+      "text": {
+        "zh_hant": "履道坦坦，幽人貞吉。",
+        "zh_hans": "履道坦坦，幽人贞吉。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "幽人貞吉、中不自亂也。",
+        "zh_hans": "幽人贞吉、中不自乱也。"
+      }
+    },
+    {
+      "position": 3,
+      "label": {
+        "zh_hant": "六三",
+        "zh_hans": "六三"
+      },
+      "text": {
+        "zh_hant": "眇能視，跛能履，履虎尾，咥人凶。武人為于大君。",
+        "zh_hans": "眇能视，跛能履，履虎尾，咥人凶。武人为于大君。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "眇能視、不足以有明也，跛能履、不足以與行也。咥人之凶、位不當也，武人為于大君、志剛也。",
+        "zh_hans": "眇能视、不足以有明也，跛能履、不足以与行也。咥人之凶、位不当也，武人为于大君、志刚也。"
+      }
+    },
+    {
+      "position": 4,
+      "label": {
+        "zh_hant": "九四",
+        "zh_hans": "九四"
+      },
+      "text": {
+        "zh_hant": "履虎尾愬愬，終吉。",
+        "zh_hans": "履虎尾愬愬，终吉。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "愬愬終吉、志行也。",
+        "zh_hans": "愬愬终吉、志行也。"
+      }
+    },
+    {
+      "position": 5,
+      "label": {
+        "zh_hant": "九五",
+        "zh_hans": "九五"
+      },
+      "text": {
+        "zh_hant": "夬履貞厲。",
+        "zh_hans": "夬履贞厉。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "夬履貞厲、位正當也。",
+        "zh_hans": "夬履贞厉、位正当也。"
+      }
+    },
+    {
+      "position": 6,
+      "label": {
+        "zh_hant": "上九",
+        "zh_hans": "上九"
+      },
+      "text": {
+        "zh_hant": "視履考祥，其旋，元吉。",
+        "zh_hans": "视履考祥，其旋，元吉。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "元吉在上、大有慶也。",
+        "zh_hans": "元吉在上、大有庆也。"
+      }
+    }
+  ],
+  "variants": [
+    {
+      "field": "tuan",
+      "differences": [
+        {
+          "primary": "",
+          "wikisource": "利貞"
+        }
+      ]
+    },
+    {
+      "field": "image",
+      "differences": [
+        {
+          "primary": "辯",
+          "wikisource": "辨"
+        }
+      ]
+    },
+    {
+      "field": "lines.6.text",
+      "differences": [
+        {
+          "primary": "祥",
+          "wikisource": "詳"
+        }
+      ]
+    }
+  ],
+  "source": {
+    "text": {
+      "work": "周易",
+      "edition": "Kanseki Repository KR1a0001 (base edition: TLS)",
+      "url": "https://github.com/kanripo/KR1a0001/blob/master/KR1a0001_010.txt"
+    },
+    "cross_check": {
+      "edition": "Chinese Wikisource, 周易/履",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=10647513"
+    }
+  }
+}

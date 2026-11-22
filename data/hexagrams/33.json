@@ -1,0 +1,131 @@
+{
+  "number": 33,
+  "unicode": "䷠",
+  "binary": "001111",
+  "trigrams": {
+    "lower": "gen",
+    "upper": "qian"
+  },
+  "name": {
+    "zh_hant": "遯",
+    "zh_hans": "遯",
+    "pinyin": "dùn",
+    "en": "Retreat"
+  },
+  "judgment": {
+    "zh_hant": "亨。小利貞。",
+    "zh_hans": "亨。小利贞。"
+  },
+  "tuan": {
+    "zh_hant": "遯亨，遯而亨也。剛當位而應，與時行也。小利貞、浸而長也。遯之時義大矣哉！",
+    "zh_hans": "遯亨，遯而亨也。刚当位而应，与时行也。小利贞、浸而长也。遯之时义大矣哉！"
+  },
+  "image": {
+    "zh_hant": "天下有山，遯。君子以遠小人，不惡而嚴。",
+    "zh_hans": "天下有山，遯。君子以远小人，不恶而严。"
+  },
+  "lines": [
+    {
+      "position": 1,
+      "label": {
+        "zh_hant": "初六",
+        "zh_hans": "初六"
+      },
+      "text": {
+        "zh_hant": "遯尾、厲，勿用有攸往。",
+        "zh_hans": "遯尾、厉，勿用有攸往。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "遯尾之厲、不往何災也？",
+        "zh_hans": "遯尾之厉、不往何灾也？"
+      }
+    },
+    {
+      "position": 2,
+      "label": {
+        "zh_hant": "六二",
+        "zh_hans": "六二"
+      },
+      "text": {
+        "zh_hant": "執之用黃牛之革，莫之勝、說。",
+        "zh_hans": "执之用黄牛之革，莫之胜、说。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "執用黃牛、固志也。",
+        "zh_hans": "执用黄牛、固志也。"
+      }
+    },
+    {
+      "position": 3,
+      "label": {
+        "zh_hant": "九三",
+        "zh_hans": "九三"
+      },
+      "text": {
+        "zh_hant": "係遯，有疾厲，畜臣妾吉。",
+        "zh_hans": "系遯，有疾厉，畜臣妾吉。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "係遯之厲、有疾憊也，畜臣妾吉、不可大事也。",
+        "zh_hans": "系遯之厉、有疾惫也，畜臣妾吉、不可大事也。"
+      }
+    },
+    {
+      "position": 4,
+      "label": {
+        "zh_hant": "九四",
+        "zh_hans": "九四"
+      },
+      "text": {
+        "zh_hant": "好遯，君子吉，小人否。",
+        "zh_hans": "好遯，君子吉，小人否。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "君子好遯、小人否也。",
+        "zh_hans": "君子好遯、小人否也。"
+      }
+    },
+    {
+      "position": 5,
+      "label": {
+        "zh_hant": "九五",
+        "zh_hans": "九五"
+      },
+      "text": {
+        "zh_hant": "嘉遯，貞吉。",
+        "zh_hans": "嘉遯，贞吉。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "嘉遯貞吉、以正志也。",
+        "zh_hans": "嘉遯贞吉、以正志也。"
+      }
+    },
+    {
+      "position": 6,
+      "label": {
+        "zh_hant": "上九",
+        "zh_hans": "上九"
+      },
+      "text": {
+        "zh_hant": "肥遯，无不利。",
+        "zh_hans": "肥遯，无不利。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "肥遯无不利、无所疑也。",
+        "zh_hans": "肥遯无不利、无所疑也。"
+      }
+    }
+  ],
+  "variants": [],
+  "source": {
+    "text": {
+      "work": "周易",
+      "edition": "Kanseki Repository KR1a0001 (base edition: TLS)",
+      "url": "https://github.com/kanripo/KR1a0001/blob/master/KR1a0001_033.txt"
+    },
+    "cross_check": {
+      "edition": "Chinese Wikisource, 周易/遯",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=10645108"
+    }
+  }
+}
