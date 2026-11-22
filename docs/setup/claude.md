@@ -24,6 +24,8 @@ Connectors you add on the web also work in the Claude Desktop app and on mobile.
 
 In a chat, open the **+** menu, make sure **Wengua** is enabled, and ask for a reading. Claude shows the reading card (the hexagrams, the changing lines and the selected texts, with a 繁/简 toggle) inline.
 
+**If the card stays on "Casting…":** remove the Wengua connector, add it again, and start a new chat. Claude keeps the card it loaded when the connector was added, so a connector added before an update can show an old card. The reading itself is still in Claude's reply.
+
 ### Agent Skill
 
 Skills need code execution to be enabled (**Settings → Capabilities**).

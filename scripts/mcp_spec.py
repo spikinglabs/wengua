@@ -3,6 +3,7 @@ shared by the Python and TypeScript servers (and the hosted Worker)."""
 
 from __future__ import annotations
 
+import hashlib
 import json
 from pathlib import Path
 
@@ -93,7 +94,10 @@ PROMPTS = [{
     "template": "I'd like an I Ching reading.{question_part}\n\nPlease follow this flow:\n" + INSTRUCTIONS.split("\n\n", 1)[1],
 }]
 
-CARD_URI = "ui://wengua/reading"
+CARD_HTML = (ROOT / "spec" / "reading-card.html").read_text(encoding="utf-8")
+# The URI carries a hash of the card, so clients that cache UI resources by URI
+# fetch the new card whenever it changes.
+CARD_URI = "ui://wengua/reading/" + hashlib.sha256(CARD_HTML.encode()).hexdigest()[:8]
 for t in TOOLS:
     if t["name"] in ("cast", "read_cast"):
         t["_meta"] = {"ui": {"resourceUri": CARD_URI}}
@@ -101,7 +105,7 @@ UI_RESOURCES = [{
     "uri": CARD_URI, "name": "reading-card", "title": "Wengua reading card",
     "description": "Draws the cast: primary and relating hexagrams, changing lines and the selected texts, with a 繁/简 toggle.",
     "mimeType": "text/html;profile=mcp-app",
-    "text": (ROOT / "spec" / "reading-card.html").read_text(encoding="utf-8"),
+    "text": CARD_HTML,
 }]
 
 ICONS = [

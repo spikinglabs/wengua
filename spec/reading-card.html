@@ -37,10 +37,11 @@
   .test { color: var(--accent); font-size: 12px; }
   .foot { margin-top: 12px; color: var(--muted); font-size: 12px; }
   #empty { color: var(--muted); }
+  .ver { font-size: 11px; opacity: .6; }
 </style>
 </head>
 <body>
-<div id="empty">正在起卦… Casting…</div>
+<div id="empty">正在起卦… Casting… <span class="ver">card 3</span></div>
 <div id="card" hidden>
   <div class="bar-top"><span class="sub" id="question"></span><button id="script" type="button">简体</button></div>
   <div class="row" id="hexes"></div>
@@ -142,7 +143,7 @@
   // Some hosts never answer ui/initialize; don't wait forever.
   setTimeout(markInitialized, 1500);
   // If no result arrives, say where the reading is instead of spinning.
-  setTimeout(() => { if (!reading) $("empty").textContent = "卦象見下文。The reading is in the reply below."; }, 12000);
+  setTimeout(() => { if (!reading) $("empty").textContent = "卦象見下文。The reading is in the reply below. (card 3)"; }, 12000);
   new ResizeObserver(reportSize).observe(document.body);
 })();
 </script>
