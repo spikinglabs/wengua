@@ -57,6 +57,7 @@
     "additionalProperties": false
    },
    "annotations": {
+    "title": "Cast a hexagram",
     "readOnlyHint": true,
     "destructiveHint": false,
     "openWorldHint": false,
@@ -143,6 +144,7 @@
     "additionalProperties": false
    },
    "annotations": {
+    "title": "Read a physical cast",
     "readOnlyHint": true,
     "destructiveHint": false,
     "openWorldHint": false,
@@ -175,6 +177,7 @@
     "additionalProperties": false
    },
    "annotations": {
+    "title": "Look up a hexagram",
     "readOnlyHint": true,
     "destructiveHint": false,
     "openWorldHint": false,
@@ -211,6 +214,7 @@
     "additionalProperties": false
    },
    "annotations": {
+    "title": "Related hexagrams",
     "readOnlyHint": true,
     "destructiveHint": false,
     "openWorldHint": false,
