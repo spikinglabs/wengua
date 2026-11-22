@@ -89,7 +89,9 @@
     reportSize();
   }
   function reportSize() {
-    send({ method: "ui/notifications/size-changed", params: { width: document.documentElement.scrollWidth, height: document.documentElement.scrollHeight } });
+    // Measure the content, not the frame: the frame's own height would never let the card shrink.
+    const box = document.body.getBoundingClientRect();
+    send({ method: "ui/notifications/size-changed", params: { width: Math.ceil(box.width), height: Math.ceil(box.height) } });
   }
   $("script").addEventListener("click", () => { script = script === "zh_hant" ? "zh_hans" : "zh_hant"; render(); });
 
