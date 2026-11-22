@@ -23,7 +23,7 @@
   {
    "name": "cast",
    "title": "Cast a hexagram",
-   "description": "Cast an I Ching hexagram with a secure random number generator and return the full reading: primary hexagram, changing lines, relating (之), nuclear (互), opposite (錯) and inverse (綜) hexagrams, and the classical texts to read, chosen by Zhu Xi's rules. Use this whenever the user wants a reading. Never make up a hexagram yourself.",
+   "description": "Cast an I Ching hexagram with a secure random number generator and return the full reading: primary hexagram, changing lines, relating (之), nuclear (互), opposite (錯) and inverse (綜) hexagrams, and the classical texts to read, chosen by Zhu Xi's rules.",
    "inputSchema": {
     "type": "object",
     "properties": {
@@ -51,7 +51,7 @@
      },
      "locale": {
       "type": "string",
-      "description": "The user's language and script, e.g. \"en\", \"zh-Hans\" (simplified) or \"zh-Hant\" (traditional). Always pass it: it is echoed back so you answer in it, and the reading card opens in that script."
+      "description": "The user's language and script, e.g. \"en\", \"zh-Hans\" (simplified) or \"zh-Hant\" (traditional). It is echoed back in the result, and the reading card opens in that script."
      }
     },
     "additionalProperties": false
@@ -134,7 +134,7 @@
      },
      "locale": {
       "type": "string",
-      "description": "The user's language and script, e.g. \"en\", \"zh-Hans\" (simplified) or \"zh-Hant\" (traditional). Always pass it: it is echoed back so you answer in it, and the reading card opens in that script."
+      "description": "The user's language and script, e.g. \"en\", \"zh-Hans\" (simplified) or \"zh-Hant\" (traditional). It is echoed back in the result, and the reading card opens in that script."
      }
     },
     "required": [

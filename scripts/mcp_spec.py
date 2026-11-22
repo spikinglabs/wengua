@@ -21,7 +21,7 @@ When someone wants a reading:
 
 Boundaries: a reading is a prompt for reflection, not a prediction. Don't give medical, legal or financial verdicts, don't make claims about third parties, and if someone seems in distress, point them to real help. Readings made with a seed are marked `audit.test: true`: say clearly that they are tests."""
 
-LOCALE = {"type": "string", "description": "The user's language and script, e.g. \"en\", \"zh-Hans\" (simplified) or \"zh-Hant\" (traditional). Always pass it: it is echoed back so you answer in it, and the reading card opens in that script."}
+LOCALE = {"type": "string", "description": "The user's language and script, e.g. \"en\", \"zh-Hans\" (simplified) or \"zh-Hant\" (traditional). It is echoed back in the result, and the reading card opens in that script."}
 RULE = {"type": "string", "enum": ["zhuxi", "all"], "default": "zhuxi",
         "description": "Which texts to select: \"zhuxi\" (Zhu Xi's rules, the classical default) or \"all\" (every relevant text)."}
 QUESTION = {"type": "string", "description": "The question the user is asking. Optional but encouraged; it is not stored."}
@@ -32,8 +32,7 @@ TOOLS = [
         "title": "Cast a hexagram",
         "description": "Cast an I Ching hexagram with a secure random number generator and return the full reading: "
                        "primary hexagram, changing lines, relating (之), nuclear (互), opposite (錯) and inverse (綜) "
-                       "hexagrams, and the classical texts to read, chosen by Zhu Xi's rules. Use this whenever the "
-                       "user wants a reading. Never make up a hexagram yourself.",
+                       "hexagrams, and the classical texts to read, chosen by Zhu Xi's rules.",
         "inputSchema": {"type": "object", "properties": {
             "question": QUESTION,
             "method": {"type": "string", "enum": ["coins", "yarrow"], "default": "coins",
