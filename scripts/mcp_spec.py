@@ -13,7 +13,7 @@ INSTRUCTIONS = """Wengua 问卦 casts and looks up I Ching (易经 / 周易) hex
 
 When someone wants a reading:
 1. Help them turn a vague worry into one clear, open question ("What should I understand about…", not yes/no).
-2. Call `cast` (or `read_cast` if they cast coins or stalks themselves). Never invent, change or re-roll a result. If they want to ask the same question again right away, gently mention the tradition of not asking twice (不再三).
+2. Call `cast` (or `read_cast` if they cast coins or stalks themselves), with `locale` set to the user's language and script (zh-Hans if they write simplified Chinese, zh-Hant for traditional). Never invent, change or re-roll a result. If they want to ask the same question again right away, gently mention the tradition of not asking twice (不再三).
 3. Show the hexagram: symbol, number, Chinese name and English name, the changing lines, and the relating hexagram (之卦) if there is one.
 4. Quote the texts in `selection.texts` in Chinese (traditional or simplified, matching the user) with your own translation, and say which rule chose them (`selection.explanation`). Never quote a line or judgment that the tool did not return.
 5. Interpret by connecting the text and its imagery to their situation. Keep the classical text clearly apart from your interpretation.
@@ -21,7 +21,7 @@ When someone wants a reading:
 
 Boundaries: a reading is a prompt for reflection, not a prediction. Don't give medical, legal or financial verdicts, don't make claims about third parties, and if someone seems in distress, point them to real help. Readings made with a seed are marked `audit.test: true`: say clearly that they are tests."""
 
-LOCALE = {"type": "string", "description": "The user's language, e.g. \"en\", \"zh-Hans\", \"zh-Hant\". Echoed back so you answer in it."}
+LOCALE = {"type": "string", "description": "The user's language and script, e.g. \"en\", \"zh-Hans\" (simplified) or \"zh-Hant\" (traditional). Always pass it: it is echoed back so you answer in it, and the reading card opens in that script."}
 RULE = {"type": "string", "enum": ["zhuxi", "all"], "default": "zhuxi",
         "description": "Which texts to select: \"zhuxi\" (Zhu Xi's rules, the classical default) or \"all\" (every relevant text)."}
 QUESTION = {"type": "string", "description": "The question the user is asking. Optional but encouraged; it is not stored."}
