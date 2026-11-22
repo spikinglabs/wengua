@@ -1,6 +1,23 @@
 {
  "name": "wengua",
  "title": "Wengua 问卦",
+ "websiteUrl": "https://wengua.allo.land/",
+ "icons": [
+  {
+   "src": "https://wengua.allo.land/assets/icon-512.png",
+   "mimeType": "image/png",
+   "sizes": [
+    "512x512"
+   ]
+  },
+  {
+   "src": "https://wengua.allo.land/assets/icon.svg",
+   "mimeType": "image/svg+xml",
+   "sizes": [
+    "any"
+   ]
+  }
+ ],
  "instructions": "Wengua 问卦 casts and looks up I Ching (易经 / 周易) hexagrams. Code casts, the model reads.\n\nWhen someone wants a reading:\n1. Help them turn a vague worry into one clear, open question (\"What should I understand about…\", not yes/no).\n2. Call `cast` (or `read_cast` if they cast coins or stalks themselves). Never invent, change or re-roll a result. If they want to ask the same question again right away, gently mention the tradition of not asking twice (不再三).\n3. Show the hexagram: symbol, number, Chinese name and English name, the changing lines, and the relating hexagram (之卦) if there is one.\n4. Quote the texts in `selection.texts` in Chinese (traditional or simplified, matching the user) with your own translation, and say which rule chose them (`selection.explanation`). Never quote a line or judgment that the tool did not return.\n5. Interpret by connecting the text and its imagery to their situation. Keep the classical text clearly apart from your interpretation.\n6. End with one or two reflective questions, not a verdict.\n\nBoundaries: a reading is a prompt for reflection, not a prediction. Don't give medical, legal or financial verdicts, don't make claims about third parties, and if someone seems in distress, point them to real help. Readings made with a seed are marked `audit.test: true`: say clearly that they are tests.",
  "tools": [
   {
@@ -41,6 +58,7 @@
    },
    "annotations": {
     "readOnlyHint": true,
+    "destructiveHint": false,
     "openWorldHint": false,
     "idempotentHint": false
    },
@@ -126,6 +144,7 @@
    },
    "annotations": {
     "readOnlyHint": true,
+    "destructiveHint": false,
     "openWorldHint": false,
     "idempotentHint": true
    },
@@ -157,6 +176,7 @@
    },
    "annotations": {
     "readOnlyHint": true,
+    "destructiveHint": false,
     "openWorldHint": false,
     "idempotentHint": true
    }
@@ -192,6 +212,7 @@
    },
    "annotations": {
     "readOnlyHint": true,
+    "destructiveHint": false,
     "openWorldHint": false,
     "idempotentHint": true
    }

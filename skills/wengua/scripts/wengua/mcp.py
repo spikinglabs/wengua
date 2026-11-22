@@ -130,7 +130,8 @@ def handle(msg: dict) -> dict | None:
         return ok({
             "protocolVersion": requested if requested in PROTOCOL_VERSIONS else PROTOCOL_VERSIONS[0],
             "capabilities": {"tools": {}, "resources": {}, "prompts": {}},
-            "serverInfo": {"name": s["name"], "title": s["title"], "version": __version__},
+            "serverInfo": {"name": s["name"], "title": s["title"], "version": __version__,
+                           "websiteUrl": s.get("websiteUrl"), "icons": s.get("icons", [])},
             "instructions": s["instructions"],
         })
     if method == "ping":
