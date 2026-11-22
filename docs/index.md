@@ -10,7 +10,13 @@ Wengua lets people consult the *Book of Changes* from Claude, ChatGPT, Codex, Cu
 
 > 排卦归程序，解卦归模型。
 
-## Try it
+## Cast a hexagram
+
+Cast right here to see the hexagram and the classical texts for it. For an interpretation, use Wengua inside your AI (below).
+
+<div class="wengua-cast" data-lang="en"></div>
+
+## Use it in your AI
 
 - **MCP server:** add `https://wengua.allo.land/mcp` as a connector or MCP server. Free, no account.
 - **Agent Skill:** [download wengua-skill.zip](https://wengua.allo.land/wengua-skill.zip) and add it to your AI.

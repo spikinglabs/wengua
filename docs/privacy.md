@@ -4,7 +4,7 @@ description: "Privacy policy for Wengua 问卦: the hosted MCP server and websit
 
 # Privacy
 
-Last updated: 22 November 2026
+Last updated: 22 November 2026 (cast box added)
 
 Wengua is run by SpikingLabs as an open-source project. This policy covers the website and the hosted MCP server at `wengua.allo.land`.
 
@@ -19,7 +19,7 @@ The AI app you use (for example Claude or ChatGPT) sends your question to Wengua
 
 ## The website
 
-The documentation site is static. It sets no cookies and runs no analytics. Cloudflare, which hosts it, may keep standard security and traffic data under the [Cloudflare privacy policy](https://www.cloudflare.com/privacypolicy/).
+The documentation site is static. It sets no cookies and runs no analytics. The cast box on the home page asks the hosted server above for a cast, the same way an AI app does. It sends only the casting method, never your question: the question stays in your browser and is only shown back to you, and put in the text you can copy for your AI. Cloudflare, which hosts it, may keep standard security and traffic data under the [Cloudflare privacy policy](https://www.cloudflare.com/privacypolicy/).
 
 ## Local use
 
