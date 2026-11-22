@@ -2,4 +2,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://spikinglabs.github.io/wengua/sitemap.xml
+Sitemap: https://wengua.allo.land/sitemap.xml

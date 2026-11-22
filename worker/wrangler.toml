@@ -1,0 +1,23 @@
+# wengua.allo.land: the docs site (static assets built by Zensical into ../site)
+# and the hosted MCP server at /mcp, in one Worker.
+name = "wengua"
+main = "src/index.ts"
+compatibility_date = "2026-11-01"
+workers_dev = false
+routes = [{ pattern = "wengua.allo.land", custom_domain = true }]
+# No request logs: questions are never stored.
+observability = { enabled = false }
+
+[assets]
+directory = "../site"
+binding = "ASSETS"
+not_found_handling = "404-page"
+html_handling = "auto-trailing-slash"
+# Static files are served directly; only /mcp reaches the Worker code.
+run_worker_first = ["/mcp", "/mcp/*"]
+
+# 60 requests per minute per IP on /mcp.
+[[ratelimits]]
+name = "RATE_LIMITER"
+namespace_id = "1001"
+simple = { limit = 60, period = 60 }

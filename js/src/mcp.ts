@@ -13,7 +13,8 @@ import { VERSION } from "./version.js";
 export const PROTOCOL_VERSIONS = ["2025-11-25", "2025-06-18", "2025-03-26", "2024-11-05"];
 
 interface Prompt { name: string; title: string; description: string; arguments: unknown[]; template: string }
-interface Spec { name: string; title: string; instructions: string; tools: { name: string }[]; prompts: Prompt[] }
+interface UiResource { uri: string; name: string; title: string; description: string; mimeType: string; text: string }
+interface Spec { name: string; title: string; instructions: string; tools: { name: string }[]; prompts: Prompt[]; ui_resources?: UiResource[] }
 export const spec = specJson as unknown as Spec;
 
 type Json = Record<string, unknown>;
@@ -78,10 +79,13 @@ function resources() {
       uri: `wengua://trigram/${t.key}`, name: `trigram-${t.key}`,
       title: `${t.symbol} ${t.name.zh_hant} ${t.name.pinyin} · ${t.name.en}`, mimeType: "application/json",
     })),
+    ...(spec.ui_resources ?? []).map(({ text: _t, ...r }) => r),
   ];
 }
 
 function readResource(uri: string) {
+  const ui = spec.ui_resources?.find((r) => r.uri === uri);
+  if (ui) return { contents: [{ uri, mimeType: ui.mimeType, text: ui.text }] };
   let body: unknown;
   if (uri.startsWith("wengua://hexagram/")) body = hexagram(Number(uri.slice("wengua://hexagram/".length)));
   else if (uri.startsWith("wengua://trigram/")) body = trigrams().find((t) => t.key === uri.slice("wengua://trigram/".length));

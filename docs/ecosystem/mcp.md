@@ -7,7 +7,7 @@ description: "The Wengua MCP server, run locally with npx or uvx, with tools to 
 The MCP server ships inside both packages and needs no other dependencies.
 
 - **Local (stdio):** `npx -y wengua` or `uvx wengua`, for Claude Desktop, Claude Code, Cursor, VS Code, Goose and any MCP client.
-- **Hosted:** a free, stateless endpoint on Cloudflare Workers, for clients that can't run local servers (planned, see the [roadmap](../roadmap.md)).
+- **Hosted:** `https://wengua.allo.land/mcp`, free, with no account and no API key, for Claude.ai, ChatGPT and other clients that can't run local servers. It is stateless (Streamable HTTP, JSON responses), allows 60 requests a minute per IP, and never stores or logs questions.
 
 ```json
 {
@@ -17,7 +17,11 @@ The MCP server ships inside both packages and needs no other dependencies.
 }
 ```
 
-With Python: `"command": "uvx", "args": ["wengua"]`. In Claude Code: `claude mcp add wengua -- npx -y wengua`.
+With Python: `"command": "uvx", "args": ["wengua"]`. In Claude Code: `claude mcp add wengua -- npx -y wengua`, or for the hosted server, `claude mcp add --transport http wengua https://wengua.allo.land/mcp`. In Claude.ai and ChatGPT, add a custom connector with the URL `https://wengua.allo.land/mcp`.
+
+## Reading card
+
+In clients that support [MCP Apps](https://github.com/modelcontextprotocol/ext-apps) (Claude, ChatGPT and others), `cast` and `read_cast` also show an inline card (`ui://wengua/reading`). It draws the primary and relating hexagrams with the changing lines marked, lists the selected texts with their roles, and has a 繁體/简体 toggle. Other clients get the same reading as text.
 
 The server supports MCP protocol versions 2024-11-05 through 2025-11-25 and is tested with the official MCP Python SDK. Tool results include both `structuredContent` and the same JSON as text.
 

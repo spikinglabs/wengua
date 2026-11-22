@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Wengua 问卦: the accurate, open I Ching (易经) for every AI. Fair casting, sourced Chinese text, MCP server and CLI.",
   "keywords": ["i-ching", "yijing", "易经", "周易", "hexagram", "mcp", "divination", "ai"],
-  "homepage": "https://spikinglabs.github.io/wengua/",
+  "homepage": "https://wengua.allo.land/",
   "repository": { "type": "git", "url": "git+https://github.com/spikinglabs/wengua.git", "directory": "js" },
   "license": "MIT",
   "type": "module",

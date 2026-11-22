@@ -93,6 +93,17 @@ PROMPTS = [{
     "template": "I'd like an I Ching reading.{question_part}\n\nPlease follow this flow:\n" + INSTRUCTIONS.split("\n\n", 1)[1],
 }]
 
-out = {"name": "wengua", "title": "Wengua 问卦", "instructions": INSTRUCTIONS, "tools": TOOLS, "prompts": PROMPTS}
+CARD_URI = "ui://wengua/reading"
+for t in TOOLS:
+    if t["name"] in ("cast", "read_cast"):
+        t["_meta"] = {"ui": {"resourceUri": CARD_URI}}
+UI_RESOURCES = [{
+    "uri": CARD_URI, "name": "reading-card", "title": "Wengua reading card",
+    "description": "Draws the cast: primary and relating hexagrams, changing lines and the selected texts, with a 繁/简 toggle.",
+    "mimeType": "text/html;profile=mcp-app",
+    "text": (ROOT / "spec" / "reading-card.html").read_text(encoding="utf-8"),
+}]
+
+out = {"name": "wengua", "title": "Wengua 问卦", "instructions": INSTRUCTIONS, "tools": TOOLS, "prompts": PROMPTS, "ui_resources": UI_RESOURCES}
 (ROOT / "spec" / "mcp.json").write_text(json.dumps(out, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
 print("Wrote spec/mcp.json")

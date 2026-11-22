@@ -32,8 +32,15 @@ test("errors", () => {
 });
 
 test("resources and prompt", () => {
-  assert.equal(rpc("resources/list").result.resources.length, 72);
+  assert.equal(rpc("resources/list").result.resources.length, 73);
   const body = JSON.parse(rpc("resources/read", { uri: "wengua://hexagram/1" }).result.contents[0].text);
   assert.equal(body.name.zh_hant, "乾");
   assert.match(rpc("prompts/get", { name: "reading", arguments: { question: "my job" } }).result.messages[0].content.text, /my job/);
+});
+
+test("reading card", () => {
+  const tool = rpc("tools/list").result.tools.find((t: any) => t.name === "cast");
+  const c = rpc("resources/read", { uri: tool._meta.ui.resourceUri }).result.contents[0];
+  assert.equal(c.mimeType, "text/html;profile=mcp-app");
+  assert.match(c.text, /ui\/notifications\/tool-result/);
 });
