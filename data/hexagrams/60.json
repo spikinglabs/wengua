@@ -14,7 +14,8 @@
   },
   "judgment": {
     "zh_hant": "亨。苦節，不可貞。",
-    "zh_hans": "亨。苦节，不可贞。"
+    "zh_hans": "亨。苦节，不可贞。",
+    "en_legge": "Kieh intimates that (under its conditions) there will be progress and attainment. (But) if the regulations (which it prescribes) be severe and difficult, they cannot be permanent."
   },
   "tuan": {
     "zh_hant": "節亨。剛柔分而剛得中。苦節不可貞、其道窮也。說以行險，當位以節，中正以通。天地節而四時成。節以制度，不傷財，不害民。",
@@ -33,7 +34,8 @@
       },
       "text": {
         "zh_hant": "不出戶庭，无咎。",
-        "zh_hans": "不出户庭，无咎。"
+        "zh_hans": "不出户庭，无咎。",
+        "en_legge": "The first line, undivided, shows its subject not quitting the courtyard outside his door. There will be no error."
       },
       "xiao_xiang": {
         "zh_hant": "不出戶庭、知通塞也。",
@@ -48,7 +50,8 @@
       },
       "text": {
         "zh_hant": "不出門庭，凶。",
-        "zh_hans": "不出门庭，凶。"
+        "zh_hans": "不出门庭，凶。",
+        "en_legge": "The second line, undivided, shows its subject not quitting the courtyard inside his gate. There will be evil."
       },
       "xiao_xiang": {
         "zh_hant": "不出門庭凶、失時極也。",
@@ -63,7 +66,8 @@
       },
       "text": {
         "zh_hant": "不節若，則嗟若，无咎。",
-        "zh_hans": "不节若，则嗟若，无咎。"
+        "zh_hans": "不节若，则嗟若，无咎。",
+        "en_legge": "The third line, divided, shows its subject with no appearance of observing the (proper) regulations, in which case we shall see him lamenting. But there will be no one to blame (but himself)."
       },
       "xiao_xiang": {
         "zh_hant": "不節之嗟、又誰咎也。",
@@ -78,7 +82,8 @@
       },
       "text": {
         "zh_hant": "安節。亨。",
-        "zh_hans": "安节。亨。"
+        "zh_hans": "安节。亨。",
+        "en_legge": "The fourth line, divided, shows its subject quietly and naturally (attentive to all) regulations. There will be progress and success."
       },
       "xiao_xiang": {
         "zh_hant": "安節之亨、承上道也。",
@@ -93,7 +98,8 @@
       },
       "text": {
         "zh_hant": "甘節，吉，往有尚。",
-        "zh_hans": "甘节，吉，往有尚。"
+        "zh_hans": "甘节，吉，往有尚。",
+        "en_legge": "The fifth line, undivided, shows its subject sweetly and acceptably enacting his regulations. There will be good fortune. The onward progress with them will afford ground for admiration."
       },
       "xiao_xiang": {
         "zh_hant": "甘節之吉、居位中也。",
@@ -108,7 +114,8 @@
       },
       "text": {
         "zh_hant": "苦節，貞凶。悔亡。",
-        "zh_hans": "苦节，贞凶。悔亡。"
+        "zh_hans": "苦节，贞凶。悔亡。",
+        "en_legge": "The topmost line, divided, shows its subject enacting regulations severe and difficult. Even with firmness and correctness there will be evil. But though there will be cause for repentance, it will (by and by) disappear."
       },
       "xiao_xiang": {
         "zh_hant": "苦節貞凶、其道窮也。",

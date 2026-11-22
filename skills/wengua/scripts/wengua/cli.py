@@ -47,6 +47,8 @@ def render(r: dict) -> str:
         out.append(f"    {t['text']['zh_hant']}")
         if t["text"]["zh_hans"] != t["text"]["zh_hant"]:
             out.append(f"    {t['text']['zh_hans']}")
+        if t["text"].get("en_legge"):
+            out.append(f"    {t['text']['en_legge']} (Legge)")
     a = r["audit"]
     out.append("")
     out.append(f"互 {both(r['nuclear']['name'])} · 錯/错 {both(r['opposite']['name'])} · 綜/综 {both(r['inverse']['name'])}")
@@ -98,6 +100,7 @@ def main(argv=None) -> int:
                     print(f"  {h['judgment']['zh_hant']}")
                     if h["judgment"]["zh_hans"] != h["judgment"]["zh_hant"]:
                         print(f"  {h['judgment']['zh_hans']}")
+                    print(f"  {h['judgment']['en_legge']} (Legge)")
             return 0
         if a.cmd == "cast":
             r = cast(a.question, a.method, rule=a.rule, seed=a.seed, mode="test" if a.seed is not None else None)

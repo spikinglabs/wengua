@@ -21,7 +21,7 @@ Kanripo's `WYG` branch of KR1a0006 (四庫全書本) turned out to be the same t
 After the emendations, 11 differences with the Song edition remain. None meets the two-against-one rule.
 
 - **Transcription errors in the witness** (kept as in the base text): 大過 九二 小象 天 for 夫; 中孚 九五 寜 for 攣; 中孚 上九 青/昔 for 音 and 聲 for 登; 小過 judgment 昔 for 音.
-- **Readings where only one witness differs** (kept, open for review):
+- **Readings where only one witness differs** (kept as in the base text by decision of the maintainer on 2026-11-22; to be revisited with a further witness, such as the 阮元 edition of 《周易正義》):
   - 賁 彖 剛柔交錯: the base and Wikisource have it, the Song edition does not.
   - 坎 九五 衹: the Song edition has 祇, Wikisource has 禔.
   - 大壯 九三 小象 final 也.
@@ -39,11 +39,15 @@ Wikisource still differs in 104 fields after the emendations. Almost all are gly
 - **Simplified text:** generated with OpenCC (`t2s`), except that 乾 is never converted to 干, because in the Yijing it is always qián.
 - **English names:** short glosses written for Wengua (CC BY-SA 4.0).
 
+## English: Legge
+
+Every judgment, line text, 用九 and 用六 has `en_legge`: James Legge's translation from *The Yî King* (Sacred Books of the East XVI, 1882), public domain. It was rebuilt from three Internet Archive scans of the book and the proofread pages on English Wikisource, then corrected by hand. The witnesses and method are in [`sources/legge/README.md`](sources/legge/README.md). Legge's Tuan, Image and Wenyan translations (his appendices) are not included yet.
+
 ## Not used
 
 No modern translation or commentary that is still under copyright.
 
 ## Planned
 
-- James Legge, *The Yî King* (Sacred Books of the East XVI, 1882), public domain, as the English layer.
+- Legge's translations of the Tuan (彖), the images (象) and the Wenyan (文言), from the appendices of the same volume.
 - Plain-language notes in modern Chinese and English, written for Wengua.

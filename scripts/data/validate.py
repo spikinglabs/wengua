@@ -36,6 +36,18 @@ def check_text(where: str, value, required=True) -> None:
         err(where, "乾 was converted to 干 in simplified text")
 
 
+def check_en(where: str, value) -> None:
+    """Legge's English: present, plain ASCII prose (Legge's em dash allowed), no OCR leftovers."""
+    en = value.get("en_legge")
+    if not isinstance(en, str) or len(en) < 10:
+        err(where, "missing en_legge")
+        return
+    if any(ord(c) > 127 and c != "\u2014" for c in en):
+        err(where, "non-ASCII character in en_legge")
+    if any(s in en for s in ("  ", " ,", " .", " ;")):
+        err(where, "spacing problem in en_legge")
+
+
 def main() -> int:
     trigrams = json.loads((DATA / "trigrams.json").read_text())
     by_key = {t["key"]: t for t in trigrams}
@@ -65,6 +77,7 @@ def main() -> int:
             err(w, "binary does not match its trigrams")
         for k in ("judgment", "tuan", "image"):
             check_text(f"{w} {k}", h.get(k))
+        check_en(f"{w} judgment", h["judgment"])
         check_text(f"{w} name", h["name"])
         if not h["name"].get("pinyin") or not h["name"].get("en"):
             err(w, "name needs pinyin and en")
@@ -79,6 +92,7 @@ def main() -> int:
                 err(lw, f"label {line['label']['zh_hant']} does not match bit {b[i]} (expected {expected})")
             check_text(f"{lw} text", line["text"])
             check_text(f"{lw} xiao_xiang", line["xiao_xiang"])
+            check_en(f"{lw} text", line["text"])
         if n in (1, 2):
             use = h.get("use_line")
             want = "用九" if n == 1 else "用六"
@@ -86,6 +100,7 @@ def main() -> int:
                 err(w, f"missing {want}")
             else:
                 check_text(f"{w} {want}", use["text"])
+                check_en(f"{w} {want}", use["text"])
                 check_text(f"{w} {want} xiao_xiang", use["xiao_xiang"])
             if not h.get("wenyan"):
                 err(w, "missing 文言")

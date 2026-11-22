@@ -14,7 +14,8 @@
   },
   "judgment": {
     "zh_hant": "盥而不薦。有孚顒若。",
-    "zh_hans": "盥而不荐。有孚颙若。"
+    "zh_hans": "盥而不荐。有孚颙若。",
+    "en_legge": "Kwan shows (how he whom it represents should be like) the worshipper who has washed his hands, but not (yet) presented his offerings;—with sincerity and an appearance of dignity (commanding reverent regard)."
   },
   "tuan": {
     "zh_hant": "大觀在上，順而巽，中正以觀天下，觀。盥而不薦、有孚顒若、下觀而化也，觀天之神道而四時不忒。聖人以神道設教而天下服矣。",
@@ -33,7 +34,8 @@
       },
       "text": {
         "zh_hant": "童觀，小人无咎，君子吝。",
-        "zh_hans": "童观，小人无咎，君子吝。"
+        "zh_hans": "童观，小人无咎，君子吝。",
+        "en_legge": "The first line, divided, shows the looking of a lad;—not blamable in men of inferior rank, but matter for regret in superior men."
       },
       "xiao_xiang": {
         "zh_hant": "初六童觀、小人道也。",
@@ -48,7 +50,8 @@
       },
       "text": {
         "zh_hant": "闚觀，利女貞。",
-        "zh_hans": "闚观，利女贞。"
+        "zh_hans": "闚观，利女贞。",
+        "en_legge": "The second line, divided, shows one peeping out from a door. It would be advantageous if it were (merely) the firm correctness of a female."
       },
       "xiao_xiang": {
         "zh_hant": "闚觀女貞、亦可醜也。",
@@ -63,7 +66,8 @@
       },
       "text": {
         "zh_hant": "觀我生進退。",
-        "zh_hans": "观我生进退。"
+        "zh_hans": "观我生进退。",
+        "en_legge": "The third line, divided, shows one looking at (the course of) his own life, to advance or recede (accordingly)."
       },
       "xiao_xiang": {
         "zh_hant": "觀我生進退、未失道也。",
@@ -78,7 +82,8 @@
       },
       "text": {
         "zh_hant": "觀國之光，利用賓于王。",
-        "zh_hans": "观国之光，利用宾于王。"
+        "zh_hans": "观国之光，利用宾于王。",
+        "en_legge": "The fourth line, divided, shows one contemplating the glory of the kingdom. It will be advantageous for him, being such as he is, (to seek) to be a guest of the king."
       },
       "xiao_xiang": {
         "zh_hant": "觀國之光、尚賓也。",
@@ -93,7 +98,8 @@
       },
       "text": {
         "zh_hant": "觀我生，君子无咎。",
-        "zh_hans": "观我生，君子无咎。"
+        "zh_hans": "观我生，君子无咎。",
+        "en_legge": "The fifth line, undivided, shows its subject contemplating his own life(-course). A superior man, he will (thus) fall into no error."
       },
       "xiao_xiang": {
         "zh_hant": "觀我生、觀民也。",
@@ -108,7 +114,8 @@
       },
       "text": {
         "zh_hant": "觀其生，君子无咎。",
-        "zh_hans": "观其生，君子无咎。"
+        "zh_hans": "观其生，君子无咎。",
+        "en_legge": "The sixth line, undivided, shows its subject contemplating his character to see if it be indeed that of a superior man. He will not fall into error."
       },
       "xiao_xiang": {
         "zh_hant": "觀其生、志未平也。",
