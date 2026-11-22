@@ -94,3 +94,7 @@ def test_legge_english_on_every_layer():
     assert qian["image"]["en_legge"].startswith("Heaven, in its motion, (gives the idea of) strength.")
     assert qian["lines"][0]["xiao_xiang"]["en_legge"].startswith("'The dragon lies hid in the deep;")
     assert qian["use_line"]["xiao_xiang"]["en_legge"].startswith("'The same undivided line is used'")
+    assert qian["wenyan"][0]["en_legge"].startswith("What is called (under Khien) 'the great and originating'")
+    assert len(qian["wenyan"]) == 12
+    kun = wengua.hexagram(2)
+    assert kun["wenyan"][1]["en_legge"].startswith("The words of the Yi, 'He treads on the hoar-frost;")
