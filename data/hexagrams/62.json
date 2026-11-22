@@ -14,7 +14,8 @@
   },
   "judgment": {
     "zh_hant": "亨。利貞。可小事，不可大事。飛鳥遺之音，不宜上，宜下，大吉。",
-    "zh_hans": "亨。利贞。可小事，不可大事。飞鸟遗之音，不宜上，宜下，大吉。"
+    "zh_hans": "亨。利贞。可小事，不可大事。飞鸟遗之音，不宜上，宜下，大吉。",
+    "en_legge": "Hsiao Kwo indicates that (in the circumstances which it implies) there will be progress and attainment. But it will be advantageous to be firm and correct. (What the name denotes) may be done in small affairs, but not in great affairs. (It is like) the notes that come down from a bird on the wing;—to descend is better than to ascend. There will (in this way) be great good fortune."
   },
   "tuan": {
     "zh_hant": "小過、小者過而亨也。過以利貞、與時行也。柔得中，是以小事吉也。剛失位而不中，是以不可大事也。有飛鳥之象焉，飛鳥遺之音、不宜上、宜下、大吉、上逆而下順也。",
@@ -33,7 +34,8 @@
       },
       "text": {
         "zh_hant": "飛鳥以凶。",
-        "zh_hans": "飞鸟以凶。"
+        "zh_hans": "飞鸟以凶。",
+        "en_legge": "The first line, divided, suggests (the idea of) a bird flying, (and ascending) till the issue is evil."
       },
       "xiao_xiang": {
         "zh_hant": "飛鳥以凶、不可如何也。",
@@ -48,7 +50,8 @@
       },
       "text": {
         "zh_hant": "過其祖，遇其妣。不及其君，遇其臣。无咎。",
-        "zh_hans": "过其祖，遇其妣。不及其君，遇其臣。无咎。"
+        "zh_hans": "过其祖，遇其妣。不及其君，遇其臣。无咎。",
+        "en_legge": "The second line, divided, shows its subject passing by his grandfather, and meeting with his grandmother; not attempting anything against his ruler, but meeting him as his minister. There will be no error."
       },
       "xiao_xiang": {
         "zh_hant": "不及其君、臣不可過也。",
@@ -63,7 +66,8 @@
       },
       "text": {
         "zh_hant": "弗過、防之，從或戕之，凶。",
-        "zh_hans": "弗过、防之，从或戕之，凶。"
+        "zh_hans": "弗过、防之，从或戕之，凶。",
+        "en_legge": "The third line, undivided, shows its subject taking no extraordinary precautions against danger; and some in consequence finding opportunity to assail and injure him. There will be evil."
       },
       "xiao_xiang": {
         "zh_hant": "從或戕之、凶如何也？",
@@ -78,7 +82,8 @@
       },
       "text": {
         "zh_hant": "无咎。弗過、遇之，往厲必戒。勿用永貞。",
-        "zh_hans": "无咎。弗过、遇之，往厉必戒。勿用永贞。"
+        "zh_hans": "无咎。弗过、遇之，往厉必戒。勿用永贞。",
+        "en_legge": "The fourth line, undivided, shows its subject falling into no error, but meeting (the exigency of his situation), without exceeding (in his natural course). If he go forward, there will be peril, and he must be cautious. There is no occasion to be using firmness perpetually."
       },
       "xiao_xiang": {
         "zh_hant": "弗過遇之、位不當也。往厲必戒、終不可長也。",
@@ -93,7 +98,8 @@
       },
       "text": {
         "zh_hant": "密雲不雨，自我西郊。公弋取彼在穴。",
-        "zh_hans": "密云不雨，自我西郊。公弋取彼在穴。"
+        "zh_hans": "密云不雨，自我西郊。公弋取彼在穴。",
+        "en_legge": "The fifth line, divided, (suggests the idea) of dense clouds, but no rain, coming from our borders in the west. It also (shows) the prince shooting his arrow, and taking the bird in a cave."
       },
       "xiao_xiang": {
         "zh_hant": "密雲不雨、已上也。",
@@ -108,7 +114,8 @@
       },
       "text": {
         "zh_hant": "弗遇、過之，飛鳥離之，凶，是謂災眚。",
-        "zh_hans": "弗遇、过之，飞鸟离之，凶，是谓灾眚。"
+        "zh_hans": "弗遇、过之，飞鸟离之，凶，是谓灾眚。",
+        "en_legge": "The sixth line, divided, shows its subject not meeting (the exigency of his situation), and exceeding (his proper course). (It suggests the idea of) a bird flying far aloft. There will be evil. The case is what is called one of calamity and self-produced injury."
       },
       "xiao_xiang": {
         "zh_hant": "弗遇過之、已亢也。",

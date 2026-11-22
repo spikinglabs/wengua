@@ -34,7 +34,7 @@ The server supports MCP protocol versions 2024-11-05 through 2025-11-25 and is t
 | `lookup` | `query`: number, name, pinyin, ䷀, binary or trigrams | The hexagram with all its texts, or the matches if ambiguous |
 | `relations` | `hexagram`, optional `changing_lines` | 之 / 互 / 錯 / 綜 with their judgments |
 
-Every Chinese text comes in both `zh_hant` and `zh_hans`, so the model can answer in the user's script.
+Every Chinese text comes in both `zh_hant` and `zh_hans`, so the model can answer in the user's script. Judgments and line texts also carry `en_legge`, James Legge's English (1882), which the model can quote with credit.
 
 Resources: `wengua://hexagram/{number}` and `wengua://trigram/{key}`. Prompt: `reading`, a guided reading.
 

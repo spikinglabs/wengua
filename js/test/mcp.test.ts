@@ -16,7 +16,7 @@ test("tools and their results", () => {
   const r = rpc("tools/call", { name: "cast", arguments: { method: "yarrow", question: "q" } }).result;
   assert.equal(r.structuredContent.method, "yarrow");
   const t = r.structuredContent.selection.texts[0].text;
-  assert.ok(t.zh_hant && t.zh_hans);
+  assert.ok(t.zh_hant && t.zh_hans && t.en_legge);
   assert.deepEqual(JSON.parse(r.content[0].text), r.structuredContent);
   const rel = rpc("tools/call", { name: "relations", arguments: { hexagram: "屯", changing_lines: [1] } }).result;
   assert.equal(rel.structuredContent.relating.number, 8);

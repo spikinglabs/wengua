@@ -53,6 +53,7 @@ def test_selection_rules():
     one = wengua.read_cast([7, 7, 9, 7, 7, 7])
     assert [(t["kind"], t["position"]) for t in one["selection"]["texts"]] == [("line", 3)]
     assert one["selection"]["texts"][0]["text"]["zh_hant"].startswith("君子終日乾乾")
+    assert one["selection"]["texts"][0]["text"]["en_legge"].startswith("In the third line, undivided, (we see its subject as) the superior man active and vigilant")
     six = wengua.read_cast([9, 9, 6, 6, 9, 6])  # 未濟 to 既濟... all change outside 乾/坤
     assert [t["kind"] for t in six["selection"]["texts"]] == ["judgment"]
     assert six["selection"]["texts"][0]["hexagram"] == six["relating"]["number"]

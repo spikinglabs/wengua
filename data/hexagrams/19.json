@@ -14,7 +14,8 @@
   },
   "judgment": {
     "zh_hant": "元亨，利貞。至于八月有凶。",
-    "zh_hans": "元亨，利贞。至于八月有凶。"
+    "zh_hans": "元亨，利贞。至于八月有凶。",
+    "en_legge": "Lin (indicates that under the conditions supposed in it) there will be great progress and success, while it will be advantageous to be firmly correct. In the eighth month there will be evil."
   },
   "tuan": {
     "zh_hant": "臨，剛浸而長，說而順，剛中而應。大亨以正、天之道也。至于八月有凶、消不久也。",
@@ -33,7 +34,8 @@
       },
       "text": {
         "zh_hant": "咸臨，貞吉。",
-        "zh_hans": "咸临，贞吉。"
+        "zh_hans": "咸临，贞吉。",
+        "en_legge": "The first line, undivided, shows its subject advancing in company (with the subject of the second line). Through his firm correctness there will be good fortune."
       },
       "xiao_xiang": {
         "zh_hant": "咸臨貞吉、志行正也。",
@@ -48,7 +50,8 @@
       },
       "text": {
         "zh_hant": "咸臨吉，无不利。",
-        "zh_hans": "咸临吉，无不利。"
+        "zh_hans": "咸临吉，无不利。",
+        "en_legge": "The second line, undivided, shows its subject advancing in company (with the subject of the first line). There will be good fortune; (advancing) will be in every way advantageous."
       },
       "xiao_xiang": {
         "zh_hant": "咸臨吉无不利、未順命也。",
@@ -63,7 +66,8 @@
       },
       "text": {
         "zh_hant": "甘臨，无攸利；既憂之，无咎。",
-        "zh_hans": "甘临，无攸利；既忧之，无咎。"
+        "zh_hans": "甘临，无攸利；既忧之，无咎。",
+        "en_legge": "The third line, divided, shows one well pleased (indeed) to advance, (but whose action) will be in no way advantageous. If he become anxious about it (however), there will be no error."
       },
       "xiao_xiang": {
         "zh_hant": "甘臨、位不當也，既憂之、咎不長也。",
@@ -78,7 +82,8 @@
       },
       "text": {
         "zh_hant": "至臨，无咎。",
-        "zh_hans": "至临，无咎。"
+        "zh_hans": "至临，无咎。",
+        "en_legge": "The fourth line, divided, shows one advancing in the highest mode. There will be no error."
       },
       "xiao_xiang": {
         "zh_hant": "至臨无咎、位當也。",
@@ -93,7 +98,8 @@
       },
       "text": {
         "zh_hant": "知臨，大君之宜，吉。",
-        "zh_hans": "知临，大君之宜，吉。"
+        "zh_hans": "知临，大君之宜，吉。",
+        "en_legge": "The fifth line, divided, shows the advance of wisdom, such as befits the great ruler. There will be good fortune."
       },
       "xiao_xiang": {
         "zh_hant": "大君之宜、行中之謂也。",
@@ -108,7 +114,8 @@
       },
       "text": {
         "zh_hant": "敦臨吉，无咎。",
-        "zh_hans": "敦临吉，无咎。"
+        "zh_hans": "敦临吉，无咎。",
+        "en_legge": "The sixth line, divided, shows the advance of honesty and generosity. There will be good fortune, and no error."
       },
       "xiao_xiang": {
         "zh_hant": "敦臨之吉、志在內也。",

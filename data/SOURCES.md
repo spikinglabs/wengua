@@ -39,11 +39,15 @@ Wikisource still differs in 104 fields after the emendations. Almost all are gly
 - **Simplified text:** generated with OpenCC (`t2s`), except that 乾 is never converted to 干, because in the Yijing it is always qián.
 - **English names:** short glosses written for Wengua (CC BY-SA 4.0).
 
+## English: Legge
+
+Every judgment, line text, 用九 and 用六 has `en_legge`: James Legge's translation from *The Yî King* (Sacred Books of the East XVI, 1882), public domain. It was rebuilt from three Internet Archive scans of the book and the proofread pages on English Wikisource, then corrected by hand. The witnesses and method are in [`sources/legge/README.md`](sources/legge/README.md). Legge's Tuan, Image and Wenyan translations (his appendices) are not included yet.
+
 ## Not used
 
 No modern translation or commentary that is still under copyright.
 
 ## Planned
 
-- James Legge, *The Yî King* (Sacred Books of the East XVI, 1882), public domain, as the English layer.
+- Legge's translations of the Tuan (彖), the images (象) and the Wenyan (文言), from the appendices of the same volume.
 - Plain-language notes in modern Chinese and English, written for Wengua.

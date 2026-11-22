@@ -14,7 +14,8 @@
   },
   "judgment": {
     "zh_hant": "元亨，利貞。",
-    "zh_hans": "元亨，利贞。"
+    "zh_hans": "元亨，利贞。",
+    "en_legge": "Khien (represents) what is great and originating, penetrating, advantageous, correct and firm."
   },
   "tuan": {
     "zh_hant": "大哉乾元，萬物資始，乃統天。雲行雨施，品物流形。大明終始，六位時成。時乘六龍以御天。乾道變化，各正性命。保合大和，乃利貞。首出庶物，萬國咸寧。",
@@ -33,7 +34,8 @@
       },
       "text": {
         "zh_hant": "潛龍勿用。",
-        "zh_hans": "潜龙勿用。"
+        "zh_hans": "潜龙勿用。",
+        "en_legge": "In the first (or lowest) line, undivided, (we see its subject as) the dragon lying hid (in the deep). It is not the time for active doing."
       },
       "xiao_xiang": {
         "zh_hant": "潛龍勿用、陽在下也。",
@@ -48,7 +50,8 @@
       },
       "text": {
         "zh_hant": "見龍在田，利見大人。",
-        "zh_hans": "见龙在田，利见大人。"
+        "zh_hans": "见龙在田，利见大人。",
+        "en_legge": "In the second line, undivided, (we see its subject as) the dragon appearing in the field. It will be advantageous to meet with the great man."
       },
       "xiao_xiang": {
         "zh_hant": "見龍在田、德施普也。",
@@ -63,7 +66,8 @@
       },
       "text": {
         "zh_hant": "君子終日乾乾，夕惕若厲。无咎。",
-        "zh_hans": "君子终日乾乾，夕惕若厉。无咎。"
+        "zh_hans": "君子终日乾乾，夕惕若厉。无咎。",
+        "en_legge": "In the third line, undivided, (we see its subject as) the superior man active and vigilant all the day, and in the evening still careful and apprehensive. (The position is) dangerous, but there will be no mistake."
       },
       "xiao_xiang": {
         "zh_hant": "終日乾乾、反復道也。",
@@ -78,7 +82,8 @@
       },
       "text": {
         "zh_hant": "或躍在淵，无咎。",
-        "zh_hans": "或跃在渊，无咎。"
+        "zh_hans": "或跃在渊，无咎。",
+        "en_legge": "In the fourth line, undivided, (we see its subject as the dragon looking) as if he were leaping up, but still in the deep. There will be no mistake."
       },
       "xiao_xiang": {
         "zh_hant": "或躍在淵、進无咎也。",
@@ -93,7 +98,8 @@
       },
       "text": {
         "zh_hant": "飛龍在天，利見大人。",
-        "zh_hans": "飞龙在天，利见大人。"
+        "zh_hans": "飞龙在天，利见大人。",
+        "en_legge": "In the fifth line, undivided, (we see its subject as) the dragon on the wing in the sky. It will be advantageous to meet with the great man."
       },
       "xiao_xiang": {
         "zh_hant": "飛龍在天、大人造也。",
@@ -108,7 +114,8 @@
       },
       "text": {
         "zh_hant": "亢龍，有悔。",
-        "zh_hans": "亢龙，有悔。"
+        "zh_hans": "亢龙，有悔。",
+        "en_legge": "In the sixth (or topmost) line, undivided, (we see its subject as) the dragon exceeding the proper limits. There will be occasion for repentance."
       },
       "xiao_xiang": {
         "zh_hant": "亢龍有悔、盈不可久也。",
@@ -123,7 +130,8 @@
     },
     "text": {
       "zh_hant": "見群龍无首，吉。",
-      "zh_hans": "见群龙无首，吉。"
+      "zh_hans": "见群龙无首，吉。",
+      "en_legge": "(The lines of this hexagram are all strong and undivided, as appears from) the use of the number nine. If the host of dragons (thus) appearing were to divest themselves of their heads, there would be good fortune."
     },
     "xiao_xiang": {
       "zh_hant": "用九、天德不可為首也。",

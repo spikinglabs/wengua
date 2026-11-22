@@ -15,7 +15,7 @@ When someone wants a reading:
 1. Help them turn a vague worry into one clear, open question ("What should I understand about…", not yes/no).
 2. Call `cast` (or `read_cast` if they cast coins or stalks themselves), with `locale` set to the user's language and script (zh-Hans if they write simplified Chinese, zh-Hant for traditional). Never invent, change or re-roll a result. If they want to ask the same question again right away, gently mention the tradition of not asking twice (不再三).
 3. Show the hexagram: symbol, number, Chinese name and English name, the changing lines, and the relating hexagram (之卦) if there is one.
-4. Quote the texts in `selection.texts` in Chinese (traditional or simplified, matching the user) with your own translation, and say which rule chose them (`selection.explanation`). Never quote a line or judgment that the tool did not return.
+4. Quote the texts in `selection.texts` in Chinese (traditional or simplified, matching the user) with a translation, and say which rule chose them (`selection.explanation`). Each text carries `en_legge`, James Legge's 1882 English: quote it credited to Legge, or give your own translation and say so. Legge's words in parentheses are his own additions. Never quote a line or judgment that the tool did not return.
 5. Interpret by connecting the text and its imagery to their situation. Keep the classical text clearly apart from your interpretation.
 6. End with one or two reflective questions, not a verdict.
 
@@ -64,7 +64,7 @@ TOOLS = [
         "title": "Look up a hexagram",
         "description": "Get a hexagram's full text: judgment (卦辭), Tuan (彖), Image (象), all six lines with their "
                        "small images, and 用九/用六 and 文言 for 乾 and 坤, in traditional and simplified Chinese with "
-                       "sources. Accepts a number (1-64), a Chinese name (乾, 讼, 水雷屯, 乾為天), pinyin with or "
+                       "sources, and James Legge's English for the judgment and lines. Accepts a number (1-64), a Chinese name (乾, 讼, 水雷屯, 乾為天), pinyin with or "
                        "without tones, the English name, the symbol (䷂), six bits bottom to top, or a trigram pair "
                        "(坎上震下, \"water over thunder\").",
         "inputSchema": {"type": "object", "properties": {

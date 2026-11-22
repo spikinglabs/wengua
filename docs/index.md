@@ -28,7 +28,7 @@ Wengua lets people consult the *Book of Changes* from Claude, ChatGPT, Codex, Cu
 
 | Piece | What it is | Status |
 |---|---|---|
-| [Dataset](ecosystem/dataset.md) | All 64 hexagrams, every classical text in 繁 and 简, with sources | ✅ Chinese done; English planned |
+| [Dataset](ecosystem/dataset.md) | All 64 hexagrams, every classical text in 繁 and 简, with sources | ✅ Chinese and Legge's English |
 | [Core library](ecosystem/core.md) | Casting, derivations, text selection and lookup in TypeScript and Python | ✅ Done |
 | [Agent Skill](ecosystem/skill.md) | Drop-in skill for Claude and other agents | ✅ Done |
 | [MCP server](ecosystem/mcp.md) | Local (`uvx`/`npx`) and hosted at `wengua.allo.land/mcp` | ✅ Done |

@@ -1,7 +1,8 @@
 /** The bundled dataset (wengua-data): 64 hexagrams and 8 trigrams. */
 import bundleJson from "./iching.json" with { type: "json" };
 
-export interface Text { zh_hant: string; zh_hans: string }
+/** A classical text. `en_legge` is James Legge's translation (1882), on judgments and line texts. */
+export interface Text { zh_hant: string; zh_hans: string; en_legge?: string }
 export interface Name extends Text { pinyin: string; en: string }
 export interface Line { position: number; label: Text; text: Text; xiao_xiang: Text }
 export interface UseLine { label: Text; text: Text; xiao_xiang: Text }

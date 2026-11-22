@@ -14,7 +14,8 @@
   },
   "judgment": {
     "zh_hant": "改邑不改井，无喪无得。往來井井。汔至，亦未繘井，羸其瓶，凶。",
-    "zh_hans": "改邑不改井，无丧无得。往来井井。汔至，亦未繘井，羸其瓶，凶。"
+    "zh_hans": "改邑不改井，无丧无得。往来井井。汔至，亦未繘井，羸其瓶，凶。",
+    "en_legge": "(Looking at) Zing, (we think of) how (the site of) a town may be changed, while (the fashion of) its wells undergoes no change. (The water of a well) never disappears and never receives (any great) increase, and those who come and those who go can draw and enjoy the benefit. If (the drawing) have nearly been accomplished, but, before the rope has quite reached the water, the bucket is broken, this is evil."
   },
   "tuan": {
     "zh_hant": "巽乎水而上水，井。井養而不窮也。改邑不改井、乃以剛中也。汔至、亦未繘井、未有功也，羸其瓶、是以凶也。",
@@ -33,7 +34,8 @@
       },
       "text": {
         "zh_hant": "井泥不食。舊井无禽。",
-        "zh_hans": "井泥不食。旧井无禽。"
+        "zh_hans": "井泥不食。旧井无禽。",
+        "en_legge": "The first line, divided, shows a well so muddy that men will not drink of it; or an old well to which neither birds (nor other creatures) resort."
       },
       "xiao_xiang": {
         "zh_hant": "井泥不食、下也，舊井无禽、時舍也。",
@@ -48,7 +50,8 @@
       },
       "text": {
         "zh_hant": "井谷射鮒，甕敝漏。",
-        "zh_hans": "井谷射鲋，瓮敝漏。"
+        "zh_hans": "井谷射鲋，瓮敝漏。",
+        "en_legge": "The second line, undivided, shows a well from which by a hole the water escapes and flows away to the shrimps (and such small creatures among the grass), or one the water of which leaks away from a broken basket."
       },
       "xiao_xiang": {
         "zh_hant": "井谷射鮒、无與也。",
@@ -63,7 +66,8 @@
       },
       "text": {
         "zh_hant": "井渫不食，為我心惻。可用汲，王明，並受其福。",
-        "zh_hans": "井渫不食，为我心恻。可用汲，王明，并受其福。"
+        "zh_hans": "井渫不食，为我心恻。可用汲，王明，并受其福。",
+        "en_legge": "The third line, undivided, shows a well, which has been cleared out, but is not used. Our hearts are sorry for this, for the water might be drawn out and used. If the king were (only) intelligent, both he and we might receive the benefit of it."
       },
       "xiao_xiang": {
         "zh_hant": "井渫不食、行惻也，求王明、受福也。",
@@ -78,7 +82,8 @@
       },
       "text": {
         "zh_hant": "井甃，无咎。",
-        "zh_hans": "井甃，无咎。"
+        "zh_hans": "井甃，无咎。",
+        "en_legge": "The fourth line, divided, shows a well, the lining of which is well laid. There will be no error."
       },
       "xiao_xiang": {
         "zh_hant": "井甃无咎、脩井也。",
@@ -93,7 +98,8 @@
       },
       "text": {
         "zh_hant": "井冽寒泉，食。",
-        "zh_hans": "井冽寒泉，食。"
+        "zh_hans": "井冽寒泉，食。",
+        "en_legge": "The fifth line, undivided, shows a clear, limpid well, (the waters from) whose cold spring are (freely) drunk."
       },
       "xiao_xiang": {
         "zh_hant": "寒泉之食、中正也。",
@@ -108,7 +114,8 @@
       },
       "text": {
         "zh_hant": "井收勿幕，有孚元吉。",
-        "zh_hans": "井收勿幕，有孚元吉。"
+        "zh_hans": "井收勿幕，有孚元吉。",
+        "en_legge": "The topmost line, divided, shows (the water from) the well brought to the top, which is not allowed to be covered. This suggests the idea of sincerity. There will be great good fortune."
       },
       "xiao_xiang": {
         "zh_hant": "元吉在上、大成也。",
