@@ -36,6 +36,8 @@ description: "在 Claude、ChatGPT、Codex、Gemini、GitHub Copilot、Cursor �
 
 **网页版、桌面版、手机版（MCP）**：打开 [Customize → Connectors](https://claude.ai/customize/connectors)，点 **+ Add → Add custom connector**，名称填 `Wengua`，网址填 `https://wengua.allo.land/mcp`，不需要认证，点 **Add**。所有方案都可用，免费版限一个。Team / Enterprise 由所有者在 **Organization settings → Connectors → Add → Custom → Web** 添加。
 
+如果卦象卡片一直停在“正在起卦…”，把 Wengua 连接器删掉再重新添加，然后开一个新对话。Claude 会一直用添加连接器时加载的那版卡片，所以更新之前加的连接器可能还在显示旧卡片。卦象本身在 Claude 的回答里照样有。
+
 **Skill**：先在 **Settings → Capabilities** 打开代码执行。下载压缩包，打开 [Customize → Skills](https://claude.ai/customize/skills)，点 **+ → + Create skill → Upload a skill**，直接上传 zip（不要解压）。
 
 **Claude Desktop 本地服务**：编辑 `claude_desktop_config.json`（macOS：`~/Library/Application Support/Claude/`，Windows：`%APPDATA%\Claude\`）：
