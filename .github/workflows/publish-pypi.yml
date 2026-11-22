@@ -1,0 +1,48 @@
+name: Publish to PyPI
+# Publishes the Python package with PyPI trusted publishing (no API token).
+# Runs when a GitHub release tagged v* is published, e.g. v0.1.0.
+on:
+  release:
+    types: [published]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.13"
+      - name: Package version matches the release tag
+        if: github.event_name == 'release'
+        run: |
+          version=$(python -c "import tomllib;print(tomllib.load(open('python/pyproject.toml','rb'))['project']['version'])")
+          test "v$version" = "${GITHUB_REF_NAME}" || { echo "pyproject version $version does not match tag ${GITHUB_REF_NAME}"; exit 1; }
+      - name: Packages carry the current dataset
+        run: python scripts/sync_data.py && git diff --exit-code
+      - run: pip install build pytest
+      - run: cd python && pip install . && pytest -q
+      - run: cd python && python -m build
+      - uses: actions/upload-artifact@v4
+        with:
+          name: python-dist
+          path: python/dist/
+
+  publish:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: pypi
+      url: https://pypi.org/p/wengua
+    permissions:
+      id-token: write
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: python-dist
+          path: dist/
+      - uses: pypa/gh-action-pypi-publish@release/v1
