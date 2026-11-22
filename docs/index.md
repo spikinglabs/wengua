@@ -1,5 +1,5 @@
 ---
-description: "Wengua 问卦 lets Claude, ChatGPT, Codex, Cursor and any MCP client consult the I Ching (易经) with authentic Chinese texts, Legge's English and fair, verifiable casting."
+description: "Wengua 问卦 lets Claude, ChatGPT, Codex, Cursor and any MCP client consult the I Ching (易经) with the authentic Chinese text in traditional and simplified script, and fair, verifiable casting."
 ---
 
 # Wengua 问卦
@@ -10,24 +10,30 @@ Wengua lets people consult the *Book of Changes* from Claude, ChatGPT, Codex, Cu
 
 > 排卦归程序，解卦归模型。
 
-!!! warning "Status: design phase"
-    Nothing is published yet. This site tracks the design and will be kept up to date as each piece ships. See the [Roadmap](roadmap.md).
+## Try it
+
+- **In Claude.ai or ChatGPT:** add a custom connector with the URL `https://wengua.allo.land/mcp`.
+- **In Claude Code:** `claude mcp add --transport http wengua https://wengua.allo.land/mcp`
+- **In any MCP client:** `npx -y wengua` or `uvx wengua` ([setup](ecosystem/mcp.md)).
+- **As an Agent Skill:** drop [`skills/wengua`](ecosystem/skill.md) into your agent.
 
 ## Why Wengua
 
-- **Authentic texts.** The original Chinese (卦辞, 爻辞 and the Ten Wings 彖/象/文言), in traditional and simplified characters, with James Legge's public-domain English. Every line cites its source.
-- **Plain-language notes.** Our own modern notes in 白话 and English, free to reuse under CC BY-SA 4.0.
-- **Fair casting you can verify.** Three coins or yarrow stalks with the traditional probabilities, a secure random generator, and statistical tests in CI.
-- **Works everywhere.** One core behind an Agent Skill, a local MCP server, a free hosted MCP server and a bilingual reading card.
+- **Authentic texts.** The received Chinese text (卦辭, 爻辭 and the Ten Wings 彖/象/文言) in traditional and simplified script, collated character by character with a Song edition. Every hexagram cites its sources and records each editorial change.
+- **Fair casting you can verify.** Three coins or the full yarrow-stalk method with the exact classical odds, a secure random generator, a record of every coin and stalk, and statistical tests in CI.
+- **The right texts, every time.** Zhu Xi's rules pick which lines to read, so the AI never has to guess or invent a line.
+- **Works everywhere.** One core behind an Agent Skill, a local MCP server, a free hosted MCP server, a reading card and a CLI.
 - **Reflection, not prediction.** Readings are framed as prompts for thought, never as verdicts.
 
 ## The ecosystem
 
 | Piece | What it is | Status |
 |---|---|---|
-| [Dataset](ecosystem/dataset.md) | Sourced bilingual texts of all 64 hexagrams | Planned (M0) |
-| [Core library](ecosystem/core.md) | Casting, derivations and lookup in TypeScript and Python | Planned (M1) |
-| [Agent Skill](ecosystem/skill.md) | Drop-in skill for 70+ AI platforms | Planned (M2) |
-| [MCP server](ecosystem/mcp.md) | Local (`npx`/`uvx`) and hosted | Planned (M2–M3) |
-| [Reading card](ecosystem/card.md) | Interactive hexagram card in Claude and ChatGPT | Planned (M3) |
-| [CLI](ecosystem/cli.md) | `wengua cast --json` for terminals and coding agents | Planned (M2) |
+| [Dataset](ecosystem/dataset.md) | All 64 hexagrams, every classical text in 繁 and 简, with sources | ✅ Chinese done; English planned |
+| [Core library](ecosystem/core.md) | Casting, derivations, text selection and lookup in TypeScript and Python | ✅ Done |
+| [Agent Skill](ecosystem/skill.md) | Drop-in skill for Claude and other agents | ✅ Done |
+| [MCP server](ecosystem/mcp.md) | Local (`npx`/`uvx`) and hosted at `wengua.allo.land/mcp` | ✅ Done |
+| [Reading card](ecosystem/card.md) | Inline hexagram card in Claude and ChatGPT | ✅ Done |
+| [CLI](ecosystem/cli.md) | `wengua cast --json` for terminals and coding agents | ✅ Done |
+
+Packages on npm and PyPI are coming soon. See the [Roadmap](roadmap.md).

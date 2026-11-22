@@ -1,5 +1,5 @@
 ---
-description: "问卦 Wengua：为所有 AI 打造的准确、开放的《易经》工具，提供原文、白话注释、公平起卦与 MCP 服务。"
+description: "问卦 Wengua：为所有 AI 打造的准确、开放的《易经》工具，提供繁简两体原文、公平起卦、MCP 服务与 Agent Skill。"
 ---
 
 # 问卦 Wengua
@@ -10,26 +10,30 @@ description: "问卦 Wengua：为所有 AI 打造的准确、开放的《易经�
 
 > 排卦归程序，解卦归模型。
 
-!!! warning "当前状态：设计阶段"
-    目前尚未发布任何包。本站会随着各部分上线持续更新。
+## 马上试用
+
+- **Claude.ai 或 ChatGPT**：添加自定义连接器，网址填 `https://wengua.allo.land/mcp`。
+- **Claude Code**：`claude mcp add --transport http wengua https://wengua.allo.land/mcp`
+- **任何 MCP 客户端**：`npx -y wengua` 或 `uvx wengua`。
+- **Agent Skill**：把 `skills/wengua` 放进你的智能体。
 
 ## 特点
 
-- **原文可靠**：卦辞、爻辞及十翼（彖传、大象、小象、文言），繁简两体，附理雅各（Legge, 1882）英译，每条注明出处。
-- **白话注释**：我们自己撰写的现代汉语与英文简注，随数据集以 CC BY-SA 4.0 开放。
-- **起卦公平、可验证**：三钱法与大衍筮法，按传统概率，使用安全随机数，并在 CI 中做统计检验。
-- **处处可用**：同一核心，提供 Agent Skill、本地 MCP、免费托管 MCP 和双语卦象卡片。
+- **原文可靠**：卦辞、爻辞及十翼（彖传、大象、小象、文言），繁简两体，与宋本（四部丛刊本王弼《周易注》）逐字校勘，每卦注明出处并记录每一处校改。
+- **起卦公平、可验证**：三钱法与完整的大衍筮法，概率与古法完全一致，使用安全随机数，记录每枚铜钱、每次分蓍，并在 CI 中做统计检验。
+- **取辞有据**：按朱熹《易学启蒙·考变占》决定读哪几条爻辞，AI 不必猜，也不会编造。
+- **处处可用**：同一核心，提供 Agent Skill、本地 MCP、免费托管 MCP、卦象卡片和命令行。
 - **重在反思，不做预言**：解读是启发思考，而非下定论。
 
 ## 组成部分
 
-| 部分 | 说明 |
-|---|---|
-| 数据集 | 六十四卦双语原文与出处 |
-| 核心库 | TypeScript 与 Python 的起卦、变卦、查卦 |
-| Agent Skill | 可直接放入 70 多个 AI 平台的技能包 |
-| MCP 服务 | 本地（npx / uvx）与托管两种方式 |
-| 卦象卡片 | 在 Claude 和 ChatGPT 中显示的交互卡片 |
-| 命令行 | `wengua cast --json` |
+| 部分 | 说明 | 状态 |
+|---|---|---|
+| 数据集 | 六十四卦全部经传原文，繁简两体，附出处 | ✅ 中文完成，英文计划中 |
+| 核心库 | TypeScript 与 Python 的起卦、变卦、取辞、查卦 | ✅ 完成 |
+| Agent Skill | 可直接放入 Claude 等智能体的技能包 | ✅ 完成 |
+| MCP 服务 | 本地（npx / uvx）与托管（wengua.allo.land/mcp） | ✅ 完成 |
+| 卦象卡片 | 在 Claude 和 ChatGPT 中显示，可切换繁简 | ✅ 完成 |
+| 命令行 | `wengua cast --json` | ✅ 完成 |
 
-详细设计见 [Design](../design.md)（英文）。
+npm 与 PyPI 包即将发布。详细设计见 [Design](../design.md)（英文）。
