@@ -19,11 +19,13 @@
   },
   "tuan": {
     "zh_hant": "巽乎水而上水，井。井養而不窮也。改邑不改井、乃以剛中也。汔至、亦未繘井、未有功也，羸其瓶、是以凶也。",
-    "zh_hans": "巽乎水而上水，井。井养而不穷也。改邑不改井、乃以刚中也。汔至、亦未繘井、未有功也，羸其瓶、是以凶也。"
+    "zh_hans": "巽乎水而上水，井。井养而不穷也。改邑不改井、乃以刚中也。汔至、亦未繘井、未有功也，羸其瓶、是以凶也。",
+    "en_legge": "(We have the symbol of) wood in the water and the raising of the water; which (gives us the idea of) a well. A well supplies nourishment and is not (itself) exhausted. 'The site of a town may be changed, while the fashion of its wells undergoes no change:'—this is indicated by the central position of the strong lines (in the second and fifth places). 'The drawing is nearly accomplished, but the rope has not yet reached the water of the well:'—its service has not yet been accomplished. 'The bucket is broken:'—it is this that occasions evil."
   },
   "image": {
     "zh_hant": "木上有水，井。君子以勞民勸相。",
-    "zh_hans": "木上有水，井。君子以劳民劝相。"
+    "zh_hans": "木上有水，井。君子以劳民劝相。",
+    "en_legge": "(The trigram representing) wood and above it that for water form Zing. The superior man, in accordance with this, comforts the people, and stimulates them to mutual helpfulness."
   },
   "lines": [
     {
@@ -39,7 +41,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "井泥不食、下也，舊井无禽、時舍也。",
-        "zh_hans": "井泥不食、下也，旧井无禽、时舍也。"
+        "zh_hans": "井泥不食、下也，旧井无禽、时舍也。",
+        "en_legge": "'A well so muddy that men will not drink of it:'—this is indicated by the low position (of the line), 'An old well to which the birds do not come:'—it has been forsaken in the course of time."
       }
     },
     {
@@ -55,7 +58,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "井谷射鮒、无與也。",
-        "zh_hans": "井谷射鲋、无与也。"
+        "zh_hans": "井谷射鲋、无与也。",
+        "en_legge": "'A well from which by a hole the water escapes, and flows away to the shrimps:'—(the subject of this second line has) none co-operating with him (above)."
       }
     },
     {
@@ -71,7 +75,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "井渫不食、行惻也，求王明、受福也。",
-        "zh_hans": "井渫不食、行恻也，求王明、受福也。"
+        "zh_hans": "井渫不食、行恻也，求王明、受福也。",
+        "en_legge": "'The well has been cleared out, but is not used:'—(even) passers-by would be sorry for this. A prayer is made 'that the king were intelligent:'—for then blessing would be received."
       }
     },
     {
@@ -87,7 +92,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "井甃无咎、脩井也。",
-        "zh_hans": "井甃无咎、修井也。"
+        "zh_hans": "井甃无咎、修井也。",
+        "en_legge": "'A well the lining of which is well laid. There will be no error:'—the well has been put in good repair."
       }
     },
     {
@@ -103,7 +109,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "寒泉之食、中正也。",
-        "zh_hans": "寒泉之食、中正也。"
+        "zh_hans": "寒泉之食、中正也。",
+        "en_legge": "'The waters from the cold spring are (freely) drunk:'—this is indicated by the central and correct position (of the line)."
       }
     },
     {
@@ -119,7 +126,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "元吉在上、大成也。",
-        "zh_hans": "元吉在上、大成也。"
+        "zh_hans": "元吉在上、大成也。",
+        "en_legge": "'The great good fortune' at the topmost place indicates the grand accomplishment (of the idea in the hexagram)."
       }
     }
   ],

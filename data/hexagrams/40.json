@@ -19,11 +19,13 @@
   },
   "tuan": {
     "zh_hant": "解、險以動，動而免乎險，解。解利西南、往得眾也，其來復吉、乃得中也。有攸往夙吉、往有功也。天地解而雷雨作，雷雨作而百果草木皆甲坼。解之時大矣哉！",
-    "zh_hans": "解、险以动，动而免乎险，解。解利西南、往得众也，其来复吉、乃得中也。有攸往夙吉、往有功也。天地解而雷雨作，雷雨作而百果草木皆甲坼。解之时大矣哉！"
+    "zh_hans": "解、险以动，动而免乎险，解。解利西南、往得众也，其来复吉、乃得中也。有攸往夙吉、往有功也。天地解而雷雨作，雷雨作而百果草木皆甲坼。解之时大矣哉！",
+    "en_legge": "In Kieh we have (the trigram expressive of) peril going on to that expressive of movement. By movement there is an escape from the peril:—(this is the meaning of) Kieh. 'In (the state indicated by) Kieh, advantage will be found in the south-west:'—the movement (thus) intimated will win all. That 'there will be good fortune in coming back (to the old conditions)' shows that such action is that of the due medium. That 'if some operations be necessary, there will be good fortune in the early conducting of them' shows that such operations will be successful. When heaven and earth are freed (from the grasp of winter), we have thunder and rain. When these come, the buds of the plants and trees that produce the various fruits begin to burst. Great indeed are the phenomena in the time intimated by Kieh."
   },
   "image": {
     "zh_hant": "雷雨作，解。君子以赦過宥罪。",
-    "zh_hans": "雷雨作，解。君子以赦过宥罪。"
+    "zh_hans": "雷雨作，解。君子以赦过宥罪。",
+    "en_legge": "(The trigram representing) thunder and that for rain, with these phenomena in a state of manifestation, form Kieh. The superior man, in accordance with this, forgives errors, and deals gently with crimes."
   },
   "lines": [
     {
@@ -39,7 +41,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "剛柔之際，義无咎也。",
-        "zh_hans": "刚柔之际，义无咎也。"
+        "zh_hans": "刚柔之际，义无咎也。",
+        "en_legge": "The strong (fourth) line and the weak line here are in correlation:—we judge rightly in saying that 'its subject will commit no error.'"
       }
     },
     {
@@ -55,7 +58,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "九二貞吉、得中道也。",
-        "zh_hans": "九二贞吉、得中道也。"
+        "zh_hans": "九二贞吉、得中道也。",
+        "en_legge": "'The good fortune springing from the firm correctness of the second line, undivided,' is due to its subject holding the due mean."
       }
     },
     {
@@ -71,7 +75,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "負且乘、亦可醜也。自我致戎，又誰咎也？",
-        "zh_hans": "负且乘、亦可丑也。自我致戎，又谁咎也？"
+        "zh_hans": "负且乘、亦可丑也。自我致戎，又谁咎也？",
+        "en_legge": "For 'a porter with his burden to be riding in a carriage' is a thing to be ashamed of. 'It is he himself that tempts the robbers to come:'—on whom besides can we lay the blame? (See Appendix III, i, 48.)"
       }
     },
     {
@@ -87,7 +92,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "解而拇、未當位也。",
-        "zh_hans": "解而拇、未当位也。"
+        "zh_hans": "解而拇、未当位也。",
+        "en_legge": "'Remove your toes:'—the places (of this line and of the third and first) are all inappropriate to them."
       }
     },
     {
@@ -103,7 +109,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "君子有解、小人退也。",
-        "zh_hans": "君子有解、小人退也。"
+        "zh_hans": "君子有解、小人退也。",
+        "en_legge": "When 'the superior man executes his function of removing (whatever is injurious to the idea of the hexagram),' small men will of themselves retire."
       }
     },
     {
@@ -119,7 +126,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "公用射隼、以解悖也。",
-        "zh_hans": "公用射隼、以解悖也。"
+        "zh_hans": "公用射隼、以解悖也。",
+        "en_legge": "'A prince with his bow shoots a falcon:'—thus he removes (the promoters of) rebellion."
       }
     }
   ],

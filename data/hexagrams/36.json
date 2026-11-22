@@ -19,11 +19,13 @@
   },
   "tuan": {
     "zh_hant": "明入地中，明夷。內文明而外柔順，以蒙大難，文王以之。利艱貞、晦其明也，內難而能正其志，箕子以之。",
-    "zh_hans": "明入地中，明夷。内文明而外柔顺，以蒙大难，文王以之。利艰贞、晦其明也，内难而能正其志，箕子以之。"
+    "zh_hans": "明入地中，明夷。内文明而外柔顺，以蒙大难，文王以之。利艰贞、晦其明也，内难而能正其志，箕子以之。",
+    "en_legge": "(The symbol of) the Earth and that of Brightness entering into the midst of it give the idea of Ming I (Brightness wounded or obscured). The inner (trigram) denotes being accomplished and bright; the outer, being pliant and submissive. The case of king Wan was that of one who with these qualities was yet involved in great difficulties. 'It will be advantageous to realise the difficulty (of the position), and maintain firm correctness:'—that is, (the individual concerned) should obscure his brightness. The case of the count of Ki was that of one who, amidst the difficulties of his House, was able (thus) to maintain his aim and mind correct."
   },
   "image": {
     "zh_hant": "明入地中，明夷。君子以莅眾用晦而明。",
-    "zh_hans": "明入地中，明夷。君子以莅众用晦而明。"
+    "zh_hans": "明入地中，明夷。君子以莅众用晦而明。",
+    "en_legge": "(The trigram representing) the earth and that for the bright (sun) entering within it form Ming I. The superior man, in accordance with this, conducts his management of men;—he shows his intelligence by keeping it obscured."
   },
   "lines": [
     {
@@ -39,7 +41,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "君子于行、義不食也。",
-        "zh_hans": "君子于行、义不食也。"
+        "zh_hans": "君子于行、义不食也。",
+        "en_legge": "'The superior man (is revolving his) going away:'—(in such a case) he feels it right not to eat."
       }
     },
     {
@@ -55,7 +58,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "六二之吉、順以則也。",
-        "zh_hans": "六二之吉、顺以则也。"
+        "zh_hans": "六二之吉、顺以则也。",
+        "en_legge": "'The good fortune of (the subject of) the second line, divided,' is due to the proper fashion of his acting according to his circumstances."
       }
     },
     {
@@ -71,7 +75,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "南狩之志、乃大得也。",
-        "zh_hans": "南狩之志、乃大得也。"
+        "zh_hans": "南狩之志、乃大得也。",
+        "en_legge": "With the aim represented by 'hunting in the south' a great achievement is accomplished."
       }
     },
     {
@@ -87,7 +92,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "入于左腹、獲心意也。",
-        "zh_hans": "入于左腹、获心意也。"
+        "zh_hans": "入于左腹、获心意也。",
+        "en_legge": "'He has (just) entered into the left side of the belly (of the dark land):'—he is still able to carry out the idea in his (inner) mind."
       }
     },
     {
@@ -103,7 +109,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "箕子之貞、明不可息也。",
-        "zh_hans": "箕子之贞、明不可息也。"
+        "zh_hans": "箕子之贞、明不可息也。",
+        "en_legge": "'With the firm correctness of the count of Ki,' his brightness could not be (quite) extinguished."
       }
     },
     {
@@ -119,7 +126,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "初登于天、照四國也，後入于地、失則也。",
-        "zh_hans": "初登于天、照四国也，后入于地、失则也。"
+        "zh_hans": "初登于天、照四国也，后入于地、失则也。",
+        "en_legge": "'He had at first ascended to (the top of) the sky:'—he might have enlightened the four quarters of the kingdom. 'His future shall be to go into the earth:'—he has failed to fulfil the model (of a ruler)."
       }
     }
   ],

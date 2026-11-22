@@ -19,11 +19,13 @@
   },
   "tuan": {
     "zh_hant": "賁亨，柔來而文剛，故亨。分剛上而文柔，故小利有攸往。剛柔交錯、天文也。文明以止，人文也。觀乎天文以察時變，觀乎人文以化成天下。",
-    "zh_hans": "贲亨，柔来而文刚，故亨。分刚上而文柔，故小利有攸往。刚柔交错、天文也。文明以止，人文也。观乎天文以察时变，观乎人文以化成天下。"
+    "zh_hans": "贲亨，柔来而文刚，故亨。分刚上而文柔，故小利有攸往。刚柔交错、天文也。文明以止，人文也。观乎天文以察时变，观乎人文以化成天下。",
+    "en_legge": "(When it is said that) Pi indicates that there should be free course (in what it denotes):—(We see) the weak line coming and ornamenting the strong lines (of the lower trigram), and hence (it is said that ornament) 'should have free course.' On the other hand, the strong line above ornaments the weak ones (of the upper trigram), and hence (it is said) that 'there will be little advantage, if (ornament) be allowed to advance (and take the lead).' (This is illustrated in the) appearances that ornament the sky. Elegance and intelligence (denoted by the lower trigram) regulated by the arrest (denoted by the upper) suggest the observances that adorn human (society). We look at the ornamental figures of the sky, and thereby ascertain the changes of the seasons. We look at the ornamental observances of society, and understand how the processes of transformation are accomplished all under heaven."
   },
   "image": {
     "zh_hant": "山下有火，賁。君子以明庶政，无敢折獄。",
-    "zh_hans": "山下有火，贲。君子以明庶政，无敢折狱。"
+    "zh_hans": "山下有火，贲。君子以明庶政，无敢折狱。",
+    "en_legge": "(The trigram representing) a mountain and that for fire under it form Pi. The superior man, in accordance with this, throws a brilliancy around his various processes of government, but does not dare (in a similar way) to decide cases of criminal litigation."
   },
   "lines": [
     {
@@ -39,7 +41,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "舍車而徒、義弗乘也。",
-        "zh_hans": "舍车而徒、义弗乘也。"
+        "zh_hans": "舍车而徒、义弗乘也。",
+        "en_legge": "'He can discard a carriage and walk on foot:'—righteousness requires that he should not ride."
       }
     },
     {
@@ -55,7 +58,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "賁其須、與上興也。",
-        "zh_hans": "贲其须、与上兴也。"
+        "zh_hans": "贲其须、与上兴也。",
+        "en_legge": "'He adorns his beard:'—he rouses himself to action (only) along with the (subject of the) line above."
       }
     },
     {
@@ -71,7 +75,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "永貞之吉、終莫之陵也。",
-        "zh_hans": "永贞之吉、终莫之陵也。"
+        "zh_hans": "永贞之吉、终莫之陵也。",
+        "en_legge": "'The good fortune consequent on his ever maintaining firm correctness' is due to this,—that to the end no one will insult him."
       }
     },
     {
@@ -87,7 +92,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "六四、當位疑也，匪寇婚媾、終无尤也。",
-        "zh_hans": "六四、当位疑也，匪寇婚媾、终无尤也。"
+        "zh_hans": "六四、当位疑也，匪寇婚媾、终无尤也。",
+        "en_legge": "'The place occupied by the fourth line, divided,' affords ground for doubt (as to its subject); but '(as the subject of the third pursues) not as a robber, but as intent on a matrimonial alliance,' he will in the end have no grudge against him."
       }
     },
     {
@@ -103,7 +109,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "六五之吉、有喜也。",
-        "zh_hans": "六五之吉、有喜也。"
+        "zh_hans": "六五之吉、有喜也。",
+        "en_legge": "'The good fortune falling to the fifth line, divided,' affords occasion for joy."
       }
     },
     {
@@ -119,7 +126,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "白賁无咎、上得志也。",
-        "zh_hans": "白贲无咎、上得志也。"
+        "zh_hans": "白贲无咎、上得志也。",
+        "en_legge": "'The freedom from error attached to (the subject of) the topmost line, with no ornament but the (simple white),' shows how he has attained his aim."
       }
     }
   ],

@@ -19,11 +19,13 @@
   },
   "tuan": {
     "zh_hant": "剝、剝也。柔變剛也。不利有攸往、小人長也。順而止之，觀象也。君子尚消息盈虛，天行也。",
-    "zh_hans": "剥、剥也。柔变刚也。不利有攸往、小人长也。顺而止之，观象也。君子尚消息盈虚，天行也。"
+    "zh_hans": "剥、剥也。柔变刚也。不利有攸往、小人长也。顺而止之，观象也。君子尚消息盈虚，天行也。",
+    "en_legge": "Po denotes overthrowing or being overthrown. We see (in the figure) the weak lines (threatening to) change the (last) strong line (into one of themselves), That 'it will not be advantageous to make a movement in any direction whatever' appears from the fact that the small men are (now) growing and increasing. The superior man acts according to (the exigency of the time), and stops all forward movement, looking at the (significance of the) symbolic figures (in the hexagram). He values the processes of decrease and increase, of fulness and decadence, (as seen) in the movements of the heavenly bodies."
   },
   "image": {
     "zh_hant": "山附於地，剝。上以厚下安宅。",
-    "zh_hans": "山附于地，剥。上以厚下安宅。"
+    "zh_hans": "山附于地，剥。上以厚下安宅。",
+    "en_legge": "(The trigrams representing) the earth, and (above it) that for a mountain, which adheres to the earth, form Po. Superiors, in accordance with this, seek to strengthen those below them, to secure the peace and stability of their own position."
   },
   "lines": [
     {
@@ -39,7 +41,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "剝床以足、以滅下也。",
-        "zh_hans": "剥床以足、以灭下也。"
+        "zh_hans": "剥床以足、以灭下也。",
+        "en_legge": "'He overthrows the couch by injuring its legs:'—thus (he commences) his work of ruin with what is lowest (in the superior man)."
       }
     },
     {
@@ -55,7 +58,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "剝床以辨、未有與也。",
-        "zh_hans": "剥床以辨、未有与也。"
+        "zh_hans": "剥床以辨、未有与也。",
+        "en_legge": "'He destroys the couch by injuring its frame:'—(the superior man) has as yet no associates."
       }
     },
     {
@@ -71,7 +75,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "剝之无咎、失上下也。",
-        "zh_hans": "剥之无咎、失上下也。"
+        "zh_hans": "剥之无咎、失上下也。",
+        "en_legge": "That 'there will be no error on the part of this one among the overthrowers' arises from the difference between him and the others above and below."
       }
     },
     {
@@ -87,7 +92,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "剝床以膚、切近災也。",
-        "zh_hans": "剥床以肤、切近灾也。"
+        "zh_hans": "剥床以肤、切近灾也。",
+        "en_legge": "'He has overthrown the couch, and (proceeds to injure) the skin (of him who lies on it):'-—calamity is very near at hand."
       }
     },
     {
@@ -103,7 +109,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "以宮人寵、終无尤也。",
-        "zh_hans": "以宫人宠、终无尤也。"
+        "zh_hans": "以宫人宠、终无尤也。",
+        "en_legge": "'He obtains for them the favour that lights on the inmates of the palace:'—in the end there will be no grudge against him."
       }
     },
     {
@@ -119,7 +126,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "君子得輿、民所載也，小人剝廬、終不可用也。",
-        "zh_hans": "君子得舆、民所载也，小人剥庐、终不可用也。"
+        "zh_hans": "君子得舆、民所载也，小人剥庐、终不可用也。",
+        "en_legge": "'The superior man finds himself in a carriage:'—he is carried along by the people. 'The small men (by their course) overthrow their own dwellings:'—they can never again be of use to them."
       }
     }
   ],

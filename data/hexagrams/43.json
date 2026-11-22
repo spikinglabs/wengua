@@ -19,11 +19,13 @@
   },
   "tuan": {
     "zh_hant": "夬、決也，剛決柔也。健而說，決而和。揚于王庭、柔乘五剛也，孚號有厲、其危乃光也。告自邑不利即戎、所尚乃窮也，利有攸往、剛長乃終也。",
-    "zh_hans": "夬、决也，刚决柔也。健而说，决而和。扬于王庭、柔乘五刚也，孚号有厉、其危乃光也。告自邑不利即戎、所尚乃穷也，利有攸往、刚长乃终也。"
+    "zh_hans": "夬、决也，刚决柔也。健而说，决而和。扬于王庭、柔乘五刚也，孚号有厉、其危乃光也。告自邑不利即戎、所尚乃穷也，利有攸往、刚长乃终也。",
+    "en_legge": "Kwai is the symbol of displacing or removing. We see (in the figure) the strong (lines) displacing the weak. (We have in it the attributes of) strength and complacency. There is displacement, but harmony (continues). 'The exhibition (of the criminal's guilt) in the royal courtyard' is suggested by the (one) weak (line) mounted on the five strong lines. 'There is an earnest and sincere appeal (for sympathy and support), and a consciousness of the peril (involved in the undertaking):'—it is the realisation of this danger, which makes the method (of compassing the object) brilliant. 'He should make an announcement in his own city, and show that it will not be well to have recourse at once to arms:'—(if he have recourse to arms), what he prefers will (soon) be exhausted. 'There will be advantage in whatever he shall go forward to:'—when the growth of the strong (lines) has been completed, there will be an end (of the displacement)."
   },
   "image": {
     "zh_hant": "澤上於天，夬。君子以施祿及下，居德則忌。",
-    "zh_hans": "泽上于天，夬。君子以施禄及下，居德则忌。"
+    "zh_hans": "泽上于天，夬。君子以施禄及下，居德则忌。",
+    "en_legge": "(The trigram representing) heaven and that for the waters of a marsh mounting above it form Kwai. The superior man, in accordance with this, bestows emolument on those below him, and dislikes allowing his gifts to accumulate (undispensed)."
   },
   "lines": [
     {
@@ -39,7 +41,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "不勝而往、咎也。",
-        "zh_hans": "不胜而往、咎也。"
+        "zh_hans": "不胜而往、咎也。",
+        "en_legge": "'Without (being able to) succeed, he goes forward:'—this is an error."
       }
     },
     {
@@ -55,7 +58,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "有戎勿恤、得中道也。",
-        "zh_hans": "有戎勿恤、得中道也。"
+        "zh_hans": "有戎勿恤、得中道也。",
+        "en_legge": "'Though hostile measures be taken against him, he need not be anxious:'—he pursues the course of the due mean."
       }
     },
     {
@@ -71,7 +75,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "君子夬夬、終无咎也。",
-        "zh_hans": "君子夬夬、终无咎也。"
+        "zh_hans": "君子夬夬、终无咎也。",
+        "en_legge": "'The superior man looks bent on cutting off the culprit:'--there will in the end be no error."
       }
     },
     {
@@ -87,7 +92,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "其行次且、位不當也，聞言不信、聰不明也。",
-        "zh_hans": "其行次且、位不当也，闻言不信、聪不明也。"
+        "zh_hans": "其行次且、位不当也，闻言不信、聪不明也。",
+        "en_legge": "'He walks slowly and with difficulty:'—he is not in the place appropriate to him. 'He hears these words, but does not believe them:'—he hears, but does not understand."
       }
     },
     {
@@ -103,7 +109,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "中行无咎、中未光也。",
-        "zh_hans": "中行无咎、中未光也。"
+        "zh_hans": "中行无咎、中未光也。",
+        "en_legge": "'If his action be in harmony with his central position, there will be no error:'—but his standing in the due mean is not yet clearly displayed."
       }
     },
     {
@@ -119,7 +126,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "无號之凶、終不可長也。",
-        "zh_hans": "无号之凶、终不可长也。"
+        "zh_hans": "无号之凶、终不可长也。",
+        "en_legge": "'There is the misery of having none on whom to call:'—the end will be that he cannot continue any longer."
       }
     }
   ],

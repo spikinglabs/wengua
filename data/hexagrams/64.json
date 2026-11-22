@@ -19,11 +19,13 @@
   },
   "tuan": {
     "zh_hant": "未濟亨、柔得中也。小狐汔濟、未出中也。濡其尾、无攸利、不續終也。雖不當位、剛柔應也。",
-    "zh_hans": "未济亨、柔得中也。小狐汔济、未出中也。濡其尾、无攸利、不续终也。虽不当位、刚柔应也。"
+    "zh_hans": "未济亨、柔得中也。小狐汔济、未出中也。濡其尾、无攸利、不续终也。虽不当位、刚柔应也。",
+    "en_legge": "'Wei Zi intimates progress and success (in the circumstances which it implies):'—the weak (fifth) line is in the centre. 'The young fox has nearly crossed the stream:'—but he has not yet escaped from the midst (of the danger and calamity). 'Its tail gets immersed. There will be no advantage in any way:'—there is not at the end a continuance (of the purpose) at the beginning. Although the places (of the different lines) are not those appropriate to them, yet a strong (line) and a weak (line always) respond to each other."
   },
   "image": {
     "zh_hant": "火在水上，未濟。君子以慎辨物居方。",
-    "zh_hans": "火在水上，未济。君子以慎辨物居方。"
+    "zh_hans": "火在水上，未济。君子以慎辨物居方。",
+    "en_legge": "(The trigram representing) water and that for fire above it form Wei Zi. The superior man, in accordance with this, carefully discriminates among (the qualities of) things, and the (different) positions they (naturally) occupy."
   },
   "lines": [
     {
@@ -39,7 +41,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "濡其尾、亦不知極也。",
-        "zh_hans": "濡其尾、亦不知极也。"
+        "zh_hans": "濡其尾、亦不知极也。",
+        "en_legge": "'His tail gets immersed:'—this is the very height of ignorance."
       }
     },
     {
@@ -55,7 +58,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "九二貞吉、中以行正也。",
-        "zh_hans": "九二贞吉、中以行正也。"
+        "zh_hans": "九二贞吉、中以行正也。",
+        "en_legge": "'The second line, undivided, shows good fortune arising from being firm and correct:'—it is in the central place, and the action of its subject thereby becomes correct."
       }
     },
     {
@@ -71,7 +75,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "未濟征凶、位不當也。",
-        "zh_hans": "未济征凶、位不当也。"
+        "zh_hans": "未济征凶、位不当也。",
+        "en_legge": "'(The state of things is) not yet remedied. Advancing will lead to evil:'—the place (of the line) is not that appropriate for it."
       }
     },
     {
@@ -87,7 +92,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "貞吉悔亡、志行也。",
-        "zh_hans": "贞吉悔亡、志行也。"
+        "zh_hans": "贞吉悔亡、志行也。",
+        "en_legge": "'By firm correctness there is good fortune, and cause for repentance disappears:'—the aim (of the subject of the line) is carried into effect."
       }
     },
     {
@@ -103,7 +109,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "君子之光、其暉吉也。",
-        "zh_hans": "君子之光、其晖吉也。"
+        "zh_hans": "君子之光、其晖吉也。",
+        "en_legge": "'(We see) the brightness of a superior man:'—the diffusion of that brightness tends to good fortune."
       }
     },
     {
@@ -119,7 +126,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "飲酒濡首、亦不知節也。",
-        "zh_hans": "饮酒濡首、亦不知节也。"
+        "zh_hans": "饮酒濡首、亦不知节也。",
+        "en_legge": "'He drinks and gets his head immersed:'—he does not know how to submit to the (proper) regulations."
       }
     }
   ],

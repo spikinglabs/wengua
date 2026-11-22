@@ -19,11 +19,13 @@
   },
   "tuan": {
     "zh_hant": "渙亨，剛來而不窮，柔得位乎外而上同。王假有廟、王乃在中也，利涉大川、乘木有功也。",
-    "zh_hans": "涣亨，刚来而不穷，柔得位乎外而上同。王假有庙、王乃在中也，利涉大川、乘木有功也。"
+    "zh_hans": "涣亨，刚来而不穷，柔得位乎外而上同。王假有庙、王乃在中也，利涉大川、乘木有功也。",
+    "en_legge": "'Hwan intimates that there will be progress and success:'—(we see) the strong line (in the second place) of the lower trigram, and not suffering any extinction there; and (also) the weak line occupying its place in the outer trigram, and uniting (its action) with that of the line above. 'The king goes to his ancestral temple:'—the king's (mind) is without any deflection. 'It will be advantageous to cross the great stream:'—(the subject of the hexagram) rides in (a vessel of) wood (over water), and will do so with success."
   },
   "image": {
     "zh_hant": "風行水上，渙。先王以享于帝，立廟。",
-    "zh_hans": "风行水上，涣。先王以享于帝，立庙。"
+    "zh_hans": "风行水上，涣。先王以享于帝，立庙。",
+    "en_legge": "(The trigram representing) water and that for wind moving above the water form Hwan. The ancient kings, in accordance with this, presented offerings to God and established the ancestral temple."
   },
   "lines": [
     {
@@ -39,7 +41,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "初六之吉、順也。",
-        "zh_hans": "初六之吉、顺也。"
+        "zh_hans": "初六之吉、顺也。",
+        "en_legge": "'The good fortune attached to the first line, divided,' is due to the natural course (pursued by its subject)."
       }
     },
     {
@@ -55,7 +58,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "渙奔其机、得願也。",
-        "zh_hans": "涣奔其机、得愿也。"
+        "zh_hans": "涣奔其机、得愿也。",
+        "en_legge": "'Amidst the prevailing dispersion, he hurries to his contrivance (for security):'—he gets what he desires."
       }
     },
     {
@@ -71,7 +75,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "渙其躬、志在外也。",
-        "zh_hans": "涣其躬、志在外也。"
+        "zh_hans": "涣其躬、志在外也。",
+        "en_legge": "'He has no regard to his own person:'—his aim is directed to what is external to himself."
       }
     },
     {
@@ -87,7 +92,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "渙其群元吉、光大也。",
-        "zh_hans": "涣其群元吉、光大也。"
+        "zh_hans": "涣其群元吉、光大也。",
+        "en_legge": "'He scatters the (different) parties (in the state), and there is great good fortune:'—brilliant and great (are his virtue and service)."
       }
     },
     {
@@ -103,7 +109,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "王居无咎、正位也。",
-        "zh_hans": "王居无咎、正位也。"
+        "zh_hans": "王居无咎、正位也。",
+        "en_legge": "'The accumulations of the royal (granaries) are dispersed, and there is no error:'—this is due to the correctness of the position."
       }
     },
     {
@@ -119,7 +126,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "渙其血、遠害也。",
-        "zh_hans": "涣其血、远害也。"
+        "zh_hans": "涣其血、远害也。",
+        "en_legge": "'His bloody wounds are gone:'—he is far removed from the danger of injury."
       }
     }
   ],

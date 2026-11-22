@@ -19,11 +19,13 @@
   },
   "tuan": {
     "zh_hant": "至哉坤元，萬物資生，乃順承天。坤厚載物，德合无疆。含弘光大，品物咸亨。牝馬地類，行地无疆，柔順利貞。君子攸行，先迷失道，後順得常。西南得朋，乃與類行。東北喪朋，乃終有慶。安貞之吉，應地无疆。",
-    "zh_hans": "至哉坤元，万物资生，乃顺承天。坤厚载物，德合无疆。含弘光大，品物咸亨。牝马地类，行地无疆，柔顺利贞。君子攸行，先迷失道，后顺得常。西南得朋，乃与类行。东北丧朋，乃终有庆。安贞之吉，应地无疆。"
+    "zh_hans": "至哉坤元，万物资生，乃顺承天。坤厚载物，德合无疆。含弘光大，品物咸亨。牝马地类，行地无疆，柔顺利贞。君子攸行，先迷失道，后顺得常。西南得朋，乃与类行。东北丧朋，乃终有庆。安贞之吉，应地无疆。",
+    "en_legge": "Complete is the 'great and originating (capacity)' indicated by Khwan! All things owe to it their birth;—it receives obediently the influences of Heaven. Khwan, in its largeness, supports and contains all things. Its excellent capacity matches the unlimited power (of Khien). Its comprehension is wide, and its brightness great. The various things obtain (by it) their full development. The mare is a creature of earthly kind. Its (power of) moving on the earth is without limit; it is mild and docile, advantageous and firm:—such is the course of the superior man. 'If he take the initiative, he goes astray:'—he misses, that is, his proper course. 'If he follow,' he is docile, and gets into his regular (course). 'In the south-west he will get friends:'—he will be walking with those of his own class. 'In the north-east he will lose friends:'—but in the end there will be ground for congratulation. 'The good fortune arising from resting in firmness' corresponds to the unlimited capacity of the earth."
   },
   "image": {
     "zh_hant": "地勢坤。君子以厚德載物。",
-    "zh_hans": "地势坤。君子以厚德载物。"
+    "zh_hans": "地势坤。君子以厚德载物。",
+    "en_legge": "The (capacity and sustaining) power of the earth is what is denoted by Khwan. The superior man, in accordance with this, with his large virtue supports (men and) things."
   },
   "lines": [
     {
@@ -39,7 +41,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "履霜堅冰、陰始凝也。馴致其道，至堅冰也。",
-        "zh_hans": "履霜坚冰、阴始凝也。驯致其道，至坚冰也。"
+        "zh_hans": "履霜坚冰、阴始凝也。驯致其道，至坚冰也。",
+        "en_legge": "'He is treading on hoarfrost;—the strong ice will come (by and by):'—the cold (air) has begun to take form. Allow it to go on quietly according to its nature, and (the hoarfrost) will come to strong ice."
       }
     },
     {
@@ -55,7 +58,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "六二之動、直以方也，不習无不利、地道光也。",
-        "zh_hans": "六二之动、直以方也，不习无不利、地道光也。"
+        "zh_hans": "六二之动、直以方也，不习无不利、地道光也。",
+        "en_legge": "The movement indicated by the second line, divided, is 'from the straight (line) to the square.' '(Its operation), without repeated effort, in every way advantageous,' shows the brilliant result of the way of earth."
       }
     },
     {
@@ -71,7 +75,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "含章可貞、以時發也。或從王事、知光大也。",
-        "zh_hans": "含章可贞、以时发也。或从王事、知光大也。"
+        "zh_hans": "含章可贞、以时发也。或从王事、知光大也。",
+        "en_legge": "'He keeps his excellence under restraint, but firmly maintains it:'—at the proper time he will manifest it. 'He may have occasion to engage in the king's service:'—great is the glory of his wisdom."
       }
     },
     {
@@ -87,7 +92,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "括囊无咎、慎不害也。",
-        "zh_hans": "括囊无咎、慎不害也。"
+        "zh_hans": "括囊无咎、慎不害也。",
+        "en_legge": "'A sack tied up;—there will be no error:'—this shows how, through carefulness, no injury will be received."
       }
     },
     {
@@ -103,7 +109,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "黃裳元吉、文在中也。",
-        "zh_hans": "黄裳元吉、文在中也。"
+        "zh_hans": "黄裳元吉、文在中也。",
+        "en_legge": "'The yellow lower-garment;'—'there will be great good fortune:'—this follows from that ornamental (colour's) being in the right and central place."
       }
     },
     {
@@ -119,7 +126,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "龍戰于野，其道窮也。",
-        "zh_hans": "龙战于野，其道穷也。"
+        "zh_hans": "龙战于野，其道穷也。",
+        "en_legge": "'The dragons fight in the wild:'—the (onward) course (indicated by Khwan) is pursued to extremity."
       }
     }
   ],
@@ -135,7 +143,8 @@
     },
     "xiao_xiang": {
       "zh_hant": "用六永貞，以大終也。",
-      "zh_hans": "用六永贞，以大终也。"
+      "zh_hans": "用六永贞，以大终也。",
+      "en_legge": "'(The lines are all weak and divided, as appears from) the use of the number six:'—but (those who are thus represented) becoming perpetually correct and firm, there will thereby be a great consummation."
     }
   },
   "wenyan": [

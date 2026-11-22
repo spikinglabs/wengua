@@ -19,11 +19,13 @@
   },
   "tuan": {
     "zh_hant": "困、剛揜也。險以說，困而不失其所，亨，其唯君子乎。貞大人吉、以剛中也，有言不信、尚口乃窮也。",
-    "zh_hans": "困、刚揜也。险以说，困而不失其所，亨，其唯君子乎。贞大人吉、以刚中也，有言不信、尚口乃穷也。"
+    "zh_hans": "困、刚揜也。险以说，困而不失其所，亨，其唯君子乎。贞大人吉、以刚中也，有言不信、尚口乃穷也。",
+    "en_legge": "In Khwan (we see) the strong (lines) covered and obscured (by the weak). We have in it (the attribute of) perilousness going on to that of satisfaction. Who is it but the superior man that, though straitened, still does not fail in making progress to his proper end? 'For the firm and correct, the (really) great man, there will be good fortune:'—this is shown by the central positions of the strong (lines), 'If he make speeches, his words cannot be made good:'—to be fond of arguing or pleading is the way to be reduced to extremity."
   },
   "image": {
     "zh_hant": "澤无水，困。君子以致命遂志。",
-    "zh_hans": "泽无水，困。君子以致命遂志。"
+    "zh_hans": "泽无水，困。君子以致命遂志。",
+    "en_legge": "(The trigram representing) a marsh, and (below it that for a defile, which has drained the other dry so that there is) no water in it, form Khwan. The superior man, in accordance with this, will sacrifice his life in order to carry out his purpose."
   },
   "lines": [
     {
@@ -39,7 +41,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "入于幽谷，幽、不明也。",
-        "zh_hans": "入于幽谷，幽、不明也。"
+        "zh_hans": "入于幽谷，幽、不明也。",
+        "en_legge": "'He enters a dark valley:'—so benighted is he, and without clear vision."
       }
     },
     {
@@ -55,7 +58,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "困于酒食、中有慶也。",
-        "zh_hans": "困于酒食、中有庆也。"
+        "zh_hans": "困于酒食、中有庆也。",
+        "en_legge": "'He is straitened amidst his wine and viands:'—(but) his position is central, and there will be ground for congratulation."
       }
     },
     {
@@ -71,7 +75,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "據于蒺蔾、乘剛也，入于其宮不見其妻、不祥也。",
-        "zh_hans": "据于蒺蔾、乘刚也，入于其宫不见其妻、不祥也。"
+        "zh_hans": "据于蒺蔾、乘刚也，入于其宫不见其妻、不祥也。",
+        "en_legge": "'He lays hold of thorns:'—(this is suggested by the position of the line) above the strong (line). 'He enters his palace, and does not see his wife:'—this is inauspicious."
       }
     },
     {
@@ -87,7 +92,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "來徐徐、志在下也。雖不當位，有與也。",
-        "zh_hans": "来徐徐、志在下也。虽不当位，有与也。"
+        "zh_hans": "来徐徐、志在下也。虽不当位，有与也。",
+        "en_legge": "'He proceeds very slowly (to help the subject of the first line):'—his aim is directed to (help) that lower (line). Although he is not in his appropriate place, he and that other will (in the end) be together."
       }
     },
     {
@@ -103,7 +109,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "劓刖、志未得也，乃徐有說、以中直也，利用祭祀、受福也。",
-        "zh_hans": "劓刖、志未得也，乃徐有说、以中直也，利用祭祀、受福也。"
+        "zh_hans": "劓刖、志未得也，乃徐有说、以中直也，利用祭祀、受福也。",
+        "en_legge": "'His nose and feet are cut off:'—his aim has not yet been gained. 'He is leisurely, however, in his movements, and is satisfied:'—his position is central and (his virtue) is correct. 'It will be well for him to be (as sincere as) in sacrificing:'—so shall he receive blessing."
       }
     },
     {
@@ -119,7 +126,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "困于葛藟、未當也，動悔有悔、吉行也。",
-        "zh_hans": "困于葛藟、未当也，动悔有悔、吉行也。"
+        "zh_hans": "困于葛藟、未当也，动悔有悔、吉行也。",
+        "en_legge": "'He is straitened as if bound with creepers:'—(his spirit and action) are unsuitable. '(He says), \"If I' move, I 'shall repent: of ait. And he does repent (of former errors), which leads to good fortune:'—so he (now) goes on."
       }
     }
   ],

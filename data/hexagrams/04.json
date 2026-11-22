@@ -19,11 +19,13 @@
   },
   "tuan": {
     "zh_hant": "蒙，山下有險，險而止，蒙。蒙亨，以亨行，時中也。匪我求童蒙、童蒙求我，志應也。初筮告、以剛中也。再三瀆、瀆則不告，瀆蒙也。蒙以養正，聖功也。",
-    "zh_hans": "蒙，山下有险，险而止，蒙。蒙亨，以亨行，时中也。匪我求童蒙、童蒙求我，志应也。初筮告、以刚中也。再三渎、渎则不告，渎蒙也。蒙以养正，圣功也。"
+    "zh_hans": "蒙，山下有险，险而止，蒙。蒙亨，以亨行，时中也。匪我求童蒙、童蒙求我，志应也。初筮告、以刚中也。再三渎、渎则不告，渎蒙也。蒙以养正，圣功也。",
+    "en_legge": "In Mang we have (the trigram for) a mountain, and below it that of a rugged defile with a stream in it. The conditions of peril and arrest of progress (suggested by these) give (the idea in) Mang. 'Mang indicates that there will be progress and success:'—for there is development at work in it, and its time of action is exactly what is right. 'I do not seek the youthful and inexperienced; he seeks me:'—so does will respond to will. 'When he shows (the sincerity that marks) the first recourse to divination, I instruct him:'—for possessing the qualities of the undivided line and being in the central place, (the subject of the second line thus speaks). 'A second and third application create annoyance, and I do not instruct so as to create annoyance:'—annoyance (he means) to the ignorant. (The method of dealing with) the young and ignorant is to nourish the correct (nature belonging to them);—this accomplishes the service of the sage."
   },
   "image": {
     "zh_hant": "山下出泉，蒙。君子以果行育德。",
-    "zh_hans": "山下出泉，蒙。君子以果行育德。"
+    "zh_hans": "山下出泉，蒙。君子以果行育德。",
+    "en_legge": "(The trigram representing) a mountain, and beneath it that for a spring issuing forth from Mang. The superior man, in accordance with this, strives to be resolute in his conduct and nourishes his virtue."
   },
   "lines": [
     {
@@ -39,7 +41,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "利用刑人、以正法也。",
-        "zh_hans": "利用刑人、以正法也。"
+        "zh_hans": "利用刑人、以正法也。",
+        "en_legge": "'It will be advantageous to use punishment:'—the object being to bring under the influence of correcting law."
       }
     },
     {
@@ -55,7 +58,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "子克家、剛柔接也。",
-        "zh_hans": "子克家、刚柔接也。"
+        "zh_hans": "子克家、刚柔接也。",
+        "en_legge": "'A son able to (sustain the burden of) his family:'—as appears from the reciprocation between this strong line and the weak (fifth line)."
       }
     },
     {
@@ -71,7 +75,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "勿用取女、行不順也。",
-        "zh_hans": "勿用取女、行不顺也。"
+        "zh_hans": "勿用取女、行不顺也。",
+        "en_legge": "'A woman (such as is here represented) should not be taken in marriage:'—her conduct is not agreeable to what is right."
       }
     },
     {
@@ -87,7 +92,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "困蒙之吝、獨遠實也。",
-        "zh_hans": "困蒙之吝、独远实也。"
+        "zh_hans": "困蒙之吝、独远实也。",
+        "en_legge": "'The regret arising from ignorance bound in chains' is due to the special distance of (the subject of this line) from the solidity (shown in lines 2 and 6)."
       }
     },
     {
@@ -103,7 +109,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "童蒙之吉、順以巽也。",
-        "zh_hans": "童蒙之吉、顺以巽也。"
+        "zh_hans": "童蒙之吉、顺以巽也。",
+        "en_legge": "'The good fortune belonging to the simple lad without experience' comes from his docility going on to humility."
       }
     },
     {
@@ -119,7 +126,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "利用禦寇，上下順也。",
-        "zh_hans": "利用御寇，上下顺也。"
+        "zh_hans": "利用御寇，上下顺也。",
+        "en_legge": "'Advantage will come from warding off injury:'—(the subject of this line) above and (the ignorant) below, all do and are done to in accordance with their nature."
       }
     }
   ],

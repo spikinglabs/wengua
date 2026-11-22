@@ -19,11 +19,13 @@
   },
   "tuan": {
     "zh_hant": "謙亨。天道下濟而光明，地道卑而上行。天道虧盈而益謙，地道變盈而流謙，鬼神害盈而福謙，人道惡盈而好謙。謙、尊而光，卑而不可踰，君子之終也。",
-    "zh_hans": "谦亨。天道下济而光明，地道卑而上行。天道亏盈而益谦，地道变盈而流谦，鬼神害盈而福谦，人道恶盈而好谦。谦、尊而光，卑而不可逾，君子之终也。"
+    "zh_hans": "谦亨。天道下济而光明，地道卑而上行。天道亏盈而益谦，地道变盈而流谦，鬼神害盈而福谦，人道恶盈而好谦。谦、尊而光，卑而不可逾，君子之终也。",
+    "en_legge": "Khien indicates progress and success. It is the way of heaven to send down its beneficial influences below, where they are brilliantly displayed. It is the way of earth, lying low, to send its influences upwards and (there) to act. It is the way of heaven to diminish the full and augment the humble. It is the way of earth to overthrow the full and replenish the humble. Spiritual Beings inflict calamity on the full and bless the humble. It is the way of men to hate the full and love the humble. Humility in a position of honour makes that still more brilliant; and in a low position men will not (seek to) pass beyond it. Thus it is that 'the superior man will have a (good) issue (to his undertakings)'"
   },
   "image": {
     "zh_hant": "地中有山，謙。君子以裒多益寡，稱物平施。",
-    "zh_hans": "地中有山，谦。君子以裒多益寡，称物平施。"
+    "zh_hans": "地中有山，谦。君子以裒多益寡，称物平施。",
+    "en_legge": "(The trigram for) the earth and (that of) a mountain in the midst of it form Khien. The superior man, in accordance with this, diminishes what is excessive (in himself), and increases where there is any defect, bringing about an equality, according to the nature of the case, in his treatment (of himself and others)."
   },
   "lines": [
     {
@@ -39,7 +41,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "謙謙君子、卑以自牧也。",
-        "zh_hans": "谦谦君子、卑以自牧也。"
+        "zh_hans": "谦谦君子、卑以自牧也。",
+        "en_legge": "'The superior man who adds humility to humility' is one who nourishes his (virtue) in lowliness."
       }
     },
     {
@@ -55,7 +58,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "鳴謙貞吉、中心得也。",
-        "zh_hans": "鸣谦贞吉、中心得也。"
+        "zh_hans": "鸣谦贞吉、中心得也。",
+        "en_legge": "'The good fortune consequent on being firm and correct, where the humility has made itself recognised,' is owing to the possessor's having (the virtue) in the core of his heart."
       }
     },
     {
@@ -71,7 +75,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "勞謙君子、萬民服也。",
-        "zh_hans": "劳谦君子、万民服也。"
+        "zh_hans": "劳谦君子、万民服也。",
+        "en_legge": "'The superior man of (acknowledged) merit, and yet humble:'—the myriads of the people will submit to him."
       }
     },
     {
@@ -87,7 +92,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "无不利、撝謙、不違則也。",
-        "zh_hans": "无不利、㧑谦、不违则也。"
+        "zh_hans": "无不利、㧑谦、不违则也。",
+        "en_legge": "'One, whose action would be in every way advantageous, stirs up his humility the more:'—(but in doing so) he does not act contrary to the (proper) rule."
       }
     },
     {
@@ -103,7 +109,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "利用侵伐、征不服也。",
-        "zh_hans": "利用侵伐、征不服也。"
+        "zh_hans": "利用侵伐、征不服也。",
+        "en_legge": "'He may advantageously use the force of arms:'—correcting, that is, those who do not submit."
       }
     },
     {
@@ -119,7 +126,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "鳴謙、志未得也。可用行師、征邑國也。",
-        "zh_hans": "鸣谦、志未得也。可用行师、征邑国也。"
+        "zh_hans": "鸣谦、志未得也。可用行师、征邑国也。",
+        "en_legge": "'His humility has made itself recognised:'—(but) all his aims have not yet been attained. 'He may employ the force of arms, (but only) in correcting (his own) towns and state.'"
       }
     }
   ],

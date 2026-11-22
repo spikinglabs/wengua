@@ -19,11 +19,13 @@
   },
   "tuan": {
     "zh_hant": "屯，剛柔始交而難生。動乎險中，大亨貞。雷雨之動滿盈，天造草昧。宜建侯而不寧。",
-    "zh_hans": "屯，刚柔始交而难生。动乎险中，大亨贞。雷雨之动满盈，天造草昧。宜建侯而不宁。"
+    "zh_hans": "屯，刚柔始交而难生。动乎险中，大亨贞。雷雨之动满盈，天造草昧。宜建侯而不宁。",
+    "en_legge": "In Kun we have the strong (Kien) and the weak (Khwan) commencing their intercourse, and difficulties arising. Movement in the midst of peril gives rise to 'great progress and success, (through) firm correctness,' By the action of the thunder and rain, (which are symbols of Kan and Khan), all (between Heaven and earth) is filled up. But the condition of the time is full of irregularity and obscurity. Feudal princes should be established, but the feeling that rest and peace have been secured should not be indulged (even then)."
   },
   "image": {
     "zh_hant": "雲雷、屯。君子以經綸。",
-    "zh_hans": "云雷、屯。君子以经纶。"
+    "zh_hans": "云雷、屯。君子以经纶。",
+    "en_legge": "(The trigram representing) clouds and (that representing) thunder form Kun. The superior man, in accordance with this, (adjusts his measures of government) as in sorting the threads of the warp and woof."
   },
   "lines": [
     {
@@ -39,7 +41,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "雖磐桓，志行正也。以貴下賤，大得民也。",
-        "zh_hans": "虽磐桓，志行正也。以贵下贱，大得民也。"
+        "zh_hans": "虽磐桓，志行正也。以贵下贱，大得民也。",
+        "en_legge": "Although 'there is a difficulty in advancing,' the mind (of the subject of the line) is set on doing what is correct. While noble, he humbles himself to the mean, and grandly gains the people."
       }
     },
     {
@@ -55,7 +58,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "六二之難、乘剛也，十年乃字、反常也。",
-        "zh_hans": "六二之难、乘刚也，十年乃字、反常也。"
+        "zh_hans": "六二之难、乘刚也，十年乃字、反常也。",
+        "en_legge": "The difficulty (to the subject of) the second line, divided, arises from its place over the undivided line below it. 'The union and children after ten years' shows things resuming their regular course."
       }
     },
     {
@@ -71,7 +75,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "即鹿无虞以從禽也。君子舍之，往吝窮也。",
-        "zh_hans": "即鹿无虞以从禽也。君子舍之，往吝穷也。"
+        "zh_hans": "即鹿无虞以从禽也。君子舍之，往吝穷也。",
+        "en_legge": "'One pursues the deer without the (guidance of the) forester:'—(he does so) in (his eagerness to) follow the game. 'The superior man gives up the chase, (knowing that) if he go forward he will regret it:'—he would be reduced to extremity."
       }
     },
     {
@@ -87,7 +92,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "求而往、明也。",
-        "zh_hans": "求而往、明也。"
+        "zh_hans": "求而往、明也。",
+        "en_legge": "'Going forward after such a search (for a helper)' shows intelligence."
       }
     },
     {
@@ -103,7 +109,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "屯其膏、施未光也。",
-        "zh_hans": "屯其膏、施未光也。"
+        "zh_hans": "屯其膏、施未光也。",
+        "en_legge": "'Difficulty is experienced (by the subject of the fifth line) in bestowing his rich favours:'—the extent to which they reach will not yet be conspicuous."
       }
     },
     {
@@ -119,7 +126,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "泣血漣如，何可長也？",
-        "zh_hans": "泣血涟如，何可长也？"
+        "zh_hans": "泣血涟如，何可长也？",
+        "en_legge": "'He weeps tears of blood in streams:'—how can the state (thus emblemed) continue long?"
       }
     }
   ],

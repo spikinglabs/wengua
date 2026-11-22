@@ -86,3 +86,11 @@ def test_every_hexagram_roundtrips():
         h = wengua.hexagram(n)
         for q in (h["unicode"], h["binary"], h["name"]["zh_hant"], h["name"]["zh_hans"]):
             assert wengua.get(q)["number"] == n
+
+
+def test_legge_english_on_every_layer():
+    qian = wengua.hexagram(1)
+    assert qian["tuan"]["en_legge"].startswith("Vast is the 'great and originating (power)' indicated by Khien!")
+    assert qian["image"]["en_legge"].startswith("Heaven, in its motion, (gives the idea of) strength.")
+    assert qian["lines"][0]["xiao_xiang"]["en_legge"].startswith("'The dragon lies hid in the deep;")
+    assert qian["use_line"]["xiao_xiang"]["en_legge"].startswith("'The same undivided line is used'")

@@ -19,11 +19,13 @@
   },
   "tuan": {
     "zh_hant": "比、吉也，比、輔也，下順從也。原筮元、永貞无咎，以剛中也。不寧方來、上下應也，後夫凶、其道窮也。",
-    "zh_hans": "比、吉也，比、辅也，下顺从也。原筮元、永贞无咎，以刚中也。不宁方来、上下应也，后夫凶、其道穷也。"
+    "zh_hans": "比、吉也，比、辅也，下顺从也。原筮元、永贞无咎，以刚中也。不宁方来、上下应也，后夫凶、其道穷也。",
+    "en_legge": "'Pi indicates that there is good fortune:'—(the name) Pi denotes help; (and we see in the figure) inferiors docilely following (their superior). 'Let (the principal party intended in it) re-examine himself, (as if) by divination, whether his virtue be great, unintermitting, and firm;'—if it be so, there will be no error:—all this follows from the position of the strong line in the centre (of the upper trigram). 'Those who have not rest will come to him:'—high and low will respond to its subject. 'With those who are (too) late in coming it will be ill:'—(for them) the way (of good fortune here indicated) has been exhausted."
   },
   "image": {
     "zh_hant": "地上有水，比。先王以建萬國，親諸侯。",
-    "zh_hans": "地上有水，比。先王以建万国，亲诸侯。"
+    "zh_hans": "地上有水，比。先王以建万国，亲诸侯。",
+    "en_legge": "(The trigram representing) the earth, and over it (that representing) water, form Pi. The ancient kings, in accordance with this, established the various states and maintained an affectionate relation to their princes."
   },
   "lines": [
     {
@@ -39,7 +41,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "比之初六、有它吉也。",
-        "zh_hans": "比之初六、有它吉也。"
+        "zh_hans": "比之初六、有它吉也。",
+        "en_legge": "From 'the seeking union with its object' shown in the first line, divided, there will be other advantages."
       }
     },
     {
@@ -55,7 +58,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "比之自內、不自失也。",
-        "zh_hans": "比之自内、不自失也。"
+        "zh_hans": "比之自内、不自失也。",
+        "en_legge": "'The movement towards union and attachment proceeds from the inward (mind):'—(the party concerned) does not fail in what is proper to himself."
       }
     },
     {
@@ -71,7 +75,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "比之匪人、不亦傷乎？",
-        "zh_hans": "比之匪人、不亦伤乎？"
+        "zh_hans": "比之匪人、不亦伤乎？",
+        "en_legge": "'Union is sought with such as ought not to be associated with:'—but will not injury be the result?"
       }
     },
     {
@@ -87,7 +92,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "外比於賢、以從上也。",
-        "zh_hans": "外比于贤、以从上也。"
+        "zh_hans": "外比于贤、以从上也。",
+        "en_legge": "'Union is sought (by the party intended here) with one beyond himself, and (in this case) with a worthy object:'—he is following (the ruler) above him."
       }
     },
     {
@@ -103,7 +109,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "顯比之吉、位正中也，舍逆取順、失前禽也，邑人不誡、上使中也。",
-        "zh_hans": "显比之吉、位正中也，舍逆取顺、失前禽也，邑人不诫、上使中也。"
+        "zh_hans": "显比之吉、位正中也，舍逆取顺、失前禽也，邑人不诫、上使中也。",
+        "en_legge": "'The good fortune belonging to the most illustrious instance of seeking union and attachment' appears in the correct and central position (of the fifth line, undivided). (The king's) neglecting (the animals) confronting him (and then fleeing), and (only) taking those who present themselves as it were obediently, is seen in 'his allowing the escape of those in front of him.' 'That the people of his towns do not warn one another (to prevent such escape),' shows how he, in his high eminence, has made them pursue the due course."
       }
     },
     {
@@ -119,7 +126,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "比之无首、无所終也。",
-        "zh_hans": "比之无首、无所终也。"
+        "zh_hans": "比之无首、无所终也。",
+        "en_legge": "'He seeks union and attachment without taking the first (step to such an end):'—there is no possibility of a (good) issue."
       }
     }
   ],

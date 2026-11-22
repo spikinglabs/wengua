@@ -19,11 +19,13 @@
   },
   "tuan": {
     "zh_hant": "需、須也。險在前也，剛健而不陷，其義不困窮矣。需、有孚、光亨、貞吉，位乎天位以正中也。利涉大川、往有功也。",
-    "zh_hans": "需、须也。险在前也，刚健而不陷，其义不困穷矣。需、有孚、光亨、贞吉，位乎天位以正中也。利涉大川、往有功也。"
+    "zh_hans": "需、须也。险在前也，刚健而不陷，其义不困穷矣。需、有孚、光亨、贞吉，位乎天位以正中也。利涉大川、往有功也。",
+    "en_legge": "Hsu denotes waiting. (The figure) shows peril in front; but notwithstanding the firmness and strength (indicated by the inner trigram), its subject does not allow himself to be involved (in the dangerous defile):—it is right he should not be straitened or reduced to extremity. When it is said that, 'with the sincerity declared in Hsu, there will be brilliant success, and with firmness there will be good fortune,' this is shown by the position (of the fifth line) in the place assigned by Heaven, and its being the correct position for it, and in the centre. 'It will be advantageous to go through the great stream;'—that is, going forward will be followed by meritorious achievement."
   },
   "image": {
     "zh_hant": "雲上於天，需。君子以飲食宴樂。",
-    "zh_hans": "云上于天，需。君子以饮食宴乐。"
+    "zh_hans": "云上于天，需。君子以饮食宴乐。",
+    "en_legge": "(The trigram for) clouds ascending over that for the sky forms Hsu. The superior man, in accordance with this, eats and drinks, feasts and enjoys himself (as if there were nothing else to employ him)."
   },
   "lines": [
     {
@@ -39,7 +41,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "需于郊、不犯難行也。利用恆无咎、未失常也。",
-        "zh_hans": "需于郊、不犯难行也。利用恒无咎、未失常也。"
+        "zh_hans": "需于郊、不犯难行也。利用恒无咎、未失常也。",
+        "en_legge": "'He is waiting in the (distant) border:'—he makes no movement to encounter rashly the difficulties (of the situation). 'It will be advantageous for him constantly to maintain (the purpose thus shown), in which case there will be no error:'—he will not fail to pursue that regular course."
       }
     },
     {
@@ -55,7 +58,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "需于沙、衍在中也。雖小有言、以吉終也。",
-        "zh_hans": "需于沙、衍在中也。虽小有言、以吉终也。"
+        "zh_hans": "需于沙、衍在中也。虽小有言、以吉终也。",
+        "en_legge": "'He is waiting on the sand:'—he occupies his position in the centre with a generous forbearance. Though 'he suffer the small injury of being spoken (against),' he will bring things to a good issue."
       }
     },
     {
@@ -71,7 +75,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "需于泥、災在外也。自我致寇、敬慎不敗也。",
-        "zh_hans": "需于泥、灾在外也。自我致寇、敬慎不败也。"
+        "zh_hans": "需于泥、灾在外也。自我致寇、敬慎不败也。",
+        "en_legge": "'He is waiting in the mud:'—calamity is (close at hand, and as it were) in the outer (trigram). 'He himself invites the approach of injury:'—if he be reverent and careful, he will not be worsted."
       }
     },
     {
@@ -87,7 +92,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "需于血、順以聽也。",
-        "zh_hans": "需于血、顺以听也。"
+        "zh_hans": "需于血、顺以听也。",
+        "en_legge": "'He is waiting in (the place of) blood:'—he accommodates himself (to the circumstances of the time), and hearkens to (its requirements)."
       }
     },
     {
@@ -103,7 +109,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "酒食貞吉、以中正也。",
-        "zh_hans": "酒食贞吉、以中正也。"
+        "zh_hans": "酒食贞吉、以中正也。",
+        "en_legge": "'The appliances of a feast, and the good fortune through being firm and correct,' are indicated by (the position in) the central and correct place."
       }
     },
     {
@@ -119,7 +126,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "不速之客來、敬之終吉，雖不當位，未大失也。",
-        "zh_hans": "不速之客来、敬之终吉，虽不当位，未大失也。"
+        "zh_hans": "不速之客来、敬之终吉，虽不当位，未大失也。",
+        "en_legge": "'Guests come unurged (to give their help), and if (the subject of the line) receive them respectfully, there will be good fortune in the end:'—though the occupant and the place are not suited to each other, there has been no great failure (in what has been done)."
       }
     }
   ],

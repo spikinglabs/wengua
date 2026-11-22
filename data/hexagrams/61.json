@@ -19,11 +19,13 @@
   },
   "tuan": {
     "zh_hant": "中孚、柔在內而剛得中，說而巽，孚，乃化邦也。豚魚吉、信及豚魚也，利涉大川、乘木舟虛也，中孚以利貞、乃應乎天也。",
-    "zh_hans": "中孚、柔在内而刚得中，说而巽，孚，乃化邦也。豚鱼吉、信及豚鱼也，利涉大川、乘木舟虚也，中孚以利贞、乃应乎天也。"
+    "zh_hans": "中孚、柔在内而刚得中，说而巽，孚，乃化邦也。豚鱼吉、信及豚鱼也，利涉大川、乘木舟虚也，中孚以利贞、乃应乎天也。",
+    "en_legge": "In Kung Fu we have the (two) weak lines in the innermost part (of the figure), and strong lines occupying the central places (in the trigrams). (We have the attributes) of pleased satisfaction and flexible penetration. Sincerity (thus symbolled) will transform a country. 'Pigs and fish (are moved), and there will be good fortune:'—sincerity reaches to (and affects even) pigs and fishes. 'There will be advantage in crossing the great stream:'—(we see in the figure) one riding on (the emblem of) wood, which forms an empty boat. In (the exercise of the virtue denoted by) Acting Fu, (it is said that) 'there will be advantage in being firm and correct:'—in that virtue indeed we have the response (of man) to Heaven."
   },
   "image": {
     "zh_hant": "澤上有風，中孚。君子以議獄緩死。",
-    "zh_hans": "泽上有风，中孚。君子以议狱缓死。"
+    "zh_hans": "泽上有风，中孚。君子以议狱缓死。",
+    "en_legge": "(The trigram representing the waters of) a marsh and that for wind above it form Kung Fu. The superior man, in accordance with this, deliberates about cases of litigation and delays (the infliction of) death."
   },
   "lines": [
     {
@@ -39,7 +41,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "初九、虞吉、志未變也。",
-        "zh_hans": "初九、虞吉、志未变也。"
+        "zh_hans": "初九、虞吉、志未变也。",
+        "en_legge": "'The first line, undivided, shows its subject resting (in himself). There will be good fortune:'—no change has yet come over his purpose."
       }
     },
     {
@@ -55,7 +58,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "其子和之、中心願也。",
-        "zh_hans": "其子和之、中心愿也。"
+        "zh_hans": "其子和之、中心愿也。",
+        "en_legge": "'Her young ones respond to her:'—from the (common) wish of the inmost heart."
       }
     },
     {
@@ -71,7 +75,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "或鼓或罷、位不當也。",
-        "zh_hans": "或鼓或罢、位不当也。"
+        "zh_hans": "或鼓或罢、位不当也。",
+        "en_legge": "'Now he beats his drum, and now he leaves off:'—the position (of the line) is the appropriate one for it."
       }
     },
     {
@@ -87,7 +92,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "馬匹亡、絕類上也。",
-        "zh_hans": "马匹亡、绝类上也。"
+        "zh_hans": "马匹亡、绝类上也。",
+        "en_legge": "'A horse the fellow of which disappears:'—he breaks from his (former) companions, and mounts upwards."
       }
     },
     {
@@ -103,7 +109,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "有孚攣如、位正當也。",
-        "zh_hans": "有孚挛如、位正当也。"
+        "zh_hans": "有孚挛如、位正当也。",
+        "en_legge": "'He is perfectly sincere, and links others to him in closest union:'—the place (of the line) is the correct and appropriate one."
       }
     },
     {
@@ -119,7 +126,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "翰音登于天、何可長也。",
-        "zh_hans": "翰音登于天、何可长也。"
+        "zh_hans": "翰音登于天、何可长也。",
+        "en_legge": "'Chanticleer (tries to) mount to heaven:'—but how can (such an effort) continue long?"
       }
     }
   ],

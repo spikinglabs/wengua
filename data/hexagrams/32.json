@@ -19,11 +19,13 @@
   },
   "tuan": {
     "zh_hant": "《恆》、久也。剛上而柔下。雷風相與。巽而動，剛柔皆應，《恆》。恆亨无咎利貞、久於其道也。天地之道恆久而不已也。利有攸往、終則有始也。日月得天而能久照，四時變化而能久成。聖人久於其道而天下化成。觀其所恆而天地萬物之情可見矣。",
-    "zh_hans": "《恒》、久也。刚上而柔下。雷风相与。巽而动，刚柔皆应，《恒》。恒亨无咎利贞、久于其道也。天地之道恒久而不已也。利有攸往、终则有始也。日月得天而能久照，四时变化而能久成。圣人久于其道而天下化成。观其所恒而天地万物之情可见矣。"
+    "zh_hans": "《恒》、久也。刚上而柔下。雷风相与。巽而动，刚柔皆应，《恒》。恒亨无咎利贞、久于其道也。天地之道恒久而不已也。利有攸往、终则有始也。日月得天而能久照，四时变化而能久成。圣人久于其道而天下化成。观其所恒而天地万物之情可见矣。",
+    "en_legge": "Hang denotes long continuance. The strong (trigram) is above, and the weak one below; (they are the symbols of) thunder and wind, which are in mutual communication; (they have the qualities of) docility and motive force; their strong and weak (lines) all respond, each to the other:—these things are all found in Hang. (When it is said that) 'Hang indicates successful progress and no error (in what it denotes); but the advantage will come from being firm and correct,' this indicates that there must be long continuance in its way of operation. The way of heaven and earth is to be long continued in their operation without stopping. (When it is said that) 'Movement in any direction whatever will be advantageous,' this implies that when (the moving power) is spent, it will begin again. The sun and moon, realising in themselves (the course of Heaven), can perpetuate their shining. The four seasons, by their changing and transforming, can perpetuate their production (of things). The sages persevere long in their course, and all under the sky are transformed and perfect. When we look at what they continue doing long, the natural tendencies of heaven, earth, and all things can be seen."
   },
   "image": {
     "zh_hant": "雷風《恆》。君子以立不易方。",
-    "zh_hans": "雷风《恒》。君子以立不易方。"
+    "zh_hans": "雷风《恒》。君子以立不易方。",
+    "en_legge": "(The trigram representing) thunder and that for wind form Hang. The superior man, in accordance with this, stands firm, and does not change his method (of operation)."
   },
   "lines": [
     {
@@ -39,7 +41,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "浚恆之凶、始求深也。",
-        "zh_hans": "浚恒之凶、始求深也。"
+        "zh_hans": "浚恒之凶、始求深也。",
+        "en_legge": "'The evil attached to the deep desire for long continuance (in the subject of the first line)' arises from the deep seeking for it at the commencement (of things)."
       }
     },
     {
@@ -55,7 +58,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "九二悔亡、能久中也。",
-        "zh_hans": "九二悔亡、能久中也。"
+        "zh_hans": "九二悔亡、能久中也。",
+        "en_legge": "'All occasion for repentance on the part of the subject of the second line, undivided, disappears:'—he can abide long in the due mean."
       }
     },
     {
@@ -71,7 +75,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "不恆其德、无所容也。",
-        "zh_hans": "不恒其德、无所容也。"
+        "zh_hans": "不恒其德、无所容也。",
+        "en_legge": "'He does not continuously maintain his virtue:'—nowhere will he be borne with."
       }
     },
     {
@@ -87,7 +92,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "久非其位，安得禽也。",
-        "zh_hans": "久非其位，安得禽也。"
+        "zh_hans": "久非其位，安得禽也。",
+        "en_legge": "(Going) for long to what is not his proper place, how can he get game?"
       }
     },
     {
@@ -103,7 +109,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "婦人貞吉、從一而終也。夫子制義、從婦凶也。",
-        "zh_hans": "妇人贞吉、从一而终也。夫子制义、从妇凶也。"
+        "zh_hans": "妇人贞吉、从一而终也。夫子制义、从妇凶也。",
+        "en_legge": "'Such firm correctness in a wife will be fortunate:'—it is hers to the end of life to follow with an unchanged mind. The husband must decide what is right, and lay down the rule accordingly:—for him to follow (like) a wife is evil."
       }
     },
     {
@@ -119,7 +126,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "振恆在上、大无功也。",
-        "zh_hans": "振恒在上、大无功也。"
+        "zh_hans": "振恒在上、大无功也。",
+        "en_legge": "'The subject of the topmost line is exciting himself to long continuance:'—far will he be from achieving merit."
       }
     }
   ],
