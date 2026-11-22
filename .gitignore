@@ -3,3 +3,6 @@ site/
 __pycache__/
 .pytest_cache/
 *.egg-info/
+.i18n/
+i18n/zh/assets/
+zensical.zh*.toml

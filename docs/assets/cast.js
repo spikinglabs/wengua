@@ -43,7 +43,6 @@
     },
     "zh-hans": {
       script: "zh_hans", expl: "zh_hans", locale: "zh-Hans",
-      links: { claude: "setup/#claude", chatgpt: "setup/#chatgpt", all: "setup/" },
       question: "你的问题（可不填）",
       placeholder: "关于……，我应当明白什么？",
       privacy: "只留在你的浏览器里，不发送，不保存。",

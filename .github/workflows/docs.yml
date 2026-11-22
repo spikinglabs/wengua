@@ -23,7 +23,7 @@ jobs:
           cache: pip
           cache-dependency-path: requirements-docs.txt
       - run: pip install -r requirements-docs.txt
-      - run: zensical build --clean
+      - run: python scripts/build_site.py
       - run: python scripts/llms_txt.py
       - name: Skill download (wengua.allo.land/wengua-skill.zip)
         run: python scripts/package_skill.py site/wengua-skill.zip
@@ -125,7 +125,7 @@ jobs:
         if: steps.creds.outputs.ok
         run: |
           pip install -r requirements-docs.txt
-          zensical build --clean
+          python scripts/build_site.py
           python scripts/llms_txt.py
           python scripts/package_skill.py site/wengua-skill.zip
           python scripts/mark_preview.py "${{ github.event.pull_request.number }}"
