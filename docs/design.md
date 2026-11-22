@@ -73,7 +73,7 @@ The same logic in two languages, verified against **one shared file of test vect
 | Agent Skill | `skills/wengua/` | Claude, ChatGPT, Codex, Cursor, Copilot (70+ platforms) | A `SKILL.md` plus a bundled script and data, with no server. It teaches the reading flow (§2.4). |
 | Local MCP | `npx wengua` / `uvx wengua` | Claude Desktop/Code, Cursor, VS Code, Goose | stdio. Supports MCP 2026-07-28 (stateless) and earlier versions. |
 | Remote MCP | `https://mcp.wengua.<domain>/mcp` | Claude.ai, ChatGPT and mobile users who can't install anything | Cloudflare Workers, stateless, no auth, rate-limited by IP, no logs of questions. |
-| MCP App | `ui://wengua/reading` | Claude and ChatGPT (both support MCP Apps) | An inline card that draws 本卦 → 之卦, highlights changing lines, has a 中/EN and 繁/简 toggle, and an optional coin or stalk replay animation. |
+| MCP App | `ui://wengua/reading/<hash>` | Claude and ChatGPT (both support MCP Apps) | An inline card that draws 本卦 → 之卦, highlights changing lines, has a 中/EN and 繁/简 toggle, and an optional coin or stalk replay animation. |
 | CLI | `wengua cast --json` | Coding agents, terminal users | Comes free with the packages. |
 | Data and docs | `wengua-data`, `llms.txt`, static site | Anyone building their own tool | The dataset on npm and PyPI, plus a static site with all 64 hexagrams, bilingual. |
 | Directory listings | MCP Registry, Claude connectors, ChatGPT plugins, Smithery | Discovery | — |

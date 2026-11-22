@@ -21,7 +21,7 @@ With Node.js: `"command": "npx", "args": ["-y", "wengua"]`. Exact steps for Clau
 
 ## Reading card
 
-In clients that support [MCP Apps](https://github.com/modelcontextprotocol/ext-apps) (Claude, ChatGPT and others), `cast` and `read_cast` also show an inline card (`ui://wengua/reading`). It draws the primary and relating hexagrams with the changing lines marked, lists the selected texts with their roles, and has a 繁體/简体 toggle. Other clients get the same reading as text.
+In clients that support [MCP Apps](https://github.com/modelcontextprotocol/ext-apps) (Claude, ChatGPT and others), `cast` and `read_cast` also show an inline card (`ui://wengua/reading/<hash>`). It draws the primary and relating hexagrams with the changing lines marked, lists the selected texts with their roles, and has a 繁體/简体 toggle. Other clients get the same reading as text.
 
 The server supports MCP protocol versions 2024-11-05 through 2025-11-25 and is tested with the official MCP Python SDK. Tool results include both `structuredContent` and the same JSON as text.
 

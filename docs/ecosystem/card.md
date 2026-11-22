@@ -4,7 +4,7 @@ description: "The Wengua reading card: an MCP Apps view that draws the cast hexa
 
 # Reading card
 
-An [MCP Apps](https://github.com/modelcontextprotocol/ext-apps) view, `ui://wengua/reading`, linked from the `cast` and `read_cast` tools. Clients that support MCP Apps show it inline under the answer. Others simply get the reading as text.
+An [MCP Apps](https://github.com/modelcontextprotocol/ext-apps) view, `ui://wengua/reading/<hash>`, linked from the `cast` and `read_cast` tools. Clients that support MCP Apps show it inline under the answer. Others simply get the reading as text.
 
 The card:
 
@@ -23,3 +23,5 @@ How it talks to the host:
 4. If no result arrives within 12 seconds, it says the reading is in the reply instead of showing "Casting…" forever. Some mobile apps render the card but don't deliver the result yet.
 
 The `cast` and `read_cast` results also carry the card link in `_meta.ui.resourceUri`, for hosts that look for it there.
+
+The card's URI ends in a hash of its HTML, so a client that caches UI resources picks up a new card as soon as it changes. The placeholder shows a small version label (such as "card 3"), which tells you which card a client is running.
