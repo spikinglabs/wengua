@@ -41,7 +41,7 @@
 </style>
 </head>
 <body>
-<div id="empty">正在起卦… Casting… <span class="ver">card 3</span></div>
+<div id="empty">正在起卦… Casting… <span class="ver">card 4</span></div>
 <div id="card" hidden>
   <div class="bar-top"><span class="sub" id="question"></span><button id="script" type="button">简体</button></div>
   <div class="row" id="hexes"></div>
@@ -50,7 +50,18 @@
 </div>
 <script>
 (() => {
-  let script = "zh_hant", reading = null, nextId = 1;
+  let script = "zh_hant", reading = null, nextId = 1, hostLocale = "", modelContext = false;
+  // Which script to show: the reader's own toggle (remembered where the host
+  // allows storage), then the locale the model passed to the tool, then the
+  // host's locale, then traditional.
+  const KEY = "wengua.script";
+  const stored = () => { try { return localStorage.getItem(KEY); } catch (_) { return null; } };
+  const fromLocale = (l) => !l ? null : /hans|zh-(cn|sg|my)$|^zh$/i.test(l) ? "zh_hans" : /hant|zh-(tw|hk|mo)$/i.test(l) ? "zh_hant" : null;
+  function pickScript() {
+    const s = stored();
+    if (s === "zh_hans" || s === "zh_hant") return s;
+    return fromLocale(reading && reading.locale) || fromLocale(hostLocale) || "zh_hant";
+  }
   const $ = (id) => document.getElementById(id);
   const send = (msg) => window.parent.postMessage({ jsonrpc: "2.0", ...msg }, "*");
   const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
@@ -94,7 +105,15 @@
     const box = document.body.getBoundingClientRect();
     send({ method: "ui/notifications/size-changed", params: { width: Math.ceil(box.width), height: Math.ceil(box.height) } });
   }
-  $("script").addEventListener("click", () => { script = script === "zh_hant" ? "zh_hans" : "zh_hant"; render(); });
+  $("script").addEventListener("click", () => {
+    script = script === "zh_hant" ? "zh_hans" : "zh_hant";
+    try { localStorage.setItem(KEY, script); } catch (_) {}
+    render();
+    // Tell the model too, so its next replies and casts use the same script.
+    if (modelContext) send({ id: nextId++, method: "ui/update-model-context", params: { content: [{ type: "text",
+      text: script === "zh_hans" ? "The user switched the Wengua card to simplified Chinese (简体). Use simplified Chinese and pass locale \"zh-Hans\" to Wengua tools." :
+        "The user switched the Wengua card to traditional Chinese (繁體). Use traditional Chinese and pass locale \"zh-Hant\" to Wengua tools." }] } });
+  });
 
   // MCP Apps (2026-01-26): initialize, then initialized; the host sends
   // tool-input and tool-result only after it has seen initialized.
@@ -105,6 +124,7 @@
     send({ method: "ui/notifications/initialized", params: {} });
   }
   function applyHostContext(ctx) {
+    if (ctx && ctx.locale) hostLocale = ctx.locale;
     const v = (ctx && ctx.styles && ctx.styles.variables) || {};
     for (const [k, val] of Object.entries(v)) if (val) document.documentElement.style.setProperty(k, val);
   }
@@ -122,7 +142,7 @@
     if (!m || m.jsonrpc !== "2.0") return;
     if (m.method === "ui/notifications/tool-result") {
       const r = readingFrom(m.params);
-      if (r) { reading = r; if (/hans/i.test(r.locale || "")) script = "zh_hans"; render(); }
+      if (r) { reading = r; script = pickScript(); render(); }
     } else if (m.method === "ui/notifications/host-context-changed") {
       applyHostContext(m.params);
     } else if (m.method && m.id !== undefined) {
@@ -130,7 +150,10 @@
       window.parent.postMessage({ jsonrpc: "2.0", id: m.id, result: {} }, "*");
     } else if (m.id === 1) {
       // Our ui/initialize. Go on even if the host returned an error.
-      if (m.result) applyHostContext(m.result.hostContext);
+      if (m.result) {
+        applyHostContext(m.result.hostContext);
+        modelContext = !!(m.result.hostCapabilities && m.result.hostCapabilities.updateModelContext);
+      }
       markInitialized();
     }
   });
@@ -143,7 +166,7 @@
   // Some hosts never answer ui/initialize; don't wait forever.
   setTimeout(markInitialized, 1500);
   // If no result arrives, say where the reading is instead of spinning.
-  setTimeout(() => { if (!reading) $("empty").textContent = "卦象見下文。The reading is in the reply below. (card 3)"; }, 12000);
+  setTimeout(() => { if (!reading) $("empty").textContent = "卦象見下文。The reading is in the reply below. (card 4)"; }, 12000);
   new ResizeObserver(reportSize).observe(document.body);
 })();
 </script>
