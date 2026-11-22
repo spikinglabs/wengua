@@ -19,7 +19,7 @@ No clean digital edition was available, so the text was rebuilt from three scans
 2. The two main OCR witnesses were merged word by word; where they differ, the reading made of real English words wins.
 3. For the judgments and lines of hexagrams 1–19 the proofread Wikisource text replaces the merge wherever the two agree closely (similarity of 0.9 or more), as a check that the merge is right.
 4. Spelling was normalised to plain ASCII: Legge's diacritics in romanised names were dropped, hyphens broken across lines were joined, and quotation marks made straight. Legge's em dashes and his parentheses, which mark words he added to the Chinese, are kept.
-5. Remaining OCR errors were corrected by hand against the scans (for example "mount Khi" in 升, "white mao grass" in 大過, garbled romanised names such as "Kieh" and "Kia Zan", missing quotation marks, and notes or verse renderings from Legge's notes that had run into the text).
+5. Remaining OCR errors were corrected by hand against the scans (for example the end of 坤's judgment, which a page header had replaced, "mount Khi" in 升, "white mao grass" in 大過, garbled romanised names such as "Kieh" and "Kia Zan", missing quotation marks, and notes or verse renderings from Legge's notes that had run into the text).
 
 `scripts/data/validate.py` checks that every judgment, Tuan, Image, line and small image has an `en_legge` text with no stray characters or spacing errors. Corrections are welcome: compare with the scans above and open a pull request that edits `text.json`.
 
