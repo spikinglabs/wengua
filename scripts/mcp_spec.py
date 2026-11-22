@@ -38,7 +38,7 @@ TOOLS = [
             "method": {"type": "string", "enum": ["coins", "yarrow"], "default": "coins",
                        "description": "\"coins\" (three coins, 1/8 3/8 3/8 1/8) or \"yarrow\" (the stalk method, 1/16 5/16 7/16 3/16)."},
             "rule": RULE, "locale": LOCALE}, "additionalProperties": False},
-        "annotations": {"readOnlyHint": True, "openWorldHint": False, "idempotentHint": False},
+        "annotations": {"readOnlyHint": True, "destructiveHint": False, "openWorldHint": False, "idempotentHint": False},
     },
     {
         "name": "read_cast",
@@ -56,7 +56,7 @@ TOOLS = [
                                                {"type": "integer", "enum": [2, 3]}]}}]}},
             "question": QUESTION, "rule": RULE, "locale": LOCALE},
             "required": ["lines"], "additionalProperties": False},
-        "annotations": {"readOnlyHint": True, "openWorldHint": False, "idempotentHint": True},
+        "annotations": {"readOnlyHint": True, "destructiveHint": False, "openWorldHint": False, "idempotentHint": True},
     },
     {
         "name": "lookup",
@@ -69,7 +69,7 @@ TOOLS = [
         "inputSchema": {"type": "object", "properties": {
             "query": {"type": ["string", "integer"], "description": "Any identifier of the hexagram."}},
             "required": ["query"], "additionalProperties": False},
-        "annotations": {"readOnlyHint": True, "openWorldHint": False, "idempotentHint": True},
+        "annotations": {"readOnlyHint": True, "destructiveHint": False, "openWorldHint": False, "idempotentHint": True},
     },
     {
         "name": "relations",
@@ -81,7 +81,7 @@ TOOLS = [
             "changing_lines": {"type": "array", "items": {"type": "integer", "minimum": 1, "maximum": 6},
                                "description": "Positions of changing lines, 1 = bottom."}},
             "required": ["hexagram"], "additionalProperties": False},
-        "annotations": {"readOnlyHint": True, "openWorldHint": False, "idempotentHint": True},
+        "annotations": {"readOnlyHint": True, "destructiveHint": False, "openWorldHint": False, "idempotentHint": True},
     },
 ]
 
@@ -104,6 +104,10 @@ UI_RESOURCES = [{
     "text": (ROOT / "spec" / "reading-card.html").read_text(encoding="utf-8"),
 }]
 
-out = {"name": "wengua", "title": "Wengua 问卦", "instructions": INSTRUCTIONS, "tools": TOOLS, "prompts": PROMPTS, "ui_resources": UI_RESOURCES}
+ICONS = [
+    {"src": "https://wengua.allo.land/assets/icon-512.png", "mimeType": "image/png", "sizes": ["512x512"]},
+    {"src": "https://wengua.allo.land/assets/icon.svg", "mimeType": "image/svg+xml", "sizes": ["any"]},
+]
+out = {"name": "wengua", "title": "Wengua 问卦", "websiteUrl": "https://wengua.allo.land/", "icons": ICONS, "instructions": INSTRUCTIONS, "tools": TOOLS, "prompts": PROMPTS, "ui_resources": UI_RESOURCES}
 (ROOT / "spec" / "mcp.json").write_text(json.dumps(out, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
 print("Wrote spec/mcp.json")
