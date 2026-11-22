@@ -11,78 +11,12 @@
     ]
   },
   {
-    "hexagram": 3,
-    "name": "屯",
-    "field": "lines.3.text",
-    "differences": [
-      {
-        "primary": "無",
-        "wikisource": "无"
-      }
-    ]
-  },
-  {
-    "hexagram": 4,
-    "name": "蒙",
-    "field": "judgment",
-    "differences": [
-      {
-        "primary": "來",
-        "wikisource": ""
-      }
-    ]
-  },
-  {
-    "hexagram": 4,
-    "name": "蒙",
-    "field": "tuan",
-    "differences": [
-      {
-        "primary": "來",
-        "wikisource": ""
-      }
-    ]
-  },
-  {
-    "hexagram": 4,
-    "name": "蒙",
-    "field": "lines.2.text",
-    "differences": [
-      {
-        "primary": "苞",
-        "wikisource": "包"
-      }
-    ]
-  },
-  {
     "hexagram": 4,
     "name": "蒙",
     "field": "lines.6.xiao_xiang",
     "differences": [
       {
         "primary": "用",
-        "wikisource": ""
-      }
-    ]
-  },
-  {
-    "hexagram": 5,
-    "name": "需",
-    "field": "lines.2.xiao_xiang",
-    "differences": [
-      {
-        "primary": "行",
-        "wikisource": "衍"
-      }
-    ]
-  },
-  {
-    "hexagram": 5,
-    "name": "需",
-    "field": "lines.6.xiao_xiang",
-    "differences": [
-      {
-        "primary": "也",
         "wikisource": ""
       }
     ]
@@ -95,17 +29,6 @@
       {
         "primary": "眾",
         "wikisource": "衆"
-      }
-    ]
-  },
-  {
-    "hexagram": 8,
-    "name": "比",
-    "field": "tuan",
-    "differences": [
-      {
-        "primary": "比吉",
-        "wikisource": ""
       }
     ]
   },
@@ -180,39 +103,6 @@
     ]
   },
   {
-    "hexagram": 11,
-    "name": "泰",
-    "field": "lines.2.text",
-    "differences": [
-      {
-        "primary": "苞",
-        "wikisource": "包"
-      }
-    ]
-  },
-  {
-    "hexagram": 11,
-    "name": "泰",
-    "field": "lines.2.xiao_xiang",
-    "differences": [
-      {
-        "primary": "苞",
-        "wikisource": "包"
-      }
-    ]
-  },
-  {
-    "hexagram": 12,
-    "name": "否",
-    "field": "lines.2.text",
-    "differences": [
-      {
-        "primary": "苞",
-        "wikisource": "包"
-      }
-    ]
-  },
-  {
     "hexagram": 12,
     "name": "否",
     "field": "lines.2.xiao_xiang",
@@ -220,28 +110,6 @@
       {
         "primary": "群",
         "wikisource": "羣"
-      }
-    ]
-  },
-  {
-    "hexagram": 12,
-    "name": "否",
-    "field": "lines.3.text",
-    "differences": [
-      {
-        "primary": "苞",
-        "wikisource": "包"
-      }
-    ]
-  },
-  {
-    "hexagram": 12,
-    "name": "否",
-    "field": "lines.3.xiao_xiang",
-    "differences": [
-      {
-        "primary": "苞",
-        "wikisource": "包"
       }
     ]
   },
@@ -396,21 +264,6 @@
       {
         "primary": "簪",
         "wikisource": "戠"
-      }
-    ]
-  },
-  {
-    "hexagram": 17,
-    "name": "隨",
-    "field": "tuan",
-    "differences": [
-      {
-        "primary": "",
-        "wikisource": "時隨時"
-      },
-      {
-        "primary": "隨之時",
-        "wikisource": ""
       }
     ]
   },
@@ -597,17 +450,6 @@
   {
     "hexagram": 24,
     "name": "復",
-    "field": "lines.1.text",
-    "differences": [
-      {
-        "primary": "祗",
-        "wikisource": "祇"
-      }
-    ]
-  },
-  {
-    "hexagram": 24,
-    "name": "復",
     "field": "lines.1.xiao_xiang",
     "differences": [
       {
@@ -635,28 +477,6 @@
       {
         "primary": "煇",
         "wikisource": "輝"
-      }
-    ]
-  },
-  {
-    "hexagram": 26,
-    "name": "大畜",
-    "field": "lines.1.text",
-    "differences": [
-      {
-        "primary": "己",
-        "wikisource": "已"
-      }
-    ]
-  },
-  {
-    "hexagram": 26,
-    "name": "大畜",
-    "field": "lines.1.xiao_xiang",
-    "differences": [
-      {
-        "primary": "己",
-        "wikisource": "已"
       }
     ]
   },
@@ -1046,17 +866,6 @@
   {
     "hexagram": 48,
     "name": "井",
-    "field": "tuan",
-    "differences": [
-      {
-        "primary": "往來井井",
-        "wikisource": ""
-      }
-    ]
-  },
-  {
-    "hexagram": 48,
-    "name": "井",
     "field": "lines.2.text",
     "differences": [
       {
@@ -1073,17 +882,6 @@
       {
         "primary": "脩",
         "wikisource": "修"
-      }
-    ]
-  },
-  {
-    "hexagram": 48,
-    "name": "井",
-    "field": "lines.5.text",
-    "differences": [
-      {
-        "primary": "洌",
-        "wikisource": "冽"
       }
     ]
   },
@@ -1114,17 +912,6 @@
       {
         "primary": "",
         "wikisource": "義"
-      }
-    ]
-  },
-  {
-    "hexagram": 49,
-    "name": "革",
-    "field": "image",
-    "differences": [
-      {
-        "primary": "厤",
-        "wikisource": "歷"
       }
     ]
   },
@@ -1164,33 +951,11 @@
   {
     "hexagram": 51,
     "name": "震",
-    "field": "tuan",
-    "differences": [
-      {
-        "primary": "不喪匕鬯",
-        "wikisource": ""
-      }
-    ]
-  },
-  {
-    "hexagram": 51,
-    "name": "震",
     "field": "image",
     "differences": [
       {
         "primary": "脩",
         "wikisource": "修"
-      }
-    ]
-  },
-  {
-    "hexagram": 51,
-    "name": "震",
-    "field": "lines.5.text",
-    "differences": [
-      {
-        "primary": "意",
-        "wikisource": "億"
       }
     ]
   },
@@ -1410,10 +1175,6 @@
     "field": "tuan",
     "differences": [
       {
-        "primary": "亨",
-        "wikisource": ""
-      },
-      {
         "primary": "",
         "wikisource": "有"
       }
@@ -1427,17 +1188,6 @@
       {
         "primary": "雲",
         "wikisource": "云"
-      }
-    ]
-  },
-  {
-    "hexagram": 64,
-    "name": "未濟",
-    "field": "lines.2.xiao_xiang",
-    "differences": [
-      {
-        "primary": "直",
-        "wikisource": "正"
       }
     ]
   }

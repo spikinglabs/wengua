@@ -1,0 +1,188 @@
+{
+ "witness": "四部叢刊本 王弼《周易注》 (Kanripo KR1a0006, branch SBCK)",
+ "characters_compared": 12534,
+ "orthographic_variants": {
+  "為/爲": 22,
+  "恆/恒": 21,
+  "涉/渉": 20,
+  "乘/乗": 19,
+  "內/内": 17,
+  "頤/頥": 15,
+  "剝/剥": 15,
+  "久/乆": 12,
+  "寇/宼": 12,
+  "兌/兊": 11,
+  "舍/舎": 10,
+  "床/牀": 9,
+  "類/𩔖": 8,
+  "既/旣": 8,
+  "虛/虚": 8,
+  "群/羣": 7,
+  "遠/逺": 7,
+  "眾/衆": 7,
+  "笑/𥬇": 7,
+  "潛/濳": 6,
+  "高/髙": 6,
+  "陰/隂": 6,
+  "慎/愼": 6,
+  "婚/㛰": 6,
+  "宜/冝": 6,
+  "歲/歳": 6,
+  "顛/顚": 5,
+  "已/巳": 5,
+  "曳/曵": 5,
+  "世/丗": 4,
+  "賓/賔": 4,
+  "宮/宫": 4,
+  "喪/䘮": 3,
+  "裕/𥙿": 3,
+  "教/敎": 3,
+  "聰/聦": 3,
+  "戶/戸": 3,
+  "會/㑹": 2,
+  "弒/弑": 2,
+  "戶/户": 2,
+  "往/徃": 2,
+  "彙/彚": 2,
+  "祿/禄": 2,
+  "遲/遟": 2,
+  "朵/朶": 2,
+  "茲/兹": 2,
+  "鼠/䑕": 2,
+  "出/岀": 2,
+  "冥/㝠": 2,
+  "薰/薫": 2,
+  "闃/閴": 2,
+  "鼓/鼔": 2,
+  "寧/寜": 1,
+  "寬/寛": 1,
+  "玄/𤣥": 1,
+  "靜/静": 1,
+  "陷/䧟": 1,
+  "菑/葘": 1,
+  "穀/榖": 1,
+  "耋/耊": 1,
+  "修/脩": 1,
+  "慍/愠": 1,
+  "瓜/𤓰": 1,
+  "岐/𡵨": 1,
+  "初/𥘉": 1,
+  "絕/絶": 1
+ },
+ "differing_readings": [
+  {
+   "hexagram": 1,
+   "name": "乾",
+   "field": "wenyan 10",
+   "ours": "亨",
+   "witness": ""
+  },
+  {
+   "hexagram": 2,
+   "name": "坤",
+   "field": "wenyan 2",
+   "ours": "無",
+   "witness": "无"
+  },
+  {
+   "hexagram": 22,
+   "name": "賁",
+   "field": "tuan",
+   "ours": "剛柔交錯",
+   "witness": ""
+  },
+  {
+   "hexagram": 28,
+   "name": "大過",
+   "field": "xiao_xiang 2",
+   "ours": "夫",
+   "witness": "天"
+  },
+  {
+   "hexagram": 29,
+   "name": "坎",
+   "field": "line 5",
+   "ours": "衹",
+   "witness": "祇"
+  },
+  {
+   "hexagram": 34,
+   "name": "大壯",
+   "field": "xiao_xiang 3",
+   "ours": "也",
+   "witness": ""
+  },
+  {
+   "hexagram": 61,
+   "name": "中孚",
+   "field": "line 5",
+   "ours": "攣",
+   "witness": "寜"
+  },
+  {
+   "hexagram": 61,
+   "name": "中孚",
+   "field": "line 6",
+   "ours": "音",
+   "witness": "青"
+  },
+  {
+   "hexagram": 61,
+   "name": "中孚",
+   "field": "xiao_xiang 6",
+   "ours": "音",
+   "witness": "昔"
+  },
+  {
+   "hexagram": 61,
+   "name": "中孚",
+   "field": "xiao_xiang 6",
+   "ours": "登",
+   "witness": "聲"
+  },
+  {
+   "hexagram": 62,
+   "name": "小過",
+   "field": "judgment",
+   "ours": "音",
+   "witness": "昔"
+  }
+ ],
+ "not_found_in_witness": [
+  {
+   "hexagram": 19,
+   "name": "臨",
+   "field": "tuan"
+  },
+  {
+   "hexagram": 19,
+   "name": "臨",
+   "field": "image"
+  },
+  {
+   "hexagram": 19,
+   "name": "臨",
+   "field": "line 1"
+  },
+  {
+   "hexagram": 19,
+   "name": "臨",
+   "field": "xiao_xiang 1"
+  },
+  {
+   "hexagram": 19,
+   "name": "臨",
+   "field": "line 2"
+  },
+  {
+   "hexagram": 19,
+   "name": "臨",
+   "field": "xiao_xiang 2"
+  },
+  {
+   "hexagram": 19,
+   "name": "臨",
+   "field": "line 3"
+  }
+ ]
+}

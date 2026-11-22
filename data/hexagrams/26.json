@@ -32,12 +32,12 @@
         "zh_hans": "初九"
       },
       "text": {
-        "zh_hant": "有厲，利己。",
-        "zh_hans": "有厉，利己。"
+        "zh_hant": "有厲，利已。",
+        "zh_hans": "有厉，利已。"
       },
       "xiao_xiang": {
-        "zh_hant": "有厲利己、不犯災也。",
-        "zh_hans": "有厉利己、不犯灾也。"
+        "zh_hant": "有厲利已、不犯災也。",
+        "zh_hans": "有厉利已、不犯灾也。"
       }
     },
     {
@@ -127,24 +127,6 @@
       ]
     },
     {
-      "field": "lines.1.text",
-      "differences": [
-        {
-          "primary": "己",
-          "wikisource": "已"
-        }
-      ]
-    },
-    {
-      "field": "lines.1.xiao_xiang",
-      "differences": [
-        {
-          "primary": "己",
-          "wikisource": "已"
-        }
-      ]
-    },
-    {
       "field": "lines.3.text",
       "differences": [
         {
@@ -163,11 +145,29 @@
       ]
     }
   ],
+  "emendations": [
+    {
+      "field": "lines.1.text",
+      "base": "利己",
+      "adopted": "利已",
+      "note": "SBCK and Wikisource 已"
+    },
+    {
+      "field": "lines.1.xiao_xiang",
+      "base": "利己",
+      "adopted": "利已",
+      "note": "SBCK and Wikisource 已"
+    }
+  ],
   "source": {
     "text": {
       "work": "周易",
       "edition": "Kanseki Repository KR1a0001 (base edition: TLS)",
       "url": "https://github.com/kanripo/KR1a0001/blob/master/KR1a0001_026.txt"
+    },
+    "collated_with": {
+      "edition": "四部叢刊本 王弼《周易注》 (Song edition), Kanseki Repository KR1a0006, branch SBCK",
+      "url": "https://github.com/kanripo/KR1a0006/tree/SBCK"
     },
     "cross_check": {
       "edition": "Chinese Wikisource, 周易/大畜",

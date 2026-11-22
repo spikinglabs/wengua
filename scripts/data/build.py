@@ -21,6 +21,7 @@ import opencc
 
 ROOT = Path(__file__).resolve().parents[2]
 DATA = ROOT / "data"
+DATASET_VERSION = "0.2.0"  # SemVer: bump on any text change
 SRC = DATA / "sources"
 
 # King Wen order. pinyin and Wengua's own short English glosses (CC BY 4.0).
@@ -187,6 +188,16 @@ def diff(a: str, b: str) -> list:
     return ops
 
 
+def load_emendations() -> dict:
+    out = {}
+    for line in (SRC / "emendations.tsv").read_text(encoding="utf-8").splitlines():
+        if line.startswith("#") or not line.strip():
+            continue
+        n, field, old, new, note = line.split("\t")
+        out.setdefault(int(n), []).append((field, old, new, note))
+    return out
+
+
 def main() -> None:
     import sys
 
@@ -201,6 +212,7 @@ def main() -> None:
     (DATA / "trigrams.json").write_text(json.dumps(trigrams, ensure_ascii=False, indent=2) + "\n")
 
     report = []
+    emendations = load_emendations()
     for n, (name, pinyin, en) in enumerate(HEXAGRAMS, start=1):
         kr = kanripo.parse((SRC / "kanripo" / f"{n:02d}.txt").read_text())
         ws = parse_wikisource(n)
@@ -223,6 +235,21 @@ def main() -> None:
             kr[key] = unmark(kr[key])
         kr["xiao"] = [unmark(x) for x in kr["xiao"]]
         kr["wenyan"] = [re.sub(r"《([元亨利貞])》", r"「\1」", unmark(x)) for x in kr["wenyan"]]
+
+        # Restore the received text where both witnesses agree against the base (emendations.tsv).
+        fields = {"judgment": judgment, "tuan": kr["tuan"], "image": kr["image"]}
+        for i, (label, text) in enumerate(kr["lines"]):
+            fields[f"lines.{i + 1}.text"] = text
+            fields[f"lines.{i + 1}.xiao_xiang"] = kr["xiao"][i]
+        applied = []
+        for field, old, new, note in emendations.get(n, []):
+            if fields[field].count(old) != 1:
+                raise ValueError(f"emendation {n} {field}: {old!r} must occur exactly once")
+            fields[field] = fields[field].replace(old, new)
+            applied.append({"field": field, "base": old, "adopted": new, "note": note})
+        judgment, kr["tuan"], kr["image"] = fields["judgment"], fields["tuan"], fields["image"]
+        kr["lines"] = [(label, fields[f"lines.{i + 1}.text"]) for i, (label, _) in enumerate(kr["lines"])]
+        kr["xiao"] = [fields[f"lines.{i + 1}.xiao_xiang"] for i in range(len(kr["xiao"]))]
 
         def sep(label, text):
             return re.sub(r"^[、：:，,]", "", text)
@@ -275,11 +302,16 @@ def main() -> None:
                 variants.append({"field": field, "differences": d})
                 report.append({"hexagram": n, "name": name, "field": field, "differences": d})
         record["variants"] = variants
+        record["emendations"] = applied
         record["source"] = {
             "text": {
                 "work": "周易",
                 "edition": "Kanseki Repository KR1a0001 (base edition: TLS)",
                 "url": f"https://github.com/kanripo/KR1a0001/blob/master/KR1a0001_{n:03d}.txt",
+            },
+            "collated_with": {
+                "edition": "四部叢刊本 王弼《周易注》 (Song edition), Kanseki Repository KR1a0006, branch SBCK",
+                "url": "https://github.com/kanripo/KR1a0006/tree/SBCK",
             },
             "cross_check": {
                 "edition": "Chinese Wikisource, 周易/" + name,
@@ -290,6 +322,7 @@ def main() -> None:
 
     bundle = {
         "dataset": "wengua-data",
+        "version": DATASET_VERSION,
         "license": "CC-BY-SA-4.0",
         "trigrams": trigrams,
         "hexagrams": [json.loads((DATA / "hexagrams" / f"{i:02d}.json").read_text()) for i in range(1, 65)],

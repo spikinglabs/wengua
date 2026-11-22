@@ -22,7 +22,9 @@ jobs:
       - run: pip install -r requirements-data.txt
       - name: Rebuild from source snapshots
         run: python scripts/data/build.py
-      - name: Committed data matches a fresh build
+      - name: Collate against the Song edition
+        run: python scripts/data/collate.py
+      - name: Committed data and collation match a fresh build
         run: git diff --exit-code -- data/
       - name: Validate
         run: python scripts/data/validate.py

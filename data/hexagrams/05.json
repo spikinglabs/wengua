@@ -51,8 +51,8 @@
         "zh_hans": "需于沙，小有言，终吉。"
       },
       "xiao_xiang": {
-        "zh_hant": "需于沙、行在中也。雖小有言、以吉終也。",
-        "zh_hans": "需于沙、行在中也。虽小有言、以吉终也。"
+        "zh_hant": "需于沙、衍在中也。雖小有言、以吉終也。",
+        "zh_hans": "需于沙、衍在中也。虽小有言、以吉终也。"
       }
     },
     {
@@ -111,29 +111,24 @@
         "zh_hans": "入于穴，有不速之客三人来，敬之终吉。"
       },
       "xiao_xiang": {
-        "zh_hant": "不速之客來、敬之終吉也，雖不當位，未大失也。",
-        "zh_hans": "不速之客来、敬之终吉也，虽不当位，未大失也。"
+        "zh_hant": "不速之客來、敬之終吉，雖不當位，未大失也。",
+        "zh_hans": "不速之客来、敬之终吉，虽不当位，未大失也。"
       }
     }
   ],
-  "variants": [
+  "variants": [],
+  "emendations": [
     {
       "field": "lines.2.xiao_xiang",
-      "differences": [
-        {
-          "primary": "行",
-          "wikisource": "衍"
-        }
-      ]
+      "base": "行在中也",
+      "adopted": "衍在中也",
+      "note": "SBCK and Wikisource 衍"
     },
     {
       "field": "lines.6.xiao_xiang",
-      "differences": [
-        {
-          "primary": "也",
-          "wikisource": ""
-        }
-      ]
+      "base": "敬之終吉也",
+      "adopted": "敬之終吉",
+      "note": "SBCK and Wikisource lack 也"
     }
   ],
   "source": {
@@ -141,6 +136,10 @@
       "work": "周易",
       "edition": "Kanseki Repository KR1a0001 (base edition: TLS)",
       "url": "https://github.com/kanripo/KR1a0001/blob/master/KR1a0001_005.txt"
+    },
+    "collated_with": {
+      "edition": "四部叢刊本 王弼《周易注》 (Song edition), Kanseki Repository KR1a0006, branch SBCK",
+      "url": "https://github.com/kanripo/KR1a0006/tree/SBCK"
     },
     "cross_check": {
       "edition": "Chinese Wikisource, 周易/需",

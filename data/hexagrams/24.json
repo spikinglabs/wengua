@@ -32,8 +32,8 @@
         "zh_hans": "初九"
       },
       "text": {
-        "zh_hant": "不遠復，无祗悔，元吉。",
-        "zh_hans": "不远复，无祗悔，元吉。"
+        "zh_hant": "不遠復，无祇悔，元吉。",
+        "zh_hans": "不远复，无祇悔，元吉。"
       },
       "xiao_xiang": {
         "zh_hant": "不遠之復、以脩身也。",
@@ -118,15 +118,6 @@
   ],
   "variants": [
     {
-      "field": "lines.1.text",
-      "differences": [
-        {
-          "primary": "祗",
-          "wikisource": "祇"
-        }
-      ]
-    },
-    {
       "field": "lines.1.xiao_xiang",
       "differences": [
         {
@@ -136,11 +127,23 @@
       ]
     }
   ],
+  "emendations": [
+    {
+      "field": "lines.1.text",
+      "base": "无祗悔",
+      "adopted": "无祇悔",
+      "note": "SBCK and Wikisource 祇"
+    }
+  ],
   "source": {
     "text": {
       "work": "周易",
       "edition": "Kanseki Repository KR1a0001 (base edition: TLS)",
       "url": "https://github.com/kanripo/KR1a0001/blob/master/KR1a0001_024.txt"
+    },
+    "collated_with": {
+      "edition": "四部叢刊本 王弼《周易注》 (Song edition), Kanseki Repository KR1a0006, branch SBCK",
+      "url": "https://github.com/kanripo/KR1a0006/tree/SBCK"
     },
     "cross_check": {
       "edition": "Chinese Wikisource, 周易/復",

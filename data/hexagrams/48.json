@@ -17,8 +17,8 @@
     "zh_hans": "改邑不改井，无丧无得。往来井井。汔至，亦未繘井，羸其瓶，凶。"
   },
   "tuan": {
-    "zh_hant": "巽乎水而上水，井。井養而不窮也。改邑不改井、乃以剛中也。往來井，井汔至、亦未繘井、未有功也，羸其瓶、是以凶也。",
-    "zh_hans": "巽乎水而上水，井。井养而不穷也。改邑不改井、乃以刚中也。往来井，井汔至、亦未繘井、未有功也，羸其瓶、是以凶也。"
+    "zh_hant": "巽乎水而上水，井。井養而不窮也。改邑不改井、乃以剛中也。汔至、亦未繘井、未有功也，羸其瓶、是以凶也。",
+    "zh_hans": "巽乎水而上水，井。井养而不穷也。改邑不改井、乃以刚中也。汔至、亦未繘井、未有功也，羸其瓶、是以凶也。"
   },
   "image": {
     "zh_hant": "木上有水，井。君子以勞民勸相。",
@@ -92,8 +92,8 @@
         "zh_hans": "九五"
       },
       "text": {
-        "zh_hant": "井洌寒泉，食。",
-        "zh_hans": "井洌寒泉，食。"
+        "zh_hant": "井冽寒泉，食。",
+        "zh_hans": "井冽寒泉，食。"
       },
       "xiao_xiang": {
         "zh_hant": "寒泉之食、中正也。",
@@ -118,15 +118,6 @@
   ],
   "variants": [
     {
-      "field": "tuan",
-      "differences": [
-        {
-          "primary": "往來井井",
-          "wikisource": ""
-        }
-      ]
-    },
-    {
       "field": "lines.2.text",
       "differences": [
         {
@@ -143,15 +134,20 @@
           "wikisource": "修"
         }
       ]
+    }
+  ],
+  "emendations": [
+    {
+      "field": "tuan",
+      "base": "往來井，井汔至",
+      "adopted": "汔至",
+      "note": "SBCK and Wikisource lack 往來井井"
     },
     {
       "field": "lines.5.text",
-      "differences": [
-        {
-          "primary": "洌",
-          "wikisource": "冽"
-        }
-      ]
+      "base": "井洌",
+      "adopted": "井冽",
+      "note": "SBCK and Wikisource 冽"
     }
   ],
   "source": {
@@ -159,6 +155,10 @@
       "work": "周易",
       "edition": "Kanseki Repository KR1a0001 (base edition: TLS)",
       "url": "https://github.com/kanripo/KR1a0001/blob/master/KR1a0001_048.txt"
+    },
+    "collated_with": {
+      "edition": "四部叢刊本 王弼《周易注》 (Song edition), Kanseki Repository KR1a0006, branch SBCK",
+      "url": "https://github.com/kanripo/KR1a0006/tree/SBCK"
     },
     "cross_check": {
       "edition": "Chinese Wikisource, 周易/井",

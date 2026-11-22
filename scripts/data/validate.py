@@ -29,6 +29,9 @@ def check_text(where: str, value, required=True) -> None:
     for k in TEXT_KEYS:
         if not isinstance(value.get(k), str) or not value[k].strip():
             err(where, f"empty {k}")
+    for k in TEXT_KEYS:
+        if any(c in (value.get(k) or "") for c in "（）()[]〔〕【】"):
+            err(where, f"editorial brackets left in {k}")
     if value.get("zh_hans") and "干" in value["zh_hans"] and "乾" in value.get("zh_hant", ""):
         err(where, "乾 was converted to 干 in simplified text")
 

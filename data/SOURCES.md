@@ -1,17 +1,34 @@
 # Sources and editorial choices
 
-## Primary text
+## Witnesses
 
-**Kanseki Repository (漢籍リポジトリ), KR1a0001 《周易》**, base edition TLS. Snapshot of the 64 hexagram files from
-<https://github.com/kanripo/KR1a0001>, stored in `sources/kanripo/`. This edition follows the standard received text (通行本) of the 王弼 and 孔穎達 tradition.
+| Role | Edition | Where |
+|---|---|---|
+| Base text | **Kanseki Repository (漢籍リポジトリ) KR1a0001 《周易》**, TLS edition: punctuated, standard characters | `sources/kanripo/` |
+| Collation witness | **四部叢刊本 王弼《周易注》**, a photo-reprint of a Song edition, transcribed in Kanseki Repository KR1a0006 (branch `SBCK`) | `sources/witnesses/sbck/` |
+| Cross-check | **Chinese Wikisource 《周易》**, one page per hexagram, pinned by revision id | `sources/wikisource/` |
 
-## Cross-check
+Kanripo's `WYG` branch of KR1a0006 (四庫全書本) turned out to be the same transcription as `SBCK`, so it is kept in `sources/witnesses/wyg/` but does not count as a separate witness.
 
-**Chinese Wikisource, 《周易》**, one page per hexagram, stored in `sources/wikisource/` with the revision id on the first line. Each source URL in the data points at that exact revision.
+## How the text was checked
 
-Every judgment, line text, 彖, 大象, 小象 and 用九/用六 is compared character by character with punctuation ignored. Differences are listed in each hexagram's `variants` field and collected in `cross-check.json`. In the first build, 126 fields differed. Most are variant forms (群/羣, 无/無, 床/牀); a few are real readings (for example 剝 上九 得輿 against 德車, 困 九四 徐徐 against 荼荼), where the primary text keeps the received reading.
+1. **Collation with the Song edition** (`scripts/data/collate.py`, output `collation-sbck.json`). The commentary is removed from the witness, then every text unit (卦辭, 彖, 大象, 爻辭, 小象, 用九/用六 and 文言) is aligned character by character inside the witness's text for that hexagram, ignoring punctuation. Differences in glyph only (異體字 such as 爲/為, 旣/既, 乗/乘) are listed in `sources/witnesses/orthographic-variants.tsv` and counted, not reported. About 12,500 characters are compared.
+2. **Cross-check with Wikisource** (in `build.py`, output `cross-check.json` and each hexagram's `variants`).
+3. **Two-against-one rule.** Where the Song edition and Wikisource agree against the base text, the received reading is restored. Each change is listed in `sources/emendations.tsv` and in the hexagram's `emendations` field, with the base reading kept. There are 23. Most are places where the TLS edition had adopted a later scholar's emendation, for example 比's 彖 (an inserted 比吉 and brackets), 隨's 彖 (隨之 for 隨時), 井's 彖 (往來井井), 震's 彖 (不喪匕鬯), 苞 for 包 in 蒙, 泰 and 否, and 利己 for 利已 in 大畜.
 
-We chose Kanripo over Wikisource as primary because the Wikisource pages mix in readings from other editions without marking all of them.
+## What is left, and why
+
+After the emendations, 11 differences with the Song edition remain. None meets the two-against-one rule.
+
+- **Transcription errors in the witness** (kept as in the base text): 大過 九二 小象 天 for 夫; 中孚 九五 寜 for 攣; 中孚 上九 青/昔 for 音 and 聲 for 登; 小過 judgment 昔 for 音.
+- **Readings where only one witness differs** (kept, open for review):
+  - 賁 彖 剛柔交錯: the base and Wikisource have it, the Song edition does not.
+  - 坎 九五 衹: the Song edition has 祇, Wikisource has 禔.
+  - 大壯 九三 小象 final 也.
+  - 乾 文言 乾元亨者 (Song edition 乾元者), and 坤 文言 無成 (Song edition 无成). Wikisource's 文言 is not compared, so these two have only two witnesses.
+- **Gaps in the witness transcription:** part of 臨 (彖, 大象 and lines 1 to 3) is missing from the Kanripo transcription of the Song edition, so those units are checked against Wikisource only.
+
+Wikisource still differs in 104 fields after the emendations. Almost all are glyph variants or readings found only in Wikisource.
 
 ## Editorial choices
 
