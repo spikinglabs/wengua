@@ -21,7 +21,7 @@ Kanripo's `WYG` branch of KR1a0006 (四庫全書本) turned out to be the same t
 After the emendations, 11 differences with the Song edition remain. None meets the two-against-one rule.
 
 - **Transcription errors in the witness** (kept as in the base text): 大過 九二 小象 天 for 夫; 中孚 九五 寜 for 攣; 中孚 上九 青/昔 for 音 and 聲 for 登; 小過 judgment 昔 for 音.
-- **Readings where only one witness differs** (kept, open for review):
+- **Readings where only one witness differs** (kept as in the base text by decision of the maintainer on 2026-11-22; to be revisited with a further witness, such as the 阮元 edition of 《周易正義》):
   - 賁 彖 剛柔交錯: the base and Wikisource have it, the Song edition does not.
   - 坎 九五 衹: the Song edition has 祇, Wikisource has 禔.
   - 大壯 九三 小象 final 也.
