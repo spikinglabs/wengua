@@ -19,11 +19,13 @@
   },
   "tuan": {
     "zh_hant": "大哉乾元，萬物資始，乃統天。雲行雨施，品物流形。大明終始，六位時成。時乘六龍以御天。乾道變化，各正性命。保合大和，乃利貞。首出庶物，萬國咸寧。",
-    "zh_hans": "大哉乾元，万物资始，乃统天。云行雨施，品物流形。大明终始，六位时成。时乘六龙以御天。乾道变化，各正性命。保合大和，乃利贞。首出庶物，万国咸宁。"
+    "zh_hans": "大哉乾元，万物资始，乃统天。云行雨施，品物流形。大明终始，六位时成。时乘六龙以御天。乾道变化，各正性命。保合大和，乃利贞。首出庶物，万国咸宁。",
+    "en_legge": "Vast is the 'great and originating (power)' indicated by Khien! All things owe to it their beginning:—it contains all the meaning belonging to (the name) heaven. The clouds move and the rain is distributed; the various things appear in their developed forms. (The sages) grandly understand (the connexion between) the end and the beginning, and how (the indications of) the six lines (in the hexagram) are accomplished, (each) in its season. (Accordingly) they mount (the carriage) drawn by those six dragons at the proper times, and drive through the sky. The method of Khien is to change and transform, so that everything obtains its correct nature as appointed (by the mind of Heaven); and (thereafter the conditions of) great harmony are preserved in union. The result is 'what is advantageous, and correct and firm.' (The sage) appears aloft, high above all things, and the myriad states all enjoy repose."
   },
   "image": {
     "zh_hant": "天行健，君子以自強不息。",
-    "zh_hans": "天行健，君子以自强不息。"
+    "zh_hans": "天行健，君子以自强不息。",
+    "en_legge": "Heaven, in its motion, (gives the idea of) strength. The superior man, in accordance with this, nerves himself to ceaseless activity."
   },
   "lines": [
     {
@@ -39,7 +41,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "潛龍勿用、陽在下也。",
-        "zh_hans": "潜龙勿用、阳在下也。"
+        "zh_hans": "潜龙勿用、阳在下也。",
+        "en_legge": "'The dragon lies hid in the deep;—it is not the time for active doing:'—(this appears from) the strong and undivided line's being in the lowest place."
       }
     },
     {
@@ -55,7 +58,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "見龍在田、德施普也。",
-        "zh_hans": "见龙在田、德施普也。"
+        "zh_hans": "见龙在田、德施普也。",
+        "en_legge": "'The dragon appears in the field:'—the diffusion of virtuous influence has been wide."
       }
     },
     {
@@ -71,7 +75,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "終日乾乾、反復道也。",
-        "zh_hans": "终日乾乾、反复道也。"
+        "zh_hans": "终日乾乾、反复道也。",
+        "en_legge": "'Active and vigilant all the day:'—(this refers to) the treading of the (proper) path over and over again."
       }
     },
     {
@@ -87,7 +92,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "或躍在淵、進无咎也。",
-        "zh_hans": "或跃在渊、进无咎也。"
+        "zh_hans": "或跃在渊、进无咎也。",
+        "en_legge": "'He seems to be leaping up, but is still in the deep:'—if he advance, there will be no error."
       }
     },
     {
@@ -103,7 +109,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "飛龍在天、大人造也。",
-        "zh_hans": "飞龙在天、大人造也。"
+        "zh_hans": "飞龙在天、大人造也。",
+        "en_legge": "'The dragon is on the wing in the sky:'—the great man rouses himself to his work."
       }
     },
     {
@@ -119,7 +126,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "亢龍有悔、盈不可久也。",
-        "zh_hans": "亢龙有悔、盈不可久也。"
+        "zh_hans": "亢龙有悔、盈不可久也。",
+        "en_legge": "'The dragon exceeds the proper limits;—there will be occasion for repentance:'—a state of fulness, that is, should not be indulged in long."
       }
     }
   ],
@@ -135,7 +143,8 @@
     },
     "xiao_xiang": {
       "zh_hant": "用九、天德不可為首也。",
-      "zh_hans": "用九、天德不可为首也。"
+      "zh_hans": "用九、天德不可为首也。",
+      "en_legge": "'The same undivided line is used' (in all the places of this hexagram), but the attribute of heaven (thereby denoted) should not (always) take the foremost place."
     }
   },
   "wenyan": [

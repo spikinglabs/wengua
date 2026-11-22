@@ -77,7 +77,8 @@ def main() -> int:
             err(w, "binary does not match its trigrams")
         for k in ("judgment", "tuan", "image"):
             check_text(f"{w} {k}", h.get(k))
-        check_en(f"{w} judgment", h["judgment"])
+        for k in ("judgment", "tuan", "image"):
+            check_en(f"{w} {k}", h[k])
         check_text(f"{w} name", h["name"])
         if not h["name"].get("pinyin") or not h["name"].get("en"):
             err(w, "name needs pinyin and en")
@@ -93,6 +94,7 @@ def main() -> int:
             check_text(f"{lw} text", line["text"])
             check_text(f"{lw} xiao_xiang", line["xiao_xiang"])
             check_en(f"{lw} text", line["text"])
+            check_en(f"{lw} xiao_xiang", line["xiao_xiang"])
         if n in (1, 2):
             use = h.get("use_line")
             want = "用九" if n == 1 else "用六"
@@ -101,6 +103,7 @@ def main() -> int:
             else:
                 check_text(f"{w} {want}", use["text"])
                 check_en(f"{w} {want}", use["text"])
+                check_en(f"{w} {want} xiao_xiang", use["xiao_xiang"])
                 check_text(f"{w} {want} xiao_xiang", use["xiao_xiang"])
             if not h.get("wenyan"):
                 err(w, "missing 文言")

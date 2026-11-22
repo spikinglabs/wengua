@@ -19,11 +19,13 @@
   },
   "tuan": {
     "zh_hant": "隨，剛來而下柔，動而說，隨。大亨、貞、无咎而天下隨時，隨時之義大矣哉！",
-    "zh_hans": "随，刚来而下柔，动而说，随。大亨、贞、无咎而天下随时，随时之义大矣哉！"
+    "zh_hans": "随，刚来而下柔，动而说，随。大亨、贞、无咎而天下随时，随时之义大矣哉！",
+    "en_legge": "In Sui we see the strong (trigram) come and place itself under the weak; we see (in the two) the attributes of movement and pleasure:—this gives (the idea of) Sui. 'There will be great progress and success; and through firm correctness no error:'—all under heaven will be found following at such a time. Great indeed are the time and significance indicated in Sui."
   },
   "image": {
     "zh_hant": "澤中有雷，隨。君子以嚮晦入宴息。",
-    "zh_hans": "泽中有雷，随。君子以向晦入宴息。"
+    "zh_hans": "泽中有雷，随。君子以向晦入宴息。",
+    "en_legge": "(The trigram for the waters of) a marsh and (that for) thunder (hidden) in the midst of it form Sui. The superior man in accordance with this, when it is getting towards dark, enters (his house) and rests."
   },
   "lines": [
     {
@@ -39,7 +41,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "官有渝、從正吉也，出門交有功、不失也。",
-        "zh_hans": "官有渝、从正吉也，出门交有功、不失也。"
+        "zh_hans": "官有渝、从正吉也，出门交有功、不失也。",
+        "en_legge": "'He is changing the object of his pursuit:'—but if he follow what is correct, there will be good fortune. 'He goes beyond (his own) gate to find associates:'—he will not fail (in the method he pursues)."
       }
     },
     {
@@ -55,7 +58,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "係小子、弗兼與也。",
-        "zh_hans": "系小子、弗兼与也。"
+        "zh_hans": "系小子、弗兼与也。",
+        "en_legge": "'He cleaves to the little boy:'—he cannot be with the two at the same time."
       }
     },
     {
@@ -71,7 +75,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "係丈夫、志舍下也。",
-        "zh_hans": "系丈夫、志舍下也。"
+        "zh_hans": "系丈夫、志舍下也。",
+        "en_legge": "'He cleaves to the man of age and experience:'—by the decision of his will, he abandons (the youth) below."
       }
     },
     {
@@ -87,7 +92,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "隨有獲、其義凶也，有孚在道、明功也。",
-        "zh_hans": "随有获、其义凶也，有孚在道、明功也。"
+        "zh_hans": "随有获、其义凶也，有孚在道、明功也。",
+        "en_legge": "'He is followed and obtains adherents:'—according to the idea (of the hexagram), this is evil. 'He is sincere in his course:' showing his intelligence, and leading to achievement."
       }
     },
     {
@@ -103,7 +109,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "孚于嘉吉、位正中也。",
-        "zh_hans": "孚于嘉吉、位正中也。"
+        "zh_hans": "孚于嘉吉、位正中也。",
+        "en_legge": "'He is sincere in fostering what is excellent:'—his position is correct and in the centre."
       }
     },
     {
@@ -119,7 +126,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "拘係之、上窮也。",
-        "zh_hans": "拘系之、上穷也。"
+        "zh_hans": "拘系之、上穷也。",
+        "en_legge": "'The sincerity is firmly held and clung to, as shown in the topmost line:'—(the idea of the hexagram) has reached its extreme development."
       }
     }
   ],

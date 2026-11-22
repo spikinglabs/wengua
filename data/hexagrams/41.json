@@ -19,11 +19,13 @@
   },
   "tuan": {
     "zh_hant": "損、損下益上，其道上行。損而有孚，元吉、无咎、可貞、利有攸往、曷之用二簋、可用享，二簋應有時。損剛益柔有時，損益盈虛，與時偕行。",
-    "zh_hans": "损、损下益上，其道上行。损而有孚，元吉、无咎、可贞、利有攸往、曷之用二簋、可用享，二簋应有时。损刚益柔有时，损益盈虚，与时偕行。"
+    "zh_hans": "损、损下益上，其道上行。损而有孚，元吉、无咎、可贞、利有攸往、曷之用二簋、可用享，二簋应有时。损刚益柔有时，损益盈虚，与时偕行。",
+    "en_legge": "In Sun (we see) the lower (trigram) diminished, and the upper added to. (But) the method (of action) implied in this operates also above (or, mounts upwards (also) and operates). 'If there be sincerity in this method of diminution, there will be great good fortune; freedom from error; firmness and correctness that can be maintained; and advantage in every movement that shall be made. In what shall this (sincerity in the exercise of Sun) be employed? (Even) in sacrifice, two baskets of grain, (though there be nothing else), may be presented:'—for these two baskets there ought to be the fitting time. There is a time when the strong should be diminished, and the weak should be strengthened. Diminution and increase, overflowing and emptiness:—these take place in harmony with the conditions of the time."
   },
   "image": {
     "zh_hant": "山下有澤，損。君子以懲忿窒欲。",
-    "zh_hans": "山下有泽，损。君子以惩忿窒欲。"
+    "zh_hans": "山下有泽，损。君子以惩忿窒欲。",
+    "en_legge": "(The trigram representing) a mountain and beneath it that for the waters of a marsh form Sun. The superior man, in accordance with this, restrains his wrath and represses his desires."
   },
   "lines": [
     {
@@ -39,7 +41,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "已事遄往，尚合志也。",
-        "zh_hans": "已事遄往，尚合志也。"
+        "zh_hans": "已事遄往，尚合志也。",
+        "en_legge": "'He suspends his own affairs and hurries away (to help the subject of the fourth line):'—the (subject of that) upper (line) mingles his wishes with his."
       }
     },
     {
@@ -55,7 +58,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "九二利貞，中以為志也。",
-        "zh_hans": "九二利贞，中以为志也。"
+        "zh_hans": "九二利贞，中以为志也。",
+        "en_legge": "'It will be advantageous for (the subject of) the second line, undivided, to maintain his firm correctness:'—his central position gives its character to his aim."
       }
     },
     {
@@ -71,7 +75,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "一人行，三則疑也。",
-        "zh_hans": "一人行，三则疑也。"
+        "zh_hans": "一人行，三则疑也。",
+        "en_legge": "'One man, walking,' (finds his friend):—when three are together, doubts rise among them."
       }
     },
     {
@@ -87,7 +92,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "損其疾，亦可喜也。",
-        "zh_hans": "损其疾，亦可喜也。"
+        "zh_hans": "损其疾，亦可喜也。",
+        "en_legge": "'He diminishes the ailment under which he labours:'—this is matter for joy."
       }
     },
     {
@@ -103,7 +109,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "六五元吉，自上祐也。",
-        "zh_hans": "六五元吉，自上祐也。"
+        "zh_hans": "六五元吉，自上祐也。",
+        "en_legge": "'The great good fortune attached to the fifth line, divided,' is due to the blessing from above."
       }
     },
     {
@@ -119,7 +126,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "弗損、益之，大得志也。",
-        "zh_hans": "弗损、益之，大得志也。"
+        "zh_hans": "弗损、益之，大得志也。",
+        "en_legge": "'He gives increase to others without taking from what is his own:'—he obtains his wish on a grand scale."
       }
     }
   ],

@@ -19,11 +19,13 @@
   },
   "tuan": {
     "zh_hant": "大畜，剛健篤實，煇光日新。其德剛上而尚賢，能止健，大正也，不家食吉、養賢也，利涉大川、應乎天也。",
-    "zh_hans": "大畜，刚健笃实，𪸩光日新。其德刚上而尚贤，能止健，大正也，不家食吉、养贤也，利涉大川、应乎天也。"
+    "zh_hans": "大畜，刚健笃实，𪸩光日新。其德刚上而尚贤，能止健，大正也，不家食吉、养贤也，利涉大川、应乎天也。",
+    "en_legge": "In (the trigrams composing) Ta Khu we have (the attributes) of the greatest strength and of substantial solidity, which emit a brilliant light; and indicate a daily renewal of his virtue (by the subject of it). The strong line is in the highest place, and suggests the value set on talents and virtue; there iS power (in the upper trigram) to keep the strongest in restraint:—all this shows 'the great correctness' (required in the hexagram). 'The good fortune attached to the subject's not seeking to enjoy his revenues in his own family' shows how talents and virtue are nourished. 'It will be advantageous to cross the great stream:'—(the fifth line, representing the ruler,) is responded to by (the second, the central line of Khien, representing) Heaven."
   },
   "image": {
     "zh_hant": "天在山中，大畜。君子以多識前言往行以畜其德。",
-    "zh_hans": "天在山中，大畜。君子以多识前言往行以畜其德。"
+    "zh_hans": "天在山中，大畜。君子以多识前言往行以畜其德。",
+    "en_legge": "(The trigram representing) a mountain, and in the midst of it that (representing) heaven, form Ta Khu. The superior man, in accordance with this, stores largely in his memory the words and deeds of former men, to subserve the accumulation of his virtue."
   },
   "lines": [
     {
@@ -39,7 +41,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "有厲利已、不犯災也。",
-        "zh_hans": "有厉利已、不犯灾也。"
+        "zh_hans": "有厉利已、不犯灾也。",
+        "en_legge": "'He is in a position of peril; it will be advantageous for him to stop his advance:'—he should not rashly expose himself to calamity."
       }
     },
     {
@@ -55,7 +58,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "輿說輹、中无尤也。",
-        "zh_hans": "舆说輹、中无尤也。"
+        "zh_hans": "舆说輹、中无尤也。",
+        "en_legge": "'(He is as) a carriage from which the strap under it has been removed:'—being in the central position, he will incur no blame."
       }
     },
     {
@@ -71,7 +75,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "利有攸往、上合志也。",
-        "zh_hans": "利有攸往、上合志也。"
+        "zh_hans": "利有攸往、上合志也。",
+        "en_legge": "'There will be advantage in whatever direction he may advance:'—(the subject of) the topmost line is of the same mind with him."
       }
     },
     {
@@ -87,7 +92,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "六四元吉、有喜也。",
-        "zh_hans": "六四元吉、有喜也。"
+        "zh_hans": "六四元吉、有喜也。",
+        "en_legge": "'The great good fortune indicated by the fourth line, divided,' shows that there is occasion for joy."
       }
     },
     {
@@ -103,7 +109,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "六五之吉、有慶也。",
-        "zh_hans": "六五之吉、有庆也。"
+        "zh_hans": "六五之吉、有庆也。",
+        "en_legge": "'The good fortune indicated by the fifth line, divided,' shows that there is occasion for congratulation."
       }
     },
     {
@@ -119,7 +126,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "何天之衢、道大行也。",
-        "zh_hans": "何天之衢、道大行也。"
+        "zh_hans": "何天之衢、道大行也。",
+        "en_legge": "'In command of the firmament of heaven:'—the way is grandly open for movement."
       }
     }
   ],

@@ -19,11 +19,13 @@
   },
   "tuan": {
     "zh_hant": "大有，柔得尊位大中而上下應之曰大有。其德剛健而文明，應乎天而時行，是以元亨。",
-    "zh_hans": "大有，柔得尊位大中而上下应之曰大有。其德刚健而文明，应乎天而时行，是以元亨。"
+    "zh_hans": "大有，柔得尊位大中而上下应之曰大有。其德刚健而文明，应乎天而时行，是以元亨。",
+    "en_legge": "In Ta Yu the weak (line) has the place of honour, is grandly central, and (the strong lines) above and below respond to it. Hence comes its name of Ta Yu (Having what is Great). The attributes (of its component trigrams) are strength and vigour with elegance and brightness. (The ruling line in it) responds to (the ruling line in the symbol of) heaven, and (consequently) its action is (all) at the proper times. In this way (it is said to) indicate great progress and success."
   },
   "image": {
     "zh_hant": "火在天上，大有。君子以遏惡揚善，順天休命。",
-    "zh_hans": "火在天上，大有。君子以遏恶扬善，顺天休命。"
+    "zh_hans": "火在天上，大有。君子以遏恶扬善，顺天休命。",
+    "en_legge": "(The trigram for) heaven and (that of) fire above it form Ta Yu. The superior man, in accordance with this, represses what is evil and gives distinction to what is good, in sympathy with the excellent Heaven-conferred (nature)."
   },
   "lines": [
     {
@@ -39,7 +41,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "大有初九，无交害也。",
-        "zh_hans": "大有初九，无交害也。"
+        "zh_hans": "大有初九，无交害也。",
+        "en_legge": "This first line, undivided, of Ta Yu shows no approach to what is injurious."
       }
     },
     {
@@ -55,7 +58,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "大車以載、積中不敗也。",
-        "zh_hans": "大车以载、积中不败也。"
+        "zh_hans": "大车以载、积中不败也。",
+        "en_legge": "'A large waggon with its load' refers to the (virtue) accumulated (in the subject of the line), so that he will suffer no loss (in the conduct of affairs)."
       }
     },
     {
@@ -71,7 +75,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "公用亨于天子、小人害也。",
-        "zh_hans": "公用亨于天子、小人害也。"
+        "zh_hans": "公用亨于天子、小人害也。",
+        "en_legge": "'A feudal prince presents his offerings to the son of Heaven:'—a small man (in such a position) does (himself) harm."
       }
     },
     {
@@ -87,7 +92,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "匪其彭、无咎、明辯晢也。",
-        "zh_hans": "匪其彭、无咎、明辩晢也。"
+        "zh_hans": "匪其彭、无咎、明辩晢也。",
+        "en_legge": "'H e keeps his great resources under restraint:'—his wisdom discriminates clearly (what he ought to do)."
       }
     },
     {
@@ -103,7 +109,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "厥孚交如、信以發志也，威如之吉、易而无備也。",
-        "zh_hans": "厥孚交如、信以发志也，威如之吉、易而无备也。"
+        "zh_hans": "厥孚交如、信以发志也，威如之吉、易而无备也。",
+        "en_legge": "'His sincerity is reciprocated by all the others:'—his sincerity serves to stir and call out what is in their minds. 'The good fortune springing from a display of proper majesty' shows how they might (otherwise) feel too easy, and make no preparation (to serve him)."
       }
     },
     {
@@ -119,7 +126,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "大有上吉、自天祐也。",
-        "zh_hans": "大有上吉、自天祐也。"
+        "zh_hans": "大有上吉、自天祐也。",
+        "en_legge": "'The good fortune attached to the topmost line of Ta Yu' arises from the help of Heaven."
       }
     }
   ],

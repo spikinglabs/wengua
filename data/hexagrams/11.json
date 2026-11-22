@@ -19,11 +19,13 @@
   },
   "tuan": {
     "zh_hant": "泰、小往大來、吉、亨。則是天地交而萬物通也，上下交而其志同也。內陽而外陰，內健而外順，內君子而外小人，君子道長，小人道消也。",
-    "zh_hans": "泰、小往大来、吉、亨。则是天地交而万物通也，上下交而其志同也。内阳而外阴，内健而外顺，内君子而外小人，君子道长，小人道消也。"
+    "zh_hans": "泰、小往大来、吉、亨。则是天地交而万物通也，上下交而其志同也。内阳而外阴，内健而外顺，内君子而外小人，君子道长，小人道消也。",
+    "en_legge": "'The little come and the great gone in Thai, and its indication that there will be good fortune with progress and success' show to us heaven and earth in communication with each other, and all things in consequence having free course, and (also) the high and the low, (superiors and inferiors), in communication with one another, and possessed by the same aim. The inner (trigram) is made up of the strong and undivided lines, and the outer of the weak and divided; the inner is (the symbol of) strength, and the outer of docility; the inner (represents) the superior man, and the outer the small man. (Thus) the way of the superior man appears increasing, and that of the small man decreasing."
   },
   "image": {
     "zh_hant": "天地交，泰。后以財成天地之道，輔相天地之宜，以左右民。",
-    "zh_hans": "天地交，泰。后以财成天地之道，辅相天地之宜，以左右民。"
+    "zh_hans": "天地交，泰。后以财成天地之道，辅相天地之宜，以左右民。",
+    "en_legge": "(The trigrams for) heaven and earth in communication together form Thai. The (sage) sovereign, in harmony with this, fashions and completes (his regulations) after the courses of heaven and earth, and assists the application of the adaptations furnished by them,—in order to benefit the people."
   },
   "lines": [
     {
@@ -39,7 +41,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "拔茅征吉、志在外也。",
-        "zh_hans": "拔茅征吉、志在外也。"
+        "zh_hans": "拔茅征吉、志在外也。",
+        "en_legge": "'The good fortune of advance, (as suggested by the emblem of) the grass pulled up,' arises from the will (of the party intended) being set on what is external to himself."
       }
     },
     {
@@ -55,7 +58,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "包荒、得尚于中行，以光大也。",
-        "zh_hans": "包荒、得尚于中行，以光大也。"
+        "zh_hans": "包荒、得尚于中行，以光大也。",
+        "en_legge": "'He bears with the uncultivated, and proves himself acting in accordance with the due mean:'—for (his intelligence is) bright and (his capacity is) great."
       }
     },
     {
@@ -71,7 +75,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "无往不復、天地際也。",
-        "zh_hans": "无往不复、天地际也。"
+        "zh_hans": "无往不复、天地际也。",
+        "en_legge": "'There is no going away so that there shall not be a return' refers to this as the point where the interaction of heaven and earth takes place."
       }
     },
     {
@@ -87,7 +92,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "翩翩不富、皆失實也，不戒以孚、中心願也。",
-        "zh_hans": "翩翩不富、皆失实也，不戒以孚、中心愿也。"
+        "zh_hans": "翩翩不富、皆失实也，不戒以孚、中心愿也。",
+        "en_legge": "'He comes fluttering (down), not relying on his own rich resources:'—both he and his neighbours are out of their real (place where they are). 'They have not received warning, but (come) in the sincerity (of their hearts):'—this is what they have desired in the core of their hearts."
       }
     },
     {
@@ -103,7 +109,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "以祉元吉、中以行願也。",
-        "zh_hans": "以祉元吉、中以行愿也。"
+        "zh_hans": "以祉元吉、中以行愿也。",
+        "en_legge": "'By such a course there is happiness, and there will be great good fortune:'—(the subject of the line) employs the virtue proper to his central position to carry his wishes into effect."
       }
     },
     {
@@ -119,7 +126,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "城復于隍、其命亂也。",
-        "zh_hans": "城复于隍、其命乱也。"
+        "zh_hans": "城复于隍、其命乱也。",
+        "en_legge": "'The city wall returned back into the moat' shows how the (governmental) orders have (long) been in disorder."
       }
     }
   ],

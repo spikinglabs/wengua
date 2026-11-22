@@ -19,11 +19,13 @@
   },
   "tuan": {
     "zh_hant": "遯亨，遯而亨也。剛當位而應，與時行也。小利貞、浸而長也。遯之時義大矣哉！",
-    "zh_hans": "遯亨，遯而亨也。刚当位而应，与时行也。小利贞、浸而长也。遯之时义大矣哉！"
+    "zh_hans": "遯亨，遯而亨也。刚当位而应，与时行也。小利贞、浸而长也。遯之时义大矣哉！",
+    "en_legge": "'Thun indicates successful progress:'—that is, in the very retiring which Thun denotes there is such progress. The strong (line) is in the ruling place, (the fifth), and is properly responded to (by the second line). The action takes place according to (the requirement of) the time. 'To a small extent it will (still) be advantageous to be firm and correct:'—(the small men) are gradually encroaching and advancing. Great indeed is the significance of (what is required to be done in) the time that necessitates retiring."
   },
   "image": {
     "zh_hant": "天下有山，遯。君子以遠小人，不惡而嚴。",
-    "zh_hans": "天下有山，遯。君子以远小人，不恶而严。"
+    "zh_hans": "天下有山，遯。君子以远小人，不恶而严。",
+    "en_legge": "(The trigram representing) the sky and below it that for a mountain form Thun. The superior man, in accordance with this, keeps small men at a distance, not by showing that he hates them, but by his own dignified gravity."
   },
   "lines": [
     {
@@ -39,7 +41,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "遯尾之厲、不往何災也？",
-        "zh_hans": "遯尾之厉、不往何灾也？"
+        "zh_hans": "遯尾之厉、不往何灾也？",
+        "en_legge": "There is 'the perilousness of the position shown by the retiring tail:'—but if 'no movement' be made, what disaster can there be?"
       }
     },
     {
@@ -55,7 +58,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "執用黃牛、固志也。",
-        "zh_hans": "执用黄牛、固志也。"
+        "zh_hans": "执用黄牛、固志也。",
+        "en_legge": "'He holds it as by (a thong from the hide of) a yellow ox:'—his purpose is firm."
       }
     },
     {
@@ -71,7 +75,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "係遯之厲、有疾憊也，畜臣妾吉、不可大事也。",
-        "zh_hans": "系遯之厉、有疾惫也，畜臣妾吉、不可大事也。"
+        "zh_hans": "系遯之厉、有疾惫也，畜臣妾吉、不可大事也。",
+        "en_legge": "'The peril connected with the case of one retiring, though bound,' is due to the (consequent) distress and exhaustion. 'If he were (to deal as in) nourishing a servant or concubine, it would be fortunate for him:'—but a great affair cannot be dealt with in this way."
       }
     },
     {
@@ -87,7 +92,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "君子好遯、小人否也。",
-        "zh_hans": "君子好遯、小人否也。"
+        "zh_hans": "君子好遯、小人否也。",
+        "en_legge": "'A superior man retires notwithstanding his likings; a small man cannot attain to this.'"
       }
     },
     {
@@ -103,7 +109,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "嘉遯貞吉、以正志也。",
-        "zh_hans": "嘉遯贞吉、以正志也。"
+        "zh_hans": "嘉遯贞吉、以正志也。",
+        "en_legge": "'He retires in an admirable way, and with firm correctness there will be good fortune:'—this is due to the rectitude of his purpose."
       }
     },
     {
@@ -119,7 +126,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "肥遯无不利、无所疑也。",
-        "zh_hans": "肥遯无不利、无所疑也。"
+        "zh_hans": "肥遯无不利、无所疑也。",
+        "en_legge": "'He retires in a noble way, and his doing so will be advantageous in every respect:'—he who does so has no doubts about his course."
       }
     }
   ],

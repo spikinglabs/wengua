@@ -19,11 +19,13 @@
   },
   "tuan": {
     "zh_hant": "革、水火相息，二女同居，其志不相得曰革。巳日乃孚，革而信之。文明以說，大亨以正。革而當，其悔乃亡。天地革而四時成，湯武革命，順乎天而應乎人。革之時大矣哉！",
-    "zh_hans": "革、水火相息，二女同居，其志不相得曰革。巳日乃孚，革而信之。文明以说，大亨以正。革而当，其悔乃亡。天地革而四时成，汤武革命，顺乎天而应乎人。革之时大矣哉！"
+    "zh_hans": "革、水火相息，二女同居，其志不相得曰革。巳日乃孚，革而信之。文明以说，大亨以正。革而当，其悔乃亡。天地革而四时成，汤武革命，顺乎天而应乎人。革之时大矣哉！",
+    "en_legge": "In Ko (we see) water and fire extinguishing each other; (we see also) two daughters dwelling together, but with their minds directed to different objects:—(on account of these things) it is called (the hexagram of) Change. 'It is believed in (only) after it has been accomplished:'—when the change has been made, faith is accorded to it. (We have) cultivated intelligence (as the basis of) pleased satisfaction, (suggesting) 'great progress and success,' coming from what is correct. When change thus takes place in the proper way, 'occasion for repentance disappears.' Heaven and earth undergo their changes, and the four seasons complete their functions. Thang changed the appointment (of the line of Hsia to the throne), and Wu (that of the line of Shang), in accordance with (the will of) Heaven, and in response to (the wishes of) men. Great indeed is what takes place in a time of change."
   },
   "image": {
     "zh_hant": "澤中有火，革。君子以治歷明時。",
-    "zh_hans": "泽中有火，革。君子以治历明时。"
+    "zh_hans": "泽中有火，革。君子以治历明时。",
+    "en_legge": "(The trigram representing the waters of) a marsh and that for fire in the midst of them form Ko. The superior man, in accordance with this, regulates his (astronomical) calculations, and makes clear the seasons and times."
   },
   "lines": [
     {
@@ -39,7 +41,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "鞏用黃牛、不可以有為也。",
-        "zh_hans": "巩用黄牛、不可以有为也。"
+        "zh_hans": "巩用黄牛、不可以有为也。",
+        "en_legge": "'He is bound with (the skin of) a yellow ox:'—he should in his circumstances be taking action."
       }
     },
     {
@@ -55,7 +58,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "巳日革之、行有嘉也。",
-        "zh_hans": "巳日革之、行有嘉也。"
+        "zh_hans": "巳日革之、行有嘉也。",
+        "en_legge": "'He makes his changes when some time has passed:'—what he does will be matter of admiration."
       }
     },
     {
@@ -71,7 +75,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "革言三就、又何之矣。",
-        "zh_hans": "革言三就、又何之矣。"
+        "zh_hans": "革言三就、又何之矣。",
+        "en_legge": "'The change (contemplated) has been three times fully discussed:'—to what else should attention (now) be directed?"
       }
     },
     {
@@ -87,7 +92,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "改命之吉、信志也。",
-        "zh_hans": "改命之吉、信志也。"
+        "zh_hans": "改命之吉、信志也。",
+        "en_legge": "'The good fortune consequent on changing (existing) ordinances' is due to the faith reposed in his aims."
       }
     },
     {
@@ -103,7 +109,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "大人虎變、其文炳也。",
-        "zh_hans": "大人虎变、其文炳也。"
+        "zh_hans": "大人虎变、其文炳也。",
+        "en_legge": "'The great man produces his changes as the tiger does when he changes his stripes:'—their beauty becomes more brilliant."
       }
     },
     {
@@ -119,7 +126,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "君子豹變、其文蔚也，小人革面、順以從君也。",
-        "zh_hans": "君子豹变、其文蔚也，小人革面、顺以从君也。"
+        "zh_hans": "君子豹变、其文蔚也，小人革面、顺以从君也。",
+        "en_legge": "'The superior man produces his changes as the leopard does when he changes his spots:'—their beauty becomes more elegant. 'Small men change their faces:'—they show themselves prepared to follow their ruler."
       }
     }
   ],

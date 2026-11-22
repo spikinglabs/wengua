@@ -19,11 +19,13 @@
   },
   "tuan": {
     "zh_hant": "離、麗也。日月麗乎天，百穀草木麗乎土。重明以麗乎正，乃化成天下。柔麗乎中正，故亨，是以畜牝牛吉也。",
-    "zh_hans": "离、丽也。日月丽乎天，百谷草木丽乎土。重明以丽乎正，乃化成天下。柔丽乎中正，故亨，是以畜牝牛吉也。"
+    "zh_hans": "离、丽也。日月丽乎天，百谷草木丽乎土。重明以丽乎正，乃化成天下。柔丽乎中正，故亨，是以畜牝牛吉也。",
+    "en_legge": "Li means being attached to. The sun and moon have their place in the sky. All the grains, grass, and trees have their place on the earth. The double brightness (of the two trigrams) adheres to what is correct, and the result is the transforming and perfecting all under the sky. The weak (second line) occupies the middle and correct position, and gives the indication of 'a free and successful course;' and, moreover, 'nourishing (docility like that of) the cow' will lead to good fortune."
   },
   "image": {
     "zh_hant": "明兩、作離。大人以繼明照于四方。",
-    "zh_hans": "明两、作离。大人以继明照于四方。"
+    "zh_hans": "明两、作离。大人以继明照于四方。",
+    "en_legge": "(The trigram for) brightness, repeated, forms Li. The great man, in accordance with this, cultivates more and more his brilliant (virtue), and diffuses its brightness over the four quarters (of the land)."
   },
   "lines": [
     {
@@ -39,7 +41,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "履錯之敬、以辟咎也。",
-        "zh_hans": "履错之敬、以辟咎也。"
+        "zh_hans": "履错之敬、以辟咎也。",
+        "en_legge": "'The reverent attention directed to his confused steps' is the way by which error is avoided."
       }
     },
     {
@@ -55,7 +58,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "黃離元吉、得中道也。",
-        "zh_hans": "黄离元吉、得中道也。"
+        "zh_hans": "黄离元吉、得中道也。",
+        "en_legge": "'The great good fortune (from the subject of the second line) occupying his place in yellow' is owing to his holding the course of the due mean."
       }
     },
     {
@@ -71,7 +75,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "日昃之離、何可久也？",
-        "zh_hans": "日昃之离、何可久也？"
+        "zh_hans": "日昃之离、何可久也？",
+        "en_legge": "'A position like that of the declining sun:'—how can it continue long?"
       }
     },
     {
@@ -87,7 +92,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "突如其來如、无所容也。",
-        "zh_hans": "突如其来如、无所容也。"
+        "zh_hans": "突如其来如、无所容也。",
+        "en_legge": "'How abrupt is the manner of his coming!'—none can bear with him."
       }
     },
     {
@@ -103,7 +109,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "六五之吉、離王公也。",
-        "zh_hans": "六五之吉、离王公也。"
+        "zh_hans": "六五之吉、离王公也。",
+        "en_legge": "'The good fortune attached to the fifth line, divided,' is due to its occupying the place of a king or a prince."
       }
     },
     {
@@ -119,7 +126,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "王用出征、以正邦也。",
-        "zh_hans": "王用出征、以正邦也。"
+        "zh_hans": "王用出征、以正邦也。",
+        "en_legge": "'The king employs him in his punitive expeditions:'—the object is to bring the regions to a correct state."
       }
     }
   ],

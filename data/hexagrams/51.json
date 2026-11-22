@@ -19,11 +19,13 @@
   },
   "tuan": {
     "zh_hant": "震亨。震來虩虩、恐致福也，笑言啞啞、後有則也，震驚百里、驚遠而懼邇也。出可以守宗廟社稷，以為祭主也。",
-    "zh_hans": "震亨。震来虩虩、恐致福也，笑言哑哑、后有则也，震惊百里、惊远而惧迩也。出可以守宗庙社稷，以为祭主也。"
+    "zh_hans": "震亨。震来虩虩、恐致福也，笑言哑哑、后有则也，震惊百里、惊远而惧迩也。出可以守宗庙社稷，以为祭主也。",
+    "en_legge": "Kan (gives the intimation of) ease and development. 'When the (time of) movement (which it indicates) comes, (its subject) will be found looking out with apprehension:'—that feeling of dread leads to happiness. 'And yet smiling and talking cheerfully:'—the issue (of his dread) is that he adopts (proper) laws (for his course). 'The movement (like a crash of thunder) terrifies all within a hundred li:'—it startles the distant and frightens the near. 'He will be like the sincere worshipper, who is not startled into letting go his ladle and cup of sacrificial spirits:'—he makes his appearance, and maintains his ancestral temple and the altars of the spirits of the land and grain, as presiding at all sacrifices."
   },
   "image": {
     "zh_hant": "洊雷、震。君子以恐懼脩省。",
-    "zh_hans": "洊雷、震。君子以恐惧修省。"
+    "zh_hans": "洊雷、震。君子以恐惧修省。",
+    "en_legge": "(The trigram representing) thunder, being repeated, forms Kan. The superior man, in accordance with this, is fearful and apprehensive, cultivates (his virtue), and examines (his faults)."
   },
   "lines": [
     {
@@ -39,7 +41,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "震來虩虩、恐致福也，笑言啞啞、後有則也。",
-        "zh_hans": "震来虩虩、恐致福也，笑言哑哑、后有则也。"
+        "zh_hans": "震来虩虩、恐致福也，笑言哑哑、后有则也。",
+        "en_legge": "'When the (time of) movement comes, he will be found looking out with apprehension:'—that feeling of dread leads to happiness. 'He yet smiles and talks cheerfully:'—the issue (of his dread) is that he adopts (proper) laws (for his course)."
       }
     },
     {
@@ -55,7 +58,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "震來厲、乘剛也。",
-        "zh_hans": "震来厉、乘刚也。"
+        "zh_hans": "震来厉、乘刚也。",
+        "en_legge": "'When the movement approaches, he is in a position of peril:'—(a weak line) is mounted on a strong (one)."
       }
     },
     {
@@ -71,7 +75,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "震蘇蘇、位不當也。",
-        "zh_hans": "震苏苏、位不当也。"
+        "zh_hans": "震苏苏、位不当也。",
+        "en_legge": "'He is distraught amid the startling movements going on:'—(the third line) is in a position unsuitable to it."
       }
     },
     {
@@ -87,7 +92,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "震遂泥、未光也。",
-        "zh_hans": "震遂泥、未光也。"
+        "zh_hans": "震遂泥、未光也。",
+        "en_legge": "'Amid the startling movements, he sinks supinely in the mud:'—the light in him has not yet been brilliantly developed."
       }
     },
     {
@@ -103,7 +109,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "震往來厲、危行也，其事在中、大无喪也。",
-        "zh_hans": "震往来厉、危行也，其事在中、大无丧也。"
+        "zh_hans": "震往来厉、危行也，其事在中、大无丧也。",
+        "en_legge": "'He goes and comes amid the startling movements, and (always) in peril:'—full of risk are his doings. 'What he has to do has to be done in his central position:'—far will he be from incurring any loss."
       }
     },
     {
@@ -119,7 +126,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "震索索、中未得也，雖凶无咎、畏鄰戒也。",
-        "zh_hans": "震索索、中未得也，虽凶无咎、畏邻戒也。"
+        "zh_hans": "震索索、中未得也，虽凶无咎、畏邻戒也。",
+        "en_legge": "'Amid the startling movements he is in breathless dismay:'—he has not found out (the course of) the due mean. 'Though evil (threatens), he will not fall into error:'—he is afraid of being warned by his neighbours."
       }
     }
   ],

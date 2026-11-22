@@ -19,11 +19,13 @@
   },
   "tuan": {
     "zh_hant": "咸、感也。柔上而剛下，二氣感應以相與，止而說，男下女，是以亨利貞、取女吉也。天地感而萬物化生，聖人感人心而天下和平。觀其所感而天地萬物之情可見矣。",
-    "zh_hans": "咸、感也。柔上而刚下，二气感应以相与，止而说，男下女，是以亨利贞、取女吉也。天地感而万物化生，圣人感人心而天下和平。观其所感而天地万物之情可见矣。"
+    "zh_hans": "咸、感也。柔上而刚下，二气感应以相与，止而说，男下女，是以亨利贞、取女吉也。天地感而万物化生，圣人感人心而天下和平。观其所感而天地万物之情可见矣。",
+    "en_legge": "Hsien is here used in the sense of Kan, meaning (mutually) influencing. The weak (trigram) above, and the strong one below; their two influences moving and responding to each other, and thereby forming a union; the repression (of the one) and the satisfaction (of the other); (with their relative position), where the male is placed below the female:—all these things convey the notion of 'a free and successful course (on the fulfilment of the conditions), while the advantage will depend on being firm and correct, as in marrying a young lady, and there will be good fortune.' Heaven and earth exert their influences, and there ensue the transformation and production of all things. The sages influence the minds of men, and the result is harmony and peace all under the sky. If we look at (the method and issues) of those influences, the true character of heaven and earth and of all things can be seen."
   },
   "image": {
     "zh_hant": "山上有澤，咸。君子以虛受人。",
-    "zh_hans": "山上有泽，咸。君子以虚受人。"
+    "zh_hans": "山上有泽，咸。君子以虚受人。",
+    "en_legge": "(The trigram representing) a mountain and above it that for (the waters of) a marsh form Hsien. The superior man, in accordance with this, keeps his mind free from pre-occupation, and open to receive (the influences of) others."
   },
   "lines": [
     {
@@ -39,7 +41,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "咸其拇、志在外也。",
-        "zh_hans": "咸其拇、志在外也。"
+        "zh_hans": "咸其拇、志在外也。",
+        "en_legge": "'He moves his great toe:'—his mind is set on what is beyond (himself)."
       }
     },
     {
@@ -55,7 +58,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "雖凶居吉、順不害也。",
-        "zh_hans": "虽凶居吉、顺不害也。"
+        "zh_hans": "虽凶居吉、顺不害也。",
+        "en_legge": "Though 'there would be evil; yet, if he abide (quiet) in his place, there will be good fortune:'—through compliance (with the circumstances of his condition and place) there will be no injury."
       }
     },
     {
@@ -71,7 +75,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "咸其股、亦不處也，志在隨人、所執下也。",
-        "zh_hans": "咸其股、亦不处也，志在随人、所执下也。"
+        "zh_hans": "咸其股、亦不处也，志在随人、所执下也。",
+        "en_legge": "'He moves his thighs:'—he still does not (want to) rest in his place. His will is set on 'following others:'—what he holds in his grasp is low."
       }
     },
     {
@@ -87,7 +92,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "貞吉悔亡、未感害也，憧憧往來、未光大也。",
-        "zh_hans": "贞吉悔亡、未感害也，憧憧往来、未光大也。"
+        "zh_hans": "贞吉悔亡、未感害也，憧憧往来、未光大也。",
+        "en_legge": "'Firm correctness will lead to good fortune, and prevent all occasion for repentance:'—there has not yet been any harm from (a selfish wish to) influence. 'He is unsettled in his movements:'—(his power to influence) is not yet either brilliant or great."
       }
     },
     {
@@ -103,7 +109,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "咸其脢、志末也。",
-        "zh_hans": "咸其脢、志末也。"
+        "zh_hans": "咸其脢、志末也。",
+        "en_legge": "'He (tries to) move the flesh along the spine above the heart:'—his aim is trivial."
       }
     },
     {
@@ -119,7 +126,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "咸其輔頰舌、滕口說也。",
-        "zh_hans": "咸其辅颊舌、滕口说也。"
+        "zh_hans": "咸其辅颊舌、滕口说也。",
+        "en_legge": "'He moves his jaws and tongue:'—he (only) talks with loquacious mouth."
       }
     }
   ],

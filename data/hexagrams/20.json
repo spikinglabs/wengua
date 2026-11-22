@@ -19,11 +19,13 @@
   },
   "tuan": {
     "zh_hant": "大觀在上，順而巽，中正以觀天下，觀。盥而不薦、有孚顒若、下觀而化也，觀天之神道而四時不忒。聖人以神道設教而天下服矣。",
-    "zh_hans": "大观在上，顺而巽，中正以观天下，观。盥而不荐、有孚颙若、下观而化也，观天之神道而四时不忒。圣人以神道设教而天下服矣。"
+    "zh_hans": "大观在上，顺而巽，中正以观天下，观。盥而不荐、有孚颙若、下观而化也，观天之神道而四时不忒。圣人以神道设教而天下服矣。",
+    "en_legge": "The great Manifester occupies an upper place (in the figure), which consists of (the trigrams whose attributes are) docility and flexibility. He is in the central position and his correct place, and thus exhibits (his lessons) to all under heaven. 'Kwan shows its subject like a worshipper who has washed his hands, but not (yet) presented his offerings;—with sincerity and an appearance of dignity (commanding reverent regard):'—(all) beneath look to him and are transformed. When we contemplate the spirit-like way of Heaven, we see how the four seasons proceed without error. The sages, in accordance with (this) spirit-like way, laid down their instructions, and all under heaven yield submission to them."
   },
   "image": {
     "zh_hant": "風行地上，觀。先王以省方觀民設教。",
-    "zh_hans": "风行地上，观。先王以省方观民设教。"
+    "zh_hans": "风行地上，观。先王以省方观民设教。",
+    "en_legge": "(The trigram representing) the earth, and that for wind moving above it, form Kwan. The ancient kings, in accordance with this, examined the (different) regions (of the kingdom), to see the (ways of the) people, and set forth their instructions."
   },
   "lines": [
     {
@@ -39,7 +41,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "初六童觀、小人道也。",
-        "zh_hans": "初六童观、小人道也。"
+        "zh_hans": "初六童观、小人道也。",
+        "en_legge": "'The looking of a lad shown by the first line, divided,' indicates the way of the inferior people."
       }
     },
     {
@@ -55,7 +58,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "闚觀女貞、亦可醜也。",
-        "zh_hans": "闚观女贞、亦可丑也。"
+        "zh_hans": "闚观女贞、亦可丑也。",
+        "en_legge": "'The firm correctness of a woman, in peeping out from a door 'is also a thing to be ashamed of (in a superior man)."
       }
     },
     {
@@ -71,7 +75,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "觀我生進退、未失道也。",
-        "zh_hans": "观我生进退、未失道也。"
+        "zh_hans": "观我生进退、未失道也。",
+        "en_legge": "'He looks at (the course of) his own life, to advance or recede (accordingly):'—he will not err in the path (to be pursued)."
       }
     },
     {
@@ -87,7 +92,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "觀國之光、尚賓也。",
-        "zh_hans": "观国之光、尚宾也。"
+        "zh_hans": "观国之光、尚宾也。",
+        "en_legge": "'He contemplates the glory of the kingdom:'—(thence) arises the wish to be a guest (at court)."
       }
     },
     {
@@ -103,7 +109,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "觀我生、觀民也。",
-        "zh_hans": "观我生、观民也。"
+        "zh_hans": "观我生、观民也。",
+        "en_legge": "'He contemplates his own life(-course):'—he should (for this purpose) contemplate (the condition of) the people."
       }
     },
     {
@@ -119,7 +126,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "觀其生、志未平也。",
-        "zh_hans": "观其生、志未平也。"
+        "zh_hans": "观其生、志未平也。",
+        "en_legge": "'He contemplates his own character:'—he cannot even yet let his mind be at rest."
       }
     }
   ],

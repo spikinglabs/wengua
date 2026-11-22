@@ -19,11 +19,13 @@
   },
   "tuan": {
     "zh_hant": "艮、止也。時止則止，時行則行，動靜不失其時，其道光明。艮其止，止其所也。上下敵應，不相與也。是以不獲其身、行其庭不見其人，无咎也。",
-    "zh_hans": "艮、止也。时止则止，时行则行，动静不失其时，其道光明。艮其止，止其所也。上下敌应，不相与也。是以不获其身、行其庭不见其人，无咎也。"
+    "zh_hans": "艮、止也。时止则止，时行则行，动静不失其时，其道光明。艮其止，止其所也。上下敌应，不相与也。是以不获其身、行其庭不见其人，无咎也。",
+    "en_legge": "Kan denotes stopping or resting;—resting when it is the time to rest, and acting when it is the time to act. When one's movements and restings all take place at the proper time for them, his way (of proceeding) is brilliant and intelligent. Resting in one's resting-point is resting in one's proper place. The upper and lower (lines of the hexagram) exactly correspond to each other, but are without any interaction; hence it is said that '(the subject of the hexagram) has no consciousness of self; that when he walks in his courtyard, he does not see (any of) the persons in it; and that there will be no error.' The explanations of the Thwan here are good; but in no way deduced from the figure."
   },
   "image": {
     "zh_hant": "兼山，艮。君子以思不出其位。",
-    "zh_hans": "兼山，艮。君子以思不出其位。"
+    "zh_hans": "兼山，艮。君子以思不出其位。",
+    "en_legge": "(Two trigrams representing) a mountain, one over the other, form Kan. The superior man, in accordance with this, does not go in his thoughts beyond the (duties of the) position in which he is."
   },
   "lines": [
     {
@@ -39,7 +41,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "艮其趾、未失正也。",
-        "zh_hans": "艮其趾、未失正也。"
+        "zh_hans": "艮其趾、未失正也。",
+        "en_legge": "'He keeps his toes at rest:'-—he does not fail in what is correct (according to the idea of the figure)."
       }
     },
     {
@@ -55,7 +58,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "不拯其隨、未退聽也。",
-        "zh_hans": "不拯其随、未退听也。"
+        "zh_hans": "不拯其随、未退听也。",
+        "en_legge": "'He cannot help him whom he follows:'—(he whom he follows) will not retreat to listen to him."
       }
     },
     {
@@ -71,7 +75,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "艮其限、危薰心也。",
-        "zh_hans": "艮其限、危薰心也。"
+        "zh_hans": "艮其限、危薰心也。",
+        "en_legge": "'He keeps the loins at rest:'—the danger (from his doing so) produces a glowing heat in the heart."
       }
     },
     {
@@ -87,7 +92,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "艮其身、止諸躬也。",
-        "zh_hans": "艮其身、止诸躬也。"
+        "zh_hans": "艮其身、止诸躬也。",
+        "en_legge": "'He keeps the trunk of his body at rest:'—he keeps himself free (from agitation)."
       }
     },
     {
@@ -103,7 +109,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "艮其輔、以中正也。",
-        "zh_hans": "艮其辅、以中正也。"
+        "zh_hans": "艮其辅、以中正也。",
+        "en_legge": "'He keeps his cheek bones at rest:'—in harmony with his central position he acts correctly."
       }
     },
     {
@@ -119,7 +126,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "敦艮之吉、以厚終也。",
-        "zh_hans": "敦艮之吉、以厚终也。"
+        "zh_hans": "敦艮之吉、以厚终也。",
+        "en_legge": "'There is good fortune through his devotedly maintaining his restfulness:'—to the end he shows himself generous and good."
       }
     }
   ],

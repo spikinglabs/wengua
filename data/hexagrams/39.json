@@ -19,11 +19,13 @@
   },
   "tuan": {
     "zh_hant": "蹇、難也，險在前也。見險而能止，知矣哉！蹇、利西南，往得中也，不利東北、其道窮也，利見大人、往有功也，當位貞吉、以正邦也。蹇之時用大矣哉！",
-    "zh_hans": "蹇、难也，险在前也。见险而能止，知矣哉！蹇、利西南，往得中也，不利东北、其道穷也，利见大人、往有功也，当位贞吉、以正邦也。蹇之时用大矣哉！"
+    "zh_hans": "蹇、难也，险在前也。见险而能止，知矣哉！蹇、利西南，往得中也，不利东北、其道穷也，利见大人、往有功也，当位贞吉、以正邦也。蹇之时用大矣哉！",
+    "en_legge": "Kien denotes difficulty. There is (the trigram expressive of) perilousness in front. When one, seeing the peril, can arrest his steps (in accordance with the significance of the lower trigram), is he not wise? (The language of) Kien, that 'advantage will be found in the south-west,' refers to the (strong fifth line) advanced and in the central place. That 'there will be no advantage in the north-east,' intimates that the way (of dealing with the Kien state) is exhausted. That 'it will be advantageous to see the great man,' intimates that advance will lead to achievement. That the places (of the different lines after the first) are those appropriate to them indicates firm correctness and good fortune, with which the regions (of the kingdom) are brought to their normal state. Great indeed is the work to be done in the time of Kien!"
   },
   "image": {
     "zh_hant": "山上有水，蹇。君子以反身修德。",
-    "zh_hans": "山上有水，蹇。君子以反身修德。"
+    "zh_hans": "山上有水，蹇。君子以反身修德。",
+    "en_legge": "(The trigram representing) a mountain, and above it that for water, form Kien. The superior man, in accordance with this, turns round (and examines) himself, and cultivates his virtue."
   },
   "lines": [
     {
@@ -39,7 +41,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "往蹇來譽、宜待也。",
-        "zh_hans": "往蹇来誉、宜待也。"
+        "zh_hans": "往蹇来誉、宜待也。",
+        "en_legge": "'Advancing will conduct to (greater) difficulties, while remaining stationary will afford ground for praise:'—the proper course is to wait."
       }
     },
     {
@@ -55,7 +58,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "王臣蹇蹇、終无尤也。",
-        "zh_hans": "王臣蹇蹇、终无尤也。"
+        "zh_hans": "王臣蹇蹇、终无尤也。",
+        "en_legge": "'The minister of the king struggles with difficulty on difficulty:'—in the end no blame will be attached to him."
       }
     },
     {
@@ -71,7 +75,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "往蹇來反、內喜之也。",
-        "zh_hans": "往蹇来反、内喜之也。"
+        "zh_hans": "往蹇来反、内喜之也。",
+        "en_legge": "'He advances, (but only) to (greater) difficulty; he remains stationary, and returns to his former associates:'—they, (represented in) the inner (trigram), rejoice in him."
       }
     },
     {
@@ -87,7 +92,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "往蹇來連、當位實也。",
-        "zh_hans": "往蹇来连、当位实也。"
+        "zh_hans": "往蹇来连、当位实也。",
+        "en_legge": "'To advance will (only be to) encounter (greater) difficulties; he remains stationary, and unites (with the subject of the line above):'—that is in its proper place and has the solidity (due to it in that position)."
       }
     },
     {
@@ -103,7 +109,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "大蹇朋來、以中節也。",
-        "zh_hans": "大蹇朋来、以中节也。"
+        "zh_hans": "大蹇朋来、以中节也。",
+        "en_legge": "'He struggles with the greatest difficulties, while friends are coming (to help him):'—he is in the central position, and possesses the requisite virtue."
       }
     },
     {
@@ -119,7 +126,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "往蹇來碩、志在內也，利見大人、以從貴也。",
-        "zh_hans": "往蹇来硕、志在内也，利见大人、以从贵也。"
+        "zh_hans": "往蹇来硕、志在内也，利见大人、以从贵也。",
+        "en_legge": "'To advance will (only) increase the difficulties, while his remaining stationary will (be productive of) great (merit):'—his aim is to assist the (subject of the line) inside of him. 'It will be advantageous to meet the great man:'—by his course he follows that noble (lord of the figure)."
       }
     }
   ],

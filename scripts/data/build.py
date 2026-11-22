@@ -21,7 +21,7 @@ import opencc
 
 ROOT = Path(__file__).resolve().parents[2]
 DATA = ROOT / "data"
-DATASET_VERSION = "0.3.0"  # SemVer: bump on any text change
+DATASET_VERSION = "0.4.0"  # SemVer: bump on any text change
 SRC = DATA / "sources"
 
 # King Wen order. pinyin and Wengua's own short English glosses (CC BY 4.0).
@@ -282,10 +282,14 @@ def main() -> None:
         # English: James Legge's translation (1882), see data/sources/legge/README.md.
         en = legge[f"{n:02d}"]
         record["judgment"]["en_legge"] = en["judgment"]
-        for line, text in zip(record["lines"], en["lines"], strict=True):
+        record["tuan"]["en_legge"] = en["tuan"]
+        record["image"]["en_legge"] = en["image"]
+        for line, text, xiao in zip(record["lines"], en["lines"], en["xiao_xiang"], strict=True):
             line["text"]["en_legge"] = text
+            line["xiao_xiang"]["en_legge"] = xiao
         if "use_line" in record:
             record["use_line"]["text"]["en_legge"] = en["use_line"]
+            record["use_line"]["xiao_xiang"]["en_legge"] = en["use_xiao_xiang"]
         if kr["wenyan"]:
             record["wenyan"] = [bilingual(p) for p in kr["wenyan"]]
 

@@ -19,11 +19,13 @@
   },
   "tuan": {
     "zh_hant": "大過、大者過也。棟橈、本末弱也。剛過而中，巽而說，行。利有攸往乃亨。大過之時大矣哉！",
-    "zh_hans": "大过、大者过也。栋桡、本末弱也。刚过而中，巽而说，行。利有攸往乃亨。大过之时大矣哉！"
+    "zh_hans": "大过、大者过也。栋桡、本末弱也。刚过而中，巽而说，行。利有攸往乃亨。大过之时大矣哉！",
+    "en_legge": "Ta Kwo shows the great ones (= the undivided lines) in excess. In 'the beam that is weak' we see weakness both in the lowest and the topmost (lines). The strong lines are in excess, but (two of them) are in the central positions. The action (of the hexagram is represented by the symbols of) flexibility and satisfaction. (Hence it is said), 'There will be advantage in moving in any direction whatever; yea, there will be success.' Great indeed is (the work to be done in) this very extraordinary time."
   },
   "image": {
     "zh_hant": "澤滅木，大過。君子以獨立不懼，遯世无悶。",
-    "zh_hans": "泽灭木，大过。君子以独立不惧，遯世无闷。"
+    "zh_hans": "泽灭木，大过。君子以独立不惧，遯世无闷。",
+    "en_legge": "(The trigram representing) trees hidden beneath that for the waters of a marsh forms Ta Kwo. The superior man, in accordance with this, stands up alone and has no fear, and keeps retired from the world without regret."
   },
   "lines": [
     {
@@ -39,7 +41,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "藉用白茅、柔在下也。",
-        "zh_hans": "藉用白茅、柔在下也。"
+        "zh_hans": "藉用白茅、柔在下也。",
+        "en_legge": "'He places mats of the white mao grass under things set on the ground:'—he feels his weakness and his being in the lowest place, (and uses extraordinary care)."
       }
     },
     {
@@ -55,7 +58,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "老夫女妻、過以相與也。",
-        "zh_hans": "老夫女妻、过以相与也。"
+        "zh_hans": "老夫女妻、过以相与也。",
+        "en_legge": "'An old husband and a young wife:'—such association is extraordinary."
       }
     },
     {
@@ -71,7 +75,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "棟橈之凶、不可以有輔也。",
-        "zh_hans": "栋桡之凶、不可以有辅也。"
+        "zh_hans": "栋桡之凶、不可以有辅也。",
+        "en_legge": "'The evil connected with the beam that is weak' arises from this, that no help can be given (to the condition thus represented)."
       }
     },
     {
@@ -87,7 +92,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "棟隆之吉、不橈乎下也。",
-        "zh_hans": "栋隆之吉、不桡乎下也。"
+        "zh_hans": "栋隆之吉、不桡乎下也。",
+        "en_legge": "'The good fortune connected with the beam curving upwards' arises from this, that it does not bend towards what is below."
       }
     },
     {
@@ -103,7 +109,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "枯楊生華、何可久也，老婦士夫、亦可醜也。",
-        "zh_hans": "枯杨生华、何可久也，老妇士夫、亦可丑也。"
+        "zh_hans": "枯杨生华、何可久也，老妇士夫、亦可丑也。",
+        "en_legge": "'A decayed willow produces flowers:'—but how can this secure its long continuance? 'An old wife and a young husband:'—this also is a thing to be ashamed of."
       }
     },
     {
@@ -119,7 +126,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "過涉之凶、不可咎也。",
-        "zh_hans": "过涉之凶、不可咎也。"
+        "zh_hans": "过涉之凶、不可咎也。",
+        "en_legge": "'Evil follows wading with (extraordinary) boldness (through the stream):'—but (the act) affords no ground for blame."
       }
     }
   ],

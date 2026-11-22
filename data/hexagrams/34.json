@@ -19,11 +19,13 @@
   },
   "tuan": {
     "zh_hant": "大壯、大者壯也。剛以動，故壯。大壯利貞，大者、正也。正大而天地之情可見矣。",
-    "zh_hans": "大壮、大者壮也。刚以动，故壮。大壮利贞，大者、正也。正大而天地之情可见矣。"
+    "zh_hans": "大壮、大者壮也。刚以动，故壮。大壮利贞，大者、正也。正大而天地之情可见矣。",
+    "en_legge": "In Ta Kwang we see that which is great becoming strong. We have the (trigram) denoting strength directing that which denotes movement, and hence (the whole) is expressive of vigour. 'Ta Kwang indicates that it will be advantageous to be firm and correct:'—that which is great (should be) correct. Given correctness and greatness (in their highest degree), and the character and tendencies of heaven and earth can be seen."
   },
   "image": {
     "zh_hant": "雷在天上，大壯。君子以非禮弗履。",
-    "zh_hans": "雷在天上，大壮。君子以非礼弗履。"
+    "zh_hans": "雷在天上，大壮。君子以非礼弗履。",
+    "en_legge": "(The trigram representing) heaven and above it that for thunder form Ta A wang. The superior man, in accordance with this, does not take a step which is not according to propriety."
   },
   "lines": [
     {
@@ -39,7 +41,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "壯于趾、其孚窮也。",
-        "zh_hans": "壮于趾、其孚穷也。"
+        "zh_hans": "壮于趾、其孚穷也。",
+        "en_legge": "'He manifests his vigour in his toes:'—this will certainly lead to exhaustion."
       }
     },
     {
@@ -55,7 +58,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "九二貞吉、以中也。",
-        "zh_hans": "九二贞吉、以中也。"
+        "zh_hans": "九二贞吉、以中也。",
+        "en_legge": "'The second line, undivided, shows that with firm correctness there will be good fortune:'—this is due to its being in the centre, (and its subject exemplifying the due mean)."
       }
     },
     {
@@ -71,7 +75,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "小人用壯、君子用罔也。",
-        "zh_hans": "小人用壮、君子用罔也。"
+        "zh_hans": "小人用壮、君子用罔也。",
+        "en_legge": "'The small man uses all his strength; in the case of the superior man it is his rule not to do so.'"
       }
     },
     {
@@ -87,7 +92,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "藩決不羸、尚往也。",
-        "zh_hans": "藩决不羸、尚往也。"
+        "zh_hans": "藩决不羸、尚往也。",
+        "en_legge": "'The fence is opened and the horns are not entangled:'—(the subject of the line) still advances."
       }
     },
     {
@@ -103,7 +109,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "喪羊于易、位不當也。",
-        "zh_hans": "丧羊于易、位不当也。"
+        "zh_hans": "丧羊于易、位不当也。",
+        "en_legge": "'He loses his ram and hardly perceives it:'—he is not in his appropriate place."
       }
     },
     {
@@ -119,7 +126,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "不能退、不能遂、不詳也，艱則吉、咎不長也。",
-        "zh_hans": "不能退、不能遂、不详也，艰则吉、咎不长也。"
+        "zh_hans": "不能退、不能遂、不详也，艰则吉、咎不长也。",
+        "en_legge": "'He is unable either to retreat or to advance:'—this is owing to his want of care. 'If he realise the difficulty (of his position), there will be good fortune:'—his error will not be prolonged."
       }
     }
   ],

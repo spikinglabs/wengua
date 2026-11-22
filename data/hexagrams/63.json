@@ -19,11 +19,13 @@
   },
   "tuan": {
     "zh_hant": "既濟亨，小者亨也。利貞。剛柔正而位當也。初吉、柔得中也。終止則亂，其道窮也。",
-    "zh_hans": "既济亨，小者亨也。利贞。刚柔正而位当也。初吉、柔得中也。终止则乱，其道穷也。"
+    "zh_hans": "既济亨，小者亨也。利贞。刚柔正而位当也。初吉、柔得中也。终止则乱，其道穷也。",
+    "en_legge": "'Ki Zi intimates progress and success:'—in small matters, that is, there will be that progress and success. 'There will be advantage in being firm and correct:'—the strong and weak (lines) are correctly arranged, each in its appropriate place. 'There has been good fortune in the beginning:'—the weak (second line) is in the centre. 'In the end' there is a cessation (of effort), and 'disorder arises:'—the course (that led to rule and order) is (now) exhausted."
   },
   "image": {
     "zh_hant": "水在火上，既濟。君子以思患而豫防之。",
-    "zh_hans": "水在火上，既济。君子以思患而豫防之。"
+    "zh_hans": "水在火上，既济。君子以思患而豫防之。",
+    "en_legge": "(The trigram representing) fire and that for water above it form Ki Zi. The superior man, in accordance with this, thinks of evil (that may come), and beforehand guards against it."
   },
   "lines": [
     {
@@ -39,7 +41,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "曳其輪、義无咎也。",
-        "zh_hans": "曳其轮、义无咎也。"
+        "zh_hans": "曳其轮、义无咎也。",
+        "en_legge": "'He drags back his wheel:'—as we may rightly judge, there will be no mistake."
       }
     },
     {
@@ -55,7 +58,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "七日得、以中道也。",
-        "zh_hans": "七日得、以中道也。"
+        "zh_hans": "七日得、以中道也。",
+        "en_legge": "'In seven days he will find it:'—for the course pursued is that indicated by the central position (of the line)."
       }
     },
     {
@@ -71,7 +75,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "三年克之、憊也。",
-        "zh_hans": "三年克之、惫也。"
+        "zh_hans": "三年克之、惫也。",
+        "en_legge": "'He was three years in subduing it:'—enough to make him weary."
       }
     },
     {
@@ -87,7 +92,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "終日戒、有所疑也。",
-        "zh_hans": "终日戒、有所疑也。"
+        "zh_hans": "终日戒、有所疑也。",
+        "en_legge": "'He is on his guard all the day:'—he is in doubt about something."
       }
     },
     {
@@ -103,7 +109,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "東鄰殺牛、不如西鄰之時也。實受其福、吉大來也。",
-        "zh_hans": "东邻杀牛、不如西邻之时也。实受其福、吉大来也。"
+        "zh_hans": "东邻杀牛、不如西邻之时也。实受其福、吉大来也。",
+        "en_legge": "'The slaughtering of an ox by the neighbour in the east is not equal to (the small sacrifice of) the neighbour in the west:'—because the time (in the latter case is more important and fit). 'His sincerity receives the blessing:'—good fortune comes on a great scale."
       }
     },
     {
@@ -119,7 +126,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "濡其首、厲、何可久也？",
-        "zh_hans": "濡其首、厉、何可久也？"
+        "zh_hans": "濡其首、厉、何可久也？",
+        "en_legge": "'His head is immersed; the position is perilous:'—how could such a state continue long?"
       }
     }
   ],

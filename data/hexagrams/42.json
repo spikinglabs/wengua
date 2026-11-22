@@ -19,11 +19,13 @@
   },
   "tuan": {
     "zh_hant": "益、損上益下，民說无疆。自上下下，其道大光。利有攸往、中正有慶，利涉大川、木道乃行。益動而巽，日進无疆。天施地生，其益无方。凡益之道，與時偕行。",
-    "zh_hans": "益、损上益下，民说无疆。自上下下，其道大光。利有攸往、中正有庆，利涉大川、木道乃行。益动而巽，日进无疆。天施地生，其益无方。凡益之道，与时偕行。"
+    "zh_hans": "益、损上益下，民说无疆。自上下下，其道大光。利有攸往、中正有庆，利涉大川、木道乃行。益动而巽，日进无疆。天施地生，其益无方。凡益之道，与时偕行。",
+    "en_legge": "In Yi we see the upper (trigram) diminished, and the lower added to. The satisfaction of the people (in consequence of this) is without limit. What descends from above reaches to all below, so great and brilliant is the course (of its operation). That 'there will be advantage in every movement which shall be undertaken' appears from the central and correct (positions of the second and fifth lines), and the (general) blessing (the dispensing of which they imply). That 'it will be advantageous (even) to cross the great stream' appears from the action of wood (shown in the figure). Yi is made up of (the trigrams expressive of) movement and docility, (through which) there is daily advancement to an unlimited extent. We have (also) in it heaven dispensing and earth producing, leading to an increase without restriction of place. Everything in the method of this increase proceeds according to the requirements of the time."
   },
   "image": {
     "zh_hant": "風雷益。君子以見善則遷，有過則改。",
-    "zh_hans": "风雷益。君子以见善则迁，有过则改。"
+    "zh_hans": "风雷益。君子以见善则迁，有过则改。",
+    "en_legge": "(The trigram representing) wind and that for thunder form Yi. The superior man, in accordance with this, when he sees what is good, moves towards it; and when he sees his errors, he turns from them."
   },
   "lines": [
     {
@@ -39,7 +41,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "元吉无咎、下不厚事也。",
-        "zh_hans": "元吉无咎、下不厚事也。"
+        "zh_hans": "元吉无咎、下不厚事也。",
+        "en_legge": "'If the movement be greatly fortunate, no blame will be imputed to him:'—though it is not for one in so low a position to have to do with great affairs."
       }
     },
     {
@@ -55,7 +58,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "或益之、自外來也。",
-        "zh_hans": "或益之、自外来也。"
+        "zh_hans": "或益之、自外来也。",
+        "en_legge": "'Parties add to his stores:'—they come from beyond (his immediate circle) to do so."
       }
     },
     {
@@ -71,7 +75,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "益用凶事、固有之也。",
-        "zh_hans": "益用凶事、固有之也。"
+        "zh_hans": "益用凶事、固有之也。",
+        "en_legge": "'Increase is given by means of what is evil and difficult:'—as he has in himself (the qualities called forth)."
       }
     },
     {
@@ -87,7 +92,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "告公從、以益志也。",
-        "zh_hans": "告公从、以益志也。"
+        "zh_hans": "告公从、以益志也。",
+        "en_legge": "'His advice to his prince is followed:'—his (only) object in it being the increase (of the general good)."
       }
     },
     {
@@ -103,7 +109,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "有孚惠心、勿問之矣，惠我德、大得志也。",
-        "zh_hans": "有孚惠心、勿问之矣，惠我德、大得志也。"
+        "zh_hans": "有孚惠心、勿问之矣，惠我德、大得志也。",
+        "en_legge": "'(The ruler) with sincere heart seeks to benefit (all below):'—there need be no question (about the result). '(All below) with sincere heart acknowledge (his goodness):'—he gets what he desires on a great scale."
       }
     },
     {
@@ -119,7 +126,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "莫益之、偏辭也，或擊之、自外來也。",
-        "zh_hans": "莫益之、偏辞也，或击之、自外来也。"
+        "zh_hans": "莫益之、偏辞也，或击之、自外来也。",
+        "en_legge": "'To his increase none will contribute:'—this expresses but half the result. 'Many will seek to assail him:'—they will come from beyond (his immediate circle) to do so."
       }
     }
   ],

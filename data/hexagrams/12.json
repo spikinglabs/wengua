@@ -19,11 +19,13 @@
   },
   "tuan": {
     "zh_hant": "否之匪人、不利君子貞、大往小來。則是天地不交而萬物不通也，上下不交而天下无邦也；內陰而外陽，內柔而外剛，內小人而外君子，小人道長，君子道消也。",
-    "zh_hans": "否之匪人、不利君子贞、大往小来。则是天地不交而万物不通也，上下不交而天下无邦也；内阴而外阳，内柔而外刚，内小人而外君子，小人道长，君子道消也。"
+    "zh_hans": "否之匪人、不利君子贞、大往小来。则是天地不交而万物不通也，上下不交而天下无邦也；内阴而外阳，内柔而外刚，内小人而外君子，小人道长，君子道消也。",
+    "en_legge": "'The want of good understanding between the (different classes of) men in Phi, and its indication as unfavourable to the firm and correct course of the superior man; with the intimation that the great are gone and the little come:'—all this springs from the fact that in it heaven and earth are not in communication with each other, and all things in consequence do not have free course; and that the high and the low (superiors and inferiors) are not in communication with one another, and there are no (well-regulated) states under the sky. The inner (trigram) is made up of the weak and divided lines, and the outer of the strong and undivided: the inner is (the symbol of) weakness, and the outer of strength; the inner (represents) the small man, and the outer the superior man. Thus the way of the small man appears increasing, and that of the superior man decreasing."
   },
   "image": {
     "zh_hant": "天地不交，否。君子以儉德辟難，不可榮以祿。",
-    "zh_hans": "天地不交，否。君子以俭德辟难，不可荣以禄。"
+    "zh_hans": "天地不交，否。君子以俭德辟难，不可荣以禄。",
+    "en_legge": "(The trigrams of) heaven and earth, not in intercommunication, form Phi. The superior man, in accordance with this, restrains (the manifestation of) his virtue, and avoids the calamities (that threaten him). There is no opportunity of conferring on him the glory of emolument."
   },
   "lines": [
     {
@@ -39,7 +41,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "拔茅貞吉、志在君也。",
-        "zh_hans": "拔茅贞吉、志在君也。"
+        "zh_hans": "拔茅贞吉、志在君也。",
+        "en_legge": "'The good fortune through firm goodness, (suggested by) the pulling up of the grass,' arises from the will (of the parties intended) being bent on (serving) the ruler."
       }
     },
     {
@@ -55,7 +58,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "大人否亨、不亂群也。",
-        "zh_hans": "大人否亨、不乱群也。"
+        "zh_hans": "大人否亨、不乱群也。",
+        "en_legge": "'The great man, comporting himself as the distress and obstruction require, will have success:'—he does not allow himself to be disordered by the herd (of small men)."
       }
     },
     {
@@ -71,7 +75,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "包羞、位不當也。",
-        "zh_hans": "包羞、位不当也。"
+        "zh_hans": "包羞、位不当也。",
+        "en_legge": "That 'his shame is folded in his breast' is owing to the inappropriateness of his position."
       }
     },
     {
@@ -87,7 +92,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "有命无咎、志行也。",
-        "zh_hans": "有命无咎、志行也。"
+        "zh_hans": "有命无咎、志行也。",
+        "en_legge": "'He acts in accordance with the ordination (of Heaven), and commits no error:'—the purpose of his mind can be carried into effect."
       }
     },
     {
@@ -103,7 +109,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "大人之吉、位正當也。",
-        "zh_hans": "大人之吉、位正当也。"
+        "zh_hans": "大人之吉、位正当也。",
+        "en_legge": "'The good fortune of the great man' arises from the correctness of his position."
       }
     },
     {
@@ -119,7 +126,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "否終則傾、何可長也。",
-        "zh_hans": "否终则倾、何可长也。"
+        "zh_hans": "否终则倾、何可长也。",
+        "en_legge": "'The distress and obstruction having reached its end, it is overthrown and removed:'—how could it be prolonged?"
       }
     }
   ],

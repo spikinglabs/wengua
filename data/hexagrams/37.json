@@ -19,11 +19,13 @@
   },
   "tuan": {
     "zh_hant": "家人，女正位乎內，男正位乎外。男女正，天地之大義也。家人有嚴君焉，父母之謂也。父父、子子、兄兄、弟弟、夫夫、婦婦而家道正，正家而天下定矣。",
-    "zh_hans": "家人，女正位乎内，男正位乎外。男女正，天地之大义也。家人有严君焉，父母之谓也。父父、子子、兄兄、弟弟、夫夫、妇妇而家道正，正家而天下定矣。"
+    "zh_hans": "家人，女正位乎内，男正位乎外。男女正，天地之大义也。家人有严君焉，父母之谓也。父父、子子、兄兄、弟弟、夫夫、妇妇而家道正，正家而天下定矣。",
+    "en_legge": "In Kia Zan the wife has her correct place in the inner (trigram), and the man his correct place in the outer. That man and woman occupy their correct places is the great righteousness shown (in the relation and positions of) heaven and earth. In Kia Zan we have the idea of an authoritative ruler;—that, namely, represented by the parental authority. Let the father be indeed father, and the son son; let the elder brother be indeed elder brother, and the younger brother younger brother; let the husband be indeed husband, and the wife wife:-—then will the family be in its normal state. Bring the family to that state, and all under heaven will be established."
   },
   "image": {
     "zh_hant": "風自火出，家人。君子以言有物而行有恆。",
-    "zh_hans": "风自火出，家人。君子以言有物而行有恒。"
+    "zh_hans": "风自火出，家人。君子以言有物而行有恒。",
+    "en_legge": "(The trigram representing) fire, and that for wind coming forth from it, form Kia Zan. The superior man, in accordance with this, orders his words according to (the truth of) things, and his conduct so that it is uniformly consistent."
   },
   "lines": [
     {
@@ -39,7 +41,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "閑有家、志未變也。",
-        "zh_hans": "闲有家、志未变也。"
+        "zh_hans": "闲有家、志未变也。",
+        "en_legge": "'He establishes restrictive regulations in his household:'—(he does so), before any change has taken place in their wills."
       }
     },
     {
@@ -55,7 +58,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "六二之吉、順以巽也。",
-        "zh_hans": "六二之吉、顺以巽也。"
+        "zh_hans": "六二之吉、顺以巽也。",
+        "en_legge": "'The good fortune attached to the second line, divided,' is due to the docility (of its subject), operating with humility."
       }
     },
     {
@@ -71,7 +75,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "家人嗃嗃、未失也，婦子嘻嘻、失家節也。",
-        "zh_hans": "家人嗃嗃、未失也，妇子嘻嘻、失家节也。"
+        "zh_hans": "家人嗃嗃、未失也，妇子嘻嘻、失家节也。",
+        "en_legge": "When 'the members of the household are treated with stern severity,' there has been no (great) failure (in the regulation of the family). When 'wife and children are smirking and chattering,' the (proper) economy of the family has been lost."
       }
     },
     {
@@ -87,7 +92,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "富家大吉、順在位也。",
-        "zh_hans": "富家大吉、顺在位也。"
+        "zh_hans": "富家大吉、顺在位也。",
+        "en_legge": "'The family is enriched, and there is great good fortune:'—this is due to the docility (belonging to the subject of the line), and its being in its correct place."
       }
     },
     {
@@ -103,7 +109,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "王假有家、交相愛也。",
-        "zh_hans": "王假有家、交相爱也。"
+        "zh_hans": "王假有家、交相爱也。",
+        "en_legge": "'The influence of the king extends to his family:'—the intercourse between them is that of mutual love."
       }
     },
     {
@@ -119,7 +126,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "威如之吉、反身之謂也。",
-        "zh_hans": "威如之吉、反身之谓也。"
+        "zh_hans": "威如之吉、反身之谓也。",
+        "en_legge": "'The good fortune connected with the display of majesty' describes (the result of) the recovery of the true character."
       }
     }
   ],

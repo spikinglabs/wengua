@@ -19,11 +19,13 @@
   },
   "tuan": {
     "zh_hant": "睽、火動而上，澤動而下。二女同居，其志不同行。說而麗乎明，柔進而上行，得中而應乎剛，是以小事吉。天地睽而其事同也。男女睽而其志通也。萬物睽而其事類也，睽之時用大矣哉！",
-    "zh_hans": "睽、火动而上，泽动而下。二女同居，其志不同行。说而丽乎明，柔进而上行，得中而应乎刚，是以小事吉。天地睽而其事同也。男女睽而其志通也。万物睽而其事类也，睽之时用大矣哉！"
+    "zh_hans": "睽、火动而上，泽动而下。二女同居，其志不同行。说而丽乎明，柔进而上行，得中而应乎刚，是以小事吉。天地睽而其事同也。男女睽而其志通也。万物睽而其事类也，睽之时用大矣哉！",
+    "en_legge": "In Khwei we have (the symbol of) Fire, which, when moved, tends upwards, and that of a Marsh, whose waters, when moved, tend downwards. We have (also the symbols of) two sisters living together, but whose wills do not move in the same direction. (We see how the inner trigram expressive of) harmonious satisfaction is attached to (the outer expressive of) bright intelligence; (we see) the weak line advanced and acting above, and how it occupies the central place, and is responded to by the strong (line below). These indications show that 'in small matters there will (still) be good fortune.' Heaven and earth are separate and apart, but the work which they do is the same. Male and female are separate and apart, but with a common will they seek the same object. There is diversity between the myriad classes of beings, but there is an analogy between their several operations. Great indeed are the phenomena and the results of this condition of disunion and separation."
   },
   "image": {
     "zh_hant": "上火下澤，睽。君子以同而異。",
-    "zh_hans": "上火下泽，睽。君子以同而异。"
+    "zh_hans": "上火下泽，睽。君子以同而异。",
+    "en_legge": "(The trigram representing) fire above, and that for (the waters of) a marsh below, form Khwei. The superior man, in accordance with this, where there is a general agreement, yet admits diversity."
   },
   "lines": [
     {
@@ -39,7 +41,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "見惡人、以辟咎也。",
-        "zh_hans": "见恶人、以辟咎也。"
+        "zh_hans": "见恶人、以辟咎也。",
+        "en_legge": "'He meets with bad men (and communicates with them):'—(he does so), to avoid the evil of their condemnation."
       }
     },
     {
@@ -55,7 +58,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "遇主于巷、未失道也。",
-        "zh_hans": "遇主于巷、未失道也。"
+        "zh_hans": "遇主于巷、未失道也。",
+        "en_legge": "'He happens to meet with his lord in a bye-passage:'—but he has not deviated (for this meeting) from the (proper) course."
       }
     },
     {
@@ -71,7 +75,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "見輿曳、位不當也，无初有終、遇剛也。",
-        "zh_hans": "见舆曳、位不当也，无初有终、遇刚也。"
+        "zh_hans": "见舆曳、位不当也，无初有终、遇刚也。",
+        "en_legge": "'We see his carriage dragged back:'—this is indicated by the inappropriateness of the position (of the line). 'There is no (good) beginning, but there will be a (good) end:'—this arises from his meeting with the strong (subject of the topmost line)."
       }
     },
     {
@@ -87,7 +92,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "交孚无咎、志行也。",
-        "zh_hans": "交孚无咎、志行也。"
+        "zh_hans": "交孚无咎、志行也。",
+        "en_legge": "'They blend their sincere desires together, and there will be no error:'—their (common) aim is carried into effect."
       }
     },
     {
@@ -103,7 +109,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "厥宗噬膚、往有慶也。",
-        "zh_hans": "厥宗噬肤、往有庆也。"
+        "zh_hans": "厥宗噬肤、往有庆也。",
+        "en_legge": "'With his hereditary minister (he unites closely and easily) as if he were biting through a piece of skin:'—his going forward will afford ground for congratulation."
       }
     },
     {
@@ -119,7 +126,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "遇雨之吉、群疑亡也。",
-        "zh_hans": "遇雨之吉、群疑亡也。"
+        "zh_hans": "遇雨之吉、群疑亡也。",
+        "en_legge": "'The good fortune symbolised by meeting with (genial) rain' springs from the passing away of all doubts."
       }
     }
   ],

@@ -19,11 +19,13 @@
   },
   "tuan": {
     "zh_hant": "鼎象也、以木巽火，亨飪也。聖人亨以享上帝，而大亨以養聖賢。巽而耳目聰明，柔進而上行，得中而應乎剛，是以元亨。",
-    "zh_hans": "鼎象也、以木巽火，亨饪也。圣人亨以享上帝，而大亨以养圣贤。巽而耳目聪明，柔进而上行，得中而应乎刚，是以元亨。"
+    "zh_hans": "鼎象也、以木巽火，亨饪也。圣人亨以享上帝，而大亨以养圣贤。巽而耳目聪明，柔进而上行，得中而应乎刚，是以元亨。",
+    "en_legge": "In Ting we have (symbolically) the figure of a caldron. (We see) the (symbol of) wood entering into that of fire, which suggests the idea of cooking. The sages cooked their offerings in order to present them to God, and made great feasts to nourish their wise and able (ministers). We have (the symbol of) flexible obedience, and that (which denotes) ears quick of hearing and eyes clear-sighted. (We have also) the weak (line) advanced and acting above, in the central place, and responded to by the strong (line below). All these things give the idea of 'great progress and success.'"
   },
   "image": {
     "zh_hant": "木上有火，鼎。君子以正位凝命。",
-    "zh_hans": "木上有火，鼎。君子以正位凝命。"
+    "zh_hans": "木上有火，鼎。君子以正位凝命。",
+    "en_legge": "(The trigram representing) wood and above it that for fire form Ting. The superior man, in accordance with this, keeps his every position correct, and maintains secure the appointment (of Heaven)."
   },
   "lines": [
     {
@@ -39,7 +41,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "鼎顛趾、未悖也，利出否、以從貴也。",
-        "zh_hans": "鼎颠趾、未悖也，利出否、以从贵也。"
+        "zh_hans": "鼎颠趾、未悖也，利出否、以从贵也。",
+        "en_legge": "'The caldron is overturned, and its feet turned upwards:'—but this is not (all) contrary (to what is right). 'There will be advantage in getting rid of what was bad:'—thereby (the subject of the line) will follow the more noble (subject of the fourth line)."
       }
     },
     {
@@ -55,7 +58,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "鼎有實、慎所之也，我仇有疾、終无尤也。",
-        "zh_hans": "鼎有实、慎所之也，我仇有疾、终无尤也。"
+        "zh_hans": "鼎有实、慎所之也，我仇有疾、终无尤也。",
+        "en_legge": "'There is the caldron with the things (to be cooked) in it:'—let (the subject of the line) be careful where he goes. 'My enemy dislikes me:'—but there will in the end be no fault (to which he can point)."
       }
     },
     {
@@ -71,7 +75,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "鼎耳革、失其義也。",
-        "zh_hans": "鼎耳革、失其义也。"
+        "zh_hans": "鼎耳革、失其义也。",
+        "en_legge": "'There is the caldron with (the places for) its ears changed:'—(its subject) has failed in what was required of him (in his situation)."
       }
     },
     {
@@ -87,7 +92,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "覆公餗、信如何也。",
-        "zh_hans": "覆公𫗧、信如何也。"
+        "zh_hans": "覆公𫗧、信如何也。",
+        "en_legge": "'The contents designed for the ruler's use are overturned and spilt:'—how can (the subject of the line) be trusted?"
       }
     },
     {
@@ -103,7 +109,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "鼎黃耳、中以為實也。",
-        "zh_hans": "鼎黄耳、中以为实也。"
+        "zh_hans": "鼎黄耳、中以为实也。",
+        "en_legge": "'The caldron has yellow ears:'—the central position (of the line) is taken as (a proof of) the solid (virtue of its subject)."
       }
     },
     {
@@ -119,7 +126,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "玉鉉在上、剛柔節也。",
-        "zh_hans": "玉铉在上、刚柔节也。"
+        "zh_hans": "玉铉在上、刚柔节也。",
+        "en_legge": "'The rings of jade' are at the very top:—the strong and the weak meet in their due proportions."
       }
     }
   ],

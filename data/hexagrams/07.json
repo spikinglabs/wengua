@@ -19,11 +19,13 @@
   },
   "tuan": {
     "zh_hant": "師、眾也，貞、正也。能以眾正，可以王矣。剛中而應，行險而順，以此毒天下而民從之，吉、又何咎矣。",
-    "zh_hans": "师、众也，贞、正也。能以众正，可以王矣。刚中而应，行险而顺，以此毒天下而民从之，吉、又何咎矣。"
+    "zh_hans": "师、众也，贞、正也。能以众正，可以王矣。刚中而应，行险而顺，以此毒天下而民从之，吉、又何咎矣。",
+    "en_legge": "(The name) Sze describes the multitude (of the host). The 'firmness and correctness' (which the hexagram indicates) refer to (moral) correctness (of aim). When (the mover) is able to use the multitude with such correctness, he may attain to the royal sway. There is (the symbol of) strength in the centre (of the trigram below), and it is responded to (by its proper correlate above). The action gives rise to perils, but is in accordance (with the best sentiments of men). (Its mover) may by such action distress all the country, but the people will follow him;—there will be good fortune, and what error should there be?"
   },
   "image": {
     "zh_hant": "地中有水，師。君子以容民畜眾。",
-    "zh_hans": "地中有水，师。君子以容民畜众。"
+    "zh_hans": "地中有水，师。君子以容民畜众。",
+    "en_legge": "(The trigram representing) the earth and in the midst of it that representing water, form Sze. The superior man, in accordance with this, nourishes and educates the people, and collects (from among them) the multitudes (of the hosts)."
   },
   "lines": [
     {
@@ -39,7 +41,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "師出以律，失律凶也。",
-        "zh_hans": "师出以律，失律凶也。"
+        "zh_hans": "师出以律，失律凶也。",
+        "en_legge": "'The host goes forth according to the rules (for) such a movement:'—if those rules be not observed, there will be evil."
       }
     },
     {
@@ -55,7 +58,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "在師中吉、承天寵也，王三錫命、懷萬邦也。",
-        "zh_hans": "在师中吉、承天宠也，王三锡命、怀万邦也。"
+        "zh_hans": "在师中吉、承天宠也，王三锡命、怀万邦也。",
+        "en_legge": "'He is in the midst of the host, and there will be good fortune:'—he has received the favour of Heaven. 'The king has thrice conveyed to him the orders (of) his favour:'—(the king) cherishes the myriad regions in his heart."
       }
     },
     {
@@ -71,7 +75,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "師或輿尸、大无功也。",
-        "zh_hans": "师或舆尸、大无功也。"
+        "zh_hans": "师或舆尸、大无功也。",
+        "en_legge": "'The host with the possibility of its having many idle leaders:'—great will be its want of success."
       }
     },
     {
@@ -87,7 +92,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "左次无咎、未失常也。",
-        "zh_hans": "左次无咎、未失常也。"
+        "zh_hans": "左次无咎、未失常也。",
+        "en_legge": "'The host is in retreat; but there is no error:'—there has been no failure in the regular course."
       }
     },
     {
@@ -103,7 +109,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "長子帥師、以中行也，弟子輿尸、使不當也。",
-        "zh_hans": "长子帅师、以中行也，弟子舆尸、使不当也。"
+        "zh_hans": "长子帅师、以中行也，弟子舆尸、使不当也。",
+        "en_legge": "'The oldest son leads the host:'—its movements are directed by him in accordance with his position in the centre. 'Younger men idly occupy their positions:'—the employment of such men is improper."
       }
     },
     {
@@ -119,7 +126,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "大君有命、以正功也，小人勿用、必亂邦也。",
-        "zh_hans": "大君有命、以正功也，小人勿用、必乱邦也。"
+        "zh_hans": "大君有命、以正功也，小人勿用、必乱邦也。",
+        "en_legge": "'The great ruler delivers his charges:'—thereby he rightly apportions merit. 'Small men should not be employed:'—they are sure to throw the states into confusion."
       }
     }
   ],

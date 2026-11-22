@@ -159,7 +159,7 @@
   {
    "name": "lookup",
    "title": "Look up a hexagram",
-   "description": "Get a hexagram's full text: judgment (卦辭), Tuan (彖), Image (象), all six lines with their small images, and 用九/用六 and 文言 for 乾 and 坤, in traditional and simplified Chinese with sources, and James Legge's English for the judgment and lines. Accepts a number (1-64), a Chinese name (乾, 讼, 水雷屯, 乾為天), pinyin with or without tones, the English name, the symbol (䷂), six bits bottom to top, or a trigram pair (坎上震下, \"water over thunder\").",
+   "description": "Get a hexagram's full text: judgment (卦辭), Tuan (彖), Image (象), all six lines with their small images, and 用九/用六 and 文言 for 乾 and 坤, in traditional and simplified Chinese with sources, and James Legge's English. Accepts a number (1-64), a Chinese name (乾, 讼, 水雷屯, 乾為天), pinyin with or without tones, the English name, the symbol (䷂), six bits bottom to top, or a trigram pair (坎上震下, \"water over thunder\").",
    "inputSchema": {
     "type": "object",
     "properties": {

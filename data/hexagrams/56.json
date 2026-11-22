@@ -19,11 +19,13 @@
   },
   "tuan": {
     "zh_hant": "旅小亨，柔得中乎外而順乎剛，止而麗乎明，是以小亨旅貞吉也。旅之時義大矣哉！",
-    "zh_hans": "旅小亨，柔得中乎外而顺乎刚，止而丽乎明，是以小亨旅贞吉也。旅之时义大矣哉！"
+    "zh_hans": "旅小亨，柔得中乎外而顺乎刚，止而丽乎明，是以小亨旅贞吉也。旅之时义大矣哉！",
+    "en_legge": "'Lu indicates that there may be some small attainment and progress:'—the weak (line) occupies the central place in the outer (trigram), and is obedient to the strong (lines on \"either side of it). (We have also the attributes of quiet) resting closely attached to intelligence (in the component trigrams). Hence it is said, 'There may be some small attainment and progress. If the stranger or traveller be firm and correct as he ought to be, there will be good fortune.' Great is the time and great is the right course to be taken as intimated in Lu!"
   },
   "image": {
     "zh_hant": "山上有火，旅。君子以明慎用刑而不留獄。",
-    "zh_hans": "山上有火，旅。君子以明慎用刑而不留狱。"
+    "zh_hans": "山上有火，旅。君子以明慎用刑而不留狱。",
+    "en_legge": "(The trigram representing) a mountain and above it that for fire form Lu. The superior man, in accordance with this, exerts his wisdom and caution in the use of punishments and not allowing litigations to continue."
   },
   "lines": [
     {
@@ -39,7 +41,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "旅瑣瑣、志窮災也。",
-        "zh_hans": "旅琐琐、志穷灾也。"
+        "zh_hans": "旅琐琐、志穷灾也。",
+        "en_legge": "'The stranger is mean and meanly occupied:'—his aim is become of the lowest character, and calamity will ensue."
       }
     },
     {
@@ -55,7 +58,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "得童僕貞，終无尤也。",
-        "zh_hans": "得童仆贞，终无尤也。"
+        "zh_hans": "得童仆贞，终无尤也。",
+        "en_legge": "'He is provided with good and trusty servants:'—he will in the end have nothing of which to complain."
       }
     },
     {
@@ -71,7 +75,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "旅焚其次，亦以傷矣。以旅與下，其義喪也。",
-        "zh_hans": "旅焚其次，亦以伤矣。以旅与下，其义丧也。"
+        "zh_hans": "旅焚其次，亦以伤矣。以旅与下，其义丧也。",
+        "en_legge": "'The stranger burns his lodging-house:'—and he himself also suffers hurt thereby. When, as a stranger, he treats those below him (as the line indicates), the right relation between him and them is lost."
       }
     },
     {
@@ -87,7 +92,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "旅于處、未得位也。得其資斧、心未快也。",
-        "zh_hans": "旅于处、未得位也。得其资斧、心未快也。"
+        "zh_hans": "旅于处、未得位也。得其资斧、心未快也。",
+        "en_legge": "'The stranger is in a resting-place:'—but he has not got his proper position. 'He has the means of livelihood, and the axe:'—but his mind is not at ease."
       }
     },
     {
@@ -103,7 +109,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "終以譽命、上逮也。",
-        "zh_hans": "终以誉命、上逮也。"
+        "zh_hans": "终以誉命、上逮也。",
+        "en_legge": "'In the end he will obtain praise and a (high) charge:'—he has reached a high place."
       }
     },
     {
@@ -119,7 +126,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "以旅在上、其義焚也，喪牛于易、終莫之聞也。",
-        "zh_hans": "以旅在上、其义焚也，丧牛于易、终莫之闻也。"
+        "zh_hans": "以旅在上、其义焚也，丧牛于易、终莫之闻也。",
+        "en_legge": "'Considering that the stranger is here at the very height (of distinction), with the spirit that possesses him, it is right he (should be emblemed by a bird) burning (its nest).' 'He loses his ox(-like docility) too readily and easily:'—to the end he would not listen to (the truth about the course to be pursued)."
       }
     }
   ],

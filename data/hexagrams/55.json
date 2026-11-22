@@ -19,11 +19,13 @@
   },
   "tuan": {
     "zh_hant": "豐、大也。明以動，故豐。王假之、尚大也。勿憂宜日中、宜照天下也。日中則昃，月盈則食，天地盈虛，與時消息，而況於人乎，況於鬼神乎？",
-    "zh_hans": "丰、大也。明以动，故丰。王假之、尚大也。勿忧宜日中、宜照天下也。日中则昃，月盈则食，天地盈虚，与时消息，而况于人乎，况于鬼神乎？"
+    "zh_hans": "丰、大也。明以动，故丰。王假之、尚大也。勿忧宜日中、宜照天下也。日中则昃，月盈则食，天地盈虚，与时消息，而况于人乎，况于鬼神乎？",
+    "en_legge": "Fang has the signification of being great. It is made up of the trigrams (representing) intelligence and movement directed by that intelligence. It is thus that it has that signification. 'The king has reached the condition (denoted by Fang):'—he has still to make it greater. 'There is no occasion to be anxious. Let him be as the sun at noon:'—it is for him to cause his light to shine on all under the sky. When the sun has reached the meridian height, it begins to decline. When the moon has become full, it begins to wane. The (interaction of) heaven and earth is now vigorous and abundant, now dull and scanty, growing and diminishing according to the seasons. How much more must it be so with (the operations of) men! How much more also with the spiritual agency!"
   },
   "image": {
     "zh_hant": "雷電皆至，豐。君子以折獄致刑。",
-    "zh_hans": "雷电皆至，丰。君子以折狱致刑。"
+    "zh_hans": "雷电皆至，丰。君子以折狱致刑。",
+    "en_legge": "(The trigrams representing) thunder and lightning combine to form Fang. The superior man, in accordance with this, decides cases of litigation, and apportions punishments with exactness."
   },
   "lines": [
     {
@@ -39,7 +41,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "雖旬无咎、過旬災也。",
-        "zh_hans": "虽旬无咎、过旬灾也。"
+        "zh_hans": "虽旬无咎、过旬灾也。",
+        "en_legge": "'Though they are both of the same character, there will be no error:'—if the subject of this line seek to overpass that similarity, there will be calamity."
       }
     },
     {
@@ -55,7 +58,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "有孚發若、信以發志也。",
-        "zh_hans": "有孚发若、信以发志也。"
+        "zh_hans": "有孚发若、信以发志也。",
+        "en_legge": "'Let him cherish his feeling of sincere devotion, that it shall appear being put forth:'—it is by sincerity that the mind is affected."
       }
     },
     {
@@ -71,7 +75,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "豐其沛、不可大事也，折其右肱、終不可用也。",
-        "zh_hans": "丰其沛、不可大事也，折其右肱、终不可用也。"
+        "zh_hans": "丰其沛、不可大事也，折其右肱、终不可用也。",
+        "en_legge": "'There is an (additional) screen of a large and thick banner:'—great things should not be attempted (in such circumstances). 'He breaks his right arm:'—in the end he will not be fit to be employed."
       }
     },
     {
@@ -87,7 +92,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "豐其蔀、位不當也。日中見斗、幽不明也，遇其夷主、吉行也。",
-        "zh_hans": "丰其蔀、位不当也。日中见斗、幽不明也，遇其夷主、吉行也。"
+        "zh_hans": "丰其蔀、位不当也。日中见斗、幽不明也，遇其夷主、吉行也。",
+        "en_legge": "'He is surrounded by a screen large and thick:'—the position of the line is inappropriate. 'At midday he sees the constellation of the Bushel:'—there is darkness and no light. 'He meets with the subject of the line, undivided like himself. There will be good fortune:'—action may be taken."
       }
     },
     {
@@ -103,7 +109,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "六五之吉、有慶也。",
-        "zh_hans": "六五之吉、有庆也。"
+        "zh_hans": "六五之吉、有庆也。",
+        "en_legge": "'The good fortune indicated by the fifth line, divided,' is the congratulation (that is sure to arise)."
       }
     },
     {
@@ -119,7 +126,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "豐其屋、天際翔也。闚其戶、闃其无人、自藏也。",
-        "zh_hans": "丰其屋、天际翔也。闚其户、阒其无人、自藏也。"
+        "zh_hans": "丰其屋、天际翔也。闚其户、阒其无人、自藏也。",
+        "en_legge": "'He has made his house large:'—he soars (in his pride) to the heavens. 'He looks at his door, which is still, with no one about it:'—he (only) keeps himself withdrawn from all others."
       }
     }
   ],

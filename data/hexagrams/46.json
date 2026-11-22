@@ -19,11 +19,13 @@
   },
   "tuan": {
     "zh_hant": "柔以時升，巽而順，剛中而應，是以大亨。用見大人勿恤、有慶也，南征吉、志行也。",
-    "zh_hans": "柔以时升，巽而顺，刚中而应，是以大亨。用见大人勿恤、有庆也，南征吉、志行也。"
+    "zh_hans": "柔以时升，巽而顺，刚中而应，是以大亨。用见大人勿恤、有庆也，南征吉、志行也。",
+    "en_legge": "(We find) the weak (line), as it finds the opportunity, ascending upwards. We have (the attribute) of flexibility and that of obedience; we have the strong line (below) and its proper correlate above:—these things indicate that there will be 'great progress and success.' 'Seeking (by the qualities implied in Shang) to meet with the great man, its subject need have no anxiety:'—there will be ground for congratulation. 'Advance to the south will be fortunate:'—his aim will be carried out."
   },
   "image": {
     "zh_hant": "地中生木，升。君子以順德，積小以高大。",
-    "zh_hans": "地中生木，升。君子以顺德，积小以高大。"
+    "zh_hans": "地中生木，升。君子以顺德，积小以高大。",
+    "en_legge": "(The trigram representing) wood and that for the earth with the wood growing in the midst of it form Shang. The superior man, in accordance with this, pays careful attention to his virtue, and accumulates the small developments of it till it is high and great."
   },
   "lines": [
     {
@@ -39,7 +41,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "允升大吉、上合志也。",
-        "zh_hans": "允升大吉、上合志也。"
+        "zh_hans": "允升大吉、上合志也。",
+        "en_legge": "'He is welcomed in his advance upwards, and there will be great good fortune:'—(the subjects of) the upper (trigram) are of the same mind with him."
       }
     },
     {
@@ -55,7 +58,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "九二之孚、有喜也。",
-        "zh_hans": "九二之孚、有喜也。"
+        "zh_hans": "九二之孚、有喜也。",
+        "en_legge": "'The sincerity of the subject of the second line, undivided,' affords occasion for joy."
       }
     },
     {
@@ -71,7 +75,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "升虛邑、无所疑也。",
-        "zh_hans": "升虚邑、无所疑也。"
+        "zh_hans": "升虚邑、无所疑也。",
+        "en_legge": "'He advances upwards (as into) an empty city:'—he has no doubt or hesitation."
       }
     },
     {
@@ -87,7 +92,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "王用亨于岐山、順事也。",
-        "zh_hans": "王用亨于岐山、顺事也。"
+        "zh_hans": "王用亨于岐山、顺事也。",
+        "en_legge": "'The king employs him to prevent his offerings on mount Khi:'—such a service (of spiritual Beings) is according to (their mind)."
       }
     },
     {
@@ -103,7 +109,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "貞吉升階、大得志也。",
-        "zh_hans": "贞吉升阶、大得志也。"
+        "zh_hans": "贞吉升阶、大得志也。",
+        "en_legge": "'He is firmly correct, and will therefore enjoy good fortune. He ascends the stairs (with all due ceremony):'—he grandly succeeds in his aim."
       }
     },
     {
@@ -119,7 +126,8 @@
       },
       "xiao_xiang": {
         "zh_hant": "冥升在上、消不富也。",
-        "zh_hans": "冥升在上、消不富也。"
+        "zh_hans": "冥升在上、消不富也。",
+        "en_legge": "'He blindly advances upwards,' and is in the highest place:—but there is decay in store for him, and he will not (preserve) his riches."
       }
     }
   ],
