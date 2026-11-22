@@ -6,7 +6,7 @@ description: "Wengua milestones from the bilingual dataset to the hosted MCP ser
 
 | Milestone | Scope | Status |
 |---|---|---|
-| M0 Dataset | 64 hexagrams with all classical layers in 繁 and 简 (✅), collated with the Song edition (✅), `SOURCES.md` and validators (✅), Legge English for every text except 文言 (✅) | ✅ Done |
+| M0 Dataset | 64 hexagrams with all classical layers in 繁 and 简 (✅), collated with the Song edition (✅), `SOURCES.md` and validators (✅), Legge English for every text, 文言 included (✅) | ✅ Done |
 | M1 Core | TypeScript and Python core, shared test vectors, RNG tests | ✅ Done |
 | M2 Skill, local MCP, CLI | `npx wengua` and `uvx wengua` MCP servers, `wengua` CLI, `skills/wengua` | ✅ Done (publishing in M5) |
 | M3 Hosted MCP and card | `https://wengua.allo.land/mcp` on a Cloudflare Worker, MCP Apps reading card | ✅ Done |

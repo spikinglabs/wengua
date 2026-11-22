@@ -107,6 +107,8 @@ def main() -> int:
                 check_text(f"{w} {want} xiao_xiang", use["xiao_xiang"])
             if not h.get("wenyan"):
                 err(w, "missing 文言")
+            for i, para in enumerate(h.get("wenyan") or []):
+                check_en(f"{w} 文言 {i + 1}", para)
         elif "use_line" in h or "wenyan" in h:
             err(w, "only 乾 and 坤 have 用九/用六 and 文言")
         src = h.get("source", {})

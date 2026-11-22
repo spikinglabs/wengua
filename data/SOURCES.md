@@ -41,7 +41,7 @@ Wikisource still differs in 104 fields after the emendations. Almost all are gly
 
 ## English: Legge
 
-Every judgment, Tuan, Image, line text, small image, 用九 and 用六 has `en_legge`: James Legge's translation from *The Yî King* (Sacred Books of the East XVI, 1882), public domain. It was rebuilt from three Internet Archive scans of the book and the proofread pages on English Wikisource, then corrected by hand. The witnesses and method are in [`sources/legge/README.md`](sources/legge/README.md). Legge's translation of the Wenyan (文言, his Appendix IV) is not included yet.
+Every judgment, Tuan, Image, line text, small image, 用九, 用六 and 文言 paragraph has `en_legge`: James Legge's translation from *The Yî King* (Sacred Books of the East XVI, 1882), public domain. It was rebuilt from three Internet Archive scans of the book and the proofread pages on English Wikisource, then corrected by hand. The witnesses and method are in [`sources/legge/README.md`](sources/legge/README.md).
 
 ## Not used
 
@@ -49,5 +49,4 @@ No modern translation or commentary that is still under copyright.
 
 ## Planned
 
-- Legge's translation of the Wenyan (文言), from Appendix IV of the same volume.
 - Plain-language notes in modern Chinese and English, written for Wengua.

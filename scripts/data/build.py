@@ -21,7 +21,7 @@ import opencc
 
 ROOT = Path(__file__).resolve().parents[2]
 DATA = ROOT / "data"
-DATASET_VERSION = "0.4.0"  # SemVer: bump on any text change
+DATASET_VERSION = "0.5.0"  # SemVer: bump on any text change
 SRC = DATA / "sources"
 
 # King Wen order. pinyin and Wengua's own short English glosses (CC BY 4.0).
@@ -291,7 +291,8 @@ def main() -> None:
             record["use_line"]["text"]["en_legge"] = en["use_line"]
             record["use_line"]["xiao_xiang"]["en_legge"] = en["use_xiao_xiang"]
         if kr["wenyan"]:
-            record["wenyan"] = [bilingual(p) for p in kr["wenyan"]]
+            record["wenyan"] = [dict(bilingual(p), en_legge=e)
+                                for p, e in zip(kr["wenyan"], en["wenyan"], strict=True)]
 
         # Cross-check against Wikisource, field by field, ignoring punctuation.
         pairs = [("judgment", judgment, ws["judgment"] if n not in NAME_IN_TEXT else ws["judgment"]),
