@@ -7,15 +7,17 @@ The accurate, open I Ching (易经 / 周易) for every AI. Code casts, the model
 - **Zhu Xi's rules** decide which texts to read, so the model never has to guess.
 - **Works everywhere:** an MCP server, a CLI and libraries for Python and TypeScript.
 
+**Set it up in your AI:** add the hosted MCP server `https://wengua.allo.land/mcp`, or [download the Agent Skill](https://wengua.allo.land/wengua-skill.zip). Step-by-step guides for Claude, ChatGPT, Codex, Gemini, GitHub Copilot and Cursor: <https://wengua.allo.land/setup/>.
+
 ```bash
-npx -y wengua cast -q "What should I understand about this move?"
+uvx wengua cast -q "What should I understand about this move?"
 uvx wengua lookup 水雷屯
 ```
 
-As an MCP server (Claude Desktop, Claude Code, Cursor, VS Code…):
+As a local MCP server:
 
 ```json
-{ "mcpServers": { "wengua": { "command": "npx", "args": ["-y", "wengua"] } } }
+{ "mcpServers": { "wengua": { "command": "uvx", "args": ["wengua"] } } }
 ```
 
 | Path | What |
