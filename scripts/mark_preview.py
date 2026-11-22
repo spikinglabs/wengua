@@ -34,7 +34,8 @@ def main() -> None:
         count += 1
     (SITE / "robots.txt").write_text("User-agent: *\nDisallow: /\n")
     (SITE / "_headers").write_text("/*\n  X-Robots-Tag: noindex, nofollow\n")
-    (SITE / "sitemap.xml").unlink(missing_ok=True)
+    for sitemap in SITE.rglob("sitemap.xml*"):
+        sitemap.unlink()
     print(f"Marked {count} pages as preview #{pr}")
 
 

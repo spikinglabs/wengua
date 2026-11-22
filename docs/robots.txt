@@ -3,3 +3,5 @@ User-agent: *
 Allow: /
 
 Sitemap: https://wengua.allo.land/sitemap.xml
+Sitemap: https://wengua.allo.land/zh/sitemap.xml
+Sitemap: https://wengua.allo.land/zh-hant/sitemap.xml
