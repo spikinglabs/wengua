@@ -31,3 +31,10 @@ Previews and production use two repository secrets: `CLOUDFLARE_API_TOKEN` (with
 - Only the production site is canonical. Never publish copies of the docs elsewhere without `noindex`.
 
 **Keep the docs current:** a pull request that changes behavior, adds a tool or finishes a milestone should update the matching page and the [Roadmap](roadmap.md) in the same PR.
+
+## Releasing
+
+Both packages carry the same version (`python/pyproject.toml` and `js/package.json`).
+
+- **PyPI:** publish a GitHub release tagged `vX.Y.Z`, or run the *Publish to PyPI* workflow. It uses trusted publishing (environment `pypi`), so no token is stored.
+- **npm:** run the *Publish to npm* workflow (environment `npm`). It publishes with provenance and refuses a version that is already on npm. Until the package's trusted publisher is set up on npmjs.com, it needs the `NPM_TOKEN` secret.

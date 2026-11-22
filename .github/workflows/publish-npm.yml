@@ -1,0 +1,47 @@
+name: Publish to npm
+# Publishes the TypeScript package `wengua` (js/) to npm with provenance.
+# Manual for now: Actions → Publish to npm → Run workflow.
+# The first publish uses the NPM_TOKEN secret to claim the name. After that,
+# register this workflow (publish-npm.yml, environment npm) as the package's
+# trusted publisher on npmjs.com and delete NPM_TOKEN; the job then
+# authenticates with OIDC and needs no token.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    environment:
+      name: npm
+      url: https://www.npmjs.com/package/wengua
+    permissions:
+      contents: read
+      id-token: write
+    defaults:
+      run:
+        working-directory: js
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.13"
+      - name: Package carries the current dataset
+        working-directory: .
+        run: python scripts/sync_data.py && git diff --exit-code
+      - uses: actions/setup-node@v5
+        with:
+          node-version: "24"
+          registry-url: https://registry.npmjs.org
+      - run: npm ci
+      - run: npm test
+      - name: Version is not on npm yet
+        run: |
+          v=$(node -p "require('./package.json').version")
+          if npm view "wengua@$v" version >/dev/null 2>&1; then echo "wengua@$v is already on npm; bump js/package.json"; exit 1; fi
+      - name: Publish
+        run: npm publish --provenance --access public
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}

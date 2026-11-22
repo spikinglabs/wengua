@@ -5,7 +5,7 @@
   "keywords": ["i-ching", "yijing", "易经", "周易", "hexagram", "mcp", "divination", "ai"],
   "homepage": "https://wengua.allo.land/",
   "repository": { "type": "git", "url": "git+https://github.com/spikinglabs/wengua.git", "directory": "js" },
-  "license": "MIT",
+  "license": "MIT AND CC-BY-SA-4.0",
   "type": "module",
   "exports": {
     ".": { "types": "./dist/index.d.ts", "default": "./dist/index.js" },
