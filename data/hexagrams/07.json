@@ -1,0 +1,141 @@
+{
+  "number": 7,
+  "unicode": "䷆",
+  "binary": "010000",
+  "trigrams": {
+    "lower": "kan",
+    "upper": "kun"
+  },
+  "name": {
+    "zh_hant": "師",
+    "zh_hans": "师",
+    "pinyin": "shī",
+    "en": "The Army"
+  },
+  "judgment": {
+    "zh_hant": "貞丈人吉，无咎。",
+    "zh_hans": "贞丈人吉，无咎。"
+  },
+  "tuan": {
+    "zh_hant": "師、眾也，貞、正也。能以眾正，可以王矣。剛中而應，行險而順，以此毒天下而民從之，吉、又何咎矣。",
+    "zh_hans": "师、众也，贞、正也。能以众正，可以王矣。刚中而应，行险而顺，以此毒天下而民从之，吉、又何咎矣。"
+  },
+  "image": {
+    "zh_hant": "地中有水，師。君子以容民畜眾。",
+    "zh_hans": "地中有水，师。君子以容民畜众。"
+  },
+  "lines": [
+    {
+      "position": 1,
+      "label": {
+        "zh_hant": "初六",
+        "zh_hans": "初六"
+      },
+      "text": {
+        "zh_hant": "師出以律，否臧凶。",
+        "zh_hans": "师出以律，否臧凶。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "師出以律，失律凶也。",
+        "zh_hans": "师出以律，失律凶也。"
+      }
+    },
+    {
+      "position": 2,
+      "label": {
+        "zh_hant": "九二",
+        "zh_hans": "九二"
+      },
+      "text": {
+        "zh_hant": "在師中，吉、无咎，王三錫命。",
+        "zh_hans": "在师中，吉、无咎，王三锡命。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "在師中吉、承天寵也，王三錫命、懷萬邦也。",
+        "zh_hans": "在师中吉、承天宠也，王三锡命、怀万邦也。"
+      }
+    },
+    {
+      "position": 3,
+      "label": {
+        "zh_hant": "六三",
+        "zh_hans": "六三"
+      },
+      "text": {
+        "zh_hant": "師或輿尸，凶。",
+        "zh_hans": "师或舆尸，凶。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "師或輿尸、大无功也。",
+        "zh_hans": "师或舆尸、大无功也。"
+      }
+    },
+    {
+      "position": 4,
+      "label": {
+        "zh_hant": "六四",
+        "zh_hans": "六四"
+      },
+      "text": {
+        "zh_hant": "師左次，无咎。",
+        "zh_hans": "师左次，无咎。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "左次无咎、未失常也。",
+        "zh_hans": "左次无咎、未失常也。"
+      }
+    },
+    {
+      "position": 5,
+      "label": {
+        "zh_hant": "六五",
+        "zh_hans": "六五"
+      },
+      "text": {
+        "zh_hant": "田有禽。利執言，无咎。長子帥師，弟子輿尸，貞凶。",
+        "zh_hans": "田有禽。利执言，无咎。长子帅师，弟子舆尸，贞凶。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "長子帥師、以中行也，弟子輿尸、使不當也。",
+        "zh_hans": "长子帅师、以中行也，弟子舆尸、使不当也。"
+      }
+    },
+    {
+      "position": 6,
+      "label": {
+        "zh_hant": "上六",
+        "zh_hans": "上六"
+      },
+      "text": {
+        "zh_hant": "大君有命，開國承家，小人勿用。",
+        "zh_hans": "大君有命，开国承家，小人勿用。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "大君有命、以正功也，小人勿用、必亂邦也。",
+        "zh_hans": "大君有命、以正功也，小人勿用、必乱邦也。"
+      }
+    }
+  ],
+  "variants": [
+    {
+      "field": "image",
+      "differences": [
+        {
+          "primary": "眾",
+          "wikisource": "衆"
+        }
+      ]
+    }
+  ],
+  "source": {
+    "text": {
+      "work": "周易",
+      "edition": "Kanseki Repository KR1a0001 (base edition: TLS)",
+      "url": "https://github.com/kanripo/KR1a0001/blob/master/KR1a0001_007.txt"
+    },
+    "cross_check": {
+      "edition": "Chinese Wikisource, 周易/師",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2405011"
+    }
+  }
+}

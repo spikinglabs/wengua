@@ -1,0 +1,150 @@
+{
+  "number": 59,
+  "unicode": "䷺",
+  "binary": "010011",
+  "trigrams": {
+    "lower": "kan",
+    "upper": "xun"
+  },
+  "name": {
+    "zh_hant": "渙",
+    "zh_hans": "涣",
+    "pinyin": "huàn",
+    "en": "Dispersion"
+  },
+  "judgment": {
+    "zh_hant": "亨。王假有廟。利涉大川，利貞。",
+    "zh_hans": "亨。王假有庙。利涉大川，利贞。"
+  },
+  "tuan": {
+    "zh_hant": "渙亨，剛來而不窮，柔得位乎外而上同。王假有廟、王乃在中也，利涉大川、乘木有功也。",
+    "zh_hans": "涣亨，刚来而不穷，柔得位乎外而上同。王假有庙、王乃在中也，利涉大川、乘木有功也。"
+  },
+  "image": {
+    "zh_hant": "風行水上，渙。先王以享于帝，立廟。",
+    "zh_hans": "风行水上，涣。先王以享于帝，立庙。"
+  },
+  "lines": [
+    {
+      "position": 1,
+      "label": {
+        "zh_hant": "初六",
+        "zh_hans": "初六"
+      },
+      "text": {
+        "zh_hant": "用拯馬壯，吉。",
+        "zh_hans": "用拯马壮，吉。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "初六之吉、順也。",
+        "zh_hans": "初六之吉、顺也。"
+      }
+    },
+    {
+      "position": 2,
+      "label": {
+        "zh_hant": "九二",
+        "zh_hans": "九二"
+      },
+      "text": {
+        "zh_hant": "渙奔其机，悔亡。",
+        "zh_hans": "涣奔其机，悔亡。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "渙奔其机、得願也。",
+        "zh_hans": "涣奔其机、得愿也。"
+      }
+    },
+    {
+      "position": 3,
+      "label": {
+        "zh_hant": "六三",
+        "zh_hans": "六三"
+      },
+      "text": {
+        "zh_hant": "渙其躬，无悔。",
+        "zh_hans": "涣其躬，无悔。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "渙其躬、志在外也。",
+        "zh_hans": "涣其躬、志在外也。"
+      }
+    },
+    {
+      "position": 4,
+      "label": {
+        "zh_hant": "六四",
+        "zh_hans": "六四"
+      },
+      "text": {
+        "zh_hant": "渙其群，元吉。渙有丘，匪夷所思。",
+        "zh_hans": "涣其群，元吉。涣有丘，匪夷所思。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "渙其群元吉、光大也。",
+        "zh_hans": "涣其群元吉、光大也。"
+      }
+    },
+    {
+      "position": 5,
+      "label": {
+        "zh_hant": "九五",
+        "zh_hans": "九五"
+      },
+      "text": {
+        "zh_hant": "渙汗其大號，渙王居，无咎。",
+        "zh_hans": "涣汗其大号，涣王居，无咎。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "王居无咎、正位也。",
+        "zh_hans": "王居无咎、正位也。"
+      }
+    },
+    {
+      "position": 6,
+      "label": {
+        "zh_hant": "上九",
+        "zh_hans": "上九"
+      },
+      "text": {
+        "zh_hant": "渙其血，去逖出，无咎。",
+        "zh_hans": "涣其血，去逖出，无咎。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "渙其血、遠害也。",
+        "zh_hans": "涣其血、远害也。"
+      }
+    }
+  ],
+  "variants": [
+    {
+      "field": "lines.1.text",
+      "differences": [
+        {
+          "primary": "",
+          "wikisource": "悔亡"
+        }
+      ]
+    },
+    {
+      "field": "lines.2.xiao_xiang",
+      "differences": [
+        {
+          "primary": "願",
+          "wikisource": "愿"
+        }
+      ]
+    }
+  ],
+  "source": {
+    "text": {
+      "work": "周易",
+      "edition": "Kanseki Repository KR1a0001 (base edition: TLS)",
+      "url": "https://github.com/kanripo/KR1a0001/blob/master/KR1a0001_059.txt"
+    },
+    "cross_check": {
+      "edition": "Chinese Wikisource, 周易/渙",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=10647580"
+    }
+  }
+}

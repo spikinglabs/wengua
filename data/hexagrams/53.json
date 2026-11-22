@@ -1,0 +1,150 @@
+{
+  "number": 53,
+  "unicode": "䷴",
+  "binary": "001011",
+  "trigrams": {
+    "lower": "gen",
+    "upper": "xun"
+  },
+  "name": {
+    "zh_hant": "漸",
+    "zh_hans": "渐",
+    "pinyin": "jiàn",
+    "en": "Gradual Progress"
+  },
+  "judgment": {
+    "zh_hant": "女歸吉。利貞。",
+    "zh_hans": "女归吉。利贞。"
+  },
+  "tuan": {
+    "zh_hant": "漸之進也。女歸吉也，進得位，往有功也。進以正，可以正邦也。其位、剛得中也。止而巽，動不窮也。",
+    "zh_hans": "渐之进也。女归吉也，进得位，往有功也。进以正，可以正邦也。其位、刚得中也。止而巽，动不穷也。"
+  },
+  "image": {
+    "zh_hant": "山上有木，漸。君子以居賢德善俗。",
+    "zh_hans": "山上有木，渐。君子以居贤德善俗。"
+  },
+  "lines": [
+    {
+      "position": 1,
+      "label": {
+        "zh_hant": "初六",
+        "zh_hans": "初六"
+      },
+      "text": {
+        "zh_hant": "鴻漸于干。小子厲有言，无咎。",
+        "zh_hans": "鸿渐于干。小子厉有言，无咎。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "小子之厲、義无咎也。",
+        "zh_hans": "小子之厉、义无咎也。"
+      }
+    },
+    {
+      "position": 2,
+      "label": {
+        "zh_hant": "六二",
+        "zh_hans": "六二"
+      },
+      "text": {
+        "zh_hant": "鴻漸于磐，飲食衎衎，吉。",
+        "zh_hans": "鸿渐于磐，饮食衎衎，吉。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "飲食衎衎、不素飽也。",
+        "zh_hans": "饮食衎衎、不素饱也。"
+      }
+    },
+    {
+      "position": 3,
+      "label": {
+        "zh_hant": "九三",
+        "zh_hans": "九三"
+      },
+      "text": {
+        "zh_hant": "鴻漸于陸。夫征不復，婦孕不育，凶。利禦寇。",
+        "zh_hans": "鸿渐于陆。夫征不复，妇孕不育，凶。利御寇。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "夫征不復、離群醜也，婦孕不育、失其道也，利用禦寇、順相保也。",
+        "zh_hans": "夫征不复、离群丑也，妇孕不育、失其道也，利用御寇、顺相保也。"
+      }
+    },
+    {
+      "position": 4,
+      "label": {
+        "zh_hant": "六四",
+        "zh_hans": "六四"
+      },
+      "text": {
+        "zh_hant": "鴻漸于木，或得其桷，无咎。",
+        "zh_hans": "鸿渐于木，或得其桷，无咎。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "或得其桷、順以巽也。",
+        "zh_hans": "或得其桷、顺以巽也。"
+      }
+    },
+    {
+      "position": 5,
+      "label": {
+        "zh_hant": "九五",
+        "zh_hans": "九五"
+      },
+      "text": {
+        "zh_hant": "鴻漸于陵，婦三歲不孕，終莫之勝，吉。",
+        "zh_hans": "鸿渐于陵，妇三岁不孕，终莫之胜，吉。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "終莫之勝吉、得所願也。",
+        "zh_hans": "终莫之胜吉、得所愿也。"
+      }
+    },
+    {
+      "position": 6,
+      "label": {
+        "zh_hant": "上九",
+        "zh_hans": "上九"
+      },
+      "text": {
+        "zh_hant": "鴻漸于陸，其羽可用為儀，吉。",
+        "zh_hans": "鸿渐于陆，其羽可用为仪，吉。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "其羽可用為儀吉、不可亂也。",
+        "zh_hans": "其羽可用为仪吉、不可乱也。"
+      }
+    }
+  ],
+  "variants": [
+    {
+      "field": "lines.3.xiao_xiang",
+      "differences": [
+        {
+          "primary": "醜",
+          "wikisource": "丑"
+        }
+      ]
+    },
+    {
+      "field": "lines.5.xiao_xiang",
+      "differences": [
+        {
+          "primary": "願",
+          "wikisource": "愿"
+        }
+      ]
+    }
+  ],
+  "source": {
+    "text": {
+      "work": "周易",
+      "edition": "Kanseki Repository KR1a0001 (base edition: TLS)",
+      "url": "https://github.com/kanripo/KR1a0001/blob/master/KR1a0001_053.txt"
+    },
+    "cross_check": {
+      "edition": "Chinese Wikisource, 周易/漸",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2560535"
+    }
+  }
+}

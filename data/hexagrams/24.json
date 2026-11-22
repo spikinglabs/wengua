@@ -1,0 +1,150 @@
+{
+  "number": 24,
+  "unicode": "䷗",
+  "binary": "100000",
+  "trigrams": {
+    "lower": "zhen",
+    "upper": "kun"
+  },
+  "name": {
+    "zh_hant": "復",
+    "zh_hans": "复",
+    "pinyin": "fù",
+    "en": "Return"
+  },
+  "judgment": {
+    "zh_hant": "亨。出入无疾。朋來无咎。反復其道，七日來復。利有攸往。",
+    "zh_hans": "亨。出入无疾。朋来无咎。反复其道，七日来复。利有攸往。"
+  },
+  "tuan": {
+    "zh_hant": "復亨。剛反動而以順行。是以出入无疾、朋來无咎。反復其道、七日來復，天行也。利有攸往、剛長也。復、其見天地之心乎。",
+    "zh_hans": "复亨。刚反动而以顺行。是以出入无疾、朋来无咎。反复其道、七日来复，天行也。利有攸往、刚长也。复、其见天地之心乎。"
+  },
+  "image": {
+    "zh_hant": "雷在地中，復。先王以至日閉關，商旅不行，后不省方。",
+    "zh_hans": "雷在地中，复。先王以至日闭关，商旅不行，后不省方。"
+  },
+  "lines": [
+    {
+      "position": 1,
+      "label": {
+        "zh_hant": "初九",
+        "zh_hans": "初九"
+      },
+      "text": {
+        "zh_hant": "不遠復，无祗悔，元吉。",
+        "zh_hans": "不远复，无祗悔，元吉。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "不遠之復、以脩身也。",
+        "zh_hans": "不远之复、以修身也。"
+      }
+    },
+    {
+      "position": 2,
+      "label": {
+        "zh_hant": "六二",
+        "zh_hans": "六二"
+      },
+      "text": {
+        "zh_hant": "休復，吉。",
+        "zh_hans": "休复，吉。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "休復之吉、以下仁也。",
+        "zh_hans": "休复之吉、以下仁也。"
+      }
+    },
+    {
+      "position": 3,
+      "label": {
+        "zh_hant": "六三",
+        "zh_hans": "六三"
+      },
+      "text": {
+        "zh_hant": "頻復，厲、无咎。",
+        "zh_hans": "频复，厉、无咎。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "頻復之厲、義无咎也。",
+        "zh_hans": "频复之厉、义无咎也。"
+      }
+    },
+    {
+      "position": 4,
+      "label": {
+        "zh_hant": "六四",
+        "zh_hans": "六四"
+      },
+      "text": {
+        "zh_hant": "中行獨復。",
+        "zh_hans": "中行独复。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "中行獨復、以從道也。",
+        "zh_hans": "中行独复、以从道也。"
+      }
+    },
+    {
+      "position": 5,
+      "label": {
+        "zh_hant": "六五",
+        "zh_hans": "六五"
+      },
+      "text": {
+        "zh_hant": "敦復，无悔。",
+        "zh_hans": "敦复，无悔。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "敦復无悔、中以自考也。",
+        "zh_hans": "敦复无悔、中以自考也。"
+      }
+    },
+    {
+      "position": 6,
+      "label": {
+        "zh_hant": "上六",
+        "zh_hans": "上六"
+      },
+      "text": {
+        "zh_hant": "迷復，凶，有災眚。用行師，終有大敗，以其國君凶，至于十年不克征。",
+        "zh_hans": "迷复，凶，有灾眚。用行师，终有大败，以其国君凶，至于十年不克征。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "迷復之凶、反君道也。",
+        "zh_hans": "迷复之凶、反君道也。"
+      }
+    }
+  ],
+  "variants": [
+    {
+      "field": "lines.1.text",
+      "differences": [
+        {
+          "primary": "祗",
+          "wikisource": "祇"
+        }
+      ]
+    },
+    {
+      "field": "lines.1.xiao_xiang",
+      "differences": [
+        {
+          "primary": "脩",
+          "wikisource": "修"
+        }
+      ]
+    }
+  ],
+  "source": {
+    "text": {
+      "work": "周易",
+      "edition": "Kanseki Repository KR1a0001 (base edition: TLS)",
+      "url": "https://github.com/kanripo/KR1a0001/blob/master/KR1a0001_024.txt"
+    },
+    "cross_check": {
+      "edition": "Chinese Wikisource, 周易/復",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=10643037"
+    }
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "number": 18,
+  "unicode": "䷑",
+  "binary": "011001",
+  "trigrams": {
+    "lower": "xun",
+    "upper": "gen"
+  },
+  "name": {
+    "zh_hant": "蠱",
+    "zh_hans": "蛊",
+    "pinyin": "gǔ",
+    "en": "Remedying Decay"
+  },
+  "judgment": {
+    "zh_hant": "元亨。利涉大川，先甲三日，後甲三日。",
+    "zh_hans": "元亨。利涉大川，先甲三日，后甲三日。"
+  },
+  "tuan": {
+    "zh_hant": "蠱、剛上而柔下，巽而止，蠱。蠱元亨，而天下治也。利涉大川、往有事也。先甲三日、後甲三日，終則有始，天行也。",
+    "zh_hans": "蛊、刚上而柔下，巽而止，蛊。蛊元亨，而天下治也。利涉大川、往有事也。先甲三日、后甲三日，终则有始，天行也。"
+  },
+  "image": {
+    "zh_hant": "山下有風，蠱。君子以振民育德。",
+    "zh_hans": "山下有风，蛊。君子以振民育德。"
+  },
+  "lines": [
+    {
+      "position": 1,
+      "label": {
+        "zh_hant": "初六",
+        "zh_hans": "初六"
+      },
+      "text": {
+        "zh_hant": "幹父之蠱，有子，考无咎，厲終吉。",
+        "zh_hans": "干父之蛊，有子，考无咎，厉终吉。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "幹父之蠱、意承考也。",
+        "zh_hans": "干父之蛊、意承考也。"
+      }
+    },
+    {
+      "position": 2,
+      "label": {
+        "zh_hant": "九二",
+        "zh_hans": "九二"
+      },
+      "text": {
+        "zh_hant": "幹母之蠱，不可貞。",
+        "zh_hans": "干母之蛊，不可贞。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "幹母之蠱、得中道也。",
+        "zh_hans": "干母之蛊、得中道也。"
+      }
+    },
+    {
+      "position": 3,
+      "label": {
+        "zh_hant": "九三",
+        "zh_hans": "九三"
+      },
+      "text": {
+        "zh_hant": "幹父之蠱，小有悔，无大咎。",
+        "zh_hans": "干父之蛊，小有悔，无大咎。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "幹父之蠱、終无咎也。",
+        "zh_hans": "干父之蛊、终无咎也。"
+      }
+    },
+    {
+      "position": 4,
+      "label": {
+        "zh_hant": "六四",
+        "zh_hans": "六四"
+      },
+      "text": {
+        "zh_hant": "裕父之蠱，往見吝。",
+        "zh_hans": "裕父之蛊，往见吝。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "裕父之蠱、往未得也。",
+        "zh_hans": "裕父之蛊、往未得也。"
+      }
+    },
+    {
+      "position": 5,
+      "label": {
+        "zh_hant": "六五",
+        "zh_hans": "六五"
+      },
+      "text": {
+        "zh_hant": "幹父之蠱，用譽。",
+        "zh_hans": "干父之蛊，用誉。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "幹父用譽、承以德也。",
+        "zh_hans": "干父用誉、承以德也。"
+      }
+    },
+    {
+      "position": 6,
+      "label": {
+        "zh_hant": "上九",
+        "zh_hans": "上九"
+      },
+      "text": {
+        "zh_hant": "不事王侯，高尚其事。",
+        "zh_hans": "不事王侯，高尚其事。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "不事王侯、志可則也。",
+        "zh_hans": "不事王侯、志可则也。"
+      }
+    }
+  ],
+  "variants": [],
+  "source": {
+    "text": {
+      "work": "周易",
+      "edition": "Kanseki Repository KR1a0001 (base edition: TLS)",
+      "url": "https://github.com/kanripo/KR1a0001/blob/master/KR1a0001_018.txt"
+    },
+    "cross_check": {
+      "edition": "Chinese Wikisource, 周易/蠱",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2106145"
+    }
+  }
+}

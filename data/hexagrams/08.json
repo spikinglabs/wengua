@@ -1,0 +1,150 @@
+{
+  "number": 8,
+  "unicode": "䷇",
+  "binary": "000010",
+  "trigrams": {
+    "lower": "kun",
+    "upper": "kan"
+  },
+  "name": {
+    "zh_hant": "比",
+    "zh_hans": "比",
+    "pinyin": "bǐ",
+    "en": "Union"
+  },
+  "judgment": {
+    "zh_hant": "吉。原筮元，永貞无咎。不寧方來，後夫凶。",
+    "zh_hans": "吉。原筮元，永贞无咎。不宁方来，后夫凶。"
+  },
+  "tuan": {
+    "zh_hant": "（比、吉也），比、輔也，下順從也，比、吉、原筮元、永貞无咎，以剛中也。不寧方來、上下應也，後夫凶、其道窮也。",
+    "zh_hans": "（比、吉也），比、辅也，下顺从也，比、吉、原筮元、永贞无咎，以刚中也。不宁方来、上下应也，后夫凶、其道穷也。"
+  },
+  "image": {
+    "zh_hant": "地上有水，比。先王以建萬國，親諸侯。",
+    "zh_hans": "地上有水，比。先王以建万国，亲诸侯。"
+  },
+  "lines": [
+    {
+      "position": 1,
+      "label": {
+        "zh_hant": "初六",
+        "zh_hans": "初六"
+      },
+      "text": {
+        "zh_hant": "有孚比之，无咎。有孚盈缶，終來，有它吉。",
+        "zh_hans": "有孚比之，无咎。有孚盈缶，终来，有它吉。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "比之初六、有它吉也。",
+        "zh_hans": "比之初六、有它吉也。"
+      }
+    },
+    {
+      "position": 2,
+      "label": {
+        "zh_hant": "六二",
+        "zh_hans": "六二"
+      },
+      "text": {
+        "zh_hant": "比之自內，貞吉。",
+        "zh_hans": "比之自内，贞吉。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "比之自內、不自失也。",
+        "zh_hans": "比之自内、不自失也。"
+      }
+    },
+    {
+      "position": 3,
+      "label": {
+        "zh_hant": "六三",
+        "zh_hans": "六三"
+      },
+      "text": {
+        "zh_hant": "比之匪人。",
+        "zh_hans": "比之匪人。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "比之匪人、不亦傷乎？",
+        "zh_hans": "比之匪人、不亦伤乎？"
+      }
+    },
+    {
+      "position": 4,
+      "label": {
+        "zh_hant": "六四",
+        "zh_hans": "六四"
+      },
+      "text": {
+        "zh_hant": "外比之，貞吉。",
+        "zh_hans": "外比之，贞吉。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "外比於賢、以從上也。",
+        "zh_hans": "外比于贤、以从上也。"
+      }
+    },
+    {
+      "position": 5,
+      "label": {
+        "zh_hant": "九五",
+        "zh_hans": "九五"
+      },
+      "text": {
+        "zh_hant": "顯比，王用三驅，失前禽，邑人不誡，吉。",
+        "zh_hans": "显比，王用三驱，失前禽，邑人不诫，吉。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "顯比之吉、位正中也，舍逆取順、失前禽也，邑人不誡、上使中也。",
+        "zh_hans": "显比之吉、位正中也，舍逆取顺、失前禽也，邑人不诫、上使中也。"
+      }
+    },
+    {
+      "position": 6,
+      "label": {
+        "zh_hant": "上六",
+        "zh_hans": "上六"
+      },
+      "text": {
+        "zh_hant": "比之无首，凶。",
+        "zh_hans": "比之无首，凶。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "比之无首、无所終也。",
+        "zh_hans": "比之无首、无所终也。"
+      }
+    }
+  ],
+  "variants": [
+    {
+      "field": "tuan",
+      "differences": [
+        {
+          "primary": "比吉",
+          "wikisource": ""
+        }
+      ]
+    },
+    {
+      "field": "lines.5.text",
+      "differences": [
+        {
+          "primary": "驅",
+          "wikisource": "敺"
+        }
+      ]
+    }
+  ],
+  "source": {
+    "text": {
+      "work": "周易",
+      "edition": "Kanseki Repository KR1a0001 (base edition: TLS)",
+      "url": "https://github.com/kanripo/KR1a0001/blob/master/KR1a0001_008.txt"
+    },
+    "cross_check": {
+      "edition": "Chinese Wikisource, 周易/比",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=10645543"
+    }
+  }
+}

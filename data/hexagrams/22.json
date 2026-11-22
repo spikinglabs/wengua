@@ -1,0 +1,141 @@
+{
+  "number": 22,
+  "unicode": "䷕",
+  "binary": "101001",
+  "trigrams": {
+    "lower": "li",
+    "upper": "gen"
+  },
+  "name": {
+    "zh_hant": "賁",
+    "zh_hans": "贲",
+    "pinyin": "bì",
+    "en": "Adornment"
+  },
+  "judgment": {
+    "zh_hant": "亨。小利有攸往。",
+    "zh_hans": "亨。小利有攸往。"
+  },
+  "tuan": {
+    "zh_hant": "賁亨，柔來而文剛，故亨。分剛上而文柔，故小利有攸往。剛柔交錯、天文也。文明以止，人文也。觀乎天文以察時變，觀乎人文以化成天下。",
+    "zh_hans": "贲亨，柔来而文刚，故亨。分刚上而文柔，故小利有攸往。刚柔交错、天文也。文明以止，人文也。观乎天文以察时变，观乎人文以化成天下。"
+  },
+  "image": {
+    "zh_hant": "山下有火，賁。君子以明庶政，无敢折獄。",
+    "zh_hans": "山下有火，贲。君子以明庶政，无敢折狱。"
+  },
+  "lines": [
+    {
+      "position": 1,
+      "label": {
+        "zh_hant": "初九",
+        "zh_hans": "初九"
+      },
+      "text": {
+        "zh_hant": "賁其趾，舍車而徒。",
+        "zh_hans": "贲其趾，舍车而徒。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "舍車而徒、義弗乘也。",
+        "zh_hans": "舍车而徒、义弗乘也。"
+      }
+    },
+    {
+      "position": 2,
+      "label": {
+        "zh_hant": "六二",
+        "zh_hans": "六二"
+      },
+      "text": {
+        "zh_hant": "賁其須。",
+        "zh_hans": "贲其须。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "賁其須、與上興也。",
+        "zh_hans": "贲其须、与上兴也。"
+      }
+    },
+    {
+      "position": 3,
+      "label": {
+        "zh_hant": "九三",
+        "zh_hans": "九三"
+      },
+      "text": {
+        "zh_hant": "賁如濡如，永貞吉。",
+        "zh_hans": "贲如濡如，永贞吉。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "永貞之吉、終莫之陵也。",
+        "zh_hans": "永贞之吉、终莫之陵也。"
+      }
+    },
+    {
+      "position": 4,
+      "label": {
+        "zh_hant": "六四",
+        "zh_hans": "六四"
+      },
+      "text": {
+        "zh_hant": "賁如皤如，白馬翰如，匪寇，婚媾。",
+        "zh_hans": "贲如皤如，白马翰如，匪寇，婚媾。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "六四、當位疑也，匪寇婚媾、終无尤也。",
+        "zh_hans": "六四、当位疑也，匪寇婚媾、终无尤也。"
+      }
+    },
+    {
+      "position": 5,
+      "label": {
+        "zh_hant": "六五",
+        "zh_hans": "六五"
+      },
+      "text": {
+        "zh_hant": "賁于丘園，束帛戔戔，吝終吉。",
+        "zh_hans": "贲于丘园，束帛戋戋，吝终吉。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "六五之吉、有喜也。",
+        "zh_hans": "六五之吉、有喜也。"
+      }
+    },
+    {
+      "position": 6,
+      "label": {
+        "zh_hant": "上九",
+        "zh_hans": "上九"
+      },
+      "text": {
+        "zh_hant": "白賁，无咎。",
+        "zh_hans": "白贲，无咎。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "白賁无咎、上得志也。",
+        "zh_hans": "白贲无咎、上得志也。"
+      }
+    }
+  ],
+  "variants": [
+    {
+      "field": "lines.5.text",
+      "differences": [
+        {
+          "primary": "于",
+          "wikisource": "於"
+        }
+      ]
+    }
+  ],
+  "source": {
+    "text": {
+      "work": "周易",
+      "edition": "Kanseki Repository KR1a0001 (base edition: TLS)",
+      "url": "https://github.com/kanripo/KR1a0001/blob/master/KR1a0001_022.txt"
+    },
+    "cross_check": {
+      "edition": "Chinese Wikisource, 周易/賁",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2405035"
+    }
+  }
+}

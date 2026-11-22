@@ -1,0 +1,150 @@
+{
+  "number": 44,
+  "unicode": "䷫",
+  "binary": "011111",
+  "trigrams": {
+    "lower": "xun",
+    "upper": "qian"
+  },
+  "name": {
+    "zh_hant": "姤",
+    "zh_hans": "姤",
+    "pinyin": "gòu",
+    "en": "Encounter"
+  },
+  "judgment": {
+    "zh_hant": "女壯，勿用取女。",
+    "zh_hans": "女壮，勿用取女。"
+  },
+  "tuan": {
+    "zh_hant": "姤、遇也，柔遇剛也。勿用取女、不可與長也。天地相遇，品物咸章也。剛遇中正，天下大行也。姤之時義大矣哉！",
+    "zh_hans": "姤、遇也，柔遇刚也。勿用取女、不可与长也。天地相遇，品物咸章也。刚遇中正，天下大行也。姤之时义大矣哉！"
+  },
+  "image": {
+    "zh_hant": "天下有風，姤。后以施命誥四方。",
+    "zh_hans": "天下有风，姤。后以施命诰四方。"
+  },
+  "lines": [
+    {
+      "position": 1,
+      "label": {
+        "zh_hant": "初六",
+        "zh_hans": "初六"
+      },
+      "text": {
+        "zh_hant": "繫于金柅，貞吉。有攸往，見凶，羸豕孚蹢躅。",
+        "zh_hans": "系于金柅，贞吉。有攸往，见凶，羸豕孚蹢躅。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "繫于金柅、柔道牽也。",
+        "zh_hans": "系于金柅、柔道牵也。"
+      }
+    },
+    {
+      "position": 2,
+      "label": {
+        "zh_hant": "九二",
+        "zh_hans": "九二"
+      },
+      "text": {
+        "zh_hant": "包有魚，无咎，不利賓。",
+        "zh_hans": "包有鱼，无咎，不利宾。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "包有魚、義不及賓也。",
+        "zh_hans": "包有鱼、义不及宾也。"
+      }
+    },
+    {
+      "position": 3,
+      "label": {
+        "zh_hant": "九三",
+        "zh_hans": "九三"
+      },
+      "text": {
+        "zh_hant": "臀无膚，其行次且，厲，无大咎。",
+        "zh_hans": "臀无肤，其行次且，厉，无大咎。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "其行次且、行未牽也。",
+        "zh_hans": "其行次且、行未牵也。"
+      }
+    },
+    {
+      "position": 4,
+      "label": {
+        "zh_hant": "九四",
+        "zh_hans": "九四"
+      },
+      "text": {
+        "zh_hant": "包无魚，起凶。",
+        "zh_hans": "包无鱼，起凶。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "无魚之凶、遠民也。",
+        "zh_hans": "无鱼之凶、远民也。"
+      }
+    },
+    {
+      "position": 5,
+      "label": {
+        "zh_hant": "九五",
+        "zh_hans": "九五"
+      },
+      "text": {
+        "zh_hant": "以杞包瓜，含章，有隕自天。",
+        "zh_hans": "以杞包瓜，含章，有陨自天。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "九五含章、中正也，有隕自天、志不舍命也。",
+        "zh_hans": "九五含章、中正也，有陨自天、志不舍命也。"
+      }
+    },
+    {
+      "position": 6,
+      "label": {
+        "zh_hant": "上九",
+        "zh_hans": "上九"
+      },
+      "text": {
+        "zh_hant": "姤其角，吝，无咎。",
+        "zh_hans": "姤其角，吝，无咎。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "姤其角、上窮吝也。",
+        "zh_hans": "姤其角、上穷吝也。"
+      }
+    }
+  ],
+  "variants": [
+    {
+      "field": "lines.1.text",
+      "differences": [
+        {
+          "primary": "繫",
+          "wikisource": "系"
+        }
+      ]
+    },
+    {
+      "field": "lines.1.xiao_xiang",
+      "differences": [
+        {
+          "primary": "繫",
+          "wikisource": "系"
+        }
+      ]
+    }
+  ],
+  "source": {
+    "text": {
+      "work": "周易",
+      "edition": "Kanseki Repository KR1a0001 (base edition: TLS)",
+      "url": "https://github.com/kanripo/KR1a0001/blob/master/KR1a0001_044.txt"
+    },
+    "cross_check": {
+      "edition": "Chinese Wikisource, 周易/姤",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=10646826"
+    }
+  }
+}

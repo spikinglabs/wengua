@@ -1,0 +1,150 @@
+{
+  "number": 38,
+  "unicode": "䷥",
+  "binary": "110101",
+  "trigrams": {
+    "lower": "dui",
+    "upper": "li"
+  },
+  "name": {
+    "zh_hant": "睽",
+    "zh_hans": "睽",
+    "pinyin": "kuí",
+    "en": "Opposition"
+  },
+  "judgment": {
+    "zh_hant": "小事吉。",
+    "zh_hans": "小事吉。"
+  },
+  "tuan": {
+    "zh_hant": "睽、火動而上，澤動而下。二女同居，其志不同行。說而麗乎明，柔進而上行，得中而應乎剛，是以小事吉。天地睽而其事同也。男女睽而其志通也。萬物睽而其事類也，睽之時用大矣哉！",
+    "zh_hans": "睽、火动而上，泽动而下。二女同居，其志不同行。说而丽乎明，柔进而上行，得中而应乎刚，是以小事吉。天地睽而其事同也。男女睽而其志通也。万物睽而其事类也，睽之时用大矣哉！"
+  },
+  "image": {
+    "zh_hant": "上火下澤，睽。君子以同而異。",
+    "zh_hans": "上火下泽，睽。君子以同而异。"
+  },
+  "lines": [
+    {
+      "position": 1,
+      "label": {
+        "zh_hant": "初九",
+        "zh_hans": "初九"
+      },
+      "text": {
+        "zh_hant": "悔亡。喪馬，勿逐自復。見惡人无咎。",
+        "zh_hans": "悔亡。丧马，勿逐自复。见恶人无咎。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "見惡人、以辟咎也。",
+        "zh_hans": "见恶人、以辟咎也。"
+      }
+    },
+    {
+      "position": 2,
+      "label": {
+        "zh_hant": "九二",
+        "zh_hans": "九二"
+      },
+      "text": {
+        "zh_hant": "遇主于巷，无咎。",
+        "zh_hans": "遇主于巷，无咎。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "遇主于巷、未失道也。",
+        "zh_hans": "遇主于巷、未失道也。"
+      }
+    },
+    {
+      "position": 3,
+      "label": {
+        "zh_hant": "六三",
+        "zh_hans": "六三"
+      },
+      "text": {
+        "zh_hant": "見輿曳，其牛掣，其人天且劓，无初有終。",
+        "zh_hans": "见舆曳，其牛掣，其人天且劓，无初有终。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "見輿曳、位不當也，无初有終、遇剛也。",
+        "zh_hans": "见舆曳、位不当也，无初有终、遇刚也。"
+      }
+    },
+    {
+      "position": 4,
+      "label": {
+        "zh_hant": "九四",
+        "zh_hans": "九四"
+      },
+      "text": {
+        "zh_hant": "睽孤，遇元夫，交孚，厲无咎。",
+        "zh_hans": "睽孤，遇元夫，交孚，厉无咎。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "交孚无咎、志行也。",
+        "zh_hans": "交孚无咎、志行也。"
+      }
+    },
+    {
+      "position": 5,
+      "label": {
+        "zh_hant": "六五",
+        "zh_hans": "六五"
+      },
+      "text": {
+        "zh_hant": "悔亡。厥宗噬膚，往何咎？",
+        "zh_hans": "悔亡。厥宗噬肤，往何咎？"
+      },
+      "xiao_xiang": {
+        "zh_hant": "厥宗噬膚、往有慶也。",
+        "zh_hans": "厥宗噬肤、往有庆也。"
+      }
+    },
+    {
+      "position": 6,
+      "label": {
+        "zh_hant": "上九",
+        "zh_hans": "上九"
+      },
+      "text": {
+        "zh_hant": "睽孤，見豕負塗，載鬼一車，先張之弧，後說之弧，匪寇，婚媾。往遇雨，則吉。",
+        "zh_hans": "睽孤，见豕负涂，载鬼一车，先张之弧，后说之弧，匪寇，婚媾。往遇雨，则吉。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "遇雨之吉、群疑亡也。",
+        "zh_hans": "遇雨之吉、群疑亡也。"
+      }
+    }
+  ],
+  "variants": [
+    {
+      "field": "lines.3.text",
+      "differences": [
+        {
+          "primary": "掣",
+          "wikisource": "𧤊"
+        }
+      ]
+    },
+    {
+      "field": "lines.6.text",
+      "differences": [
+        {
+          "primary": "塗",
+          "wikisource": "涂"
+        }
+      ]
+    }
+  ],
+  "source": {
+    "text": {
+      "work": "周易",
+      "edition": "Kanseki Repository KR1a0001 (base edition: TLS)",
+      "url": "https://github.com/kanripo/KR1a0001/blob/master/KR1a0001_038.txt"
+    },
+    "cross_check": {
+      "edition": "Chinese Wikisource, 周易/睽",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=10646622"
+    }
+  }
+}

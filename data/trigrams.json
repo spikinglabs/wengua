@@ -1,0 +1,90 @@
+[
+  {
+    "key": "qian",
+    "name": {
+      "zh_hant": "乾",
+      "zh_hans": "乾",
+      "pinyin": "qián",
+      "en": "Heaven"
+    },
+    "symbol": "☰",
+    "binary": "111"
+  },
+  {
+    "key": "dui",
+    "name": {
+      "zh_hant": "兌",
+      "zh_hans": "兑",
+      "pinyin": "duì",
+      "en": "Lake"
+    },
+    "symbol": "☱",
+    "binary": "110"
+  },
+  {
+    "key": "li",
+    "name": {
+      "zh_hant": "離",
+      "zh_hans": "离",
+      "pinyin": "lí",
+      "en": "Fire"
+    },
+    "symbol": "☲",
+    "binary": "101"
+  },
+  {
+    "key": "zhen",
+    "name": {
+      "zh_hant": "震",
+      "zh_hans": "震",
+      "pinyin": "zhèn",
+      "en": "Thunder"
+    },
+    "symbol": "☳",
+    "binary": "100"
+  },
+  {
+    "key": "xun",
+    "name": {
+      "zh_hant": "巽",
+      "zh_hans": "巽",
+      "pinyin": "xùn",
+      "en": "Wind"
+    },
+    "symbol": "☴",
+    "binary": "011"
+  },
+  {
+    "key": "kan",
+    "name": {
+      "zh_hant": "坎",
+      "zh_hans": "坎",
+      "pinyin": "kǎn",
+      "en": "Water"
+    },
+    "symbol": "☵",
+    "binary": "010"
+  },
+  {
+    "key": "gen",
+    "name": {
+      "zh_hant": "艮",
+      "zh_hans": "艮",
+      "pinyin": "gèn",
+      "en": "Mountain"
+    },
+    "symbol": "☶",
+    "binary": "001"
+  },
+  {
+    "key": "kun",
+    "name": {
+      "zh_hant": "坤",
+      "zh_hans": "坤",
+      "pinyin": "kūn",
+      "en": "Earth"
+    },
+    "symbol": "☷",
+    "binary": "000"
+  }
+]

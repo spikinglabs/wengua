@@ -1,0 +1,131 @@
+{
+  "number": 39,
+  "unicode": "䷦",
+  "binary": "001010",
+  "trigrams": {
+    "lower": "gen",
+    "upper": "kan"
+  },
+  "name": {
+    "zh_hant": "蹇",
+    "zh_hans": "蹇",
+    "pinyin": "jiǎn",
+    "en": "Obstruction"
+  },
+  "judgment": {
+    "zh_hant": "利西南，不利東北。利見大人。貞吉。",
+    "zh_hans": "利西南，不利东北。利见大人。贞吉。"
+  },
+  "tuan": {
+    "zh_hant": "蹇、難也，險在前也。見險而能止，知矣哉！蹇、利西南，往得中也，不利東北、其道窮也，利見大人、往有功也，當位貞吉、以正邦也。蹇之時用大矣哉！",
+    "zh_hans": "蹇、难也，险在前也。见险而能止，知矣哉！蹇、利西南，往得中也，不利东北、其道穷也，利见大人、往有功也，当位贞吉、以正邦也。蹇之时用大矣哉！"
+  },
+  "image": {
+    "zh_hant": "山上有水，蹇。君子以反身修德。",
+    "zh_hans": "山上有水，蹇。君子以反身修德。"
+  },
+  "lines": [
+    {
+      "position": 1,
+      "label": {
+        "zh_hant": "初六",
+        "zh_hans": "初六"
+      },
+      "text": {
+        "zh_hant": "往蹇來譽。",
+        "zh_hans": "往蹇来誉。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "往蹇來譽、宜待也。",
+        "zh_hans": "往蹇来誉、宜待也。"
+      }
+    },
+    {
+      "position": 2,
+      "label": {
+        "zh_hant": "六二",
+        "zh_hans": "六二"
+      },
+      "text": {
+        "zh_hant": "王臣蹇蹇，匪躬之故。",
+        "zh_hans": "王臣蹇蹇，匪躬之故。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "王臣蹇蹇、終无尤也。",
+        "zh_hans": "王臣蹇蹇、终无尤也。"
+      }
+    },
+    {
+      "position": 3,
+      "label": {
+        "zh_hant": "九三",
+        "zh_hans": "九三"
+      },
+      "text": {
+        "zh_hant": "往蹇來反。",
+        "zh_hans": "往蹇来反。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "往蹇來反、內喜之也。",
+        "zh_hans": "往蹇来反、内喜之也。"
+      }
+    },
+    {
+      "position": 4,
+      "label": {
+        "zh_hant": "六四",
+        "zh_hans": "六四"
+      },
+      "text": {
+        "zh_hant": "往蹇來連。",
+        "zh_hans": "往蹇来连。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "往蹇來連、當位實也。",
+        "zh_hans": "往蹇来连、当位实也。"
+      }
+    },
+    {
+      "position": 5,
+      "label": {
+        "zh_hant": "九五",
+        "zh_hans": "九五"
+      },
+      "text": {
+        "zh_hant": "大蹇，朋來。",
+        "zh_hans": "大蹇，朋来。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "大蹇朋來、以中節也。",
+        "zh_hans": "大蹇朋来、以中节也。"
+      }
+    },
+    {
+      "position": 6,
+      "label": {
+        "zh_hant": "上六",
+        "zh_hans": "上六"
+      },
+      "text": {
+        "zh_hant": "往蹇，來碩，吉，利見大人。",
+        "zh_hans": "往蹇，来硕，吉，利见大人。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "往蹇來碩、志在內也，利見大人、以從貴也。",
+        "zh_hans": "往蹇来硕、志在内也，利见大人、以从贵也。"
+      }
+    }
+  ],
+  "variants": [],
+  "source": {
+    "text": {
+      "work": "周易",
+      "edition": "Kanseki Repository KR1a0001 (base edition: TLS)",
+      "url": "https://github.com/kanripo/KR1a0001/blob/master/KR1a0001_039.txt"
+    },
+    "cross_check": {
+      "edition": "Chinese Wikisource, 周易/蹇",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2405036"
+    }
+  }
+}

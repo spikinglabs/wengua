@@ -1,0 +1,131 @@
+{
+  "number": 42,
+  "unicode": "䷩",
+  "binary": "100011",
+  "trigrams": {
+    "lower": "zhen",
+    "upper": "xun"
+  },
+  "name": {
+    "zh_hant": "益",
+    "zh_hans": "益",
+    "pinyin": "yì",
+    "en": "Increase"
+  },
+  "judgment": {
+    "zh_hant": "利有攸往。利涉大川。",
+    "zh_hans": "利有攸往。利涉大川。"
+  },
+  "tuan": {
+    "zh_hant": "益、損上益下，民說无疆。自上下下，其道大光。利有攸往、中正有慶，利涉大川、木道乃行。益動而巽，日進无疆。天施地生，其益无方。凡益之道，與時偕行。",
+    "zh_hans": "益、损上益下，民说无疆。自上下下，其道大光。利有攸往、中正有庆，利涉大川、木道乃行。益动而巽，日进无疆。天施地生，其益无方。凡益之道，与时偕行。"
+  },
+  "image": {
+    "zh_hant": "風雷益。君子以見善則遷，有過則改。",
+    "zh_hans": "风雷益。君子以见善则迁，有过则改。"
+  },
+  "lines": [
+    {
+      "position": 1,
+      "label": {
+        "zh_hant": "初九",
+        "zh_hans": "初九"
+      },
+      "text": {
+        "zh_hant": "利用為大作，元吉，无咎。",
+        "zh_hans": "利用为大作，元吉，无咎。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "元吉无咎、下不厚事也。",
+        "zh_hans": "元吉无咎、下不厚事也。"
+      }
+    },
+    {
+      "position": 2,
+      "label": {
+        "zh_hant": "六二",
+        "zh_hans": "六二"
+      },
+      "text": {
+        "zh_hant": "或益之，十朋之龜弗克違。永貞吉。王用享于帝，吉。",
+        "zh_hans": "或益之，十朋之龟弗克违。永贞吉。王用享于帝，吉。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "或益之、自外來也。",
+        "zh_hans": "或益之、自外来也。"
+      }
+    },
+    {
+      "position": 3,
+      "label": {
+        "zh_hant": "六三",
+        "zh_hans": "六三"
+      },
+      "text": {
+        "zh_hant": "益之，用凶事无咎。有孚，中行。告公用圭。",
+        "zh_hans": "益之，用凶事无咎。有孚，中行。告公用圭。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "益用凶事、固有之也。",
+        "zh_hans": "益用凶事、固有之也。"
+      }
+    },
+    {
+      "position": 4,
+      "label": {
+        "zh_hant": "六四",
+        "zh_hans": "六四"
+      },
+      "text": {
+        "zh_hant": "中行告公，從，利用為依遷國。",
+        "zh_hans": "中行告公，从，利用为依迁国。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "告公從、以益志也。",
+        "zh_hans": "告公从、以益志也。"
+      }
+    },
+    {
+      "position": 5,
+      "label": {
+        "zh_hant": "九五",
+        "zh_hans": "九五"
+      },
+      "text": {
+        "zh_hant": "有孚惠心，勿問，元吉。有孚惠我德。",
+        "zh_hans": "有孚惠心，勿问，元吉。有孚惠我德。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "有孚惠心、勿問之矣，惠我德、大得志也。",
+        "zh_hans": "有孚惠心、勿问之矣，惠我德、大得志也。"
+      }
+    },
+    {
+      "position": 6,
+      "label": {
+        "zh_hant": "上九",
+        "zh_hans": "上九"
+      },
+      "text": {
+        "zh_hant": "莫益之，或擊之，立心勿恆，凶。",
+        "zh_hans": "莫益之，或击之，立心勿恒，凶。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "莫益之、偏辭也，或擊之、自外來也。",
+        "zh_hans": "莫益之、偏辞也，或击之、自外来也。"
+      }
+    }
+  ],
+  "variants": [],
+  "source": {
+    "text": {
+      "work": "周易",
+      "edition": "Kanseki Repository KR1a0001 (base edition: TLS)",
+      "url": "https://github.com/kanripo/KR1a0001/blob/master/KR1a0001_042.txt"
+    },
+    "cross_check": {
+      "edition": "Chinese Wikisource, 周易/益",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=10646726"
+    }
+  }
+}

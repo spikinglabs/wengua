@@ -1,0 +1,186 @@
+{
+  "number": 14,
+  "unicode": "䷍",
+  "binary": "111101",
+  "trigrams": {
+    "lower": "qian",
+    "upper": "li"
+  },
+  "name": {
+    "zh_hant": "大有",
+    "zh_hans": "大有",
+    "pinyin": "dà yǒu",
+    "en": "Great Possession"
+  },
+  "judgment": {
+    "zh_hant": "元亨。",
+    "zh_hans": "元亨。"
+  },
+  "tuan": {
+    "zh_hant": "大有，柔得尊位大中而上下應之曰大有。其德剛健而文明，應乎天而時行，是以元亨。",
+    "zh_hans": "大有，柔得尊位大中而上下应之曰大有。其德刚健而文明，应乎天而时行，是以元亨。"
+  },
+  "image": {
+    "zh_hant": "火在天上，大有。君子以遏惡揚善，順天休命。",
+    "zh_hans": "火在天上，大有。君子以遏恶扬善，顺天休命。"
+  },
+  "lines": [
+    {
+      "position": 1,
+      "label": {
+        "zh_hant": "初九",
+        "zh_hans": "初九"
+      },
+      "text": {
+        "zh_hant": "无交害，匪咎、艱則无咎。",
+        "zh_hans": "无交害，匪咎、艰则无咎。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "大有初九，无交害也。",
+        "zh_hans": "大有初九，无交害也。"
+      }
+    },
+    {
+      "position": 2,
+      "label": {
+        "zh_hant": "九二",
+        "zh_hans": "九二"
+      },
+      "text": {
+        "zh_hant": "大車以載，有攸往，无咎。",
+        "zh_hans": "大车以载，有攸往，无咎。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "大車以載、積中不敗也。",
+        "zh_hans": "大车以载、积中不败也。"
+      }
+    },
+    {
+      "position": 3,
+      "label": {
+        "zh_hant": "九三",
+        "zh_hans": "九三"
+      },
+      "text": {
+        "zh_hant": "公用亨于天子，小人弗克。",
+        "zh_hans": "公用亨于天子，小人弗克。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "公用亨于天子、小人害也。",
+        "zh_hans": "公用亨于天子、小人害也。"
+      }
+    },
+    {
+      "position": 4,
+      "label": {
+        "zh_hant": "九四",
+        "zh_hans": "九四"
+      },
+      "text": {
+        "zh_hant": "匪其彭，无咎。",
+        "zh_hans": "匪其彭，无咎。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "匪其彭、无咎、明辯晢也。",
+        "zh_hans": "匪其彭、无咎、明辩晢也。"
+      }
+    },
+    {
+      "position": 5,
+      "label": {
+        "zh_hant": "六五",
+        "zh_hans": "六五"
+      },
+      "text": {
+        "zh_hant": "厥孚交如，威如吉。",
+        "zh_hans": "厥孚交如，威如吉。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "厥孚交如、信以發志也，威如之吉、易而无備也。",
+        "zh_hans": "厥孚交如、信以发志也，威如之吉、易而无备也。"
+      }
+    },
+    {
+      "position": 6,
+      "label": {
+        "zh_hant": "上九",
+        "zh_hans": "上九"
+      },
+      "text": {
+        "zh_hant": "自天祐之，吉无不利。",
+        "zh_hans": "自天祐之，吉无不利。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "大有上吉、自天祐也。",
+        "zh_hans": "大有上吉、自天祐也。"
+      }
+    }
+  ],
+  "variants": [
+    {
+      "field": "lines.2.text",
+      "differences": [
+        {
+          "primary": "車",
+          "wikisource": "轝"
+        }
+      ]
+    },
+    {
+      "field": "lines.2.xiao_xiang",
+      "differences": [
+        {
+          "primary": "車",
+          "wikisource": "轝"
+        }
+      ]
+    },
+    {
+      "field": "lines.4.text",
+      "differences": [
+        {
+          "primary": "彭",
+          "wikisource": "尫"
+        }
+      ]
+    },
+    {
+      "field": "lines.4.xiao_xiang",
+      "differences": [
+        {
+          "primary": "辯晢",
+          "wikisource": "辨晰"
+        }
+      ]
+    },
+    {
+      "field": "lines.6.text",
+      "differences": [
+        {
+          "primary": "祐",
+          "wikisource": "佑"
+        }
+      ]
+    },
+    {
+      "field": "lines.6.xiao_xiang",
+      "differences": [
+        {
+          "primary": "祐",
+          "wikisource": "佑"
+        }
+      ]
+    }
+  ],
+  "source": {
+    "text": {
+      "work": "周易",
+      "edition": "Kanseki Repository KR1a0001 (base edition: TLS)",
+      "url": "https://github.com/kanripo/KR1a0001/blob/master/KR1a0001_014.txt"
+    },
+    "cross_check": {
+      "edition": "Chinese Wikisource, 周易/大有",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=10645712"
+    }
+  }
+}

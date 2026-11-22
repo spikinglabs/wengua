@@ -1,0 +1,150 @@
+{
+  "number": 20,
+  "unicode": "䷓",
+  "binary": "000011",
+  "trigrams": {
+    "lower": "kun",
+    "upper": "xun"
+  },
+  "name": {
+    "zh_hant": "觀",
+    "zh_hans": "观",
+    "pinyin": "guān",
+    "en": "Contemplation"
+  },
+  "judgment": {
+    "zh_hant": "盥而不薦。有孚顒若。",
+    "zh_hans": "盥而不荐。有孚颙若。"
+  },
+  "tuan": {
+    "zh_hant": "大觀在上，順而巽，中正以觀天下，觀。盥而不薦、有孚顒若、下觀而化也，觀天之神道而四時不忒。聖人以神道設教而天下服矣。",
+    "zh_hans": "大观在上，顺而巽，中正以观天下，观。盥而不荐、有孚颙若、下观而化也，观天之神道而四时不忒。圣人以神道设教而天下服矣。"
+  },
+  "image": {
+    "zh_hant": "風行地上，觀。先王以省方觀民設教。",
+    "zh_hans": "风行地上，观。先王以省方观民设教。"
+  },
+  "lines": [
+    {
+      "position": 1,
+      "label": {
+        "zh_hant": "初六",
+        "zh_hans": "初六"
+      },
+      "text": {
+        "zh_hant": "童觀，小人无咎，君子吝。",
+        "zh_hans": "童观，小人无咎，君子吝。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "初六童觀、小人道也。",
+        "zh_hans": "初六童观、小人道也。"
+      }
+    },
+    {
+      "position": 2,
+      "label": {
+        "zh_hant": "六二",
+        "zh_hans": "六二"
+      },
+      "text": {
+        "zh_hant": "闚觀，利女貞。",
+        "zh_hans": "闚观，利女贞。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "闚觀女貞、亦可醜也。",
+        "zh_hans": "闚观女贞、亦可丑也。"
+      }
+    },
+    {
+      "position": 3,
+      "label": {
+        "zh_hant": "六三",
+        "zh_hans": "六三"
+      },
+      "text": {
+        "zh_hant": "觀我生進退。",
+        "zh_hans": "观我生进退。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "觀我生進退、未失道也。",
+        "zh_hans": "观我生进退、未失道也。"
+      }
+    },
+    {
+      "position": 4,
+      "label": {
+        "zh_hant": "六四",
+        "zh_hans": "六四"
+      },
+      "text": {
+        "zh_hant": "觀國之光，利用賓于王。",
+        "zh_hans": "观国之光，利用宾于王。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "觀國之光、尚賓也。",
+        "zh_hans": "观国之光、尚宾也。"
+      }
+    },
+    {
+      "position": 5,
+      "label": {
+        "zh_hant": "九五",
+        "zh_hans": "九五"
+      },
+      "text": {
+        "zh_hant": "觀我生，君子无咎。",
+        "zh_hans": "观我生，君子无咎。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "觀我生、觀民也。",
+        "zh_hans": "观我生、观民也。"
+      }
+    },
+    {
+      "position": 6,
+      "label": {
+        "zh_hant": "上九",
+        "zh_hans": "上九"
+      },
+      "text": {
+        "zh_hant": "觀其生，君子无咎。",
+        "zh_hans": "观其生，君子无咎。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "觀其生、志未平也。",
+        "zh_hans": "观其生、志未平也。"
+      }
+    }
+  ],
+  "variants": [
+    {
+      "field": "lines.2.text",
+      "differences": [
+        {
+          "primary": "闚",
+          "wikisource": "窺"
+        }
+      ]
+    },
+    {
+      "field": "lines.2.xiao_xiang",
+      "differences": [
+        {
+          "primary": "闚",
+          "wikisource": "窺"
+        }
+      ]
+    }
+  ],
+  "source": {
+    "text": {
+      "work": "周易",
+      "edition": "Kanseki Repository KR1a0001 (base edition: TLS)",
+      "url": "https://github.com/kanripo/KR1a0001/blob/master/KR1a0001_020.txt"
+    },
+    "cross_check": {
+      "edition": "Chinese Wikisource, 周易/觀",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=10645159"
+    }
+  }
+}

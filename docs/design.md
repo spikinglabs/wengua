@@ -44,10 +44,10 @@ Each hexagram has:
 Sources:
 - Chinese: the 通行本 based on the 武英殿本《周易正義》 edition, cross-checked against 四部叢刊 and Wikisource. Public domain.
 - English: James Legge, *The Yi King* (Sacred Books of the East vol. XVI, 1882). Public domain.
-- `zh_plain` and `en_plain`: written by us and reviewed by a human, CC BY 4.0.
+- `zh_plain` and `en_plain`: written by us and reviewed by a human, released with the dataset under CC BY-SA 4.0.
 - **Not used:** any modern translation or commentary that is still under copyright.
 
-License: we dedicate the classical text as CC0 and release our notes under CC BY 4.0. The code is MIT.
+License: the dataset is CC BY-SA 4.0, because the digital transcriptions we build on are share-alike. The classical text itself is public domain. The code is MIT.
 
 Validation (in CI): 64 hexagrams, 384 lines plus 用九/用六, binary ↔ number ↔ Unicode consistency, each line label (九/六, 初…上) matching its bit, simplified text matching an OpenCC conversion of the traditional text (with a reviewed list of exceptions), and no empty fields.
 
@@ -116,7 +116,7 @@ Resources: `wengua://hexagram/{n}`, `wengua://trigram/{name}`. Prompt: `reading`
 | **M1 Core** | TS + Python core, shared test vectors, RNG tests | Both implementations pass the same test vectors |
 | **M2 Skill + local MCP + CLI** | `skills/wengua`, `npx wengua`, `uvx wengua`, `wengua` CLI | Works in Claude Code, Claude Desktop, Codex and Cursor; eval set v1 passes |
 | **M3 Remote MCP + MCP App** | Cloudflare Worker, reading card | Works in Claude.ai and ChatGPT by pasting a URL |
-| **M4 Plain-language notes** | `zh_plain` / `en_plain` for 64 hexagrams + 386 lines | Reviewed by a human; CC BY |
+| **M4 Plain-language notes** | `zh_plain` / `en_plain` for 64 hexagrams + 386 lines | Reviewed by a human |
 | **M5 Distribution** | Publish to npm/PyPI, MCP Registry, Claude directory, ChatGPT plugins, static site + `llms.txt` | Listed and installable |
 | Later | 梅花易数, an optional local-only reading journal, more languages (日本語, 한국어) | — |
 

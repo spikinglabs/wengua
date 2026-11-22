@@ -1,0 +1,150 @@
+{
+  "number": 41,
+  "unicode": "䷨",
+  "binary": "110001",
+  "trigrams": {
+    "lower": "dui",
+    "upper": "gen"
+  },
+  "name": {
+    "zh_hant": "損",
+    "zh_hans": "损",
+    "pinyin": "sǔn",
+    "en": "Decrease"
+  },
+  "judgment": {
+    "zh_hant": "有孚，元吉，无咎可貞。利有攸往。曷之用，二簋可用享。",
+    "zh_hans": "有孚，元吉，无咎可贞。利有攸往。曷之用，二簋可用享。"
+  },
+  "tuan": {
+    "zh_hant": "損、損下益上，其道上行。損而有孚，元吉、无咎、可貞、利有攸往、曷之用二簋、可用享，二簋應有時。損剛益柔有時，損益盈虛，與時偕行。",
+    "zh_hans": "损、损下益上，其道上行。损而有孚，元吉、无咎、可贞、利有攸往、曷之用二簋、可用享，二簋应有时。损刚益柔有时，损益盈虚，与时偕行。"
+  },
+  "image": {
+    "zh_hant": "山下有澤，損。君子以懲忿窒欲。",
+    "zh_hans": "山下有泽，损。君子以惩忿窒欲。"
+  },
+  "lines": [
+    {
+      "position": 1,
+      "label": {
+        "zh_hant": "初九",
+        "zh_hans": "初九"
+      },
+      "text": {
+        "zh_hant": "已事遄往，无咎。酌損之。",
+        "zh_hans": "已事遄往，无咎。酌损之。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "已事遄往，尚合志也。",
+        "zh_hans": "已事遄往，尚合志也。"
+      }
+    },
+    {
+      "position": 2,
+      "label": {
+        "zh_hant": "九二",
+        "zh_hans": "九二"
+      },
+      "text": {
+        "zh_hant": "利貞。征凶，弗損，益之。",
+        "zh_hans": "利贞。征凶，弗损，益之。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "九二利貞，中以為志也。",
+        "zh_hans": "九二利贞，中以为志也。"
+      }
+    },
+    {
+      "position": 3,
+      "label": {
+        "zh_hant": "六三",
+        "zh_hans": "六三"
+      },
+      "text": {
+        "zh_hant": "三人行則損一人，一人行則得其友。",
+        "zh_hans": "三人行则损一人，一人行则得其友。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "一人行，三則疑也。",
+        "zh_hans": "一人行，三则疑也。"
+      }
+    },
+    {
+      "position": 4,
+      "label": {
+        "zh_hant": "六四",
+        "zh_hans": "六四"
+      },
+      "text": {
+        "zh_hant": "損其疾，使遄有喜，无咎。",
+        "zh_hans": "损其疾，使遄有喜，无咎。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "損其疾，亦可喜也。",
+        "zh_hans": "损其疾，亦可喜也。"
+      }
+    },
+    {
+      "position": 5,
+      "label": {
+        "zh_hant": "六五",
+        "zh_hans": "六五"
+      },
+      "text": {
+        "zh_hant": "或益之十朋之龜，弗克違，元吉。",
+        "zh_hans": "或益之十朋之龟，弗克违，元吉。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "六五元吉，自上祐也。",
+        "zh_hans": "六五元吉，自上祐也。"
+      }
+    },
+    {
+      "position": 6,
+      "label": {
+        "zh_hant": "上九",
+        "zh_hans": "上九"
+      },
+      "text": {
+        "zh_hant": "弗損，益之，无咎，貞吉，利有攸往，得臣无家。",
+        "zh_hans": "弗损，益之，无咎，贞吉，利有攸往，得臣无家。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "弗損、益之，大得志也。",
+        "zh_hans": "弗损、益之，大得志也。"
+      }
+    }
+  ],
+  "variants": [
+    {
+      "field": "lines.1.text",
+      "differences": [
+        {
+          "primary": "已",
+          "wikisource": "祀"
+        }
+      ]
+    },
+    {
+      "field": "lines.5.xiao_xiang",
+      "differences": [
+        {
+          "primary": "祐",
+          "wikisource": "佑"
+        }
+      ]
+    }
+  ],
+  "source": {
+    "text": {
+      "work": "周易",
+      "edition": "Kanseki Repository KR1a0001 (base edition: TLS)",
+      "url": "https://github.com/kanripo/KR1a0001/blob/master/KR1a0001_041.txt"
+    },
+    "cross_check": {
+      "edition": "Chinese Wikisource, 周易/損",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=10646704"
+    }
+  }
+}

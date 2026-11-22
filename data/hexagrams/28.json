@@ -1,0 +1,131 @@
+{
+  "number": 28,
+  "unicode": "䷛",
+  "binary": "011110",
+  "trigrams": {
+    "lower": "xun",
+    "upper": "dui"
+  },
+  "name": {
+    "zh_hant": "大過",
+    "zh_hans": "大过",
+    "pinyin": "dà guò",
+    "en": "Great Excess"
+  },
+  "judgment": {
+    "zh_hant": "棟橈，利有攸往，亨。",
+    "zh_hans": "栋桡，利有攸往，亨。"
+  },
+  "tuan": {
+    "zh_hant": "大過、大者過也。棟橈、本末弱也。剛過而中，巽而說，行。利有攸往乃亨。大過之時大矣哉！",
+    "zh_hans": "大过、大者过也。栋桡、本末弱也。刚过而中，巽而说，行。利有攸往乃亨。大过之时大矣哉！"
+  },
+  "image": {
+    "zh_hant": "澤滅木，大過。君子以獨立不懼，遯世无悶。",
+    "zh_hans": "泽灭木，大过。君子以独立不惧，遯世无闷。"
+  },
+  "lines": [
+    {
+      "position": 1,
+      "label": {
+        "zh_hant": "初六",
+        "zh_hans": "初六"
+      },
+      "text": {
+        "zh_hant": "藉用白茅，无咎。",
+        "zh_hans": "藉用白茅，无咎。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "藉用白茅、柔在下也。",
+        "zh_hans": "藉用白茅、柔在下也。"
+      }
+    },
+    {
+      "position": 2,
+      "label": {
+        "zh_hant": "九二",
+        "zh_hans": "九二"
+      },
+      "text": {
+        "zh_hant": "枯楊生稊，老夫得其女妻，无不利。",
+        "zh_hans": "枯杨生稊，老夫得其女妻，无不利。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "老夫女妻、過以相與也。",
+        "zh_hans": "老夫女妻、过以相与也。"
+      }
+    },
+    {
+      "position": 3,
+      "label": {
+        "zh_hant": "九三",
+        "zh_hans": "九三"
+      },
+      "text": {
+        "zh_hant": "棟橈，凶。",
+        "zh_hans": "栋桡，凶。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "棟橈之凶、不可以有輔也。",
+        "zh_hans": "栋桡之凶、不可以有辅也。"
+      }
+    },
+    {
+      "position": 4,
+      "label": {
+        "zh_hant": "九四",
+        "zh_hans": "九四"
+      },
+      "text": {
+        "zh_hant": "棟隆、吉。有它、吝。",
+        "zh_hans": "栋隆、吉。有它、吝。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "棟隆之吉、不橈乎下也。",
+        "zh_hans": "栋隆之吉、不桡乎下也。"
+      }
+    },
+    {
+      "position": 5,
+      "label": {
+        "zh_hant": "九五",
+        "zh_hans": "九五"
+      },
+      "text": {
+        "zh_hant": "枯楊生華，老婦得其士夫，无咎无譽。",
+        "zh_hans": "枯杨生华，老妇得其士夫，无咎无誉。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "枯楊生華、何可久也，老婦士夫、亦可醜也。",
+        "zh_hans": "枯杨生华、何可久也，老妇士夫、亦可丑也。"
+      }
+    },
+    {
+      "position": 6,
+      "label": {
+        "zh_hant": "上六",
+        "zh_hans": "上六"
+      },
+      "text": {
+        "zh_hant": "過涉滅頂，凶。无咎。",
+        "zh_hans": "过涉灭顶，凶。无咎。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "過涉之凶、不可咎也。",
+        "zh_hans": "过涉之凶、不可咎也。"
+      }
+    }
+  ],
+  "variants": [],
+  "source": {
+    "text": {
+      "work": "周易",
+      "edition": "Kanseki Repository KR1a0001 (base edition: TLS)",
+      "url": "https://github.com/kanripo/KR1a0001/blob/master/KR1a0001_028.txt"
+    },
+    "cross_check": {
+      "edition": "Chinese Wikisource, 周易/大過",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=10645184"
+    }
+  }
+}

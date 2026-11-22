@@ -1,0 +1,141 @@
+{
+  "number": 60,
+  "unicode": "䷻",
+  "binary": "110010",
+  "trigrams": {
+    "lower": "dui",
+    "upper": "kan"
+  },
+  "name": {
+    "zh_hant": "節",
+    "zh_hans": "节",
+    "pinyin": "jié",
+    "en": "Limitation"
+  },
+  "judgment": {
+    "zh_hant": "亨。苦節，不可貞。",
+    "zh_hans": "亨。苦节，不可贞。"
+  },
+  "tuan": {
+    "zh_hant": "節亨。剛柔分而剛得中。苦節不可貞、其道窮也。說以行險，當位以節，中正以通。天地節而四時成。節以制度，不傷財，不害民。",
+    "zh_hans": "节亨。刚柔分而刚得中。苦节不可贞、其道穷也。说以行险，当位以节，中正以通。天地节而四时成。节以制度，不伤财，不害民。"
+  },
+  "image": {
+    "zh_hant": "澤上有水，節。君子以制數度，議德行。",
+    "zh_hans": "泽上有水，节。君子以制数度，议德行。"
+  },
+  "lines": [
+    {
+      "position": 1,
+      "label": {
+        "zh_hant": "初九",
+        "zh_hans": "初九"
+      },
+      "text": {
+        "zh_hant": "不出戶庭，无咎。",
+        "zh_hans": "不出户庭，无咎。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "不出戶庭、知通塞也。",
+        "zh_hans": "不出户庭、知通塞也。"
+      }
+    },
+    {
+      "position": 2,
+      "label": {
+        "zh_hant": "九二",
+        "zh_hans": "九二"
+      },
+      "text": {
+        "zh_hant": "不出門庭，凶。",
+        "zh_hans": "不出门庭，凶。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "不出門庭凶、失時極也。",
+        "zh_hans": "不出门庭凶、失时极也。"
+      }
+    },
+    {
+      "position": 3,
+      "label": {
+        "zh_hant": "六三",
+        "zh_hans": "六三"
+      },
+      "text": {
+        "zh_hant": "不節若，則嗟若，无咎。",
+        "zh_hans": "不节若，则嗟若，无咎。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "不節之嗟、又誰咎也。",
+        "zh_hans": "不节之嗟、又谁咎也。"
+      }
+    },
+    {
+      "position": 4,
+      "label": {
+        "zh_hant": "六四",
+        "zh_hans": "六四"
+      },
+      "text": {
+        "zh_hant": "安節。亨。",
+        "zh_hans": "安节。亨。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "安節之亨、承上道也。",
+        "zh_hans": "安节之亨、承上道也。"
+      }
+    },
+    {
+      "position": 5,
+      "label": {
+        "zh_hant": "九五",
+        "zh_hans": "九五"
+      },
+      "text": {
+        "zh_hant": "甘節，吉，往有尚。",
+        "zh_hans": "甘节，吉，往有尚。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "甘節之吉、居位中也。",
+        "zh_hans": "甘节之吉、居位中也。"
+      }
+    },
+    {
+      "position": 6,
+      "label": {
+        "zh_hant": "上六",
+        "zh_hans": "上六"
+      },
+      "text": {
+        "zh_hant": "苦節，貞凶。悔亡。",
+        "zh_hans": "苦节，贞凶。悔亡。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "苦節貞凶、其道窮也。",
+        "zh_hans": "苦节贞凶、其道穷也。"
+      }
+    }
+  ],
+  "variants": [
+    {
+      "field": "lines.2.xiao_xiang",
+      "differences": [
+        {
+          "primary": "凶",
+          "wikisource": ""
+        }
+      ]
+    }
+  ],
+  "source": {
+    "text": {
+      "work": "周易",
+      "edition": "Kanseki Repository KR1a0001 (base edition: TLS)",
+      "url": "https://github.com/kanripo/KR1a0001/blob/master/KR1a0001_060.txt"
+    },
+    "cross_check": {
+      "edition": "Chinese Wikisource, 周易/節",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2405027"
+    }
+  }
+}

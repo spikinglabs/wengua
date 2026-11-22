@@ -1,0 +1,141 @@
+{
+  "number": 16,
+  "unicode": "䷏",
+  "binary": "000100",
+  "trigrams": {
+    "lower": "kun",
+    "upper": "zhen"
+  },
+  "name": {
+    "zh_hant": "豫",
+    "zh_hans": "豫",
+    "pinyin": "yù",
+    "en": "Enthusiasm"
+  },
+  "judgment": {
+    "zh_hant": "利建侯行師。",
+    "zh_hans": "利建侯行师。"
+  },
+  "tuan": {
+    "zh_hant": "豫，剛應而志行，順以動，豫。豫順以動，故天地如之，而況建侯行師乎？天地以順動，故日月不過而四時不忒。聖人以順動，則刑罰清而民服，豫之時義大矣哉！",
+    "zh_hans": "豫，刚应而志行，顺以动，豫。豫顺以动，故天地如之，而况建侯行师乎？天地以顺动，故日月不过而四时不忒。圣人以顺动，则刑罚清而民服，豫之时义大矣哉！"
+  },
+  "image": {
+    "zh_hant": "雷出地奮，豫。先王以作樂崇德，殷薦之上帝以配祖考。",
+    "zh_hans": "雷出地奋，豫。先王以作乐崇德，殷荐之上帝以配祖考。"
+  },
+  "lines": [
+    {
+      "position": 1,
+      "label": {
+        "zh_hant": "初六",
+        "zh_hans": "初六"
+      },
+      "text": {
+        "zh_hant": "鳴豫，凶。",
+        "zh_hans": "鸣豫，凶。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "初六鳴豫、志窮凶也。",
+        "zh_hans": "初六鸣豫、志穷凶也。"
+      }
+    },
+    {
+      "position": 2,
+      "label": {
+        "zh_hant": "六二",
+        "zh_hans": "六二"
+      },
+      "text": {
+        "zh_hant": "介于石，不終日，貞吉。",
+        "zh_hans": "介于石，不终日，贞吉。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "不終日貞吉、以中正也。",
+        "zh_hans": "不终日贞吉、以中正也。"
+      }
+    },
+    {
+      "position": 3,
+      "label": {
+        "zh_hant": "六三",
+        "zh_hans": "六三"
+      },
+      "text": {
+        "zh_hant": "盱豫，悔，遲有悔。",
+        "zh_hans": "盱豫，悔，迟有悔。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "盱豫有悔、位不當也。",
+        "zh_hans": "盱豫有悔、位不当也。"
+      }
+    },
+    {
+      "position": 4,
+      "label": {
+        "zh_hant": "九四",
+        "zh_hans": "九四"
+      },
+      "text": {
+        "zh_hant": "由豫，大有得，勿疑。朋盍簪。",
+        "zh_hans": "由豫，大有得，勿疑。朋盍簪。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "由豫大有得、志大行也。",
+        "zh_hans": "由豫大有得、志大行也。"
+      }
+    },
+    {
+      "position": 5,
+      "label": {
+        "zh_hant": "六五",
+        "zh_hans": "六五"
+      },
+      "text": {
+        "zh_hant": "貞疾，恆不死。",
+        "zh_hans": "贞疾，恒不死。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "六五貞疾、乘剛也，恆不死、中未亡也。",
+        "zh_hans": "六五贞疾、乘刚也，恒不死、中未亡也。"
+      }
+    },
+    {
+      "position": 6,
+      "label": {
+        "zh_hant": "上六",
+        "zh_hans": "上六"
+      },
+      "text": {
+        "zh_hant": "冥豫成，有渝、无咎。",
+        "zh_hans": "冥豫成，有渝、无咎。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "冥豫在上、何可長也？",
+        "zh_hans": "冥豫在上、何可长也？"
+      }
+    }
+  ],
+  "variants": [
+    {
+      "field": "lines.4.text",
+      "differences": [
+        {
+          "primary": "簪",
+          "wikisource": "戠"
+        }
+      ]
+    }
+  ],
+  "source": {
+    "text": {
+      "work": "周易",
+      "edition": "Kanseki Repository KR1a0001 (base edition: TLS)",
+      "url": "https://github.com/kanripo/KR1a0001/blob/master/KR1a0001_016.txt"
+    },
+    "cross_check": {
+      "edition": "Chinese Wikisource, 周易/豫",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=10645735"
+    }
+  }
+}

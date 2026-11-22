@@ -1,0 +1,159 @@
+{
+  "number": 61,
+  "unicode": "䷼",
+  "binary": "110011",
+  "trigrams": {
+    "lower": "dui",
+    "upper": "xun"
+  },
+  "name": {
+    "zh_hant": "中孚",
+    "zh_hans": "中孚",
+    "pinyin": "zhōng fú",
+    "en": "Inner Truth"
+  },
+  "judgment": {
+    "zh_hant": "豚魚，吉。利涉大川，利貞。",
+    "zh_hans": "豚鱼，吉。利涉大川，利贞。"
+  },
+  "tuan": {
+    "zh_hant": "中孚、柔在內而剛得中，說而巽，孚，乃化邦也。豚魚吉、信及豚魚也，利涉大川、乘木舟虛也，中孚以利貞、乃應乎天也。",
+    "zh_hans": "中孚、柔在内而刚得中，说而巽，孚，乃化邦也。豚鱼吉、信及豚鱼也，利涉大川、乘木舟虚也，中孚以利贞、乃应乎天也。"
+  },
+  "image": {
+    "zh_hant": "澤上有風，中孚。君子以議獄緩死。",
+    "zh_hans": "泽上有风，中孚。君子以议狱缓死。"
+  },
+  "lines": [
+    {
+      "position": 1,
+      "label": {
+        "zh_hant": "初九",
+        "zh_hans": "初九"
+      },
+      "text": {
+        "zh_hant": "虞吉，有它不燕。",
+        "zh_hans": "虞吉，有它不燕。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "初九、虞吉、志未變也。",
+        "zh_hans": "初九、虞吉、志未变也。"
+      }
+    },
+    {
+      "position": 2,
+      "label": {
+        "zh_hant": "九二",
+        "zh_hans": "九二"
+      },
+      "text": {
+        "zh_hant": "鳴鶴在陰，其子和之。我有好爵，吾與爾靡之。",
+        "zh_hans": "鸣鹤在阴，其子和之。我有好爵，吾与尔靡之。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "其子和之、中心願也。",
+        "zh_hans": "其子和之、中心愿也。"
+      }
+    },
+    {
+      "position": 3,
+      "label": {
+        "zh_hant": "六三",
+        "zh_hans": "六三"
+      },
+      "text": {
+        "zh_hant": "得敵，或鼓或罷，或泣或歌。",
+        "zh_hans": "得敌，或鼓或罢，或泣或歌。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "或鼓或罷、位不當也。",
+        "zh_hans": "或鼓或罢、位不当也。"
+      }
+    },
+    {
+      "position": 4,
+      "label": {
+        "zh_hant": "六四",
+        "zh_hans": "六四"
+      },
+      "text": {
+        "zh_hant": "月幾望，馬匹亡，无咎。",
+        "zh_hans": "月几望，马匹亡，无咎。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "馬匹亡、絕類上也。",
+        "zh_hans": "马匹亡、绝类上也。"
+      }
+    },
+    {
+      "position": 5,
+      "label": {
+        "zh_hant": "九五",
+        "zh_hans": "九五"
+      },
+      "text": {
+        "zh_hant": "有孚攣如，无咎。",
+        "zh_hans": "有孚挛如，无咎。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "有孚攣如、位正當也。",
+        "zh_hans": "有孚挛如、位正当也。"
+      }
+    },
+    {
+      "position": 6,
+      "label": {
+        "zh_hant": "上九",
+        "zh_hans": "上九"
+      },
+      "text": {
+        "zh_hant": "翰音登于天，貞凶。",
+        "zh_hans": "翰音登于天，贞凶。"
+      },
+      "xiao_xiang": {
+        "zh_hant": "翰音登于天、何可長也。",
+        "zh_hans": "翰音登于天、何可长也。"
+      }
+    }
+  ],
+  "variants": [
+    {
+      "field": "lines.2.xiao_xiang",
+      "differences": [
+        {
+          "primary": "願",
+          "wikisource": "愿"
+        }
+      ]
+    },
+    {
+      "field": "lines.3.xiao_xiang",
+      "differences": [
+        {
+          "primary": "或",
+          "wikisource": "可"
+        }
+      ]
+    },
+    {
+      "field": "lines.4.text",
+      "differences": [
+        {
+          "primary": "幾",
+          "wikisource": "既"
+        }
+      ]
+    }
+  ],
+  "source": {
+    "text": {
+      "work": "周易",
+      "edition": "Kanseki Repository KR1a0001 (base edition: TLS)",
+      "url": "https://github.com/kanripo/KR1a0001/blob/master/KR1a0001_061.txt"
+    },
+    "cross_check": {
+      "edition": "Chinese Wikisource, 周易/中孚",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=10647425"
+    }
+  }
+}
