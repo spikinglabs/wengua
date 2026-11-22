@@ -1,0 +1,26 @@
+{
+  "name": "wengua",
+  "version": "0.1.0",
+  "description": "Wengua 问卦: the accurate, open I Ching (易经) for every AI. Fair casting, sourced Chinese text, MCP server and CLI.",
+  "keywords": ["i-ching", "yijing", "易经", "周易", "hexagram", "mcp", "divination", "ai"],
+  "homepage": "https://spikinglabs.github.io/wengua/",
+  "repository": { "type": "git", "url": "git+https://github.com/spikinglabs/wengua.git", "directory": "js" },
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    ".": { "types": "./dist/index.d.ts", "default": "./dist/index.js" },
+    "./data": "./dist/iching.json"
+  },
+  "bin": { "wengua": "./dist/cli.js" },
+  "files": ["dist", "README.md", "LICENSE", "DATA_LICENSE"],
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "tsc -p tsconfig.test.json && node --test dist-test/test/*.test.js",
+    "prepack": "npm run build"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "~5.9.0"
+  }
+}
